@@ -1,0 +1,3807 @@
+[
+  {
+    "id": 1,
+    "text": "\u589e\u52a0\u4eba\u58f0\u7684\u9897\u7c92\u611f\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 3,
+    "text": "\u542c\u8d77\u6765\u7a0d\u5faevocal\u6d6e\u5728bgm\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 5,
+    "text": "\u6240\u4ee5\u6211\u5e0c\u671b\u5b83\u542c\u8d77\u6765\u66f4\u52a0\u575a\u5b9e\u4e14\u4e30\u6ee1\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 7,
+    "text": "\u8ba9\u97f3\u8272\u518d\u51fa\u6765\u4e00\u70b9\uff0c\u66f4\u52a0\u6709\u529b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 10,
+    "text": "\u6253\u7b97\u5728\u6559\u5802\u91cc\u7684\u73af\u5883\u542c\u8d77\u6765",
+    "label": "reverb"
+  },
+  {
+    "id": 11,
+    "text": "The vocals and the instrumental don't match well.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 12,
+    "text": "The vocals and the instrumental don't match well.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 13,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u5927\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 14,
+    "text": "\u5207\u7684\u8fd8\u662f\u6709\u70b9\u731b\u4e86\uff0c\u6c14\u52bf\u597d\u50cf\u6ca1\u4e86",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 15,
+    "text": "\u5207\u7684\u8fd8\u662f\u6709\u70b9\u731b\u4e86\uff0c\u6c14\u52bf\u597d\u50cf\u6ca1\u4e86",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 16,
+    "text": "\u5207\u7684\u8fd8\u662f\u6709\u70b9\u731b\u4e86\uff0c\u6c14\u52bf\u597d\u50cf\u6ca1\u4e86",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 17,
+    "text": "\u4fee\u6539\u7684\u8fd8\u662f\u4e00\u70b9\u70b9\u731b\u4e86\uff0c\u51b2\u51fb\u529b\u5dee\u4e0d\u591a\u51cf\u5f31\u4e86",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 18,
+    "text": "\u4fee\u6539\u7684\u8fd8\u662f\u4e00\u70b9\u70b9\u731b\u4e86\uff0c\u51b2\u51fb\u529b\u5dee\u4e0d\u591a\u51cf\u5f31\u4e86",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 19,
+    "text": "\u4fee\u6539\u7684\u8fd8\u662f\u7565\u5fae\u731b\u4e86\uff0c\u529b\u5ea6\u4f3c\u4e4e\u6d88\u9000\u4e86",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 20,
+    "text": "\u4fee\u6539\u7684\u8fd8\u662f\u7565\u5fae\u731b\u4e86\uff0c\u529b\u5ea6\u4f3c\u4e4e\u6d88\u9000\u4e86",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 21,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u592a\u51f6\u4e4b\u540e\uff0c\u663e\u5f97\u542c\u7740\u5f88\u5f31",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 22,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u592a\u51f6\u4e4b\u540e\uff0c\u663e\u5f97\u542c\u7740\u5f88\u5f31",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 23,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u8fc7\u5206\u51f6\u8fc7\u540e\uff0c\u663e\u5f97\u542c\u7740\u8fc7\u4e8e\u8f6f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 24,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u8fc7\u5206\u51f6\u8fc7\u540e\uff0c\u663e\u5f97\u542c\u7740\u8fc7\u4e8e\u8f6f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 25,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u8d85\u7ea7\u51f6\u63a5\u7740\uff0c\u663e\u5f97\u542c\u7740\u8fc7\u4e8e\u8f6f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 26,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7684\u8d85\u7ea7\u51f6\u63a5\u7740\uff0c\u663e\u5f97\u542c\u7740\u8fc7\u4e8e\u8f6f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 27,
+    "text": "\u4eba\u58f0\u8ddf\u4f34\u594f\u4e0d\u8d34",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 28,
+    "text": "\u4eba\u58f0\u8ddf\u4f34\u594f\u4e0d\u8d34",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 29,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u70b9\u66f4punchy\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 30,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u70b9\u66f4punchy\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 31,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e9b\u66f4\u5e26\u52b2\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 32,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e9b\u66f4\u5e26\u52b2\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 33,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e9b\u66f4\u5e26\u52b2\u4e00\u70b9",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 34,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e22\u66f4\u5e26\u52b2\u4e00\u4e22",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 35,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e22\u66f4\u5e26\u52b2\u4e00\u4e22",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 36,
+    "text": "\u97f3\u8272\u518d\u51fa\u6765\u4e00\u4e22\u66f4\u5e26\u52b2\u4e00\u4e22",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 37,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5f80\u540e\u62d6\u4e00\u70b9\u70b9\uff0c\u73b0\u5728\u542c\u611f\u4e0a\u6709\u4e00\u4e9b\u524d\u7f6e\u4e86\uff0c\u60f3\u6574\u4f53\u66f4layback\u611f\u4e00\u4e9b",
+    "label": "reverb"
+  },
+  {
+    "id": 38,
+    "text": "\u5168\u5c40vocal\u53ef\u4ee5\u5c11\u8bb8\u5f80\u540e\u653e\u6162\u7a0d\u5fae\uff0c\u5f53\u4e0b\u58f0\u97f3\u6548\u679c\u4e0a\u6709\u4e00\u70b9\u524d\u7f6e\u4e86\uff0c\u60f3\u8981\u603b\u4f53\u66f4\u6175\u61d2\u611f\u51e0\u8bb8",
+    "label": "reverb"
+  },
+  {
+    "id": 39,
+    "text": "\u5168\u5c40vocal\u53ef\u4ee5\u5c11\u8bb8\u5f80\u540e\u653e\u6162\u7a0d\u5fae\uff0c\u5f53\u4e0b\u58f0\u97f3\u6548\u679c\u4e0a\u6709\u4e00\u70b9\u524d\u7f6e\u4e86\uff0c\u60f3\u8981\u603b\u4f53\u66f4\u6175\u61d2\u611f\u51e0\u8bb8",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 40,
+    "text": "\u5168\u5c40vocal\u53ef\u4ee5\u5c11\u8bb8\u5f80\u540e\u653e\u6162\u7a0d\u5fae\uff0c\u5f53\u4e0b\u58f0\u97f3\u6548\u679c\u4e0a\u6709\u4e00\u70b9\u524d\u7f6e\u4e86\uff0c\u60f3\u8981\u603b\u4f53\u66f4\u6175\u61d2\u611f\u51e0\u8bb8",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 41,
+    "text": "\u6574\u4f53\u611f\u89c9vocal\u53ef\u4ee5\u5c11\u8bb8\u5f80\u540e\u653e\u6162\u6709\u70b9\uff0c\u6b64\u523b\u542c\u8d77\u6765\u4e0a\u6709\u5c11\u8bb8\u524d\u7f6e\u4e86\uff0c\u60f3\u8981\u5168\u5c40\u66f4\u653e\u677e\u611f\u5c11\u8bb8",
+    "label": "reverb"
+  },
+  {
+    "id": 42,
+    "text": "\u6574\u4f53\u611f\u89c9vocal\u53ef\u4ee5\u5c11\u8bb8\u5f80\u540e\u653e\u6162\u6709\u70b9\uff0c\u6b64\u523b\u542c\u8d77\u6765\u4e0a\u6709\u5c11\u8bb8\u524d\u7f6e\u4e86\uff0c\u60f3\u8981\u5168\u5c40\u66f4\u653e\u677e\u611f\u5c11\u8bb8",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 43,
+    "text": "adibs\u7684\u4e5f\u53ef\u4ee5\u5c0f\u58f0\u4e00\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 44,
+    "text": "\u4eba\u58f0\u79bb\u8033\u6735\u8fdc\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 45,
+    "text": "\u4eba\u58f0\u79bb\u8033\u6735\u8fdc\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 46,
+    "text": "vocal\u79bb\u542c\u89c9\u8fdc\u4e00\u4e22",
+    "label": "reverb"
+  },
+  {
+    "id": 47,
+    "text": "vocal\u79bb\u542c\u89c9\u8fdc\u4e00\u4e22",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 48,
+    "text": "\u6b4c\u58f0\u79bb\u542c\u529b\u8fdc\u4e00\u4e9b",
+    "label": "reverb"
+  },
+  {
+    "id": 49,
+    "text": "\u6b4c\u58f0\u79bb\u542c\u529b\u8fdc\u4e00\u4e9b",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 50,
+    "text": "\u4eba\u58f0\u66f4\u8d34\u8033\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 51,
+    "text": "\u4eba\u58f0\u66f4\u5706\u6da6\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 52,
+    "text": "\u60f3\u8981\u540e\u670b\u514b\u7684\u9893\u5e9f\u611f",
+    "label": "reverb"
+  },
+  {
+    "id": 53,
+    "text": "\u60f3\u8981\u5728\u6559\u5802\u91cc\u7684\u6df7\u54cd\u542c\u611f",
+    "label": "reverb"
+  },
+  {
+    "id": 54,
+    "text": "\u5e0c\u671b\u5728\u6559\u5802\u91cc\u7684\u7a7a\u95f4\u58f0\u97f3\u6548\u679c",
+    "label": "reverb"
+  },
+  {
+    "id": 55,
+    "text": "\u60f3\u8981\u4eba\u58f0\u518d\u5bbd\u4e00\u70b9\u522b\u805a\u96c6\u5728\u4e2d\u95f4",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 56,
+    "text": "\u60f3vocal\u518d\u5bbd\u4e00\u4e22\u522b\u805a\u96c6\u5728\u4e2d\u95f4",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 57,
+    "text": "\u60f3\u6b4c\u58f0\u518d\u5bbd\u5c11\u70b9\u522b\u805a\u96c6\u5728\u4e2d\u95f4",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 58,
+    "text": "\u5973\u751f\u505a\u7684\u66f4\u751c\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 59,
+    "text": "\u60f3\u8981\u6574\u4f53\u6709\u78c1\u6027",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 60,
+    "text": "\u7136\u540e\u4f34\u594f\u58f0\u97f3\u6709\u70b9\u5c0f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 61,
+    "text": "\u968f\u540e\u914d\u4e50\u55d3\u97f3\u7565\u5fae\u5c0f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 62,
+    "text": "\u63a5\u7740bgm\u97f3\u6548\u7a0d\u5fae\u5c0f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 63,
+    "text": "1:06-1:17\u611f\u89c9\u58f0\u97f3\u6ca1\u6709\u7a7a\u95f4\u611f1:06\u4e4b\u524d\u611f\u89c9\u58f0\u97f3\u50cf\u5728ktv 1:06\u4e4b\u540e\u611f\u89c9\u5728\u5f55\u97f3\u68da",
+    "label": "reverb"
+  },
+  {
+    "id": 64,
+    "text": "1:06-1:17\u611f\u89c9\u58f0\u97f3\u6ca1\u6709\u7a7a\u95f4\u611f1:06\u4e4b\u524d\u611f\u89c9\u58f0\u97f3\u50cf\u5728ktv 1:06\u4e4b\u540e\u611f\u89c9\u5728\u5f55\u97f3\u68da",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 65,
+    "text": "1:06-1:17\u542c\u8d77\u6765\u55d3\u97f3\u6ca1\u6709\u7acb\u4f53\u611f1:06\u4e4b\u524d\u542c\u611f\u58f0\u513f\u50cf\u5728ktv 1:06\u4e4b\u540e\u542c\u8d77\u6765\u50cf\u5728\u5f55\u97f3\u68da",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 66,
+    "text": "1:06-1:17\u542c\u8d77\u6765\u50cf\u55d3\u97f3\u6ca1\u6709\u7acb\u4f53\u611f1:06\u4e4b\u524d\u542c\u8d77\u6765\u50cf\u58f0\u513f\u50cf\u5728ktv 1:06\u8fc7\u540e\u611f\u89c9\u50cf\u5728\u5f55\u97f3\u68da",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 67,
+    "text": "\u58f0\u97f3\u5e72\u51c0\u4e00\u70b9\u522b\u592a\u7535",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 68,
+    "text": "\u58f0\u513f\u900f\u4eae\u5c11\u70b9\u522b\u592a\u7535",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 69,
+    "text": "\u55d3\u97f3\u6e05\u6670\u4e00\u4e22\u522b\u592a\u7535",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 70,
+    "text": "\u53ef\u4ee5\u518d\u5e72\u51c0\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 71,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u5e72\u51c0\u4e00\u70b9\u4e0d",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 72,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u7eaf\u6b63\u4e00\u4e22\u7f3a\u4e4f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 73,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u7eaf\u6b63\u4e00\u4e22\u7f3a\u4e4f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 74,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u7eaf\u6b63\u4e00\u4e22\u7f3a\u4e4f",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 75,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u6e05\u6670\u4e00\u4e22\u4e0d\u591f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 76,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u6e05\u6670\u4e00\u4e22\u4e0d\u591f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 77,
+    "text": "\u80fd\u52a0\u4ec0\u4e48\u7ed9\u6574\u7684\u6e05\u6670\u4e00\u4e22\u4e0d\u591f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 78,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u5927\u4e00\u70b9\u73b0\u5728\u4f34\u594f\u597d\u50cf\u6709\u70b9\u5927",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 79,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u5927\u4e00\u70b9\u73b0\u5728\u4f34\u594f\u597d\u50cf\u6709\u70b9\u5927",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 80,
+    "text": "\u603b\u4f53\u55d3\u5b50\u53ef\u4ee5\u5927\u5c11\u70b9\u5f53\u4e0b\u914d\u4e50\u4f3c\u4e4e\u7565\u5fae\u5927",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 81,
+    "text": "\u5168\u76d8\u6765\u770bvocal\u53ef\u4ee5\u5927\u4e00\u70b9\u76ee\u524dbgm\u4f3c\u4e4e\u4e00\u4e22\u4e22\u5927",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 82,
+    "text": "\u5168\u76d8\u6765\u770bvocal\u53ef\u4ee5\u5927\u4e00\u70b9\u76ee\u524dbgm\u4f3c\u4e4e\u4e00\u4e22\u4e22\u5927",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 83,
+    "text": "\u611f\u89c9\u6709\u70b9\u4eba\u58f0\u6d6e\u5728\u4f34\u594f\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 84,
+    "text": "\u611f\u89c9\u6709\u70b9\u4eba\u58f0\u6d6e\u5728\u4f34\u594f\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 85,
+    "text": "\u89c9\u5f97\u4e00\u70b9\u70b9\u6b4c\u58f0\u6d6e\u5728\u4e50\u5668\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 86,
+    "text": "\u89c9\u5f97\u4e00\u70b9\u70b9\u6b4c\u58f0\u6d6e\u5728\u4e50\u5668\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 87,
+    "text": "\u89c9\u5f97\u4e00\u70b9\u70b9\u6b4c\u58f0\u6d6e\u5728\u4e50\u5668\u4e0a \u6ca1\u6709\u6c89\u4e0b\u53bb",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 88,
+    "text": "\u611f\u89c9\u7a7a\u95f4\u611f\u7a0d\u5fae\u5c0f\u4e00\u70b9\u597d",
+    "label": "reverb"
+  },
+  {
+    "id": 89,
+    "text": "\u611f\u89c9\u7a7a\u95f4\u611f\u7a0d\u5fae\u5c0f\u4e00\u70b9\u597d",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 90,
+    "text": "\u542c\u611f\u7acb\u4f53\u611f\u8f7b\u5fae\u5c0f\u4e00\u70b9\u597d",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 91,
+    "text": "\u89c9\u5f973D\u611f\u7565\u5e26\u5c0f\u4e00\u70b9\u597d",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 92,
+    "text": "\u89c9\u5f973D\u611f\u7565\u5e26\u5c0f\u4e00\u70b9\u597d",
+    "label": "reverb"
+  },
+  {
+    "id": 93,
+    "text": "\u58f0\u573a\u518d\u8d34\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 94,
+    "text": "\u4eba\u58f0\u51f8\u51fa\u6765\u5427",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 95,
+    "text": "\u6df7\u4f4e\u4e00\u70b9\u5427",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 96,
+    "text": "Autotune\u6302\u7684\u91cd\u4e86",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 97,
+    "text": "Autotune\u6302\u7684\u91cd\u4e86",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 98,
+    "text": "\u9897\u7c92\u611f\u592a\u5f3a\u4e86\u6709\u70b9\u7c97",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 99,
+    "text": "\u9897\u7c92\u611f\u592a\u5f3a\u4e86\u6709\u70b9\u7c97",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 100,
+    "text": "\u6df7\u5f31\u4e00\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 101,
+    "text": "\u53e5\u5934\u88ab\u538b\u4e86",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 102,
+    "text": "Bass\u5927\u8fc7\u4eba\u58f0\u4e86",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 103,
+    "text": "Bass\u5927\u8fc7\u4eba\u58f0\u4e86",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 104,
+    "text": "Intro\u90e8\u5206\u4eba\u58f0\u5728\u4f34\u594f\u540e\u9762",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 105,
+    "text": "Intro\u90e8\u5206\u4eba\u58f0\u5728\u4f34\u594f\u540e\u9762",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 106,
+    "text": "\u4e50\u5668\u72ec\u594f\u65f6\u4eba\u58f0\u8ba9\u5f00",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 107,
+    "text": "\u4e50\u5668\u72ec\u594f\u65f6\u4eba\u58f0\u8ba9\u5f00",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 108,
+    "text": "\u80fd\u91cf\u4e3b\u8981\u96c6\u4e2d\u5728\u4e2d\u548c\u9ad8\u4e86\u4f34\u594f\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u53ef\u4ee5\u63a7\u5236\u4e00\u4e0b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 109,
+    "text": "\u80fd\u91cf\u4e3b\u8981\u96c6\u4e2d\u5728\u4e2d\u548c\u9ad8\u4e86\u4f34\u594f\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u53ef\u4ee5\u63a7\u5236\u4e00\u4e0b",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 110,
+    "text": "\u4eba\u58f0\u5c31\u88ab\u57cb\u5728\u4e0b\u9762\u4e86",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 111,
+    "text": "\u4eba\u58f0\u5c31\u88ab\u57cb\u5728\u4e0b\u9762\u4e86",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 112,
+    "text": "\u8fd8\u6709\u5c31\u662f\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 113,
+    "text": "\u8fd8\u6709\u5c31\u662f\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 114,
+    "text": "\u8fd8\u6709\u5c31\u6574\u9996\u6b4c\u7684\u73af\u7ed5\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u4e22",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 115,
+    "text": "\u8fd8\u6709\u5c31\u6574\u9996\u6b4c\u7684\u73af\u7ed5\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u4e22",
+    "label": "reverb"
+  },
+  {
+    "id": 116,
+    "text": "\u8fd8\u6709\u5c31\u6574\u9996\u6b4c\u76843D\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 117,
+    "text": "\u8fd8\u6709\u5c31\u6574\u9996\u6b4c\u76843D\u611f\u53ef\u4ee5\u518d\u8db3\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 118,
+    "text": "\u60f3\u7684\u5728\u7a0d\u5fae\u5f04\u7a0d\u5fae \u201c\u6ed1\u201d \u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 119,
+    "text": "\u60f3\u7684\u5728\u7a0d\u5fae\u5f04\u7a0d\u5fae \u201c\u6ed1\u201d \u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 120,
+    "text": "\u60f3\u8981\u7684\u5728\u5c11\u8bb8\u5f04\u8f7b\u5fae \u201c\u6ed1\u201d \u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 121,
+    "text": "\u60f3\u8981\u7684\u5728\u5c11\u8bb8\u5f04\u8f7b\u5fae \u201c\u6ed1\u201d \u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 122,
+    "text": "\u60f3\u8981\u7684\u5728\u7565\u5e26\u5f04\u5c11\u8bb8 \u201c\u6ed1\u201d \u4e00\u4e22",
+    "label": "reverb"
+  },
+  {
+    "id": 123,
+    "text": "\u60f3\u8981\u7684\u5728\u7565\u5e26\u5f04\u5c11\u8bb8 \u201c\u6ed1\u201d \u4e00\u4e22",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 124,
+    "text": "\u5c31\u662f\u611f\u89c9\u90a3\u79cd\u8fde\u8d2f\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 125,
+    "text": "\u5c31\u662f\u611f\u89c9\u90a3\u79cd\u8fde\u8d2f\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 126,
+    "text": "\u5c31\u662f\u611f\u89c9\u50cf\u90a3\u79cd\u8fde\u8d2f\u4e00\u4e9b",
+    "label": "reverb"
+  },
+  {
+    "id": 127,
+    "text": "\u5c31\u662f\u611f\u89c9\u50cf\u90a3\u79cd\u8fde\u8d2f\u4e00\u4e9b",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 128,
+    "text": "\u5c31\u662f\u8981\u542c\u611f\u90a3\u79cd\u8fde\u8d2f\u4e00\u4e9b",
+    "label": "reverb"
+  },
+  {
+    "id": 129,
+    "text": "\u5c31\u662f\u8981\u542c\u611f\u90a3\u79cd\u8fde\u8d2f\u4e00\u4e9b",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 130,
+    "text": "\u7136\u540e\u6211\u7684\u9f3b\u97f3\u80fd\u5e2e\u6211\u53bb\u4e00\u70b9\u5427",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 131,
+    "text": "\u8fd8\u662f\u5c11\u52a0\u70b9\u589e\u52a0\u7a7a\u95f4\u611f",
+    "label": "reverb"
+  },
+  {
+    "id": 132,
+    "text": "\u8fd8\u662f\u5c11\u52a0\u70b9\u589e\u52a0\u7a7a\u95f4\u611f",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 133,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u8db3\u4e00\u70b9\u7136\u540e\u58f0\u97f3\u5f80\u540e",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 134,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u8db3\u4e00\u70b9\u7136\u540e\u58f0\u97f3\u5f80\u540e",
+    "label": "reverb"
+  },
+  {
+    "id": 135,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u8db3\u4e00\u70b9\u7136\u540e\u58f0\u97f3\u5f80\u540e",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 136,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u8fdc\u8fd1\u611f\u53ef\u4ee5\u66f4\u8db3\u5c11\u70b9\u63a5\u7740\u58f0\u513f\u9760\u540e",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 137,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb53D\u611f\u53ef\u4ee5\u66f4\u8db3\u4e00\u4e9b\u4e4b\u540e\u55d3\u97f3\u5f80\u540e",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 138,
+    "text": "\u7136\u540ehook \u7684\u6709\u4e9b\u5927\u5598\u6c14\u5f31\u5316\u4e00\u4e0b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 139,
+    "text": "\u7136\u540ehook \u7684\u6709\u4e9b\u5927\u5598\u6c14\u5f31\u5316\u4e00\u4e0b",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 140,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u63a7\u5236\u4e00\u70b9\u9ad8\u9891\uff0c\u518d\u53bb\u53bb\u9f7f\u97f3\uff0c\u542c\u7740\u633a\u4eae\u7684",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 141,
+    "text": "\u4e3b\u5531\u53ef\u4ee5\u63a7\u5236\u4e00\u4e22\u9ad8\u9891\uff0c\u518d\u53bb\u53bb\u9ad8\u9891\u523a\u97f3\uff0c\u542c\u7740\u633a\u4eae\u7684",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 142,
+    "text": "\u4e3b\u5531\u53ef\u4ee5\u63a7\u5236\u4e00\u4e22\u9ad8\u9891\uff0c\u518d\u53bb\u53bb\u9ad8\u9891\u523a\u97f3\uff0c\u542c\u7740\u633a\u4eae\u7684",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 143,
+    "text": "vocal\u53ef\u4ee5\u63a7\u5236\u4e00\u4e9b\u9ad8\u9891\uff0c\u518d\u53bb\u53bb\u9ad8\u9891\u523a\u97f3\uff0c\u542c\u7740\u633a\u4eae\u7684",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 144,
+    "text": "vocal\u53ef\u4ee5\u63a7\u5236\u4e00\u4e9b\u9ad8\u9891\uff0c\u518d\u53bb\u53bb\u9ad8\u9891\u523a\u97f3\uff0c\u542c\u7740\u633a\u4eae\u7684",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 145,
+    "text": "\u4e2d\u4f4e\u7684\u90e8\u5206\u9971\u548c\u611f\u6bd4\u8f83\u91cd\u7136\u540e\u5bfc\u81f4\u4e2d\u4f4e\u5f88\u539a\u6d51\u6d4a",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 146,
+    "text": "\u5c31\u662f\u6df7\u7684\u592a\u5e72\u4e86",
+    "label": "reverb"
+  },
+  {
+    "id": 147,
+    "text": "\u5c31\u662f\u6df7\u7684\u592a\u5e72\u4e86",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 148,
+    "text": "\u4f46\u662f\u611f\u89c9\u4f60\u7684\u58f0\u97f3\u98d8\u5728beat\u4e0a",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 149,
+    "text": "\u4f46\u662f\u611f\u89c9\u4f60\u7684\u58f0\u97f3\u98d8\u5728beat\u4e0a",
+    "label": "reverb"
+  },
+  {
+    "id": 150,
+    "text": "\u4f46\u662f\u542c\u611f\u4f60\u7684\u97f3\u6548\u98d8\u5728\u4f34\u594f\u4e0a",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 151,
+    "text": "\u4f46\u662f\u542c\u611f\u4f60\u7684\u97f3\u6548\u98d8\u5728\u4f34\u594f\u4e0a",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 152,
+    "text": "\u4f46\u662f\u542c\u8d77\u6765\u50cf\u4f60\u7684\u58f0\u513f\u98d8\u5728\u4f34\u594f\u4e0a",
+    "label": "reverb"
+  },
+  {
+    "id": 153,
+    "text": "\u4f46\u662f\u542c\u8d77\u6765\u50cf\u4f60\u7684\u58f0\u513f\u98d8\u5728\u4f34\u594f\u4e0a",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 154,
+    "text": "\u662f\u4e0d\u662f\u6709\u70b9\u95f7",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 155,
+    "text": "\u8fd8\u6709\u5566\u5566\u5566\u8c03\u865a\u5e7b\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 156,
+    "text": "\u8fd8\u6709\u5566\u5566\u5566\u8c03\u865a\u5e7b\u4e00\u70b9",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 157,
+    "text": "\u6709\u6ca1\u6709\u7acb\u4f53\u611f",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 158,
+    "text": "\u8fd8\u662f\u58f0\u573a\u62d3\u5bbd\u4e00\u70b9\u505a\u533a\u522b\u5904\u7406",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 159,
+    "text": "\u8fd8\u662f\u58f0\u573a\u62d3\u5bbd\u4e00\u4e9b\u505a\u533a\u522b\u5207",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 160,
+    "text": "\u6216\u662f\u58f0\u573a\u62d3\u5bbd\u5c11\u70b9\u505a\u533a\u522b\u5207",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 161,
+    "text": "\u4f46\u662f\u97f3\u91cf\u7684\u8bdd\u5dee\u4e0d\u591a\u5c31\u662f\u4f60\u90a3\u6548\u679c\u4f60\u53ef\u4ee5\u505a\u533a\u522b\u4e00\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 162,
+    "text": "\u4f46\u662f\u97f3\u91cf\u7684\u8bdd\u597d\u50cf\u5c31\u662f\u4f60\u90a3\u6548\u679c\u4f60\u53ef\u4ee5\u505a\u533a\u522b\u4e00\u4e9b",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 163,
+    "text": "\u4f46\u662f\u97f3\u91cf\u7684\u8bdd\u597d\u50cf\u5c31\u4f60\u90a3\u6548\u679c\u4f60\u53ef\u4ee5\u505a\u533a\u522b\u4e00\u4e22",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 164,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u5c0f\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 165,
+    "text": "\u6df7\u97f3\u591a\u7ed9\u4eba\u751f\u4e00\u70b9\u7a7a\u95f4",
+    "label": "reverb"
+  },
+  {
+    "id": 166,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u4e0b\u628a\u4eba\u58f0\u505a\u7684\u539a\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 167,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u4e0b\u628a\u4eba\u58f0\u505a\u7684\u539a\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 168,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u523b\u628a\u55d3\u5b50\u505a\u7684\u539a\u4e00\u4e9b",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 169,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u523b\u628a\u55d3\u5b50\u505a\u7684\u539a\u4e00\u4e9b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 170,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u77ac\u628avocal\u505a\u7684\u539a\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 171,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5927\u4e00\u77ac\u628avocal\u505a\u7684\u539a\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 172,
+    "text": "\u7136\u540e\u6211\u548c\u58f0\u7684\u58f0\u97f3\u548c\u6df7\u54cd\u7a0d\u5fae\u5c0f\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 173,
+    "text": "\u518d\u7136\u540e\u6211\u548c\u58f0\u7684\u55d3\u97f3\u548c\u5385\u5802\u6548\u679c\u6709\u70b9\u5c0f\u4e00\u4e22",
+    "label": "reverb"
+  },
+  {
+    "id": 174,
+    "text": "\u518d\u7136\u540e\u6211\u548c\u58f0\u7684\u55d3\u97f3\u548c\u5385\u5802\u6548\u679c\u6709\u70b9\u5c0f\u4e00\u4e22",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 175,
+    "text": "\u4e4b\u540e\u6211\u548c\u58f0\u7684\u97f3\u6548\u548c\u7a7a\u95f4\u5c11\u8bb8\u5c0f\u4e00\u4e9b",
+    "label": "reverb"
+  },
+  {
+    "id": 176,
+    "text": "\u7136\u540e\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u70b9\u5c31\u6211\u60f3\u8981\u7684\u9897\u7c92\u5ea6\u660e\u663e\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 177,
+    "text": "\u7136\u540e\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u70b9\u5c31\u6211\u60f3\u8981\u7684\u9897\u7c92\u5ea6\u660e\u663e\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 178,
+    "text": "\u63a5\u7740\u58f0\u513f\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u4e9b\u5c31\u662f\u6211\u6253\u7b97\u7684\u9897\u7c92\u5ea6\u660e\u663e\u4e00\u4e9b",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 179,
+    "text": "\u63a5\u7740\u58f0\u513f\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u4e9b\u5c31\u662f\u6211\u6253\u7b97\u7684\u9897\u7c92\u5ea6\u660e\u663e\u4e00\u4e9b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 180,
+    "text": "\u63a5\u7740\u58f0\u513f\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u4e9b\u5c31\u662f\u6211\u6253\u7b97\u7684\u9897\u7c92\u5ea6\u660e\u663e\u4e00\u4e9b",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 181,
+    "text": "\u4e4b\u540e\u55d3\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u5c11\u70b9\u5c31\u662f\u6211\u5e0c\u671b\u7684\u9897\u7c92\u5ea6\u660e\u663e\u5c11\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 182,
+    "text": "\u4e4b\u540e\u55d3\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u5c11\u70b9\u5c31\u662f\u6211\u5e0c\u671b\u7684\u9897\u7c92\u5ea6\u660e\u663e\u5c11\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 183,
+    "text": "\u6240\u4ee5\u6211\u60f3\u5f04\u7684\u592f\u5b9e\u539a\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 184,
+    "text": "\u6211\u5c31\u559c\u6b22\u58f0\u97f3\u5b9e\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 185,
+    "text": "\u6211\u5c31\u559c\u6b22\u58f0\u97f3\u5b9e\u4e00\u70b9",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 186,
+    "text": "\u6211\u5c31\u662f\u559c\u6b22\u58f0\u513f\u5b9e\u4e00\u4e22",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 187,
+    "text": "\u6211\u5c31\u662f\u559c\u6b22\u58f0\u513f\u5b9e\u4e00\u4e22",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 188,
+    "text": "\u6211\u5c31\u662f\u559c\u6b22\u97f3\u6548\u5b9e\u4e00\u4e9b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 189,
+    "text": "\u6211\u5c31\u662f\u559c\u6b22\u97f3\u6548\u5b9e\u4e00\u4e9b",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 190,
+    "text": "\u6211\u5c31\u662f\u559c\u6b22\u97f3\u6548\u5b9e\u4e00\u4e9b",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 191,
+    "text": "\u80fd\u6709\u7a7f\u900f\u529b\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 192,
+    "text": "\u80fd\u6709\u7a7f\u900f\u529b\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 193,
+    "text": "\u611f\u89c9\u58f0\u97f3\u6709\u70b9\u98d8\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u538b\u5b9e\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 194,
+    "text": "\u611f\u89c9\u58f0\u97f3\u6709\u70b9\u98d8\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u538b\u5b9e\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 195,
+    "text": "\u542c\u8d77\u6765\u55d3\u97f3\u4e00\u4e22\u4e22\u98d8\u80fd\u4e0d\u80fd\u628a\u58f0\u513f\u538b\u5b9e\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 196,
+    "text": "\u542c\u8d77\u6765\u55d3\u97f3\u4e00\u4e22\u4e22\u98d8\u80fd\u4e0d\u80fd\u628a\u58f0\u513f\u538b\u5b9e\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 197,
+    "text": "\u542c\u8d77\u6765\u58f0\u513f\u7a0d\u5fae\u98d8\u80fd\u4e0d\u80fd\u628a\u55d3\u97f3\u538b\u5b9e\u5c11\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 198,
+    "text": "\u542c\u8d77\u6765\u58f0\u513f\u7a0d\u5fae\u98d8\u80fd\u4e0d\u80fd\u628a\u55d3\u97f3\u538b\u5b9e\u5c11\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 199,
+    "text": "\u5de8\u6c99\u6c99\u7684",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 200,
+    "text": "\u5de8\u6c99\u6c99\u7684",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 201,
+    "text": "\u5de8\u6c99\u6c99\u7684",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 202,
+    "text": "\u6574\u4f53\u6df7\u7684\u810f\u4e00\u70b9",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 203,
+    "text": "\u6574\u4f53\u6df7\u7684\u810f\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 204,
+    "text": "\u6574\u4f53\u6df7\u7684\u810f\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 205,
+    "text": "\u5168\u76d8\u6765\u770b\u6df7\u7684\u95f7\u4e00\u4e9b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 206,
+    "text": "\u6574\u4f53\u611f\u89c9\u6df7\u7684\u7cca\u4e00\u4e22",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 207,
+    "text": "\u6574\u4f53\u611f\u89c9\u6df7\u7684\u7cca\u4e00\u4e22",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 208,
+    "text": "\u6574\u4f53\u611f\u89c9\u6df7\u7684\u7cca\u4e00\u4e22",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 209,
+    "text": "\u58f0\u97f3\u5904\u7406\u7684\u5e72\u51c0\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 210,
+    "text": "\u58f0\u513f\u5207\u7684\u65e0\u6742\u97f3\u4e00\u4e22",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 211,
+    "text": "\u58f0\u513f\u5207\u7684\u65e0\u6742\u97f3\u4e00\u4e22",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 212,
+    "text": "\u58f0\u513f\u5207\u7684\u65e0\u6742\u97f3\u4e00\u4e22",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 213,
+    "text": "\u55d3\u97f3\u5207\u7684\u6e05\u6670\u5c11\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 214,
+    "text": "\u55d3\u97f3\u5207\u7684\u6e05\u6670\u5c11\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 215,
+    "text": "\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u53d8\u5f97\u66f4\u6709\u8bc6\u522b\u5ea6",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 216,
+    "text": "\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u53d8\u5f97\u66f4\u6709\u8bc6\u522b\u5ea6",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 217,
+    "text": "\u52a0\u91cd\u6211\u7684\u9f3b\u97f3",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 218,
+    "text": "\u7ed9\u6211\u7684\u97f5\u811a\u7684\u58f0\u97f3\u52a0\u91cd",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 219,
+    "text": "\u7ed9\u6211\u7684\u97f5\u811a\u7684\u58f0\u97f3\u52a0\u91cd",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 220,
+    "text": "\u628a\u6211\u7684\u58f0\u97f3\u53d8\u5f97\u7834\u788e\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 221,
+    "text": "\u628a\u6211\u7684\u58f0\u97f3\u53d8\u5f97\u7834\u788e\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 222,
+    "text": "\u547c\u5438\u58f0\u592a\u5927\u4e86",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 223,
+    "text": "\u541e\u97f3\u4e25\u91cd",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 224,
+    "text": "\u541e\u97f3\u4e25\u91cd",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 225,
+    "text": "\u6574\u9996\u6c1b\u56f4\u66f4\u5b89\u9759\u4e00\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 226,
+    "text": "\u4eba\u58f0\u67d4\u548c\u987a\u6ed1\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 227,
+    "text": "\u4eba\u58f0\u67d4\u548c\u987a\u6ed1\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 228,
+    "text": "\u4eba\u58f0\u9897\u7c92\u611f\u5c0f\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 229,
+    "text": "\u4eba\u58f0\u9897\u7c92\u611f\u5c0f\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 230,
+    "text": "\u628a\u4eba\u58f0\u6df7\u7684\u66f4\u6709\u653b\u51fb\u6027",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 231,
+    "text": "\u628a\u4eba\u58f0\u6df7\u7684\u66f4\u6709\u653b\u51fb\u6027",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 232,
+    "text": "\u4eba\u58f0\u6df7\u7684\u66f4\u5de5\u4e1a\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 233,
+    "text": "\u4eba\u58f0\u6df7\u7684\u66f4\u5de5\u4e1a\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 234,
+    "text": "\u4eba\u58f0\u6df7\u7684\u66f4\u5de5\u4e1a\u4e00\u70b9",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 235,
+    "text": "\u6df7\u54cd\u66f4\u5de5\u4e1a\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 236,
+    "text": "\u4eba\u58f0\u6df7\u54cd\u6a21\u4eff\u97f3\u4e50\u5385",
+    "label": "reverb"
+  },
+  {
+    "id": 237,
+    "text": "\u5c31\u662f\u6211\u60f3\u4eba\u58f0\u518d\u5e72\u4e00\u4e9b",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 238,
+    "text": "\u5c31\u662f\u6211\u60f3\u4eba\u58f0\u518d\u5e72\u4e00\u4e9b",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 239,
+    "text": "\u5c31\u662f\u8981\u6211\u60f3\u8981\u6b4c\u58f0\u518d\u5e72\u4e9b\u8bb8",
+    "label": "reverb"
+  },
+  {
+    "id": 240,
+    "text": "\u5c31\u662f\u8981\u6211\u60f3\u8981\u6b4c\u58f0\u518d\u5e72\u4e9b\u8bb8",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 241,
+    "text": "\u5c31\u662f\u6211\u60f3\u8981\u55d3\u5b50\u518d\u5e72\u5c11\u8bb8",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 242,
+    "text": "\u5c31\u662f\u6211\u60f3\u8981\u55d3\u5b50\u518d\u5e72\u5c11\u8bb8",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 243,
+    "text": "\u56e0\u4e3a\u6211\u5f88\u559c\u6b22demo\u90a3\u4e2atune\u7684\u90a3\u4e2a\u7535\u6d41\u611f \u6240\u4ee5\u518d\u5e72\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 244,
+    "text": "\u4eba\u58f0\u7a0d\u5fae\u5c0f\u4e00\u70b9\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 245,
+    "text": "\u4e3b\u5531\u8f7b\u5fae\u5c0f\u7a0d\u5fae",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 246,
+    "text": "\u4e3b\u5531\u8f7b\u5fae\u5c0f\u7a0d\u5fae",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 247,
+    "text": "\u6b4c\u58f0\u5c11\u8bb8\u5c0f\u7a0d\u5fae",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 248,
+    "text": "\u6df7\u54cd\u53ef\u4ee5\u518d\u5c0f\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 249,
+    "text": "\u73b0\u5728\u542c\u7740\u6709\u70b9\u9876\u8033\u6735",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 250,
+    "text": "\u73b0\u5728\u542c\u7740\u6709\u70b9\u9876\u8033\u6735",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 251,
+    "text": "\u5f53\u4e0b\u542c\u7740\u7565\u5fae\u9876\u542c\u89c9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 252,
+    "text": "\u5f53\u4e0b\u542c\u7740\u7565\u5fae\u9876\u542c\u89c9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 253,
+    "text": "\u6b64\u523b\u542c\u7740\u7565\u5fae\u9876\u8033\u6735",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 254,
+    "text": "\u6b64\u523b\u542c\u7740\u7565\u5fae\u9876\u8033\u6735",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 255,
+    "text": "\u548b\u611f\u89c9\u542c\u7740\u8fd9\u4e48\u7cca",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 256,
+    "text": "\u548b\u611f\u89c9\u542c\u7740\u8fd9\u4e48\u7cca",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 257,
+    "text": "\u548b\u611f\u89c9\u542c\u7740\u8fd9\u4e48\u7cca",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 258,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 259,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 260,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 261,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u8d77\u6765\u6709\u70b9\u6c89",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 262,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u8d77\u6765\u6709\u70b9\u6c89",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 263,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u8d77\u6765\u6709\u70b9\u6c89",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 264,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u611f\u4e00\u4e22\u4e22\u6c89",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 265,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u611f\u4e00\u4e22\u4e22\u6c89",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 266,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u70b9\u5427 \u542c\u611f\u4e00\u4e22\u4e22\u6c89",
+    "label": "reverb"
+  },
+  {
+    "id": 267,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u4e22\u5427 \u611f\u89c9\u7565\u5fae\u6c89",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 268,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u4e22\u5427 \u611f\u89c9\u7565\u5fae\u6c89",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 269,
+    "text": "\u5e2e\u6211\u5f04\u7684\u5e26\u52a8\u6c14\u6c1b\u4e00\u4e22\u5427 \u611f\u89c9\u7565\u5fae\u6c89",
+    "label": "reverb"
+  },
+  {
+    "id": 270,
+    "text": "\u548b\u611f\u89c9\u542c\u4e0a\u53bb\u6709\u79cd\u5728\u6253\u7535\u8bdd\u7684\u611f\u89c9\u54c8\u54c8\u54c8\u54c8\u54c8",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 271,
+    "text": "\u5c31\u50cf\u6211\u4eba\u751f\u5265\u79bb\u51fa\u90a3\u4e2a\u4f34\u594f\u4e86\u4e00\u6837\uff0c\u50cf\u4e24\u4e2a\u72ec\u7acb\u7684\u4e1c\u897f\u4e00\u6837\uff0c\u6ca1\u878d\u8fdb\u53bb",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 272,
+    "text": "\u5c31\u50cf\u6211\u4eba\u751f\u5265\u79bb\u51fa\u90a3\u4e2a\u4f34\u594f\u4e86\u4e00\u6837\uff0c\u50cf\u4e24\u4e2a\u72ec\u7acb\u7684\u4e1c\u897f\u4e00\u6837\uff0c\u6ca1\u878d\u8fdb\u53bb",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 273,
+    "text": "\u518d\u8584\u4e00\u4e22",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 274,
+    "text": "\u7136\u540edelay\u591a\u4e00\u70b9",
+    "label": "reverb"
+  },
+  {
+    "id": 275,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u7279\u522b\u8584\uff0c\u7136\u540e\u5c31\u6709\u4e00\u70b9\u523a\u523a\u7684\u90a3\u79cd\u611f\u89c9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 276,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u7279\u522b\u8584\uff0c\u7136\u540e\u5c31\u6709\u4e00\u70b9\u523a\u523a\u7684\u90a3\u79cd\u611f\u89c9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 277,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u8bf4\u592a\u8584\uff0c\u968f\u540e\u5c31\u662f\u6709\u5c11\u70b9\u523a\u523a\u7684\u90a3\u79cd\u611f\u89c9\u50cf",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 278,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u8bf4\u592a\u8584\uff0c\u968f\u540e\u5c31\u662f\u6709\u5c11\u70b9\u523a\u523a\u7684\u90a3\u79cd\u611f\u89c9\u50cf",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 279,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u8bf4\u592a\u8584\uff0c\u968f\u540e\u5c31\u662f\u6709\u5c11\u70b9\u523a\u523a\u7684\u90a3\u79cd\u611f\u89c9\u50cf",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 280,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u8bf4\u592a\u8584\uff0c\u518d\u7136\u540e\u5c31\u662f\u6709\u4e00\u4e22\u523a\u523a\u7684\u90a3\u79cd\u89c9\u5f97",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 281,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u5c31\u662f\u8bf4\u592a\u8584\uff0c\u518d\u7136\u540e\u5c31\u662f\u6709\u4e00\u4e22\u523a\u523a\u7684\u90a3\u79cd\u89c9\u5f97",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 282,
+    "text": "\u5c31\u6bd4\u8f83\u8df3\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 283,
+    "text": "\u5c31\u6bd4\u8f83\u8df3\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 284,
+    "text": "\u5c31\u6bd4\u8f83\u8df3\u4e00\u70b9\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 285,
+    "text": "\u4eba\u58f0\u8fd8\u662f\u6709\u70b9\u539a",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 286,
+    "text": "vocal\u8fd8\u662f\u8bf4\u7565\u5fae\u539a",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 287,
+    "text": "\u6b4c\u58f0\u8fd8\u662f\u4e00\u4e22\u4e22\u539a",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 288,
+    "text": "\u6709\u70b9\u7a81\u5140\uff0c\u7a81\u7136",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 289,
+    "text": "\u6709\u70b9\u7a81\u5140\uff0c\u7a81\u7136",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 290,
+    "text": "\u538b\u7f29\u5668\u611f\u89c9\u6709\u70b9\u5927",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 291,
+    "text": "\u611f\u89c9\u53ef\u4ee5\u518d\u5c16\u9510\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 292,
+    "text": "\u5207\u5f97\u8fd8\u662f\u6709\u70b9\u8fc7\u4e8e\u731b\u70c8\u4e86\uff0c\u611f\u89c9\u6c14\u52bf\u597d\u50cf\u6ca1\u4e86\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 293,
+    "text": "\u5207\u5f97\u8fd8\u662f\u6709\u70b9\u8fc7\u4e8e\u731b\u70c8\u4e86\uff0c\u611f\u89c9\u6c14\u52bf\u597d\u50cf\u6ca1\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 294,
+    "text": "The cut is still a bit too harsh, it seems like the momentum has been lost.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 295,
+    "text": "The cut is still a bit too harsh, it seems like the momentum has been lost.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 296,
+    "text": "\u526a\u8f91\u5f97\u592a\u67d4\u548c\u4e86\uff0c\u53cd\u800c\u8ba9\u4f5c\u54c1\u663e\u5f97\u66f4\u6709\u529b\u91cf\u611f\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 297,
+    "text": "\u526a\u8f91\u5f97\u592a\u67d4\u548c\u4e86\uff0c\u53cd\u800c\u8ba9\u4f5c\u54c1\u663e\u5f97\u66f4\u6709\u529b\u91cf\u611f\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 298,
+    "text": "\u526a\u8f91\u5f97\u592a\u67d4\u548c\u4e86\uff0c\u53cd\u800c\u8ba9\u4f5c\u54c1\u663e\u5f97\u66f4\u6709\u529b\u91cf\u611f\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 299,
+    "text": "\u53ef\u80fd\u88ab\u538b\u7f29\u5f97\u592a\u5389\u5bb3\u4e4b\u540e\uff0c\u542c\u8d77\u6765\u5f88\u5f31\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 300,
+    "text": "It might sound too weak after being compressed too aggressively.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 301,
+    "text": "It might sound too weak after being compressed too aggressively.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 302,
+    "text": "\u5b83\u53ef\u80fd\u5728\u7ecf\u8fc7\u9002\u5f53\u7684\u5904\u7406\u540e\uff0c\u542c\u8d77\u6765\u975e\u5e38\u5f3a\u52b2\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 303,
+    "text": "\u5b83\u53ef\u80fd\u5728\u7ecf\u8fc7\u9002\u5f53\u7684\u5904\u7406\u540e\uff0c\u542c\u8d77\u6765\u975e\u5e38\u5f3a\u52b2\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 304,
+    "text": "\u4eba\u58f0\u548c\u4f34\u594f\u4e0d\u592a\u5339\u914d\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 305,
+    "text": "\u4eba\u58f0\u548c\u4f34\u594f\u4e0d\u592a\u5339\u914d\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 306,
+    "text": "\u4eba\u58f0\u548c\u4f34\u594f\u975e\u5e38\u5951\u5408\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 307,
+    "text": "\u4eba\u58f0\u548c\u4f34\u594f\u975e\u5e38\u5951\u5408\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 308,
+    "text": "Make the tone come out a bit more and be punchier.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 309,
+    "text": "Make the tone come out a bit more and be punchier.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 310,
+    "text": "\u8ba9\u97f3\u8272\u7a0d\u5fae\u6536\u56de\u53bb\u4e00\u4e9b\uff0c\u5e76\u4e14\u67d4\u548c\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 311,
+    "text": "\u8ba9\u97f3\u8272\u7a0d\u5fae\u6536\u56de\u53bb\u4e00\u4e9b\uff0c\u5e76\u4e14\u67d4\u548c\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 312,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5f80\u540e\u62c9\u4e00\u70b9\u70b9\uff0c\u56e0\u4e3a\u73b0\u5728\u542c\u8d77\u6765\u6709\u4e9b\u524d\u7f6e\u4e86\u3002\u6211\u5e0c\u671b\u6574\u4f53\u611f\u89c9\u66f4\u52a0\u653e\u677e\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 313,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5f80\u540e\u62c9\u4e00\u70b9\u70b9\uff0c\u56e0\u4e3a\u73b0\u5728\u542c\u8d77\u6765\u6709\u4e9b\u524d\u7f6e\u4e86\u3002\u6211\u5e0c\u671b\u6574\u4f53\u611f\u89c9\u66f4\u52a0\u653e\u677e\u4e00\u4e9b\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 314,
+    "text": "The overall vocals could be pulled back a little bit, as they sound a bit too forward right now. I'd like the overall feel to be more laid-back.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 315,
+    "text": "The overall vocals could be pulled back a little bit, as they sound a bit too forward right now. I'd like the overall feel to be more laid-back.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 316,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5f80\u524d\u63a8\u4e00\u70b9\u70b9\uff0c\u73b0\u5728\u542c\u611f\u4e0a\u6709\u4e00\u4e9b\u540e\u7f6e\u4e86\uff0c\u60f3\u8ba9\u6574\u4f53\u66f4\u7a81\u51fa\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 317,
+    "text": "adibs\u7684\u58f0\u97f3\u4e5f\u53ef\u4ee5\u7a0d\u5fae\u5c0f\u4e00\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 318,
+    "text": "The volume of adibs can also be a bit lower.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 319,
+    "text": "adibs\u7684\u58f0\u97f3\u4e5f\u53ef\u4ee5\u7a0d\u5fae\u5927\u4e00\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 320,
+    "text": "\u4eba\u58f0\u5e94\u8be5\u79bb\u8033\u6735\u8fdc\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 321,
+    "text": "\u4eba\u58f0\u5e94\u8be5\u79bb\u8033\u6735\u8fdc\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 322,
+    "text": "The vocals should be a bit further from the ear.",
+    "label": "reverb"
+  },
+  {
+    "id": 323,
+    "text": "The vocals should be a bit further from the ear.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 324,
+    "text": "\u4eba\u58f0\u79bb\u8033\u6735\u8fd1\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 325,
+    "text": "\u4eba\u58f0\u79bb\u8033\u6735\u8fd1\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 326,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u52a0\u8d34\u8fd1\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 327,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u52a0\u8d34\u8fd1\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 328,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u52a0\u8d34\u8fd1\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 329,
+    "text": "Make the vocals more intimate.",
+    "label": "reverb"
+  },
+  {
+    "id": 330,
+    "text": "Make the vocals more intimate.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 331,
+    "text": "\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u9065\u8fdc\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 332,
+    "text": "\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u9065\u8fdc\u4e00\u4e9b\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 333,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u5e73\u6ed1\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 334,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u5e73\u6ed1\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 335,
+    "text": "Make the vocals a bit smoother.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 336,
+    "text": "Make the vocals a bit smoother.",
+    "label": "reverb"
+  },
+  {
+    "id": 337,
+    "text": "\u8ba9\u58f0\u97f3\u66f4\u7c97\u7cd9\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 338,
+    "text": "\u8ba9\u58f0\u97f3\u66f4\u7c97\u7cd9\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 339,
+    "text": "\u6211\u60f3\u8981\u540e\u670b\u514b\u7684\u9893\u5e9f\u611f\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 340,
+    "text": "I want a post-punk sense of decay.",
+    "label": "reverb"
+  },
+  {
+    "id": 341,
+    "text": "I want a post-punk sense of decay.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 342,
+    "text": "I want a post-punk sense of decay.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 343,
+    "text": "\u6211\u5e0c\u671b\u6709\u4e00\u79cd\u5145\u6ee1\u6d3b\u529b\u4e14\u79ef\u6781\u5411\u4e0a\u7684\u611f\u89c9\uff0c\u8fdc\u79bb\u540e\u670b\u514b\u98ce\u683c\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 344,
+    "text": "\u6211\u5e0c\u671b\u6709\u4e00\u79cd\u5145\u6ee1\u6d3b\u529b\u4e14\u79ef\u6781\u5411\u4e0a\u7684\u611f\u89c9\uff0c\u8fdc\u79bb\u540e\u670b\u514b\u98ce\u683c\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 345,
+    "text": "\u6211\u5e0c\u671b\u6709\u4e00\u79cd\u5145\u6ee1\u6d3b\u529b\u4e14\u79ef\u6781\u5411\u4e0a\u7684\u611f\u89c9\uff0c\u8fdc\u79bb\u540e\u670b\u514b\u98ce\u683c\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 346,
+    "text": "\u5e0c\u671b\u83b7\u5f97\u5982\u540c\u5728\u6559\u5802\u4e2d\u7684\u6df7\u54cd\u542c\u611f",
+    "label": "reverb"
+  },
+  {
+    "id": 347,
+    "text": "Desire the reverb sound as if in a church",
+    "label": "reverb"
+  },
+  {
+    "id": 348,
+    "text": "Desire the reverb sound as if in a church",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 349,
+    "text": "\u4e0d\u60f3\u8981\u4efb\u4f55\u7c7b\u4f3c\u4e8e\u6559\u5802\u7684\u6df7\u54cd\u6548\u679c\uff0c\u504f\u597d\u5e72\u58f0\u6216\u5176\u5b83\u73af\u5883\u4e0b\u7684\u81ea\u7136\u58f0\u97f3",
+    "label": "reverb"
+  },
+  {
+    "id": 350,
+    "text": "\u6211\u5e0c\u671b\u4eba\u58f0\u80fd\u591f\u518d\u5bbd\u4e00\u4e9b\uff0c\u4e0d\u8981\u90a3\u4e48\u96c6\u4e2d\u5728\u4e2d\u95f4\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 351,
+    "text": "I want the vocals to be a bit wider and not so centered.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 352,
+    "text": "\u6211\u5e0c\u671b\u4eba\u58f0\u66f4\u7a84\u4e00\u4e9b\uff0c\u5e76\u4e14\u66f4\u52a0\u96c6\u4e2d\u5728\u4e2d\u95f4\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 353,
+    "text": "\u6211\u5e0c\u671b\u4eba\u58f0\u66f4\u7a84\u4e00\u4e9b\uff0c\u5e76\u4e14\u66f4\u52a0\u96c6\u4e2d\u5728\u4e2d\u95f4\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 354,
+    "text": "\u8ba9\u5973\u751f\u7684\u58f0\u97f3\u66f4\u751c\u7f8e\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 355,
+    "text": "Make the female vocals a bit sweeter.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 356,
+    "text": "Make the female vocals a bit sweeter.",
+    "label": "reverb"
+  },
+  {
+    "id": 357,
+    "text": "\u8ba9\u5973\u751f\u7684\u58f0\u97f3\u4e0d\u90a3\u4e48\u751c\u7f8e\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 358,
+    "text": "\u6211\u5e0c\u671b\u6574\u4f53\u58f0\u97f3\u5177\u6709\u78c1\u6027\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 359,
+    "text": "I want the overall sound to be magnetic.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 360,
+    "text": "I want the overall sound to be magnetic.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 361,
+    "text": "I want the overall sound to be magnetic.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 362,
+    "text": "\u6211\u4e0d\u5e0c\u671b\u6574\u4f53\u58f0\u97f3\u6709\u78c1\u6027\uff0c\u60f3\u8981\u5b83\u542c\u8d77\u6765\u66f4\u5e73\u6de1\u4e00\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 363,
+    "text": "\u7136\u540e\uff0c\u4f34\u594f\u7684\u58f0\u97f3\u6709\u70b9\u5c0f\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 364,
+    "text": "Then, the accompaniment sound is a bit low.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 365,
+    "text": "Then, the accompaniment sound is a bit low.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 366,
+    "text": "\u7136\u540e\uff0c\u4f34\u594f\u7684\u58f0\u97f3\u6709\u70b9\u5927\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 367,
+    "text": "\u4ece1:06\u52301:17\uff0c\u58f0\u97f3\u611f\u89c9\u7f3a\u4e4f\u7a7a\u95f4\u611f\u30021:06\u4e4b\u524d\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728KTV\u91cc\uff1b1:06\u4e4b\u540e\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728\u5f55\u97f3\u68da\u91cc\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 368,
+    "text": "\u4ece1:06\u52301:17\uff0c\u58f0\u97f3\u611f\u89c9\u7f3a\u4e4f\u7a7a\u95f4\u611f\u30021:06\u4e4b\u524d\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728KTV\u91cc\uff1b1:06\u4e4b\u540e\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728\u5f55\u97f3\u68da\u91cc\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 369,
+    "text": "From 1:06 to 1:17, the sound feels lacking in spatial sense. Before 1:06, it sounds like it's in a KTV, and after 1:06, it sounds like it's in a recording studio.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 370,
+    "text": "\u4ece1:06\u52301:17\uff0c\u58f0\u97f3\u611f\u89c9\u975e\u5e38\u6709\u7a7a\u95f4\u611f\u30021:06\u4e4b\u524d\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728\u5f55\u97f3\u68da\u91cc\uff1b1:06\u4e4b\u540e\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728KTV\u91cc\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 371,
+    "text": "\u4ece1:06\u52301:17\uff0c\u58f0\u97f3\u611f\u89c9\u975e\u5e38\u6709\u7a7a\u95f4\u611f\u30021:06\u4e4b\u524d\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728\u5f55\u97f3\u68da\u91cc\uff1b1:06\u4e4b\u540e\uff0c\u542c\u8d77\u6765\u50cf\u662f\u5728KTV\u91cc\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 372,
+    "text": "\u8ba9\u58f0\u97f3\u5e72\u51c0\u4e00\u70b9\uff0c\u4e0d\u8981\u592a\u7535\u5b50\u5316\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 373,
+    "text": "Make the sound a bit cleaner, not too electric.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 374,
+    "text": "Make the sound a bit cleaner, not too electric.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 375,
+    "text": "Make the sound a bit cleaner, not too electric.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 376,
+    "text": "\u8ba9\u58f0\u97f3\u66f4\u6d51\u6d4a\u4e00\u4e9b\uff0c\u589e\u52a0\u7535\u5b50\u611f\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 377,
+    "text": "\u53ef\u4ee5\u518d\u5e72\u51c0\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 378,
+    "text": "It can be a bit cleaner.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 379,
+    "text": "It can be a bit cleaner.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 380,
+    "text": "It can be a bit cleaner.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 381,
+    "text": "\u53ef\u4ee5\u8ba9\u5b83\u66f4\u6d51\u6d4a\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 382,
+    "text": "\u53ef\u4ee5\u8ba9\u5b83\u66f4\u6d51\u6d4a\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 383,
+    "text": "\u80fd\u4e0d\u80fd\u52a0\u70b9\u4ec0\u4e48\u8ba9\u6df7\u97f3\u66f4\u5e72\u51c0\u4e00\u4e9b\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 384,
+    "text": "Can we add something to make the mix cleaner?",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 385,
+    "text": "Can we add something to make the mix cleaner?",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 386,
+    "text": "\u80fd\u4e0d\u80fd\u51cf\u5c11\u4e9b\u4ec0\u4e48\u8ba9\u6df7\u97f3\u542c\u8d77\u6765\u66f4\u6d51\u6d4a\u4e00\u4e9b\uff1f",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 387,
+    "text": "\u80fd\u4e0d\u80fd\u51cf\u5c11\u4e9b\u4ec0\u4e48\u8ba9\u6df7\u97f3\u542c\u8d77\u6765\u66f4\u6d51\u6d4a\u4e00\u4e9b\uff1f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 388,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5927\u4e00\u70b9\uff0c\u56e0\u4e3a\u73b0\u5728\u7684\u4f34\u594f\u542c\u8d77\u6765\u6709\u70b9\u592a\u7a81\u51fa\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 389,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u5927\u4e00\u70b9\uff0c\u56e0\u4e3a\u73b0\u5728\u7684\u4f34\u594f\u542c\u8d77\u6765\u6709\u70b9\u592a\u7a81\u51fa\u4e86\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 390,
+    "text": "The overall vocals could be a bit louder, as the accompaniment seems a little too prominent right now.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 391,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u5c0f\u4e00\u70b9\uff0c\u73b0\u5728\u4f34\u594f\u597d\u50cf\u6709\u70b9\u4e0d\u591f\u7a81\u51fa\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 392,
+    "text": "\u6574\u4f53\u4eba\u58f0\u53ef\u4ee5\u5c0f\u4e00\u70b9\uff0c\u73b0\u5728\u4f34\u594f\u597d\u50cf\u6709\u70b9\u4e0d\u591f\u7a81\u51fa\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 393,
+    "text": "\u611f\u89c9\u4eba\u58f0\u6709\u70b9\u6d6e\u5728\u4f34\u594f\u4e4b\u4e0a\uff0c\u6ca1\u6709\u878d\u5165\u8fdb\u53bb\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 394,
+    "text": "\u611f\u89c9\u4eba\u58f0\u6709\u70b9\u6d6e\u5728\u4f34\u594f\u4e4b\u4e0a\uff0c\u6ca1\u6709\u878d\u5165\u8fdb\u53bb\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 395,
+    "text": "It feels like the vocals are floating above the instrumental, not sinking into it.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 396,
+    "text": "It feels like the vocals are floating above the instrumental, not sinking into it.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 397,
+    "text": "\u611f\u89c9\u4eba\u58f0\u5f88\u597d\u5730\u878d\u5165\u4e86\u4f34\u594f\u4e4b\u4e2d\uff0c\u5b8c\u5168\u6c89\u4e0b\u53bb\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 398,
+    "text": "\u611f\u89c9\u4eba\u58f0\u5f88\u597d\u5730\u878d\u5165\u4e86\u4f34\u594f\u4e4b\u4e2d\uff0c\u5b8c\u5168\u6c89\u4e0b\u53bb\u4e86\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 399,
+    "text": "\u611f\u89c9\u7a0d\u5fae\u5c0f\u4e00\u70b9\u7684\u7a7a\u95f4\u611f\u4f1a\u66f4\u597d",
+    "label": "reverb"
+  },
+  {
+    "id": 400,
+    "text": "\u611f\u89c9\u7a0d\u5fae\u5c0f\u4e00\u70b9\u7684\u7a7a\u95f4\u611f\u4f1a\u66f4\u597d",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 401,
+    "text": "Feel like a slightly smaller sense of space would be better",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 402,
+    "text": "\u611f\u89c9\u7a7a\u95f4\u611f\u7a0d\u5fae\u5927\u4e00\u70b9\u597d",
+    "label": "reverb"
+  },
+  {
+    "id": 403,
+    "text": "\u611f\u89c9\u7a7a\u95f4\u611f\u7a0d\u5fae\u5927\u4e00\u70b9\u597d",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 404,
+    "text": "\u8ba9\u58f0\u573a\u518d\u8d34\u8fd1\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 405,
+    "text": "Make the sound field a bit more intimate.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 406,
+    "text": "\u8ba9\u58f0\u573a\u66f4\u5f00\u9614\u4e00\u4e9b\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 407,
+    "text": "\u8ba9\u4eba\u58f0\u7a81\u51fa\u4e00\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 408,
+    "text": "\u8ba9\u4eba\u58f0\u7a81\u51fa\u4e00\u4e9b\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 409,
+    "text": "Let the vocals stand out.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 410,
+    "text": "Let the vocals stand out.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 411,
+    "text": "\u8ba9\u80cc\u666f\u97f3\u4e50\u76d6\u8fc7\u4eba\u58f0\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 412,
+    "text": "\u8ba9\u80cc\u666f\u97f3\u4e50\u76d6\u8fc7\u4eba\u58f0\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 413,
+    "text": "\u8ba9\u80cc\u666f\u97f3\u4e50\u76d6\u8fc7\u4eba\u58f0\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 414,
+    "text": "Mix it a bit lower.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 415,
+    "text": "\u6df7\u9ad8\u4e00\u70b9\u5427",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 416,
+    "text": "Autotune\u6302\u5f97\u8fc7\u91cd\u4e86\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 417,
+    "text": "Autotune\u6302\u5f97\u8fc7\u91cd\u4e86\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 418,
+    "text": "The Autotune is too heavy.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 419,
+    "text": "The Autotune is too heavy.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 420,
+    "text": "Autotune\u6302\u5f97\u592a\u8f7b\u4e86\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 421,
+    "text": "Autotune\u6302\u5f97\u592a\u8f7b\u4e86\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 422,
+    "text": "\u9897\u7c92\u611f\u592a\u5f3a\u4e86\uff0c\u611f\u89c9\u6709\u70b9\u7c97\u7cd9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 423,
+    "text": "\u9897\u7c92\u611f\u592a\u5f3a\u4e86\uff0c\u611f\u89c9\u6709\u70b9\u7c97\u7cd9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 424,
+    "text": "The graininess is too strong, it feels a bit coarse.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 425,
+    "text": "The graininess is too strong, it feels a bit coarse.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 426,
+    "text": "\u9897\u7c92\u611f\u4e0d\u591f\u7ec6\u817b\uff0c\u663e\u5f97\u6709\u4e9b\u5e73\u6ed1\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 427,
+    "text": "\u9897\u7c92\u611f\u4e0d\u591f\u7ec6\u817b\uff0c\u663e\u5f97\u6709\u4e9b\u5e73\u6ed1\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 428,
+    "text": "\u9897\u7c92\u611f\u4e0d\u591f\u7ec6\u817b\uff0c\u663e\u5f97\u6709\u4e9b\u5e73\u6ed1\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 430,
+    "text": "\u6df7\u5f97\u7a0d\u5fae\u67d4\u548c\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 431,
+    "text": "\u6df7\u5f97\u7a0d\u5fae\u67d4\u548c\u4e00\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 432,
+    "text": "Mix it a bit softer.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 433,
+    "text": "\u6df7\u5f3a\u4e00\u70b9",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 434,
+    "text": "\u6df7\u5f3a\u4e00\u70b9",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 435,
+    "text": "\u53e5\u5b50\u7684\u5f00\u5934\u88ab\u538b\u7f29\u4e86\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 436,
+    "text": "The beginning of the sentence is being compressed.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 437,
+    "text": "\u53e5\u5934\u9700\u8981\u88ab\u653e\u5927/\u589e\u5f3a\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 438,
+    "text": "\u8d1d\u65af\u76d6\u8fc7\u4e86\u4eba\u58f0\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 439,
+    "text": "\u8d1d\u65af\u76d6\u8fc7\u4e86\u4eba\u58f0\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 440,
+    "text": "The bass is overpowering the vocals.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 441,
+    "text": "The bass is overpowering the vocals.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 442,
+    "text": "\u4eba\u58f0\u76d6\u8fc7\u4e86\u8d1d\u65af\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 443,
+    "text": "\u4eba\u58f0\u76d6\u8fc7\u4e86\u8d1d\u65af\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 444,
+    "text": "Intro\u90e8\u5206\u7684\u4eba\u58f0\u5728\u4f34\u594f\u540e\u9762\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 445,
+    "text": "Intro\u90e8\u5206\u7684\u4eba\u58f0\u5728\u4f34\u594f\u540e\u9762\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 446,
+    "text": "The vocal in the intro section is behind the instrumental.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 447,
+    "text": "The vocal in the intro section is behind the instrumental.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 448,
+    "text": "Intro\u90e8\u5206\u4eba\u58f0\u5728\u4f34\u594f\u524d\u9762\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 449,
+    "text": "Intro\u90e8\u5206\u4eba\u58f0\u5728\u4f34\u594f\u524d\u9762\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 450,
+    "text": "\u5f53\u4e50\u5668\u72ec\u594f\u65f6\uff0c\u4eba\u58f0\u5e94\u8be5\u9000\u540e\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 451,
+    "text": "\u5f53\u4e50\u5668\u72ec\u594f\u65f6\uff0c\u4eba\u58f0\u5e94\u8be5\u9000\u540e\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 452,
+    "text": "When the instrument is playing solo, the vocals should step back.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 453,
+    "text": "When the instrument is playing solo, the vocals should step back.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 454,
+    "text": "\u5f53\u4e50\u5668\u72ec\u594f\u65f6\uff0c\u4eba\u58f0\u5e94\u8be5\u66f4\u52a0\u7a81\u51fa\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 455,
+    "text": "\u5f53\u4e50\u5668\u72ec\u594f\u65f6\uff0c\u4eba\u58f0\u5e94\u8be5\u66f4\u52a0\u7a81\u51fa\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 456,
+    "text": "\u80fd\u91cf\u4e3b\u8981\u96c6\u4e2d\u5728\u4e2d\u9891\u548c\u9ad8\u9891\uff0c\u56e0\u6b64\u4f34\u594f\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u53ef\u4ee5\u7a0d\u5fae\u63a7\u5236\u4e00\u4e0b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 457,
+    "text": "\u80fd\u91cf\u4e3b\u8981\u96c6\u4e2d\u5728\u4e2d\u9891\u548c\u9ad8\u9891\uff0c\u56e0\u6b64\u4f34\u594f\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u53ef\u4ee5\u7a0d\u5fae\u63a7\u5236\u4e00\u4e0b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 458,
+    "text": "The energy is mainly concentrated in the mid and high frequencies, so the mid and high frequencies of the accompaniment could be controlled a bit.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 459,
+    "text": "The energy is mainly concentrated in the mid and high frequencies, so the mid and high frequencies of the accompaniment could be controlled a bit.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 460,
+    "text": "\u80fd\u91cf\u4e0d\u8db3\u4e8e\u4e2d\u9891\u548c\u9ad8\u9891\uff0c\u6240\u4ee5\u9700\u8981\u589e\u5f3a\u4f34\u594f\u4e2d\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 461,
+    "text": "\u80fd\u91cf\u4e0d\u8db3\u4e8e\u4e2d\u9891\u548c\u9ad8\u9891\uff0c\u6240\u4ee5\u9700\u8981\u589e\u5f3a\u4f34\u594f\u4e2d\u7684\u4e2d\u9891\u548c\u9ad8\u9891\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 462,
+    "text": "\u4eba\u58f0\u88ab\u57cb\u5728\u4e0b\u9762\u4e86\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 463,
+    "text": "\u4eba\u58f0\u88ab\u57cb\u5728\u4e0b\u9762\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 464,
+    "text": "The vocals are buried underneath.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 465,
+    "text": "The vocals are buried underneath.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 466,
+    "text": "\u4eba\u58f0\u975e\u5e38\u7a81\u51fa\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 467,
+    "text": "\u4eba\u58f0\u975e\u5e38\u7a81\u51fa\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 468,
+    "text": "\u8fd8\u6709\u5c31\u662f\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u518d\u589e\u5f3a\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 469,
+    "text": "\u8fd8\u6709\u5c31\u662f\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u518d\u589e\u5f3a\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 470,
+    "text": "Also, the sense of space throughout the entire song could be enhanced a bit more.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 471,
+    "text": "\u53e6\u5916\uff0c\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u5e94\u8be5\u51cf\u5c11\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 472,
+    "text": "\u53e6\u5916\uff0c\u6574\u9996\u6b4c\u7684\u7a7a\u95f4\u611f\u5e94\u8be5\u51cf\u5c11\u4e00\u4e9b\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 473,
+    "text": "\u6211\u5e0c\u671b\u5b83\u80fd\u7a0d\u5fae\u201c\u6ed1\u201d\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 474,
+    "text": "\u6211\u5e0c\u671b\u5b83\u80fd\u7a0d\u5fae\u201c\u6ed1\u201d\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 475,
+    "text": "I'd like it to be a bit more \"smooth\".",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 476,
+    "text": "I'd like it to be a bit more \"smooth\".",
+    "label": "reverb"
+  },
+  {
+    "id": 477,
+    "text": "\u6211\u60f3\u8ba9\u5b83\u7a0d\u5fae\u201c\u7c97\u7cd9\u201d\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 478,
+    "text": "\u6211\u60f3\u8ba9\u5b83\u7a0d\u5fae\u201c\u7c97\u7cd9\u201d\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 479,
+    "text": "\u6211\u60f3\u8ba9\u5b83\u7a0d\u5fae\u201c\u7c97\u7cd9\u201d\u4e00\u70b9\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 480,
+    "text": "It just feels like it needs to be a bit more cohesive.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 481,
+    "text": "It just feels like it needs to be a bit more cohesive.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 482,
+    "text": "\u5c31\u662f\u611f\u89c9\u90a3\u79cd\u65ad\u5f00\u4e00\u4e9b",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 483,
+    "text": "\u5c31\u662f\u611f\u89c9\u90a3\u79cd\u65ad\u5f00\u4e00\u4e9b",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 484,
+    "text": "\u7136\u540e\u4f60\u80fd\u5e2e\u6211\u51cf\u5c11\u4e00\u70b9\u9f3b\u97f3\u5417\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 485,
+    "text": "Could you help me reduce my nasal sound a bit?",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 486,
+    "text": "Could you help me reduce my nasal sound a bit?",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 487,
+    "text": "\u7136\u540e\u6211\u7684\u9f3b\u97f3\u80fd\u5e2e\u6211\u52a0\u591a\u4e00\u70b9\u5427",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 488,
+    "text": "\u8fd8\u662f\u5c11\u52a0\u70b9\u6765\u589e\u5f3a\u7a7a\u95f4\u611f\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 489,
+    "text": "\u8fd8\u662f\u5c11\u52a0\u70b9\u6765\u589e\u5f3a\u7a7a\u95f4\u611f\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 490,
+    "text": "Still, add a bit less to enhance the sense of space.",
+    "label": "reverb"
+  },
+  {
+    "id": 491,
+    "text": "Still, add a bit less to enhance the sense of space.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 492,
+    "text": "\u53cd\u800c\u591a\u52a0\u4e00\u4e9b\u51cf\u5c11\u7a7a\u95f4\u611f\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 493,
+    "text": "\u53cd\u800c\u591a\u52a0\u4e00\u4e9b\u51cf\u5c11\u7a7a\u95f4\u611f\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 494,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u660e\u663e\u4e00\u4e9b\uff0c\u7136\u540e\u58f0\u97f3\u5e94\u8be5\u5f80\u540e\u63a8\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 495,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u660e\u663e\u4e00\u4e9b\uff0c\u7136\u540e\u58f0\u97f3\u5e94\u8be5\u5f80\u540e\u63a8\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 496,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7684\u7a7a\u95f4\u611f\u53ef\u4ee5\u66f4\u660e\u663e\u4e00\u4e9b\uff0c\u7136\u540e\u58f0\u97f3\u5e94\u8be5\u5f80\u540e\u63a8\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 497,
+    "text": "The sense of space in the telephone sound part can be a bit more pronounced, and the sound should be pushed back.",
+    "label": "reverb"
+  },
+  {
+    "id": 498,
+    "text": "The sense of space in the telephone sound part can be a bit more pronounced, and the sound should be pushed back.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 499,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u9700\u8981\u51cf\u5c11\u4e00\u70b9\uff0c\u5e76\u4e14\u58f0\u97f3\u8981\u5f80\u524d\u62c9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 500,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u9700\u8981\u51cf\u5c11\u4e00\u70b9\uff0c\u5e76\u4e14\u58f0\u97f3\u8981\u5f80\u524d\u62c9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 501,
+    "text": "\u7535\u8bdd\u97f3\u90a3\u6bb5\u7a7a\u95f4\u611f\u9700\u8981\u51cf\u5c11\u4e00\u70b9\uff0c\u5e76\u4e14\u58f0\u97f3\u8981\u5f80\u524d\u62c9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 502,
+    "text": "\u7136\u540e\uff0c\u628ahook\u91cc\u7684\u5927\u5598\u6c14\u7a0d\u5fae\u5f31\u5316\u4e00\u4e0b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 503,
+    "text": "\u7136\u540e\uff0c\u628ahook\u91cc\u7684\u5927\u5598\u6c14\u7a0d\u5fae\u5f31\u5316\u4e00\u4e0b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 504,
+    "text": "Then, weaken the heavy breathing in the hook a bit.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 505,
+    "text": "Then, weaken the heavy breathing in the hook a bit.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 506,
+    "text": "\u7136\u540e\uff0c\u589e\u5f3a\u4e00\u4e0bhook\u90e8\u5206\u7684\u5927\u5598\u6c14\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 507,
+    "text": "\u7136\u540e\uff0c\u589e\u5f3a\u4e00\u4e0bhook\u90e8\u5206\u7684\u5927\u5598\u6c14\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 508,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u63a7\u5236\u4e00\u70b9\u9ad8\u9891\uff0c\u540c\u65f6\u518d\u505a\u4e00\u4e9b\u53bb\u9f7f\u97f3\u5904\u7406\uff0c\u56e0\u4e3a\u542c\u8d77\u6765\u633a\u4eae\u7684\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 509,
+    "text": "The vocals could use a bit of high-frequency control, and also some de-essing, as they sound quite bright.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 510,
+    "text": "The vocals could use a bit of high-frequency control, and also some de-essing, as they sound quite bright.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 511,
+    "text": "\u4eba\u58f0\u9700\u8981\u589e\u52a0\u4e00\u4e9b\u9ad8\u9891\uff0c\u5e76\u51cf\u5c11\u53bb\u9f7f\u97f3\u5904\u7406\uff0c\u56e0\u4e3a\u542c\u8d77\u6765\u4e0d\u591f\u660e\u4eae\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 512,
+    "text": "\u4e2d\u4f4e\u90e8\u5206\u7684\u9971\u548c\u611f\u6bd4\u8f83\u91cd\uff0c\u8fd9\u4f7f\u5f97\u4e2d\u4f4e\u97f3\u53d8\u5f97\u539a\u91cd\u4e14\u6d51\u6d4a\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 513,
+    "text": "The mid-low part has a rather heavy saturation, which makes the mid-lows thick and muddy.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 514,
+    "text": "The mid-low part has a rather heavy saturation, which makes the mid-lows thick and muddy.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 515,
+    "text": "\u4e2d\u4f4e\u7684\u90e8\u5206\u9971\u548c\u611f\u8f83\u8f7b\uff0c\u56e0\u6b64\u4e2d\u4f4e\u97f3\u663e\u5f97\u6e05\u6670\u800c\u5e72\u51c0\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 516,
+    "text": "\u4e2d\u4f4e\u7684\u90e8\u5206\u9971\u548c\u611f\u8f83\u8f7b\uff0c\u56e0\u6b64\u4e2d\u4f4e\u97f3\u663e\u5f97\u6e05\u6670\u800c\u5e72\u51c0\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 517,
+    "text": "\u5c31\u662f\u6df7\u5f97\u592a\u5e72\u4e86\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 518,
+    "text": "\u5c31\u662f\u6df7\u5f97\u592a\u5e72\u4e86\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 519,
+    "text": "It's just mixed too dry.",
+    "label": "reverb"
+  },
+  {
+    "id": 520,
+    "text": "\u5c31\u662f\u6df7\u5f97\u592a\u8fc7\u6e7f\u6da6\u4e86\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 521,
+    "text": "But I feel like your voice is floating over the beat.",
+    "label": "reverb"
+  },
+  {
+    "id": 522,
+    "text": "But I feel like your voice is floating over the beat.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 523,
+    "text": "\u4f46\u662f\u611f\u89c9\u4f60\u7684\u58f0\u97f3\u7a33\u7a33\u5730\u8d34\u5408\u7740beat",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 524,
+    "text": "\u4f46\u662f\u611f\u89c9\u4f60\u7684\u58f0\u97f3\u7a33\u7a33\u5730\u8d34\u5408\u7740beat",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 526,
+    "text": "\u662f\u4e0d\u662f\u6709\u70b9\u95f7\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 527,
+    "text": "Is it a bit muffled?",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 528,
+    "text": "Is it a bit muffled?",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 529,
+    "text": "\u662f\u4e0d\u662f\u542c\u8d77\u6765\u5f88\u6e05\u6670\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 530,
+    "text": "\u662f\u4e0d\u662f\u542c\u8d77\u6765\u5f88\u6e05\u6670\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 531,
+    "text": "\u662f\u4e0d\u662f\u542c\u8d77\u6765\u5f88\u6e05\u6670\uff1f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 532,
+    "text": "\u8fd8\u6709\uff0c\u628a\u201c\u5566\u5566\u5566\u201d\u90e8\u5206\u8c03\u5f97\u66f4\u865a\u5e7b\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 533,
+    "text": "\u8fd8\u6709\uff0c\u628a\u201c\u5566\u5566\u5566\u201d\u90e8\u5206\u8c03\u5f97\u66f4\u865a\u5e7b\u4e00\u70b9\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 534,
+    "text": "Also, make the \"la la la\" part a bit more ethereal.",
+    "label": "reverb"
+  },
+  {
+    "id": 535,
+    "text": "Also, make the \"la la la\" part a bit more ethereal.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 536,
+    "text": "\u53e6\u5916\uff0c\u8ba9\u201c\u5566\u5566\u5566\u201d\u8fd9\u90e8\u5206\u542c\u8d77\u6765\u66f4\u52a0\u5b9e\u5728\u4e00\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 537,
+    "text": "\u53e6\u5916\uff0c\u8ba9\u201c\u5566\u5566\u5566\u201d\u8fd9\u90e8\u5206\u542c\u8d77\u6765\u66f4\u52a0\u5b9e\u5728\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 538,
+    "text": "Is there a sense of stereo?",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 539,
+    "text": "\u662f\u4e0d\u662f\u611f\u89c9\u5f88\u5e73\u9762\uff1f",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 541,
+    "text": "\u8fd8\u662f\u628a\u58f0\u573a\u62d3\u5bbd\u4e00\u70b9\u6765\u505a\u533a\u5206\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 542,
+    "text": "Still, widen the sound field a bit for differentiation.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 543,
+    "text": "\u53cd\u800c\u7f29\u5c0f\u58f0\u573a\uff0c\u4e0d\u505a\u7279\u522b\u5904\u7406\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 544,
+    "text": "\u4f46\u662f\u5bf9\u4e8e\u97f3\u91cf\u6765\u8bf4\uff0c\u5dee\u4e0d\u591a\u5c31\u662f\u4f60\u7684\u90a3\u4e2a\u6548\u679c\uff1b\u4f60\u53ef\u4ee5\u8ba9\u5b83\u7a0d\u5fae\u6709\u4e9b\u533a\u522b\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 545,
+    "text": "But for the volume, it's about the same as your effect; you could make it a bit more distinct.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 546,
+    "text": "\u4f46\u662f\u5173\u4e8e\u97f3\u91cf\uff0c\u6211\u5e0c\u671b\u5b83\u4e0e\u4f60\u4e4b\u524d\u7684\u6548\u679c\u5b8c\u5168\u4e0d\u540c\uff1b\u8bf7\u5c3d\u91cf\u8ba9\u5b83\u4eec\u542c\u8d77\u6765\u66f4\u52a0\u76f8\u4f3c\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 547,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u67d4\u548c\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 548,
+    "text": "\u4eba\u58f0\u53ef\u4ee5\u7a0d\u5fae\u67d4\u548c\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 549,
+    "text": "The vocals can be a bit softer.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 550,
+    "text": "\u5728\u6df7\u97f3\u4e2d\u7ed9\u6b4c\u58f0\u591a\u7559\u4e00\u70b9\u7a7a\u95f4\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 551,
+    "text": "Give the vocals a bit more space in the mix.",
+    "label": "reverb"
+  },
+  {
+    "id": 552,
+    "text": "Give the vocals a bit more space in the mix.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 553,
+    "text": "\u538b\u7f29\u6df7\u97f3\u4e2d\u4eba\u58f0\u7684\u7a7a\u95f4\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 554,
+    "text": "\u5f53\u7535\u5f00\u8f83\u5927\u65f6\uff0c\u53ef\u4ee5\u628a\u4eba\u58f0\u505a\u5f97\u539a\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 555,
+    "text": "\u5f53\u7535\u5f00\u8f83\u5927\u65f6\uff0c\u53ef\u4ee5\u628a\u4eba\u58f0\u505a\u5f97\u539a\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 556,
+    "text": "Could you make the vocal a bit thicker when the electric opening is big?",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 557,
+    "text": "Could you make the vocal a bit thicker when the electric opening is big?",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 558,
+    "text": "\u53ef\u4ee5\u7535\u5f00\u7684\u5c0f\u4e00\u70b9\u628a\u4eba\u58f0\u505a\u5f97\u8584\u4e00\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 559,
+    "text": "\u7136\u540e\uff0c\u8ba9\u6211\u7684\u548c\u58f0\u58f0\u97f3\u548c\u6df7\u54cd\u7a0d\u5fae\u5c0f\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 560,
+    "text": "Then, make my harmony vocals and reverb a bit softer.",
+    "label": "reverb"
+  },
+  {
+    "id": 561,
+    "text": "Then, make my harmony vocals and reverb a bit softer.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 562,
+    "text": "\u63a5\u7740\uff0c\u8bf7\u628a\u6211\u7684\u548c\u58f0\u90e8\u5206\u4ee5\u53ca\u6df7\u54cd\u6548\u679c\u8c03\u5f97\u66f4\u660e\u663e\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 563,
+    "text": "\u7136\u540e\uff0c\u6211\u5e0c\u671b\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u70b9\uff0c\u5e76\u4e14\u9897\u7c92\u611f\u66f4\u660e\u663e\u4e00\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 564,
+    "text": "\u7136\u540e\uff0c\u6211\u5e0c\u671b\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f3a\u4e00\u70b9\uff0c\u5e76\u4e14\u9897\u7c92\u611f\u66f4\u660e\u663e\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 565,
+    "text": "Then, I want the sound to have a bit more penetration and a more noticeable graininess.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 566,
+    "text": "Then, I want the sound to have a bit more penetration and a more noticeable graininess.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 567,
+    "text": "\u63a5\u7740\uff0c\u6211\u5e0c\u671b\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f31\u4e00\u4e9b\uff0c\u9897\u7c92\u5ea6\u4e0d\u90a3\u4e48\u660e\u663e\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 568,
+    "text": "\u63a5\u7740\uff0c\u6211\u5e0c\u671b\u58f0\u97f3\u7684\u7a7f\u900f\u6027\u5f31\u4e00\u4e9b\uff0c\u9897\u7c92\u5ea6\u4e0d\u90a3\u4e48\u660e\u663e\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 569,
+    "text": "So I want it to sound more solid and fuller.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 570,
+    "text": "So I want it to sound more solid and fuller.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 571,
+    "text": "\u6240\u4ee5\u6211\u60f3\u8981\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u8584\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 572,
+    "text": "\u6240\u4ee5\u6211\u60f3\u8981\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u8584\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 573,
+    "text": "\u6240\u4ee5\u6211\u60f3\u8981\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u8584\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 574,
+    "text": "\u6211\u5c31\u559c\u6b22\u58f0\u97f3\u66f4\u5b9e\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 575,
+    "text": "\u6211\u5c31\u559c\u6b22\u58f0\u97f3\u66f4\u5b9e\u4e00\u70b9\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 576,
+    "text": "I just prefer the sound to be more solid.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 577,
+    "text": "I just prefer the sound to be more solid.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 578,
+    "text": "\u6211\u66f4\u503e\u5411\u4e8e\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u8f7b\u67d4\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 579,
+    "text": "\u6211\u66f4\u503e\u5411\u4e8e\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u8f7b\u67d4\u4e00\u4e9b\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 580,
+    "text": "\u6211\u66f4\u503e\u5411\u4e8e\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u8f7b\u67d4\u4e00\u4e9b\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 581,
+    "text": "\u80fd\u66f4\u6709\u7a7f\u900f\u529b\u4e00\u70b9\u5417\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 582,
+    "text": "\u80fd\u66f4\u6709\u7a7f\u900f\u529b\u4e00\u70b9\u5417\uff1f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 583,
+    "text": "Can it be a bit more piercing?",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 584,
+    "text": "\u80fd\u8ba9\u5b83\u66f4\u67d4\u548c\u4e00\u4e9b\u5417\uff1f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 585,
+    "text": "\u80fd\u8ba9\u5b83\u66f4\u67d4\u548c\u4e00\u4e9b\u5417\uff1f",
+    "label": "reverb"
+  },
+  {
+    "id": 586,
+    "text": "\u611f\u89c9\u58f0\u97f3\u6709\u70b9\u98d8\uff0c\u80fd\u4e0d\u80fd\u8ba9\u58f0\u97f3\u66f4\u624e\u5b9e\u4e00\u70b9\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 587,
+    "text": "\u611f\u89c9\u58f0\u97f3\u6709\u70b9\u98d8\uff0c\u80fd\u4e0d\u80fd\u8ba9\u58f0\u97f3\u66f4\u624e\u5b9e\u4e00\u70b9\uff1f",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 588,
+    "text": "The sound feels a bit floaty, could you make it more grounded?",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 590,
+    "text": "\u611f\u89c9\u58f0\u97f3\u592a\u6c89\u4e86\uff0c\u80fd\u4e0d\u80fd\u8ba9\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u76c8\u4e00\u4e9b\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 591,
+    "text": "\u611f\u89c9\u58f0\u97f3\u592a\u6c89\u4e86\uff0c\u80fd\u4e0d\u80fd\u8ba9\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u76c8\u4e00\u4e9b\uff1f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 592,
+    "text": "\u611f\u89c9\u58f0\u97f3\u592a\u6c89\u4e86\uff0c\u80fd\u4e0d\u80fd\u8ba9\u5b83\u542c\u8d77\u6765\u66f4\u8f7b\u76c8\u4e00\u4e9b\uff1f",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 593,
+    "text": "\u6781\u5176\u6c99\u54d1\u7684",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 594,
+    "text": "\u6781\u5176\u6c99\u54d1\u7684",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 595,
+    "text": "Extremely sandy",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 596,
+    "text": "Extremely sandy",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 597,
+    "text": "Extremely sandy",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 598,
+    "text": "\u975e\u5e38\u6e05\u6670\u7684 \u6ce8\u91ca\uff1a\u8fd9\u91cc\u7684\u201c\u5de8\u6c99\u6c99\u7684\u201d\u53ef\u80fd\u662f\u6307\u58f0\u97f3\u7279\u522b\u6c99\u54d1\uff0c\u56e0\u6b64\u5728\u7ffb\u8bd1\u65f6\u9009\u62e9\u4e86\u201cExtremely sandy\u201d\uff0c\u4f46\u66f4\u5e38\u89c1\u7684\u8868\u8fbe\u65b9\u5f0f\u53ef\u80fd\u662f\u201cExtremely raspy\u201d\u3002\u6839\u636e\u4e0a\u4e0b\u6587\uff0c\u201c\u975e\u5e38\u6e05\u6670\u7684\u201d\u4f5c\u4e3a\u5176\u53cd\u4e49\u8f83\u4e3a\u5408\u9002\u3002\u5982\u679c\u539f\u53e5\u6307\u7684\u662f\u5176\u4ed6\u542b\u4e49\uff0c\u8bf7\u63d0\u4f9b\u66f4\u591a\u7684\u80cc\u666f\u4fe1\u606f\u4ee5\u4fbf\u4e8e\u66f4\u51c6\u786e\u5730\u7ffb\u8bd1\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 599,
+    "text": "\u975e\u5e38\u6e05\u6670\u7684 \u6ce8\u91ca\uff1a\u8fd9\u91cc\u7684\u201c\u5de8\u6c99\u6c99\u7684\u201d\u53ef\u80fd\u662f\u6307\u58f0\u97f3\u7279\u522b\u6c99\u54d1\uff0c\u56e0\u6b64\u5728\u7ffb\u8bd1\u65f6\u9009\u62e9\u4e86\u201cExtremely sandy\u201d\uff0c\u4f46\u66f4\u5e38\u89c1\u7684\u8868\u8fbe\u65b9\u5f0f\u53ef\u80fd\u662f\u201cExtremely raspy\u201d\u3002\u6839\u636e\u4e0a\u4e0b\u6587\uff0c\u201c\u975e\u5e38\u6e05\u6670\u7684\u201d\u4f5c\u4e3a\u5176\u53cd\u4e49\u8f83\u4e3a\u5408\u9002\u3002\u5982\u679c\u539f\u53e5\u6307\u7684\u662f\u5176\u4ed6\u542b\u4e49\uff0c\u8bf7\u63d0\u4f9b\u66f4\u591a\u7684\u80cc\u666f\u4fe1\u606f\u4ee5\u4fbf\u4e8e\u66f4\u51c6\u786e\u5730\u7ffb\u8bd1\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 600,
+    "text": "\u975e\u5e38\u6e05\u6670\u7684 \u6ce8\u91ca\uff1a\u8fd9\u91cc\u7684\u201c\u5de8\u6c99\u6c99\u7684\u201d\u53ef\u80fd\u662f\u6307\u58f0\u97f3\u7279\u522b\u6c99\u54d1\uff0c\u56e0\u6b64\u5728\u7ffb\u8bd1\u65f6\u9009\u62e9\u4e86\u201cExtremely sandy\u201d\uff0c\u4f46\u66f4\u5e38\u89c1\u7684\u8868\u8fbe\u65b9\u5f0f\u53ef\u80fd\u662f\u201cExtremely raspy\u201d\u3002\u6839\u636e\u4e0a\u4e0b\u6587\uff0c\u201c\u975e\u5e38\u6e05\u6670\u7684\u201d\u4f5c\u4e3a\u5176\u53cd\u4e49\u8f83\u4e3a\u5408\u9002\u3002\u5982\u679c\u539f\u53e5\u6307\u7684\u662f\u5176\u4ed6\u542b\u4e49\uff0c\u8bf7\u63d0\u4f9b\u66f4\u591a\u7684\u80cc\u666f\u4fe1\u606f\u4ee5\u4fbf\u4e8e\u66f4\u51c6\u786e\u5730\u7ffb\u8bd1\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 601,
+    "text": "\u8ba9\u6574\u4f53\u6df7\u97f3\u7a0d\u5fae\u810f\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 602,
+    "text": "\u8ba9\u6574\u4f53\u6df7\u97f3\u7a0d\u5fae\u810f\u4e00\u70b9\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 603,
+    "text": "Make the overall mix a bit dirtier.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 604,
+    "text": "Make the overall mix a bit dirtier.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 605,
+    "text": "\u8ba9\u6574\u4f53\u6df7\u97f3\u66f4\u52a0\u5e72\u51c0\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 606,
+    "text": "\u8ba9\u58f0\u97f3\u5904\u7406\u66f4\u5e72\u51c0\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 607,
+    "text": "Make the sound processing cleaner.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 608,
+    "text": "Make the sound processing cleaner.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 609,
+    "text": "Make the sound processing cleaner.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 610,
+    "text": "\u8ba9\u58f0\u97f3\u5904\u7406\u66f4\u52a0\u6d51\u6d4a\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 611,
+    "text": "\u8ba9\u58f0\u97f3\u5904\u7406\u66f4\u52a0\u6d51\u6d4a\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 612,
+    "text": "\u80fd\u4e0d\u80fd\u8ba9\u58f0\u97f3\u53d8\u5f97\u66f4\u6613\u8bc6\u522b\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 613,
+    "text": "\u80fd\u4e0d\u80fd\u8ba9\u58f0\u97f3\u53d8\u5f97\u66f4\u6613\u8bc6\u522b\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 614,
+    "text": "Could you make the voice more recognizable?",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 615,
+    "text": "Could you make the voice more recognizable?",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 616,
+    "text": "\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u53d8\u5f97\u4e0d\u90a3\u4e48\u6709\u8bc6\u522b\u5ea6\uff1f",
+    "label": "reverb"
+  },
+  {
+    "id": 617,
+    "text": "\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u53d8\u5f97\u4e0d\u90a3\u4e48\u6709\u8bc6\u522b\u5ea6\uff1f",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 618,
+    "text": "\u80fd\u4e0d\u80fd\u628a\u58f0\u97f3\u53d8\u5f97\u4e0d\u90a3\u4e48\u6709\u8bc6\u522b\u5ea6\uff1f",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 619,
+    "text": "\u589e\u5f3a\u6211\u7684\u9f3b\u97f3",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 620,
+    "text": "Enhance my nasal tone",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 621,
+    "text": "Enhance my nasal tone",
+    "label": "reverb"
+  },
+  {
+    "id": 622,
+    "text": "\u51cf\u8f7b\u6211\u7684\u9f3b\u97f3",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 623,
+    "text": "Add more weight to the sound of my rhymes.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 624,
+    "text": "Add more weight to the sound of my rhymes.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 625,
+    "text": "\u51cf\u8f7b\u6211\u97f5\u811a\u7684\u58f0\u97f3\u91cd\u91cf \u8fd9\u6837\u5904\u7406\u540e\uff0c\u65e2\u6ee1\u8db3\u4e86\u7ffb\u8bd1\u7684\u8981\u6c42\u4e5f\u5b9e\u73b0\u4e86\u610f\u601d\u7684\u53cd\u8f6c\u3002\u5e0c\u671b\u8fd9\u80fd\u5e2e\u5230\u4f60\uff01\u5982\u679c\u6709\u66f4\u591a\u5177\u4f53\u7684\u6df7\u97f3\u9700\u6c42\u6216\u5176\u5b83\u5e2e\u52a9\uff0c\u8bf7\u968f\u65f6\u544a\u8bc9\u6211\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 627,
+    "text": "\u628a\u6211\u7684\u58f0\u97f3\u53d8\u5f97\u7a0d\u5fae\u7834\u788e\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 628,
+    "text": "\u628a\u6211\u7684\u58f0\u97f3\u53d8\u5f97\u7a0d\u5fae\u7834\u788e\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 629,
+    "text": "Make my voice sound a bit more broken.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 630,
+    "text": "Make my voice sound a bit more broken.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 631,
+    "text": "\u8ba9\u6211\u7684\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u52a0\u5706\u6da6\u6d41\u7545\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 632,
+    "text": "\u547c\u5438\u58f0\u592a\u5927\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 633,
+    "text": "The breathing sound is too loud.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 634,
+    "text": "The breathing sound is too loud.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 635,
+    "text": "\u547c\u5438\u58f0\u592a\u5c0f\u4e86\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 636,
+    "text": "\u4e25\u91cd\u7684\u541e\u97f3\u73b0\u8c61",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 637,
+    "text": "\u4e25\u91cd\u7684\u541e\u97f3\u73b0\u8c61",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 638,
+    "text": "\u4e25\u91cd\u7684\u541e\u97f3\u73b0\u8c61",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 639,
+    "text": "Severe swallowing of sounds",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 640,
+    "text": "Severe swallowing of sounds",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 641,
+    "text": "\u53d1\u97f3\u6e05\u6670",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 642,
+    "text": "\u53d1\u97f3\u6e05\u6670",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 643,
+    "text": "\u53d1\u97f3\u6e05\u6670",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 644,
+    "text": "\u8ba9\u6574\u4f53\u6c1b\u56f4\u7a0d\u5fae\u5b89\u9759\u4e00\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 645,
+    "text": "Make the overall atmosphere a bit quieter.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 646,
+    "text": "\u8ba9\u6574\u9996\u6b4c\u7684\u6c1b\u56f4\u66f4\u52a0\u70ed\u95f9\u4e00\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 647,
+    "text": "\u8ba9\u6574\u9996\u6b4c\u7684\u6c1b\u56f4\u66f4\u52a0\u70ed\u95f9\u4e00\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 648,
+    "text": "\u8ba9\u6574\u9996\u6b4c\u7684\u6c1b\u56f4\u66f4\u52a0\u70ed\u95f9\u4e00\u4e9b\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 649,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u67d4\u548c\u987a\u6ed1\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 650,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u67d4\u548c\u987a\u6ed1\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 651,
+    "text": "Make the vocals softer and smoother.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 652,
+    "text": "Make the vocals softer and smoother.",
+    "label": "reverb"
+  },
+  {
+    "id": 653,
+    "text": "\u8ba9\u58f0\u97f3\u66f4\u52a0\u7c97\u7cd9\u548c\u5c16\u9510\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 654,
+    "text": "\u8ba9\u58f0\u97f3\u66f4\u52a0\u7c97\u7cd9\u548c\u5c16\u9510\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 655,
+    "text": "\u8ba9\u4eba\u58f0\u7684\u9897\u7c92\u611f\u51cf\u5c11\u4e00\u70b9\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 656,
+    "text": "\u8ba9\u4eba\u58f0\u7684\u9897\u7c92\u611f\u51cf\u5c11\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 657,
+    "text": "Reduce the graininess of the vocals a bit.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 658,
+    "text": "Reduce the graininess of the vocals a bit.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 659,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u6709\u653b\u51fb\u6027\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 660,
+    "text": "\u8ba9\u4eba\u58f0\u66f4\u6709\u653b\u51fb\u6027\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 661,
+    "text": "Make the vocals more aggressive.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 662,
+    "text": "Make the vocals more aggressive.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 663,
+    "text": "\u628a\u4eba\u58f0\u6df7\u5f97\u66f4\u52a0\u67d4\u548c\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 664,
+    "text": "\u628a\u4eba\u58f0\u6df7\u5f97\u66f4\u52a0\u67d4\u548c\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 665,
+    "text": "\u628a\u4eba\u58f0\u6df7\u5f97\u66f4\u52a0\u67d4\u548c\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 666,
+    "text": "\u8ba9\u4eba\u58f0\u542c\u8d77\u6765\u66f4\u5de5\u4e1a\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 667,
+    "text": "\u8ba9\u4eba\u58f0\u542c\u8d77\u6765\u66f4\u5de5\u4e1a\u4e00\u4e9b\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 668,
+    "text": "\u8ba9\u4eba\u58f0\u542c\u8d77\u6765\u66f4\u5de5\u4e1a\u4e00\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 669,
+    "text": "Make the vocals sound more industrial.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 670,
+    "text": "Make the vocals sound more industrial.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 671,
+    "text": "Make the vocals sound more industrial.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 672,
+    "text": "\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u52a0\u81ea\u7136\u67d4\u548c\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 673,
+    "text": "\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u52a0\u81ea\u7136\u67d4\u548c\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 674,
+    "text": "\u8ba9\u58f0\u97f3\u542c\u8d77\u6765\u66f4\u52a0\u81ea\u7136\u67d4\u548c\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 675,
+    "text": "\u8ba9\u6df7\u54cd\u66f4\u5de5\u4e1a\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 676,
+    "text": "Make the reverb more industrial.",
+    "label": "reverb"
+  },
+  {
+    "id": 677,
+    "text": "\u8ba9\u6df7\u54cd\u66f4\u52a0\u81ea\u7136\u67d4\u548c\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 678,
+    "text": "\u4eba\u58f0\u6df7\u54cd\u5e94\u8be5\u6a21\u4eff\u97f3\u4e50\u5385",
+    "label": "reverb"
+  },
+  {
+    "id": 679,
+    "text": "Vocal reverb should mimic a concert hall",
+    "label": "reverb"
+  },
+  {
+    "id": 680,
+    "text": "Vocal reverb should mimic a concert hall",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 681,
+    "text": "\u4eba\u58f0\u6df7\u54cd\u907f\u514d\u6a21\u4eff\u97f3\u4e50\u5385\uff0c\u5bfb\u6c42\u66f4\u76f4\u63a5\u6216\u4e0d\u540c\u7684\u7a7a\u95f4\u611f",
+    "label": "reverb"
+  },
+  {
+    "id": 682,
+    "text": "\u4eba\u58f0\u6df7\u54cd\u907f\u514d\u6a21\u4eff\u97f3\u4e50\u5385\uff0c\u5bfb\u6c42\u66f4\u76f4\u63a5\u6216\u4e0d\u540c\u7684\u7a7a\u95f4\u611f",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 683,
+    "text": "\u6211\u60f3\u8ba9\u4eba\u58f0\u66f4\u5e72\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 684,
+    "text": "I want the vocals to be drier.",
+    "label": "reverb"
+  },
+  {
+    "id": 685,
+    "text": "\u6211\u5e0c\u671b\u4eba\u58f0\u66f4\u52a0\u6e7f\u6da6\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 686,
+    "text": "\u56e0\u4e3a\u6211\u975e\u5e38\u559c\u6b22demo\u4e2d\u90a3\u4e2a\u66f2\u8c03\u7684\u7535\u6d41\u611f\uff0c\u6240\u4ee5\u8bf7\u8ba9\u5b83\u66f4\u5e72\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 687,
+    "text": "Because I really like the electric feel of that tune in the demo, please make it drier.",
+    "label": "reverb"
+  },
+  {
+    "id": 688,
+    "text": "\u56e0\u4e3a\u6211\u4e0d\u662f\u5f88\u559c\u6b22demo\u4e2d\u90a3\u4e2atune\u7684\u7535\u6d41\u611f\uff0c\u6240\u4ee5\u8bf7\u8ba9\u58f0\u97f3\u66f4\u52a0\u6e7f\u6da6\u4e00\u4e9b\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 689,
+    "text": "\u4eba\u58f0\u5e94\u8be5\u7a0d\u5fae\u5c0f\u4e00\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 690,
+    "text": "The vocals should be slightly quieter.",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 691,
+    "text": "\u4eba\u58f0\u7a0d\u5fae\u5927\u4e00\u70b9\u70b9\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 692,
+    "text": "\u6df7\u54cd\u53ef\u4ee5\u7a0d\u5fae\u51cf\u5c11\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 693,
+    "text": "The reverb can be a bit less.",
+    "label": "reverb"
+  },
+  {
+    "id": 694,
+    "text": "\u6df7\u54cd\u53ef\u4ee5\u518d\u5927\u4e00\u70b9\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 695,
+    "text": "\u73b0\u5728\u542c\u7740\u6709\u70b9\u523a\u8033\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 696,
+    "text": "It sounds a bit harsh on the ears right now.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 697,
+    "text": "It sounds a bit harsh on the ears right now.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 698,
+    "text": "\u73b0\u5728\u542c\u8d77\u6765\u975e\u5e38\u67d4\u548c\u60a6\u8033\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 699,
+    "text": "\u73b0\u5728\u542c\u8d77\u6765\u975e\u5e38\u67d4\u548c\u60a6\u8033\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 700,
+    "text": "\u73b0\u5728\u542c\u8d77\u6765\u975e\u5e38\u67d4\u548c\u60a6\u8033\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 701,
+    "text": "\u600e\u4e48\u611f\u89c9\u542c\u8d77\u6765\u8fd9\u4e48\u95f7\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 702,
+    "text": "How come it sounds so muffled?",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 703,
+    "text": "How come it sounds so muffled?",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 704,
+    "text": "How come it sounds so muffled?",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 705,
+    "text": "\u600e\u4e48\u611f\u89c9\u542c\u8d77\u6765\u8fd9\u4e48\u6e05\u6670\uff1f",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 706,
+    "text": "\u600e\u4e48\u611f\u89c9\u542c\u8d77\u6765\u8fd9\u4e48\u6e05\u6670\uff1f",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 707,
+    "text": "\u600e\u4e48\u611f\u89c9\u542c\u8d77\u6765\u8fd9\u4e48\u6e05\u6670\uff1f",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 708,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 709,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 710,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u6c99\u6c99\u7684\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 711,
+    "text": "It feels like the sound has a gritty texture.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 712,
+    "text": "It feels like the sound has a gritty texture.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 713,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u975e\u5e38\u5e73\u6ed1\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 714,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u975e\u5e38\u5e73\u6ed1\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 715,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u8d28\u611f\u975e\u5e38\u5e73\u6ed1\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 716,
+    "text": "\u80fd\u5e2e\u6211\u5f04\u5f97\u66f4\u6d3b\u8dc3\u4e00\u70b9\u5417\uff1f\u542c\u8d77\u6765\u6709\u70b9\u6c89\u95f7\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 717,
+    "text": "Could you make it a bit more lively? It sounds a bit dull.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 718,
+    "text": "Could you make it a bit more lively? It sounds a bit dull.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 719,
+    "text": "Could you make it a bit more lively? It sounds a bit dull.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 720,
+    "text": "\u8bf7\u8ba9\u5b83\u66f4\u52a0\u5e73\u9759\u4e00\u4e9b\u5427\uff0c\u73b0\u5728\u611f\u89c9\u592a\u6d3b\u6cfc\u4e86\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 721,
+    "text": "\u8bf7\u8ba9\u5b83\u66f4\u52a0\u5e73\u9759\u4e00\u4e9b\u5427\uff0c\u73b0\u5728\u611f\u89c9\u592a\u6d3b\u6cfc\u4e86\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 722,
+    "text": "\u8bf7\u8ba9\u5b83\u66f4\u52a0\u5e73\u9759\u4e00\u4e9b\u5427\uff0c\u73b0\u5728\u611f\u89c9\u592a\u6d3b\u6cfc\u4e86\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 723,
+    "text": "\u611f\u89c9\u542c\u8d77\u6765\u6709\u79cd\u5728\u6253\u7535\u8bdd\u7684\u611f\u89c9\uff0c\u54c8\u54c8\u54c8\u54c8\u54c8\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 724,
+    "text": "It feels like there's a sense of listening to a phone call, hahaha.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 725,
+    "text": "It feels like there's a sense of listening to a phone call, hahaha.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 726,
+    "text": "It feels like there's a sense of listening to a phone call, hahaha.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 727,
+    "text": "\u600e\u4e48\u89c9\u5f97\u542c\u8d77\u6765\u5b8c\u5168\u6ca1\u6709\u5728\u6253\u7535\u8bdd\u7684\u90a3\u79cd\u611f\u89c9\u5462\uff0c\u4e00\u70b9\u90fd\u4e0d\u50cf\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 728,
+    "text": "\u611f\u89c9\u5c31\u50cf\u662f\u6211\u7684\u751f\u6d3b\u4e2d\u5265\u79bb\u51fa\u4e86\u90a3\u4e2a\u4f34\u594f\u4e00\u6837\uff0c\u50cf\u662f\u4e24\u4e2a\u6ca1\u6709\u878d\u5408\u5728\u4e00\u8d77\u7684\u72ec\u7acb\u5b9e\u4f53\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 729,
+    "text": "\u611f\u89c9\u5c31\u50cf\u662f\u6211\u7684\u751f\u6d3b\u4e2d\u5265\u79bb\u51fa\u4e86\u90a3\u4e2a\u4f34\u594f\u4e00\u6837\uff0c\u50cf\u662f\u4e24\u4e2a\u6ca1\u6709\u878d\u5408\u5728\u4e00\u8d77\u7684\u72ec\u7acb\u5b9e\u4f53\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 730,
+    "text": "It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 731,
+    "text": "It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 732,
+    "text": "It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 733,
+    "text": "\u5c31\u50cf\u6211\u7684\u751f\u6d3b\u4e0e\u90a3\u4e2a\u4f34\u594f\u5b8c\u7f8e\u5730\u878d\u4e3a\u4e00\u4f53\uff0c\u5f7c\u6b64\u4e4b\u95f4\u6ca1\u6709\u4efb\u4f55\u5206\u79bb\u611f\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 734,
+    "text": "\u5c31\u50cf\u6211\u7684\u751f\u6d3b\u4e0e\u90a3\u4e2a\u4f34\u594f\u5b8c\u7f8e\u5730\u878d\u4e3a\u4e00\u4f53\uff0c\u5f7c\u6b64\u4e4b\u95f4\u6ca1\u6709\u4efb\u4f55\u5206\u79bb\u611f\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 735,
+    "text": "\u8ba9\u5b83\u518d\u8584\u4e00\u70b9",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 736,
+    "text": "\u8ba9\u5b83\u518d\u8584\u4e00\u70b9",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 737,
+    "text": "Make it a bit thinner",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 738,
+    "text": "Make it a bit thinner",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 739,
+    "text": "\u8ba9\u5b83\u66f4\u539a\u4e00\u4e9b",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 740,
+    "text": "\u7136\u540e\u589e\u52a0\u66f4\u591a\u7684\u5ef6\u8fdf\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 741,
+    "text": "Then add more delay.",
+    "label": "reverb"
+  },
+  {
+    "id": 742,
+    "text": "\u7136\u540e\u51cf\u5c11delay\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 743,
+    "text": "\u7136\u540e\u51cf\u5c11delay\u3002",
+    "label": "\u58f0\u573a"
+  },
+  {
+    "id": 744,
+    "text": "\u5176\u5b9e\u6709\u90a3\u79cd\u58f0\u97f3\u7279\u522b\u8584\uff0c\u7136\u540e\u6709\u4e00\u70b9\u523a\u8033\u7684\u611f\u89c9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 745,
+    "text": "Actually, there's this kind of sound that is particularly thin and has a slightly piercing quality to it.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 746,
+    "text": "Actually, there's this kind of sound that is particularly thin and has a slightly piercing quality to it.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 747,
+    "text": "\u5b9e\u9645\u4e0a\uff0c\u60f3\u8981\u7684\u662f\u90a3\u79cd\u975e\u5e38\u9971\u6ee1\u4e14\u542c\u8d77\u6765\u67d4\u548c\u8212\u9002\u7684\u58f0\u97f3\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 748,
+    "text": "\u5b9e\u9645\u4e0a\uff0c\u60f3\u8981\u7684\u662f\u90a3\u79cd\u975e\u5e38\u9971\u6ee1\u4e14\u542c\u8d77\u6765\u67d4\u548c\u8212\u9002\u7684\u58f0\u97f3\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 749,
+    "text": "\u5b9e\u9645\u4e0a\uff0c\u60f3\u8981\u7684\u662f\u90a3\u79cd\u975e\u5e38\u9971\u6ee1\u4e14\u542c\u8d77\u6765\u67d4\u548c\u8212\u9002\u7684\u58f0\u97f3\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 750,
+    "text": "\u8ba9\u5b83\u7a0d\u5fae\u66f4\u8df3\u8dc3\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 751,
+    "text": "\u8ba9\u5b83\u7a0d\u5fae\u66f4\u8df3\u8dc3\u4e00\u70b9\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 752,
+    "text": "Make it a bit more bouncy.",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 753,
+    "text": "Make it a bit more bouncy.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 754,
+    "text": "\u8ba9\u5b83\u66f4\u52a0\u5e73\u7a33\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 755,
+    "text": "\u8ba9\u5b83\u66f4\u52a0\u5e73\u7a33\u4e00\u4e9b\u3002",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 756,
+    "text": "\u4eba\u58f0\u8fd8\u662f\u6709\u70b9\u539a\u91cd\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 757,
+    "text": "The vocals are still a bit thick.",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 758,
+    "text": "The vocals are still a bit thick.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 759,
+    "text": "\u4eba\u58f0\u8fd8\u662f\u6709\u70b9\u8584\u3002",
+    "label": "\u4e2d\u9891"
+  },
+  {
+    "id": 760,
+    "text": "\u4eba\u58f0\u8fd8\u662f\u6709\u70b9\u8584\u3002",
+    "label": "\u4f4e\u9891"
+  },
+  {
+    "id": 761,
+    "text": "A bit abrupt, sudden",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 762,
+    "text": "A bit abrupt, sudden",
+    "label": "\u97f3\u91cf"
+  },
+  {
+    "id": 764,
+    "text": "\u975e\u5e38\u5e73\u6ed1\uff0c\u6e10\u8fdb \u8fd9\u6837\u5904\u7406\u540e\uff0c\u65e2\u4fdd\u7559\u4e86\u539f\u53e5\u7684\u610f\u601d\uff0c\u4e5f\u7ed9\u51fa\u4e86\u5176\u76f8\u53cd\u610f\u601d\u7684\u8868\u8fbe\u3002\u5e0c\u671b\u8fd9\u5bf9\u4f60\u7684\u6df7\u97f3\u9879\u76ee\u6709\u6240\u5e2e\u52a9\uff01\u5982\u679c\u8fd8\u6709\u5176\u4ed6\u9700\u6c42\u6216\u66f4\u5177\u4f53\u7684\u8c03\u6574\uff0c\u8bf7\u968f\u65f6\u544a\u8bc9\u6211\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 765,
+    "text": "\u538b\u7f29\u5668\u611f\u89c9\u6709\u70b9\u592a\u5f3a\u4e86\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 766,
+    "text": "The compressor feels a bit too strong.",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 767,
+    "text": "\u538b\u7f29\u5668\u611f\u89c9\u4e0d\u591f\u5f3a\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 768,
+    "text": "\u611f\u89c9\u53ef\u4ee5\u518d\u5c16\u9510\u4e00\u70b9\u3002",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 769,
+    "text": "It feels like it could be a bit sharper.",
+    "label": "\u9ad8\u9891"
+  },
+  {
+    "id": 770,
+    "text": "\u611f\u89c9\u53ef\u4ee5\u66f4\u67d4\u548c\u4e00\u4e9b\u3002",
+    "label": "\u538b\u7f29"
+  },
+  {
+    "id": 771,
+    "text": "\u611f\u89c9\u53ef\u4ee5\u66f4\u67d4\u548c\u4e00\u4e9b\u3002",
+    "label": "reverb"
+  },
+  {
+    "id": 772,
+    "text": "\u611f\u89c9\u53ef\u4ee5\u66f4\u67d4\u548c\u4e00\u4e9b\u3002",
+    "label": "\u97f3\u91cf"
+  }
+]

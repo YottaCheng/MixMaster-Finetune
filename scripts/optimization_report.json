@@ -1,0 +1,19 @@
+{
+  "total_samples": 699,
+  "unique_labels": 7,
+  "entropy": 2.7796,
+  "label_distribution": {
+    "高频": 112,
+    "中频": 130,
+    "低频": 65,
+    "reverb": 109,
+    "声场": 91,
+    "音量": 88,
+    "压缩": 104
+  },
+  "quality_metrics": {
+    "duplicate_rate": 0.09455958549222798,
+    "similarity_threshold": 0.8,
+    "adjustments_made": true
+  }
+}

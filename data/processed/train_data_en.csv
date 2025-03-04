@@ -1,0 +1,123 @@
+id,text_en,label_en
+1,"1. The cut is still a bit fierce, and the momentum seems to be gone",Compression
+2,"2. The cut is still a bit fierce, and the momentum seems to be gone",Low_Freq
+3,"3. Maybe after being suppressed too fiercely, it sounds weak",Compression
+4,4. The vocals and accompaniment are not matched,Stereo_Width
+5,5. The vocals and accompaniment are not matched,Volume
+6,6. The sound comes out a little more punchy,Mid_Freq
+7,7. The sound comes out a little more punchy,Compression
+8,"8. The overall voice can be dragged back a little bit. Now the listening experience is a bit forward, so I want to feel more labyrinthous.",Stereo_Width
+9,"9. The overall voice can be dragged back a little bit. Now the listening experience is a bit forward, so I want to feel more labyrinthous.",Reverb
+10,10. Adibs can also be quiet,Volume
+11,11. The voice is farther away from the ears,Stereo_Width
+12,12. The voice is farther away from the ears,Reverb
+13,13. Voices are more relevant to the ears,Stereo_Width
+14,14. The voice is more appropriate to the ears,Mid_Freq
+15,15. The voice is more round,Mid_Freq
+16,16. The voice is more round,High_Freq
+17,17. Want a post-punk decadence,Reverb
+18,18. Want a post-punk decadence,Low_Freq
+19,19. Want a reverb sound in the church,Reverb
+20,"20. If you want a little wider voice, don't gather in the middle.",Stereo_Width
+21,21. Girls make sweeter,High_Freq
+22,22. Girls make sweeter,Mid_Freq
+23,23. Want to be magnetic as a whole,Mid_Freq
+24,24. Want to be magnetic as a whole,Low_Freq
+25,25. Then the accompaniment sound is a little small,Volume
+26,26. 1:06-1:17 I feel that the sound has no sense of space,Reverb
+27,27. 1:06-1:17 I feel that the sound has no sense of space,Stereo_Width
+28,28. Don't be too electric if you have a clean sound,High_Freq
+29,29. Don't be too electric if the sound is clean,Compression
+30,30. Can be cleaner,High_Freq
+31,31. Can be cleaner,Compression
+32,32. What can be added to make it clean,High_Freq
+33,33. What can be added to make it clean,Compression
+34,"34. The overall vocals can be bigger now, the accompaniment seems a bit big",Volume
+35,35. It feels like a little vocals are floating on the accompaniment and it doesn't sink,Volume
+36,36. It feels like a little vocals are floating on the accompaniment and it doesn't sink,Low_Freq
+37,37. It’s better to feel a little bit smaller,Reverb
+38,38. Put a little more sound field,Stereo_Width
+39,39. The voice is protruding,Stereo_Width
+40,40. The voice is protruding,Volume
+41,41. Get down,Low_Freq
+42,42. Get down,Volume
+43,43. Autotune is getting heavy,High_Freq
+44,44. Autotune is getting heavy,Mid_Freq
+45,45. The graininess is too strong and a little thick,High_Freq
+46,46. ​​The graininess is too strong and a little thick,Compression
+47,47. Be weaker,Compression
+48,48. The sentence is pressed,Compression
+49,49. Bass is so loud,Low_Freq
+50,50. Bass is so loud,Volume
+51,51. Some of the Intro vocals are behind the accompaniment,Stereo_Width
+52,52. Some of the Intro vocals are behind the accompaniment,Volume
+53,"53. When the instrument is solo, the vocals are let go",Stereo_Width
+54,54. The energy is mainly concentrated in the medium and high accompaniment. The mid-frequency and high frequency can be controlled.,Mid_Freq
+55,55. The energy is mainly concentrated in the medium and high accompaniment. The mid-frequency and high frequency can be controlled.,High_Freq
+56,56. The voice was buried below,Volume
+57,"57. Also, the whole song has a little more space",Reverb
+58,"58. Also, the whole song has a little more space",Stereo_Width
+59,"59. Think about it a little bit ""sliding""",High_Freq
+60,"60. Think about it a little bit ""sliding""",Compression
+61,61. It just feels a bit more coherent,High_Freq
+62,62. It just feels a bit more coherent,Compression
+63,63. Then I can help me with my nasal sound,Mid_Freq
+64,64. Add less points to increase the sense of space,Reverb
+65,65. The space feel of the phone sound can be more sufficient and then the sound goes backwards,Reverb
+66,66. The space feel of the phone sound can be more sufficient and then the sound goes backwards,Stereo_Width
+67,67. Then the hook's breathing weakened,Compression
+68,"68. The voice can control a little high frequency, and then remove the tone, which sounds bright",High_Freq
+69,"69. The voice can control a little high frequency, and then remove the tone, which sounds bright.",Compression
+70,"70. The saturation of the medium and low parts is heavier, which leads to thick and turbidity in the medium and low parts.",Mid_Freq
+71,"71. The saturation of the medium and low parts is heavier, which leads to thick and turbidity in the medium and low parts.",Low_Freq
+72,72. Just being too damn,Reverb
+73,73. But feel your voice floating on the beat,Stereo_Width
+74,74. But feel your voice floating on the beat,Volume
+75,75. Isn't it a bit boring?,Mid_Freq
+76,76. Isn't it a bit boring?,High_Freq
+77,77. There is also a little more illusory Lala La tune,Reverb
+78,78. There is also a little more illusory Lala La tune,High_Freq
+79,79. Is there any three-dimensional feeling?,Stereo_Width
+80,80. It is better to broaden the sound field and make a difference,Stereo_Width
+81,81. But the volume is about the same effect as yours. You can make a little difference,Volume
+82,82. The voice can be lower,Volume
+83,83. Mixing gives life more space,Stereo_Width
+84,84. Mixing gives life more space,Reverb
+85,85. You can turn on the electric power to make the voice thicker,Mid_Freq
+86,86. You can turn on the electric power to make the voice thicker,Low_Freq
+87,87. Then the sound and reverb of my harmony are slightly smaller,Reverb
+88,88. Then the sound and reverb of my harmony are slightly smaller,Volume
+89,89. Then the sound is more penetrating than the particle size I want,High_Freq
+90,90. Then the sound is more penetrating than the particle size I want,Mid_Freq
+91,91. So I want to make it thicker,Mid_Freq
+92,92. So I want to make it thicker,Low_Freq
+93,93. I just like to have a more solid voice,Mid_Freq
+94,94. I just like to have a more solid voice,Low_Freq
+95,95. Be more penetrating,High_Freq
+96,96. Be more penetrating,Mid_Freq
+97,97. Can you compact the sound if you feel a little fluttered?,Low_Freq
+98,98. Can you compact the sound if you feel a little fluttered?,Stereo_Width
+99,99. The rustling,High_Freq
+100,100. The rustling,Compression
+101,101. The whole thing is dirty,Mid_Freq
+102,102. The overall mix is ​​a little dirty,Low_Freq
+103,103. The sound is cleaner,High_Freq
+104,104. The sound is cleaner,Compression
+105,105. Can the sound be made more recognizable,Mid_Freq
+106,106. Can the sound be made more recognizable,High_Freq
+107,107. Increase my nose sound,Mid_Freq
+108,108. Give my rhymes a little more,Mid_Freq
+109,109. Give my rhymes a little more,High_Freq
+110,110. Break my voice a little,High_Freq
+111,111. Breaking my voice a little bit,Compression
+112,112. Before 1:06 I felt like the sound was in ktv,Reverb
+113,113. After 1:06 I feel like I'm in the recording studio,Stereo_Width
+114,114. The breathing sound is too loud,Compression
+115,115. Swallowing sound severely,Compression
+116,116. The whole atmosphere is quieter,Volume
+117,117. The voice is softer and smoother,Mid_Freq
+118,118. The vocal graininess is a little smaller,High_Freq
+119,119. Mixing the voices is more aggressive,Compression
+120,120. Voice mix is ​​a bit more industrial,Mid_Freq
+121,121. Reverb is a little more industrial,Reverb
+122,122. Vocal Reverb Imitation Concert Hall,Reverb

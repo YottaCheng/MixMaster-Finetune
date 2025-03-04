@@ -1,0 +1,82 @@
+{
+  "人声": {
+    "count": 24,
+    "percentage": "8.57%"
+  },
+  "声音": {
+    "count": 15,
+    "percentage": "5.36%"
+  },
+  "感觉": {
+    "count": 15,
+    "percentage": "5.36%"
+  },
+  "然后": {
+    "count": 9,
+    "percentage": "3.21%"
+  },
+  "伴奏": {
+    "count": 7,
+    "percentage": "2.50%"
+  },
+  "稍微": {
+    "count": 6,
+    "percentage": "2.14%"
+  },
+  "就是": {
+    "count": 6,
+    "percentage": "2.14%"
+  },
+  "整体": {
+    "count": 5,
+    "percentage": "1.79%"
+  },
+  "想要": {
+    "count": 5,
+    "percentage": "1.79%"
+  },
+  "混响": {
+    "count": 5,
+    "percentage": "1.79%"
+  },
+  "空间感": {
+    "count": 5,
+    "percentage": "1.79%"
+  },
+  "还是": {
+    "count": 4,
+    "percentage": "1.43%"
+  },
+  "干净": {
+    "count": 4,
+    "percentage": "1.43%"
+  },
+  "现在": {
+    "count": 3,
+    "percentage": "1.07%"
+  },
+  "一下": {
+    "count": 3,
+    "percentage": "1.07%"
+  },
+  "好像": {
+    "count": 2,
+    "percentage": "0.71%"
+  },
+  "之后": {
+    "count": 2,
+    "percentage": "0.71%"
+  },
+  "往后": {
+    "count": 2,
+    "percentage": "0.71%"
+  },
+  "听感": {
+    "count": 2,
+    "percentage": "0.71%"
+  },
+  "耳朵": {
+    "count": 2,
+    "percentage": "0.71%"
+  }
+}

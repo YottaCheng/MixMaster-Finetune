@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "total_samples": 772,
+    "unique_labels": 7,
+    "entropy": "2.7852"
+  },
+  "label_distribution": {
+    "高频": 114,
+    "压缩": 123,
+    "中频": 142,
+    "音量": 100,
+    "低频": 75,
+    "reverb": 111,
+    "声场": 107
+  }
+}
