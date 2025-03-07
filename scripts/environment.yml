@@ -1,8 +1,7 @@
 name: mixing_env
 channels:
+  - conda-forge
   - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
 dependencies:
   - ca-certificates=2024.12.31=hca03da5_0
   - libcxx=14.0.6=h848a8c0_0
@@ -170,4 +169,4 @@ dependencies:
       - yarl==1.18.3
       - zhconv==1.4.3
       - zipp==3.21.0
-prefix: /opt/anaconda3/envs/mixing_env
+
