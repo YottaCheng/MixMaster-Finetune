@@ -39,3 +39,12 @@ saves/
 
 # Mac系统文件
 .DS_Store
+# 排除大模型权重文件
+config/Models/deepseek_R1_MixMaster/*.safetensors
+config/Models/deepseek_R1_MixMaster/*.bin
+config/Models/deepseek_R1_MixMaster/*.pth
+
+# 排除其他非必要文件（根据你的需求补充）
+__pycache__/
+.cache/
+*.log

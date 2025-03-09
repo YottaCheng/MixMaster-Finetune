@@ -1,0 +1,10 @@
+{
+    "high_freq": ["高频提升", "High Frequency Boost"],
+    "mid_freq": ["中频调整", "Mid Frequency Adjustment"],
+    "low_freq": ["低频控制", "Low Frequency Control"],
+    "compression": ["压缩处理", "Compression"],
+    "soundstage": ["声场宽度", "Soundstage Width"],
+    "reverb": ["混响效果", "Reverb"],
+    "volume": ["音量调节", "Volume Control"],
+    "effect": ["特殊效果", "Special Effects"]
+}
