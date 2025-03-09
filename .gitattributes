@@ -1,1 +1,5 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+config/Models/deepseek_R1_MixMaster/*.safetensors filter=lfs diff=lfs merge=lfs -text
 config/Models/deepseek_R1_MixMaster/*.bin filter=lfs diff=lfs merge=lfs -text
