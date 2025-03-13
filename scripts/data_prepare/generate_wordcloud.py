@@ -1,8 +1,11 @@
 """
-生成词云脚本 v1.2
-（移除外部文件依赖，内置停用词库）
+生成词云脚本 v1.4
+（修复代码块标记错误 + 完整路径验证）
+论文参考:
+1. 《A Survey of Data Augmentation Approaches for NLP》
+2. 《AEDA: An Easier Data Augmentation Technique for Text Classification》
 """
-
+from pathlib import Path
 import os
 from docx import Document
 from wordcloud import WordCloud
@@ -12,15 +15,18 @@ import jieba
 import json
 import re
 
-# 配置常量
-INPUT_PATH = "/Volumes/Study/prj/data/raw/training_raw_data.docx"
-WORDCLOUD_OUTPUT_PATH = "/Volumes/Study/prj/data/processed/wordcloud.png"
-JSON_OUTPUT_PATH = "/Volumes/Study/prj/data/processed/top_20_words.json"
+# ==================== 配置相对路径 ====================
+BASE_DIR = Path(__file__).parent.parent.parent  # 假设脚本在 scripts/data_prepare/ 目录
+CONFIG_PATH = BASE_DIR / "config" / "music_synonyms.json"
+INPUT_PATH = BASE_DIR / "data" / "raw" / "training_raw_data.docx"
+WORDCLOUD_OUTPUT_PATH = BASE_DIR / "data" / "processed" / "wordcloud.png"
+JSON_OUTPUT_PATH = BASE_DIR / "data" / "processed" / "top_20_words.json"
 
+# ==================== 函数定义 ====================
 def load_text_from_docx(file_path):
     """从 .docx 文件中提取所有段落文本"""
-    if not os.path.exists(file_path):
-        raise FileNotFoundError(f"文件不存在：{file_path}")
+    if not file_path.exists():
+        raise FileNotFoundError(f"输入文件不存在：{file_path}")
     
     try:
         doc = Document(file_path)
@@ -29,10 +35,21 @@ def load_text_from_docx(file_path):
     except Exception as e:
         raise RuntimeError(f"文档读取失败：{str(e)}")
 
+
+def load_protected_terms(config_path):
+    """从配置文件加载受保护领域术语"""
+    try:
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        return config.get("_protected", [])
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"警告：无法加载保护术语配置 - {str(e)}")
+        return []
+
 def is_valid_word(word):
     """智能词汇验证（增强过滤逻辑）"""
     # 基础过滤条件
-    if len(word) < 2 or not re.search(r'[\u4e00-\u9fa5]', word):
+    if len(word) < 1 or not re.search(r'[\u4e00-\u9fa5]', word):
         return False
     
     # 无意义词汇黑名单（已内置）
@@ -52,13 +69,17 @@ def is_valid_word(word):
     )
 
 def preprocess_text(text):
-    """预处理文本（内置停用词库）"""
+    """预处理文本（内置停用词库+领域术语保护）"""
     # 内置专业停用词库
     stopwords = {
         "的", "是", "在", "和", "有", "与", "了", "这", "我们", "可以",
         "要", "对", "就", "也", "都", "而", "及", "或", "但", "更", "其",
         "他", "它", "他们", "它们", "这个", "那个", "这些", "那些", "一种"
     }
+    
+    # 加载领域保护术语并加入停用词
+    protected_terms = load_protected_terms(CONFIG_PATH)
+    stopwords.update(protected_terms)
     
     # 精确分词+过滤
     words = [
@@ -115,6 +136,15 @@ def main():
         # 生成可视化结果
         generate_wordcloud(word_freq, WORDCLOUD_OUTPUT_PATH)
         save_top_words_to_json(word_freq, JSON_OUTPUT_PATH)
+        
+        # 验证保护术语隔离
+        protected_terms = load_protected_terms(CONFIG_PATH)
+        top_words = json.load(open(JSON_OUTPUT_PATH, "r", encoding="utf-8"))
+        leakage = [term for term in protected_terms if term in top_words]
+        if leakage:
+            print(f"⚠️ 保护术语泄漏：{leakage}")
+        else:
+            print("✅ 领域术语隔离成功")
         
     except Exception as e:
         print(f"处理失败: {str(e)}")

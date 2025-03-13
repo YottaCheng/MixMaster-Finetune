@@ -1,0 +1,23 @@
+# 采样策略（论文Section 5.3）
+sampling:
+  n_best: 3
+  base_temp: 0.3
+  top_p: 0.85
+
+# 质量控制（论文Section 4.1）
+quality:
+  max_length_diff: 0.3
+  min_keywords: 1
+
+# TF-IDF设置（论文Appendix A.2）
+tfidf:
+  max_features: 1000
+  top_k: 3
+
+# 重试策略
+retry:
+  max_attempts: 3
+
+# API配置
+api_key: "sk-3b986ed51abb4ed18aadde5d41e11397"
+base_url: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"

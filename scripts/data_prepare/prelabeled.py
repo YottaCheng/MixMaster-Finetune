@@ -22,11 +22,13 @@ CONFIG = {
         "压缩": ["动态控制", "句头", "句尾"],
         "reverb": ["空间感", "环境效果", "混响"],
         "声场": ["宽度", "定位", "立体感"],
-        "音量": ["电平调整", "音量"]
+        "音量": ["电平调整", "音量"],
+        "效果器": ["电", "autotune", "电话音", "失真"]
     },
     "conflict_rules": [
         (["高频", "低频"], 0.3),
         (["压缩", "reverb"], 0.5)
+        
     ],
     "verify_per_label": 1  # 每个标签验证样本数
 }
@@ -88,7 +90,7 @@ class AudioPreLabelSystem:
             self.context_rules = [
                 (r'人声.*伴奏', ['声场', '音量']),
                 (r'低频.*气势', ['低频', '压缩']),
-                (r'Autotune', ['高频', '中频']),
+                (r'Autotune', ['效果器']),
                 (r'punchy', ['中频', '压缩']),
                 (r'空间感', ['reverb', '声场'])
             ]
@@ -130,35 +132,41 @@ class AudioPreLabelSystem:
             return final_labels[:3]   # 最多返回3个最相关标签
     
     def _call_qwen(self, text: str) -> List[str]:
-        """增强版API调用方法"""
+        """适配QwQ模型的流式调用方法"""
         prompt = f"""作为专业混音师，请将用户需求转换为以下标准标签：
-可选标签包括：{', '.join(CONFIG['label_rules'].keys())}
-输入描述：{text}
-输出格式：仅返回逗号分隔的标签列表，不要其他内容"""
+    可选标签包括：{', '.join(CONFIG['label_rules'].keys())}
+    输入描述：{text}
+    输出格式：仅返回逗号分隔的标签列表，不要其他内容"""
         
         try:
+            # 修改后的QwQ调用
             response = Generation.call(
-                model="qwen-max",
+                model="qwq-plus-2025-03-05",  # 模型名称变更
                 messages=[{
                     "role": "user",
                     "content": prompt
                 }],
+                stream=True,                # 启用流式
+                incremental_output=True,    # 必须参数
                 temperature=0.2,
                 top_p=0.7,
                 max_tokens=50
             )
             
-            # 增强响应检查
-            if not response or not hasattr(response, 'output'):
-                print("API调用失败: 无有效响应")
-                return []
-                
-            output = response.output.get('text', '')  # 适配最新API响应结构
-            if not output:
+            # 流式响应处理
+            full_output = ""
+            for chunk in response:
+                if chunk.status_code == 200:
+                    full_output += chunk.output.choices[0]['message']['content']
+                else:
+                    print(f"流式块错误: {chunk.code}")
+            
+            # 后续处理保持原样
+            if not full_output:
                 print("API返回空内容")
                 return []
-                 
-            return [l.strip() for l in output.split(",") 
+                
+            return [l.strip() for l in full_output.split(",") 
                     if l.strip() in CONFIG["label_rules"]][:3]
             
         except Exception as e:
@@ -189,16 +197,16 @@ class AudioPreLabelSystem:
         # 创建紧凑列表格式
         line_num = 1
         for item in self.verified_data:
-            for label in item['labels']:
-                p = doc.add_paragraph(f"{line_num}. {item['text']}")
-                p.add_run(f"（{label}）").bold = True
-                line_num += 1
+            # 将标签列表转换为逗号分隔的中文字符串
+            labels_str = "，".join(item['labels'])
+            p = doc.add_paragraph(f"{line_num}. {item['text']}")
+            p.add_run(f"（{labels_str}）").bold = True  # 将所有标签放在同一个括号内
+            line_num += 1  # 每个样本递增行号
         
         # 保存文件
         os.makedirs(os.path.dirname(CONFIG["output_path"]), exist_ok=True)
         doc.save(CONFIG["output_path"])
         print(f"\n已保存预标注结果到：{CONFIG['output_path']}")
-
     def manual_verification(self):
         """全新验证流程"""
         label_map = defaultdict(list)

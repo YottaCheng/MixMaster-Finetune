@@ -1,2182 +1,1142 @@
 [
   {
-    "instruction": "让人声更平滑一点。",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "就是不够亮不够宽",
+    "output": "高频"
   },
   {
-    "instruction": "能不能减少些什么让混音听起来更浑浊一些？",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "就是不够亮不够宽",
+    "output": "高频"
   },
   {
-    "instruction": "能加什么给整的清晰一丢不够",
-    "output": "high_freq, mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "就是不够亮不够宽",
+    "output": "高频"
   },
   {
-    "instruction": "就是我想要嗓子再干少许",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "我想要轻轻的",
+    "output": "压缩"
   },
   {
-    "instruction": "让声音听起来更加自然柔和。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "我想要轻轻的",
+    "output": "压缩"
   },
   {
-    "instruction": "Mix it a bit softer.",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "我想要轻轻的",
+    "output": "压缩"
   },
   {
-    "instruction": "能不能把声音变得不那么有识别度？",
-    "output": "reverb, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "宽宽的",
+    "output": "声场"
   },
   {
-    "instruction": "切的还是有点猛了，气势好像没了",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "宽宽的",
+    "output": "声场"
   },
   {
-    "instruction": "修改的还是一点点猛了，冲击力差不多减弱了",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "宽宽的",
+    "output": "声场"
   },
   {
-    "instruction": "修改的还是略微猛了，力度似乎消退了",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "我想透一点但人声轻一点混响宽宽的",
+    "output": "reverb, 压缩, 高频"
   },
   {
-    "instruction": "可能被压的太凶之后，显得听着很弱",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "我想透一点但人声轻一点混响宽宽的",
+    "output": "reverb, 压缩, 高频"
   },
   {
-    "instruction": "可能被压的过分凶过后，显得听着过于软",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "我想透一点但人声轻一点混响宽宽的",
+    "output": "reverb, 压缩, 高频"
   },
   {
-    "instruction": "可能被压的超级凶接着，显得听着过于软",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "然后backup我不要双耳我要在人声的后面",
+    "output": "压缩"
   },
   {
-    "instruction": "人声跟伴奏不贴",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "然后backup我不要双耳我要在人声的后面",
+    "output": "压缩"
   },
   {
-    "instruction": "音色再出来一点更punchy一点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "然后backup我不要双耳我要在人声的后面",
+    "output": "压缩"
   },
   {
-    "instruction": "音色再出来一些更带劲一点",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "烘托一种饱满但不过分扭捏的氛围",
+    "output": "reverb, 低频"
   },
   {
-    "instruction": "音色再出来一丢更带劲一丢",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "烘托一种饱满但不过分扭捏的氛围",
+    "output": "reverb, 低频"
   },
   {
-    "instruction": "整体人声可以稍微往后拖一点点，现在听感上有一些前置了，想整体更layback感一些",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "烘托一种饱满但不过分扭捏的氛围",
+    "output": "reverb, 低频"
   },
   {
-    "instruction": "全局vocal可以少许往后放慢稍微，当下声音效果上有一点前置了，想要总体更慵懒感几许",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整个歌我还是想要很沉静",
+    "output": "压缩"
   },
   {
-    "instruction": "整体感觉vocal可以少许往后放慢有点，此刻听起来上有少许前置了，想要全局更放松感少许",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整个歌我还是想要很沉静",
+    "output": "压缩"
   },
   {
-    "instruction": "adibs的也可以小声一点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "整个歌我还是想要很沉静",
+    "output": "压缩"
   },
   {
-    "instruction": "人声离耳朵远一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "不舒服听感被砍住了掐着喉咙的感觉",
+    "output": "压缩"
   },
   {
-    "instruction": "vocal离听觉远一丢",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "不舒服听感被砍住了掐着喉咙的感觉",
+    "output": "压缩"
   },
   {
-    "instruction": "歌声离听力远一些",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "不舒服听感被砍住了掐着喉咙的感觉",
+    "output": "压缩"
   },
   {
-    "instruction": "人声更贴耳一点",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "那听着完全是那大舌头那种声音",
+    "output": "压缩"
   },
   {
-    "instruction": "人声更圆润一点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "那听着完全是那大舌头那种声音",
+    "output": "压缩"
   },
   {
-    "instruction": "想要后朋克的颓废感",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "那听着完全是那大舌头那种声音",
+    "output": "压缩"
   },
   {
-    "instruction": "想要在教堂里的混响听感",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音有点小",
+    "output": "音量"
   },
   {
-    "instruction": "希望在教堂里的空间声音效果",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音有点小",
+    "output": "音量"
   },
   {
-    "instruction": "打算在教堂里的环境听起来",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音有点小",
+    "output": "音量"
   },
   {
-    "instruction": "想要人声再宽一点别聚集在中间",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音轰头",
+    "output": "低频"
   },
   {
-    "instruction": "想vocal再宽一丢别聚集在中间",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音轰头",
+    "output": "低频"
   },
   {
-    "instruction": "想歌声再宽少点别聚集在中间",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低音轰头",
+    "output": "低频"
   },
   {
-    "instruction": "女生做的更甜一点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声听着好远",
+    "output": "中频"
   },
   {
-    "instruction": "想要整体有磁性",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声听着好远",
+    "output": "中频"
   },
   {
-    "instruction": "然后伴奏声音有点小",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声听着好远",
+    "output": "中频"
   },
   {
-    "instruction": "随后配乐嗓音略微小",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音太尖刺耳",
+    "output": "高频"
   },
   {
-    "instruction": "接着bgm音效稍微小",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音太尖刺耳",
+    "output": "高频"
   },
   {
-    "instruction": "1:06-1:17感觉声音没有空间感1:06之前感觉声音像在ktv 1:06之后感觉在录音棚",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音太尖刺耳",
+    "output": "高频"
   },
   {
-    "instruction": "1:06-1:17听起来嗓音没有立体感1:06之前听感声儿像在ktv 1:06之后听起来像在录音棚",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "像在澡堂唱歌",
+    "output": "reverb"
   },
   {
-    "instruction": "1:06-1:17听起来像嗓音没有立体感1:06之前听起来像声儿像在ktv 1:06过后感觉像在录音棚",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "像在澡堂唱歌",
+    "output": "reverb"
   },
   {
-    "instruction": "声音干净一点别太电",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "像在澡堂唱歌",
+    "output": "reverb"
   },
   {
-    "instruction": "声儿透亮少点别太电",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "电吉他像玩具声",
+    "output": "效果器"
   },
   {
-    "instruction": "嗓音清晰一丢别太电",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "电吉他像玩具声",
+    "output": "效果器"
   },
   {
-    "instruction": "可以再干净一点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "电吉他像玩具声",
+    "output": "效果器"
   },
   {
-    "instruction": "能加什么给整的干净一点不",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音全挤在中间",
+    "output": "声场"
   },
   {
-    "instruction": "能加什么给整的纯正一丢缺乏",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音全挤在中间",
+    "output": "声场"
   },
   {
-    "instruction": "整体人声可以大一点现在伴奏好像有点大",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音全挤在中间",
+    "output": "声场"
   },
   {
-    "instruction": "总体嗓子可以大少点当下配乐似乎略微大",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声忽大忽小",
+    "output": "压缩"
   },
   {
-    "instruction": "全盘来看vocal可以大一点目前bgm似乎一丢丢大",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声忽大忽小",
+    "output": "压缩"
   },
   {
-    "instruction": "感觉有点人声浮在伴奏上 没有沉下去",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声忽大忽小",
+    "output": "压缩"
   },
   {
-    "instruction": "觉得一点点歌声浮在乐器上 没有沉下去",
-    "output": "mid_freq, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体音量太小",
+    "output": "音量"
   },
   {
-    "instruction": "听起来稍微vocal浮在bgm上 没有沉下去",
-    "output": "mid_freq, soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体音量太小",
+    "output": "音量"
   },
   {
-    "instruction": "感觉空间感稍微小一点好",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "整体音量太小",
+    "output": "音量"
   },
   {
-    "instruction": "听感立体感轻微小一点好",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "贝斯嗡嗡响",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "觉得3D感略带小一点好",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "贝斯嗡嗡响",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "声场再贴一点",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "贝斯嗡嗡响",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "人声凸出来吧",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "副歌突然变炸",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "混低一点吧",
-    "output": "low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "副歌突然变炸",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "Autotune挂的重了",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "副歌突然变炸",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "颗粒感太强了有点粗",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频像刮玻璃",
+    "output": "高频"
   },
   {
-    "instruction": "混弱一点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频像刮玻璃",
+    "output": "高频"
   },
   {
-    "instruction": "句头被压了",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频像刮玻璃",
+    "output": "高频"
   },
   {
-    "instruction": "Bass大过人声了",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声被音乐淹没",
+    "output": "中频"
   },
   {
-    "instruction": "Intro部分人声在伴奏后面",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声被音乐淹没",
+    "output": "中频"
   },
   {
-    "instruction": "乐器独奏时人声让开",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声被音乐淹没",
+    "output": "中频"
   },
   {
-    "instruction": "能量主要集中在中和高了伴奏的中频和高频可以控制一下",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "回音太重",
+    "output": "reverb"
   },
   {
-    "instruction": "人声就被埋在下面了",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "回音太重",
+    "output": "reverb"
   },
   {
-    "instruction": "还有就是整首歌的空间感可以再足一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "回音太重",
+    "output": "reverb"
   },
   {
-    "instruction": "还有就整首歌的环绕感可以再足一丢",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "特殊音效听不清",
+    "output": "效果器"
   },
   {
-    "instruction": "还有就整首歌的3D感可以再足一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "特殊音效听不清",
+    "output": "效果器"
   },
   {
-    "instruction": "想的在稍微弄稍微 “滑” 一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "特殊音效听不清",
+    "output": "效果器"
   },
   {
-    "instruction": "想要的在少许弄轻微 “滑” 一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左边声音比右边大",
+    "output": "声场"
   },
   {
-    "instruction": "想要的在略带弄少许 “滑” 一丢",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左边声音比右边大",
+    "output": "声场"
   },
   {
-    "instruction": "就是感觉那种连贯一点",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "左边声音比右边大",
+    "output": "声场"
   },
   {
-    "instruction": "就是感觉像那种连贯一些",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "呼吸声太明显",
+    "output": "压缩"
   },
   {
-    "instruction": "就是要听感那种连贯一些",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "呼吸声太明显",
+    "output": "压缩"
   },
   {
-    "instruction": "然后我的鼻音能帮我去一点吧",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "呼吸声太明显",
+    "output": "压缩"
   },
   {
-    "instruction": "还是少加点增加空间感",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "手机放没低音",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "电话音那段空间感可以更足一点然后声音往后",
-    "output": "high_freq, reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "手机放没低音",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "电话音那段远近感可以更足少点接着声儿靠后",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "手机放没低音",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "电话音那段3D感可以更足一些之后嗓音往后",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音闷在罐子里",
+    "output": "高频"
   },
   {
-    "instruction": "然后hook 的有些大喘气弱化一下",
-    "output": "compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音闷在罐子里",
+    "output": "高频"
   },
   {
-    "instruction": "人声可以控制一点高频，再去去齿音，听着挺亮的",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音闷在罐子里",
+    "output": "高频"
   },
   {
-    "instruction": "主唱可以控制一丢高频，再去去高频刺音，听着挺亮的",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声像被掐着",
+    "output": "中频"
   },
   {
-    "instruction": "vocal可以控制一些高频，再去去高频刺音，听着挺亮的",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声像被掐着",
+    "output": "中频"
   },
   {
-    "instruction": "中低的部分饱和感比较重然后导致中低很厚浑浊",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声像被掐着",
+    "output": "中频"
   },
   {
-    "instruction": "就是混的太干了",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "回响太短",
+    "output": "reverb"
   },
   {
-    "instruction": "但是感觉你的声音飘在beat上",
-    "output": "soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "回响太短",
+    "output": "reverb"
   },
   {
-    "instruction": "但是听感你的音效飘在伴奏上",
-    "output": "soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "回响太短",
+    "output": "reverb"
   },
   {
-    "instruction": "但是听起来像你的声儿飘在伴奏上",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频段有共振",
+    "output": "低频"
   },
   {
-    "instruction": "是不是有点闷",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频段有共振",
+    "output": "低频"
   },
   {
-    "instruction": "还有啦啦啦调虚幻一点",
-    "output": "reverb, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低频段有共振",
+    "output": "低频"
   },
   {
-    "instruction": "有没有立体感",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声kHz需要提升",
+    "output": "中频"
   },
   {
-    "instruction": "还是声场拓宽一点做区别处理",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声kHz需要提升",
+    "output": "中频"
   },
   {
-    "instruction": "还是声场拓宽一些做区别切",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声kHz需要提升",
+    "output": "中频"
   },
   {
-    "instruction": "或是声场拓宽少点做区别切",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频齿音突出",
+    "output": "压缩, 高频"
   },
   {
-    "instruction": "但是音量的话差不多就是你那效果你可以做区别一点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频齿音突出",
+    "output": "压缩, 高频"
   },
   {
-    "instruction": "但是音量的话好像就是你那效果你可以做区别一些",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频齿音突出",
+    "output": "压缩, 高频"
   },
   {
-    "instruction": "但是音量的话好像就你那效果你可以做区别一丢",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声场太窄",
+    "output": "声场"
   },
   {
-    "instruction": "人声可以小点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声场太窄",
+    "output": "声场"
   },
   {
-    "instruction": "混音多给人生一点空间",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "立体声场太窄",
+    "output": "声场"
   },
   {
-    "instruction": "可以电开的大一下把人声做的厚一点",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响衰减调至秒",
+    "output": "reverb"
   },
   {
-    "instruction": "可以电开的大一刻把嗓子做的厚一些",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响衰减调至秒",
+    "output": "reverb"
   },
   {
-    "instruction": "可以电开的大一瞬把vocal做的厚一点",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "混响衰减调至秒",
+    "output": "reverb"
   },
   {
-    "instruction": "然后我和声的声音和混响稍微小一点",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "延迟反馈过多",
+    "output": "效果器"
   },
   {
-    "instruction": "再然后我和声的嗓音和厅堂效果有点小一丢",
-    "output": "reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "延迟反馈过多",
+    "output": "效果器"
   },
   {
-    "instruction": "之后我和声的音效和空间少许小一些",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "延迟反馈过多",
+    "output": "效果器"
   },
   {
-    "instruction": "然后声音的穿透性强一点就我想要的颗粒度明显一点",
-    "output": "high_freq, mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体响度不足",
+    "output": "音量"
   },
   {
-    "instruction": "接着声儿的穿透性强一些就是我打算的颗粒度明显一些",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体响度不足",
+    "output": "音量"
   },
   {
-    "instruction": "之后嗓音的穿透性强少点就是我希望的颗粒度明显少点",
-    "output": "high_freq, mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "整体响度不足",
+    "output": "音量"
   },
   {
-    "instruction": "所以我想弄的夯实厚一点",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "底鼓Hz过量",
+    "output": "低频"
   },
   {
-    "instruction": "我就喜欢声音实一点",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "底鼓Hz过量",
+    "output": "低频"
   },
   {
-    "instruction": "我就是喜欢声儿实一丢",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "底鼓Hz过量",
+    "output": "低频"
   },
   {
-    "instruction": "我就是喜欢音效实一些",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声Hz凹陷",
+    "output": "中频"
   },
   {
-    "instruction": "能有穿透力一点",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声Hz凹陷",
+    "output": "中频"
   },
   {
-    "instruction": "感觉声音有点飘能不能把声音压实一点",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声Hz凹陷",
+    "output": "中频"
   },
   {
-    "instruction": "听起来嗓音一丢丢飘能不能把声儿压实一点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频空气感不足",
+    "output": "高频"
   },
   {
-    "instruction": "听起来声儿稍微飘能不能把嗓音压实少点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频空气感不足",
+    "output": "高频"
   },
   {
-    "instruction": "巨沙沙的",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频空气感不足",
+    "output": "高频"
   },
   {
-    "instruction": "整体混的脏一点",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响predelay加长",
+    "output": "reverb"
   },
   {
-    "instruction": "全盘来看混的闷一些",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响predelay加长",
+    "output": "reverb"
   },
   {
-    "instruction": "整体感觉混的糊一丢",
-    "output": "mid_freq, low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "混响predelay加长",
+    "output": "reverb"
   },
   {
-    "instruction": "声音处理的干净一点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声像偏移",
+    "output": "声场"
   },
   {
-    "instruction": "声儿切的无杂音一丢",
-    "output": "volume, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声像偏移",
+    "output": "声场"
   },
   {
-    "instruction": "嗓音切的清晰少点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "立体声像偏移",
+    "output": "声场"
   },
   {
-    "instruction": "能不能把声音变得更有识别度",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "特殊效果镶边过重",
+    "output": "效果器"
   },
   {
-    "instruction": "加重我的鼻音",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "特殊效果镶边过重",
+    "output": "效果器"
   },
   {
-    "instruction": "给我的韵脚的声音加重",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "特殊效果镶边过重",
+    "output": "效果器"
   },
   {
-    "instruction": "把我的声音变得破碎一点",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左右声道不平衡",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "呼吸声太大了",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左右声道不平衡",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "吞音严重",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "左右声道不平衡",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "整首氛围更安静一点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频浑浊",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "人声柔和顺滑一点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频浑浊",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "人声颗粒感小一点",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低频浑浊",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "把人声混的更有攻击性",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "中频段有遮蔽效应",
+    "output": "声场, 中频"
   },
   {
-    "instruction": "人声混的更工业一点",
-    "output": "compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "中频段有遮蔽效应",
+    "output": "声场, 中频"
   },
   {
-    "instruction": "混响更工业一点",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "中频段有遮蔽效应",
+    "output": "声场, 中频"
   },
   {
-    "instruction": "人声混响模仿音乐厅",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响干湿比调整",
+    "output": "reverb"
   },
   {
-    "instruction": "就是我想人声再干一些",
-    "output": "reverb, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响干湿比调整",
+    "output": "reverb"
   },
   {
-    "instruction": "就是要我想要歌声再干些许",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "混响干湿比调整",
+    "output": "reverb"
   },
   {
-    "instruction": "因为我很喜欢demo那个tune的那个电流感 所以再干一点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "动态范围过小",
+    "output": "压缩"
   },
   {
-    "instruction": "人声稍微小一点点",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "动态范围过小",
+    "output": "压缩"
   },
   {
-    "instruction": "主唱轻微小稍微",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "动态范围过小",
+    "output": "压缩"
   },
   {
-    "instruction": "歌声少许小稍微",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音听着心慌",
+    "output": "低频"
   },
   {
-    "instruction": "混响可以再小一点",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音听着心慌",
+    "output": "低频"
   },
   {
-    "instruction": "现在听着有点顶耳朵",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低音听着心慌",
+    "output": "低频"
   },
   {
-    "instruction": "当下听着略微顶听觉",
-    "output": "high_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声像隔着门",
+    "output": "中频"
   },
   {
-    "instruction": "此刻听着略微顶耳朵",
-    "output": "high_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声像隔着门",
+    "output": "中频"
   },
   {
-    "instruction": "咋感觉听着这么糊",
-    "output": "mid_freq, low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声像隔着门",
+    "output": "中频"
   },
   {
-    "instruction": "感觉听起来质感沙沙的",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频沙沙响",
+    "output": "高频"
   },
   {
-    "instruction": "帮我弄的带动气氛一点吧 听起来有点沉",
-    "output": "high_freq, compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频沙沙响",
+    "output": "高频"
   },
   {
-    "instruction": "帮我弄的带动气氛一点吧 听感一丢丢沉",
-    "output": "low_freq, reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频沙沙响",
+    "output": "高频"
   },
   {
-    "instruction": "帮我弄的带动气氛一丢吧 感觉略微沉",
-    "output": "high_freq, compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "房间回声不自然",
+    "output": "reverb"
   },
   {
-    "instruction": "咋感觉听上去有种在打电话的感觉哈哈哈哈哈",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "房间回声不自然",
+    "output": "reverb"
   },
   {
-    "instruction": "就像我人生剥离出那个伴奏了一样，像两个独立的东西一样，没融进去",
-    "output": "soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "房间回声不自然",
+    "output": "reverb"
   },
   {
-    "instruction": "再薄一丢",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "失真效果太假",
+    "output": "效果器"
   },
   {
-    "instruction": "然后delay多一点",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "失真效果太假",
+    "output": "效果器"
   },
   {
-    "instruction": "其实有那种就是特别薄，然后就有一点刺刺的那种感觉",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "失真效果太假",
+    "output": "效果器"
   },
   {
-    "instruction": "其实有那种就是说太薄，随后就是有少点刺刺的那种感觉像",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音没层次感",
+    "output": "声场"
   },
   {
-    "instruction": "其实有那种就是说太薄，再然后就是有一丢刺刺的那种觉得",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音没层次感",
+    "output": "声场"
   },
   {
-    "instruction": "就比较跳一点。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音没层次感",
+    "output": "声场"
   },
   {
-    "instruction": "人声还是有点厚",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声压缩过度",
+    "output": "压缩"
   },
   {
-    "instruction": "vocal还是说略微厚",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声压缩过度",
+    "output": "压缩"
   },
   {
-    "instruction": "歌声还是一丢丢厚",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声压缩过度",
+    "output": "压缩"
   },
   {
-    "instruction": "有点突兀，突然",
-    "output": "compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "伴奏比人声响",
+    "output": "音量"
   },
   {
-    "instruction": "压缩器感觉有点大",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "伴奏比人声响",
+    "output": "音量"
   },
   {
-    "instruction": "感觉可以再尖锐点",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "伴奏比人声响",
+    "output": "音量"
   },
   {
-    "instruction": "切得还是有点过于猛烈了，感觉气势好像没了。",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "贝斯和底鼓打架",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "The cut is still a bit too harsh, it seems like the momentum has been lost.",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "贝斯和底鼓打架",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "剪辑得太柔和了，反而让作品显得更有力量感。",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "贝斯和底鼓打架",
+    "output": "低频, 压缩"
   },
   {
-    "instruction": "可能被压缩得太厉害之后，听起来很弱。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "副歌电平突降",
+    "output": "中频, 音量"
   },
   {
-    "instruction": "It might sound too weak after being compressed too aggressively.",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "副歌电平突降",
+    "output": "中频, 音量"
   },
   {
-    "instruction": "它可能在经过适当的处理后，听起来非常强劲。",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "副歌电平突降",
+    "output": "中频, 音量"
   },
   {
-    "instruction": "人声和伴奏不太匹配。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频金属感过强",
+    "output": "效果器, 高频"
   },
   {
-    "instruction": "The vocals and the instrumental don't match well.",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频金属感过强",
+    "output": "效果器, 高频"
   },
   {
-    "instruction": "人声和伴奏非常契合。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频金属感过强",
+    "output": "效果器, 高频"
   },
   {
-    "instruction": "让音色再出来一点，更加有力。",
-    "output": "mid_freq, low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声鼻音太重",
+    "output": "压缩, 中频"
   },
   {
-    "instruction": "Make the tone come out a bit more and be punchier.",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声鼻音太重",
+    "output": "压缩, 中频"
   },
   {
-    "instruction": "让音色稍微收回去一些，并且柔和一些。",
-    "output": "compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声鼻音太重",
+    "output": "压缩, 中频"
   },
   {
-    "instruction": "整体人声可以稍微往后拉一点点，因为现在听起来有些前置了。我希望整体感觉更加放松一些。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响像金属房间",
+    "output": "reverb, 声场"
   },
   {
-    "instruction": "The overall vocals could be pulled back a little bit, as they sound a bit too forward right now. I'd like the overall feel to be more laid-back.",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响像金属房间",
+    "output": "reverb, 声场"
   },
   {
-    "instruction": "整体人声可以稍微往前推一点点，现在听感上有一些后置了，想让整体更突出一些。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "混响像金属房间",
+    "output": "reverb, 声场"
   },
   {
-    "instruction": "adibs的声音也可以稍微小一点。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "延迟效果不跟拍",
+    "output": "效果器"
   },
   {
-    "instruction": "The volume of adibs can also be a bit lower.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "延迟效果不跟拍",
+    "output": "效果器"
   },
   {
-    "instruction": "adibs的声音也可以稍微大一点。）",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "延迟效果不跟拍",
+    "output": "效果器"
   },
   {
-    "instruction": "人声应该离耳朵远一点。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音左右飘忽",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "The vocals should be a bit further from the ear.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "声音左右飘忽",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "人声离耳朵近一点。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "声音左右飘忽",
+    "output": "声场, 音量"
   },
   {
-    "instruction": "让人声更加贴近。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "手机外放没厚度",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "Make the vocals more intimate.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "手机外放没厚度",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "让声音听起来更遥远一些。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "手机外放没厚度",
+    "output": "低频, 音量"
   },
   {
-    "instruction": "Make the vocals a bit smoother.",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频像电话音",
+    "output": "高频"
   },
   {
-    "instruction": "让声音更粗糙一些。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "高频像电话音",
+    "output": "高频"
   },
   {
-    "instruction": "我想要后朋克的颓废感。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "高频像电话音",
+    "output": "高频"
   },
   {
-    "instruction": "I want a post-punk sense of decay.",
-    "output": "reverb, soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声闷在胸腔",
+    "output": "中频"
   },
   {
-    "instruction": "我希望有一种充满活力且积极向上的感觉，远离后朋克风格。",
-    "output": "high_freq, mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声闷在胸腔",
+    "output": "中频"
   },
   {
-    "instruction": "希望获得如同在教堂中的混响听感",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声闷在胸腔",
+    "output": "中频"
   },
   {
-    "instruction": "Desire the reverb sound as if in a church",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响和干声脱节",
+    "output": "reverb, 压缩"
   },
   {
-    "instruction": "不想要任何类似于教堂的混响效果，偏好干声或其它环境下的自然声音",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "混响和干声脱节",
+    "output": "reverb, 压缩"
   },
   {
-    "instruction": "我希望人声能够再宽一些，不要那么集中在中间。",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "混响和干声脱节",
+    "output": "reverb, 压缩"
   },
   {
-    "instruction": "I want the vocals to be a bit wider and not so centered.",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音喇叭破音",
+    "output": "效果器, 低频"
   },
   {
-    "instruction": "我希望人声更窄一些，并且更加集中在中间。",
-    "output": "mid_freq, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低音喇叭破音",
+    "output": "效果器, 低频"
   },
   {
-    "instruction": "让女生的声音更甜美一点。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低音喇叭破音",
+    "output": "效果器, 低频"
   },
   {
-    "instruction": "Make the female vocals a bit sweeter.",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声kHz缺失",
+    "output": "中频, 高频"
   },
   {
-    "instruction": "让女生的声音不那么甜美。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声kHz缺失",
+    "output": "中频, 高频"
   },
   {
-    "instruction": "我希望整体声音具有磁性。",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声kHz缺失",
+    "output": "中频, 高频"
   },
   {
-    "instruction": "I want the overall sound to be magnetic.",
-    "output": "soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声像头中效应",
+    "output": "声场"
   },
   {
-    "instruction": "我不希望整体声音有磁性，想要它听起来更平淡一些。",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "立体声像头中效应",
+    "output": "声场"
   },
   {
-    "instruction": "然后，伴奏的声音有点小。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "立体声像头中效应",
+    "output": "声场"
   },
   {
-    "instruction": "Then, the accompaniment sound is a bit low.",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "板式混响密度过高",
+    "output": "reverb"
   },
   {
-    "instruction": "然后，伴奏的声音有点大。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "板式混响密度过高",
+    "output": "reverb"
   },
   {
-    "instruction": "从1:06到1:17，声音感觉缺乏空间感。1:06之前，听起来像是在KTV里；1:06之后，听起来像是在录音棚里。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "板式混响密度过高",
+    "output": "reverb"
   },
   {
-    "instruction": "From 1:06 to 1:17, the sound feels lacking in spatial sense. Before 1:06, it sounds like it's in a KTV, and after 1:06, it sounds like it's in a recording studio.",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "滤波效果太突兀",
+    "output": "效果器"
   },
   {
-    "instruction": "从1:06到1:17，声音感觉非常有空间感。1:06之前，听起来像是在录音棚里；1:06之后，听起来像是在KTV里。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "滤波效果太突兀",
+    "output": "效果器"
   },
   {
-    "instruction": "让声音干净一点，不要太电子化。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "滤波效果太突兀",
+    "output": "效果器"
   },
   {
-    "instruction": "Make the sound a bit cleaner, not too electric.",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左右声道相位问题",
+    "output": "声场, 低频"
   },
   {
-    "instruction": "让声音更浑浊一些，增加电子感。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "左右声道相位问题",
+    "output": "声场, 低频"
   },
   {
-    "instruction": "可以再干净一点。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "左右声道相位问题",
+    "output": "声场, 低频"
   },
   {
-    "instruction": "It can be a bit cleaner.",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体动态被压扁",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "可以让它更浑浊一些。",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "整体动态被压扁",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "能不能加点什么让混音更干净一些？",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "整体动态被压扁",
+    "output": "压缩, 音量"
   },
   {
-    "instruction": "Can we add something to make the mix cleaner?",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频下潜不足",
+    "output": "低频"
   },
   {
-    "instruction": "整体人声可以稍微大一点，因为现在的伴奏听起来有点太突出了。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "低频下潜不足",
+    "output": "低频"
   },
   {
-    "instruction": "The overall vocals could be a bit louder, as the accompaniment seems a little too prominent right now.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "低频下潜不足",
+    "output": "低频"
   },
   {
-    "instruction": "整体人声可以小一点，现在伴奏好像有点不够突出。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声喉音过重",
+    "output": "压缩, 中频"
   },
   {
-    "instruction": "感觉人声有点浮在伴奏之上，没有融入进去。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
+    "input": "人声喉音过重",
+    "output": "压缩, 中频"
   },
   {
-    "instruction": "It feels like the vocals are floating above the instrumental, not sinking into it.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉人声很好地融入了伴奏之中，完全沉下去了。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉稍微小一点的空间感会更好",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Feel like a slightly smaller sense of space would be better",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉空间感稍微大一点好",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让声场再贴近一点。",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the sound field a bit more intimate.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让声场更开阔一些。",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让人声突出一些。",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Let the vocals stand out.",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让背景音乐盖过人声。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Mix it a bit lower.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "混高一点吧",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Autotune挂得过重了。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The Autotune is too heavy.",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Autotune挂得太轻了。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "颗粒感太强了，感觉有点粗糙。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The graininess is too strong, it feels a bit coarse.",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "颗粒感不够细腻，显得有些平滑。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "混得稍微柔和一点。",
-    "output": "compression, reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "混强一点",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "句子的开头被压缩了。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The beginning of the sentence is being compressed.",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "句头需要被放大/增强。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "贝斯盖过了人声。",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The bass is overpowering the vocals.",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声盖过了贝斯。",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Intro部分的人声在伴奏后面。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocal in the intro section is behind the instrumental.",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Intro部分人声在伴奏前面。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "当乐器独奏时，人声应该退后。",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "When the instrument is playing solo, the vocals should step back.",
-    "output": "soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "当乐器独奏时，人声应该更加突出。",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能量主要集中在中频和高频，因此伴奏的中频和高频可以稍微控制一下。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The energy is mainly concentrated in the mid and high frequencies, so the mid and high frequencies of the accompaniment could be controlled a bit.",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能量不足于中频和高频，所以需要增强伴奏中的中频和高频。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声被埋在下面了。",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocals are buried underneath.",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声非常突出。",
-    "output": "mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "还有就是整首歌的空间感可以再增强一点。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Also, the sense of space throughout the entire song could be enhanced a bit more.",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "另外，整首歌的空间感应该减少一些。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我希望它能稍微“滑”一点。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "I'd like it to be a bit more \"smooth\".",
-    "output": "compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我想让它稍微“粗糙”一点。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It just feels like it needs to be a bit more cohesive.",
-    "output": "soundstage, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "就是感觉那种断开一些",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后你能帮我减少一点鼻音吗？",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Could you help me reduce my nasal sound a bit?",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后我的鼻音能帮我加多一点吧",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "还是少加点来增强空间感。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Still, add a bit less to enhance the sense of space.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "反而多加一些减少空间感。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "电话音那段的空间感可以更明显一些，然后声音应该往后推。",
-    "output": "high_freq, reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The sense of space in the telephone sound part can be a bit more pronounced, and the sound should be pushed back.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "电话音那段空间感需要减少一点，并且声音要往前拉。",
-    "output": "high_freq, reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后，把hook里的大喘气稍微弱化一下。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Then, weaken the heavy breathing in the hook a bit.",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后，增强一下hook部分的大喘气。",
-    "output": "volume, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声可以控制一点高频，同时再做一些去齿音处理，因为听起来挺亮的。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocals could use a bit of high-frequency control, and also some de-essing, as they sound quite bright.",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声需要增加一些高频，并减少去齿音处理，因为听起来不够明亮。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "中低部分的饱和感比较重，这使得中低音变得厚重且浑浊。",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The mid-low part has a rather heavy saturation, which makes the mid-lows thick and muddy.",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "中低的部分饱和感较轻，因此中低音显得清晰而干净。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "就是混得太干了。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It's just mixed too dry.",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "就是混得太过湿润了。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "But I feel like your voice is floating over the beat.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "但是感觉你的声音稳稳地贴合着beat",
-    "output": "mid_freq, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "是不是有点闷？",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Is it a bit muffled?",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "是不是听起来很清晰？",
-    "output": "high_freq, mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "还有，把“啦啦啦”部分调得更虚幻一点。",
-    "output": "reverb, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Also, make the \"la la la\" part a bit more ethereal.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "另外，让“啦啦啦”这部分听起来更加实在一些。",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Is there a sense of stereo?",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "是不是感觉很平面？",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "还是把声场拓宽一点来做区分。",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Still, widen the sound field a bit for differentiation.",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "反而缩小声场，不做特别处理。",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "但是对于音量来说，差不多就是你的那个效果；你可以让它稍微有些区别。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "But for the volume, it's about the same as your effect; you could make it a bit more distinct.",
-    "output": "volume, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "但是关于音量，我希望它与你之前的效果完全不同；请尽量让它们听起来更加相似。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声可以稍微柔和一点。",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocals can be a bit softer.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声可以大点。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "在混音中给歌声多留一点空间。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Give the vocals a bit more space in the mix.",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "压缩混音中人声的空间。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "当电开较大时，可以把人声做得厚一点。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Could you make the vocal a bit thicker when the electric opening is big?",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "可以电开的小一点把人声做得薄一些。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后，让我的和声声音和混响稍微小一点。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Then, make my harmony vocals and reverb a bit softer.",
-    "output": "reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "接着，请把我的和声部分以及混响效果调得更明显一些。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后，我希望声音的穿透性强一点，并且颗粒感更明显一些。",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Then, I want the sound to have a bit more penetration and a more noticeable graininess.",
-    "output": "high_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "接着，我希望声音的穿透性弱一些，颗粒度不那么明显。",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "所以我希望它听起来更加坚实且丰满一些。",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "So I want it to sound more solid and fuller.",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "所以我想要它听起来更轻薄些。",
-    "output": "high_freq, mid_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我就喜欢声音更实一点。",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "I just prefer the sound to be more solid.",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我更倾向于让声音听起来轻柔一些。",
-    "output": "reverb, soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能更有穿透力一点吗？",
-    "output": "high_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Can it be a bit more piercing?",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能让它更柔和一些吗？",
-    "output": "compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉声音有点飘，能不能让声音更扎实一点？",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The sound feels a bit floaty, could you make it more grounded?",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉声音太沉了，能不能让它听起来更轻盈一些？",
-    "output": "high_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "极其沙哑的",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Extremely sandy",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "非常清晰的 注释：这里的“巨沙沙的”可能是指声音特别沙哑，因此在翻译时选择了“Extremely sandy”，但更常见的表达方式可能是“Extremely raspy”。根据上下文，“非常清晰的”作为其反义较为合适。如果原句指的是其他含义，请提供更多的背景信息以便于更准确地翻译。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让整体混音稍微脏一点。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the overall mix a bit dirtier.",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让整体混音更加干净。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让声音处理更干净一点。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the sound processing cleaner.",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让声音处理更加浑浊一些。",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能不能让声音变得更易识别？",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Could you make the voice more recognizable?",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "增强我的鼻音",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Enhance my nasal tone",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "减轻我的鼻音",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Add more weight to the sound of my rhymes.",
-    "output": "low_freq, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "减轻我韵脚的声音重量 这样处理后，既满足了翻译的要求也实现了意思的反转。希望这能帮到你！如果有更多具体的混音需求或其它帮助，请随时告诉我。",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "把我的声音变得稍微破碎一点。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make my voice sound a bit more broken.",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让我的声音听起来更加圆润流畅。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "呼吸声太大了。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The breathing sound is too loud.",
-    "output": "volume, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "呼吸声太小了。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "严重的吞音现象",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Severe swallowing of sounds",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "发音清晰",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让整体氛围稍微安静一点。",
-    "output": "reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the overall atmosphere a bit quieter.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让整首歌的氛围更加热闹一些。",
-    "output": "reverb, soundstage, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让人声更柔和顺滑一点。",
-    "output": "mid_freq, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the vocals softer and smoother.",
-    "output": "compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让声音更加粗糙和尖锐。",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让人声的颗粒感减少一点。",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Reduce the graininess of the vocals a bit.",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "增加人声的颗粒感。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让人声更有攻击性。",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the vocals more aggressive.",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "把人声混得更加柔和。",
-    "output": "compression, reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让人声听起来更工业一些。",
-    "output": "compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the vocals sound more industrial.",
-    "output": "compression, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让混响更工业一些。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make the reverb more industrial.",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让混响更加自然柔和。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声混响应该模仿音乐厅",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Vocal reverb should mimic a concert hall",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声混响避免模仿音乐厅，寻求更直接或不同的空间感",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我想让人声更干一些。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "I want the vocals to be drier.",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "我希望人声更加湿润。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "因为我非常喜欢demo中那个曲调的电流感，所以请让它更干一点。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Because I really like the electric feel of that tune in the demo, please make it drier.",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "因为我不是很喜欢demo中那个tune的电流感，所以请让声音更加湿润一些。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声应该稍微小一点。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocals should be slightly quieter.",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声稍微大一点点。",
-    "output": "volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "混响可以稍微减少一点。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The reverb can be a bit less.",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "混响可以再大一点。",
-    "output": "reverb",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "现在听着有点刺耳。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It sounds a bit harsh on the ears right now.",
-    "output": "high_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "现在听起来非常柔和悦耳。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "怎么感觉听起来这么闷？",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "How come it sounds so muffled?",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "怎么感觉听起来这么清晰？",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉听起来质感沙沙的。",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It feels like the sound has a gritty texture.",
-    "output": "mid_freq, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉听起来质感非常平滑。",
-    "output": "high_freq, mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "能帮我弄得更活跃一点吗？听起来有点沉闷。",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Could you make it a bit more lively? It sounds a bit dull.",
-    "output": "reverb, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "请让它更加平静一些吧，现在感觉太活泼了。",
-    "output": "compression, reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉听起来有种在打电话的感觉，哈哈哈哈哈。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It feels like there's a sense of listening to a phone call, hahaha.",
-    "output": "high_freq, mid_freq, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "怎么觉得听起来完全没有在打电话的那种感觉呢，一点都不像。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉就像是我的生活中剥离出了那个伴奏一样，像是两个没有融合在一起的独立实体。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.",
-    "output": "soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "就像我的生活与那个伴奏完美地融为一体，彼此之间没有任何分离感。",
-    "output": "reverb, soundstage",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让它再薄一点",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make it a bit thinner",
-    "output": "high_freq, mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让它更厚一些",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后增加更多的延迟。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Then add more delay.",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "然后减少delay。",
-    "output": "effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "其实有那种声音特别薄，然后有一点刺耳的感觉。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Actually, there's this kind of sound that is particularly thin and has a slightly piercing quality to it.",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "实际上，想要的是那种非常饱满且听起来柔和舒适的声音。",
-    "output": "mid_freq, low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让它稍微更跳跃一点。",
-    "output": "volume, effect",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "Make it a bit more bouncy.",
-    "output": "low_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "让它更加平稳一些。",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声还是有点厚重。",
-    "output": "mid_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The vocals are still a bit thick.",
-    "output": "mid_freq, compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "人声还是有点薄。",
-    "output": "mid_freq, low_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "A bit abrupt, sudden",
-    "output": "compression, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "非常平滑，渐进 这样处理后，既保留了原句的意思，也给出了其相反意思的表达。希望这对你的混音项目有所帮助！如果还有其他需求或更具体的调整，请随时告诉我。",
-    "output": "reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "压缩器感觉有点太强了。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "The compressor feels a bit too strong.",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "压缩器感觉不够强。",
-    "output": "compression",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉可以再尖锐一点。",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "It feels like it could be a bit sharper.",
-    "output": "high_freq",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
-  },
-  {
-    "instruction": "感觉可以更柔和一些。",
-    "output": "compression, reverb, volume",
-    "system": "你是一个专业音乐制作助手，请根据用户对音频效果的描述，从以下标签中选择合适的处理方式：\n[high_freq, mid_freq, low_freq, compression, soundstage, reverb, volume, effect]\n返回以逗号分隔的标签组合，例如：high_freq,compression"
+    "instruction": "分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）",
+    "input": "人声喉音过重",
+    "output": "压缩, 中频"
   }
 ]

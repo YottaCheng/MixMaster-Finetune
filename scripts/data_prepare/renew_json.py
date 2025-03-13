@@ -1,22 +1,30 @@
+"""
+论文参考:
+1. 《A Survey of Data Augmentation Approaches for NLP》
+2. 《AEDA: An Easier Data Augmentation Technique for Text Classification》
+"""
 import os
 import json
+from pathlib import Path
 from dashscope import Generation
 
-# 配置文件路径
-top_words_file = "/Volumes/Study/prj/data/processed/top_20_words.json"
-synonyms_file = "/Volumes/Study/prj/config/music_synonyms.json"
+# 配置相对路径
+BASE_DIR = Path(__file__).parent.parent.parent  # 假设脚本在 scripts/ 目录
+CONFIG_DIR = BASE_DIR / "config"
+DATA_DIR = BASE_DIR / "data"
+
+top_words_file = DATA_DIR / "processed" / "top_20_words.json"
+synonyms_file = CONFIG_DIR / "music_synonyms.json"
 
 def load_json(file_path):
-    """加载 JSON 文件"""
+    """加载 JSON 文件（增加路径校验）"""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"文件未找到: {file_path}")
-        return {}
+        raise FileNotFoundError(f"关键文件缺失: {file_path}")
     except json.JSONDecodeError:
-        print(f"JSON 解码错误: {file_path}")
-        return {}
+        raise ValueError(f"配置文件损坏: {file_path}")
 
 def save_json(data, file_path):
     """保存 JSON 文件"""

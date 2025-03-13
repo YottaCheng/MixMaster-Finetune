@@ -1,772 +1,689 @@
-1. 增加人声的颗粒感。（高频）
-2. 增加人声的颗粒感。（压缩）
-3. 听起来稍微vocal浮在bgm上 没有沉下去（中频）
-4. 听起来稍微vocal浮在bgm上 没有沉下去（音量）
-5. 所以我希望它听起来更加坚实且丰满一些。（低频）
-6. 所以我希望它听起来更加坚实且丰满一些。（中频）
-7. 让音色再出来一点，更加有力。（中频）
-8. 让音色再出来一点，更加有力。（低频）
-9. 让音色再出来一点，更加有力。（压缩）
-10. 打算在教堂里的环境听起来（reverb）
-11. The vocals and the instrumental don't match well.（声场）
-12. The vocals and the instrumental don't match well.（音量）
-13. 人声可以大点。（音量）
-14. 切的还是有点猛了，气势好像没了（低频）
-15. 切的还是有点猛了，气势好像没了（压缩）
-16. 切的还是有点猛了，气势好像没了（音量）
-17. 修改的还是一点点猛了，冲击力差不多减弱了（低频）
-18. 修改的还是一点点猛了，冲击力差不多减弱了（压缩）
-19. 修改的还是略微猛了，力度似乎消退了（压缩）
-20. 修改的还是略微猛了，力度似乎消退了（音量）
-21. 可能被压的太凶之后，显得听着很弱（压缩）
-22. 可能被压的太凶之后，显得听着很弱（音量）
-23. 可能被压的过分凶过后，显得听着过于软（压缩）
-24. 可能被压的过分凶过后，显得听着过于软（音量）
-25. 可能被压的超级凶接着，显得听着过于软（压缩）
-26. 可能被压的超级凶接着，显得听着过于软（音量）
-27. 人声跟伴奏不贴（音量）
-28. 人声跟伴奏不贴（声场）
-29. 音色再出来一点更punchy一点（压缩）
-30. 音色再出来一点更punchy一点（中频）
-31. 音色再出来一些更带劲一点（高频）
-32. 音色再出来一些更带劲一点（中频）
-33. 音色再出来一些更带劲一点（低频）
-34. 音色再出来一丢更带劲一丢（高频）
-35. 音色再出来一丢更带劲一丢（中频）
-36. 音色再出来一丢更带劲一丢（低频）
-37. 整体人声可以稍微往后拖一点点，现在听感上有一些前置了，想整体更layback感一些（reverb）
-38. 全局vocal可以少许往后放慢稍微，当下声音效果上有一点前置了，想要总体更慵懒感几许（reverb）
-39. 全局vocal可以少许往后放慢稍微，当下声音效果上有一点前置了，想要总体更慵懒感几许（声场）
-40. 全局vocal可以少许往后放慢稍微，当下声音效果上有一点前置了，想要总体更慵懒感几许（音量）
-41. 整体感觉vocal可以少许往后放慢有点，此刻听起来上有少许前置了，想要全局更放松感少许（reverb）
-42. 整体感觉vocal可以少许往后放慢有点，此刻听起来上有少许前置了，想要全局更放松感少许（声场）
-43. adibs的也可以小声一点（音量）
-44. 人声离耳朵远一点（reverb）
-45. 人声离耳朵远一点（声场）
-46. vocal离听觉远一丢（reverb）
-47. vocal离听觉远一丢（声场）
-48. 歌声离听力远一些（reverb）
-49. 歌声离听力远一些（声场）
-50. 人声更贴耳一点（声场）
-51. 人声更圆润一点（高频）
-52. 想要后朋克的颓废感（reverb）
-53. 想要在教堂里的混响听感（reverb）
-54. 希望在教堂里的空间声音效果（reverb）
-55. 想要人声再宽一点别聚集在中间（声场）
-56. 想vocal再宽一丢别聚集在中间（声场）
-57. 想歌声再宽少点别聚集在中间（声场）
-58. 女生做的更甜一点（高频）
-59. 想要整体有磁性（中频）
-60. 然后伴奏声音有点小（音量）
-61. 随后配乐嗓音略微小（音量）
-62. 接着bgm音效稍微小（音量）
-63. 1:06-1:17感觉声音没有空间感1:06之前感觉声音像在ktv 1:06之后感觉在录音棚（reverb）
-64. 1:06-1:17感觉声音没有空间感1:06之前感觉声音像在ktv 1:06之后感觉在录音棚（声场）
-65. 1:06-1:17听起来嗓音没有立体感1:06之前听感声儿像在ktv 1:06之后听起来像在录音棚（声场）
-66. 1:06-1:17听起来像嗓音没有立体感1:06之前听起来像声儿像在ktv 1:06过后感觉像在录音棚（声场）
-67. 声音干净一点别太电（高频）
-68. 声儿透亮少点别太电（高频）
-69. 嗓音清晰一丢别太电（高频）
-70. 可以再干净一点（高频）
-71. 能加什么给整的干净一点不（高频）
-72. 能加什么给整的纯正一丢缺乏（高频）
-73. 能加什么给整的纯正一丢缺乏（中频）
-74. 能加什么给整的纯正一丢缺乏（低频）
-75. 能加什么给整的清晰一丢不够（高频）
-76. 能加什么给整的清晰一丢不够（中频）
-77. 能加什么给整的清晰一丢不够（压缩）
-78. 整体人声可以大一点现在伴奏好像有点大（音量）
-79. 整体人声可以大一点现在伴奏好像有点大（声场）
-80. 总体嗓子可以大少点当下配乐似乎略微大（音量）
-81. 全盘来看vocal可以大一点目前bgm似乎一丢丢大（音量）
-82. 全盘来看vocal可以大一点目前bgm似乎一丢丢大（声场）
-83. 感觉有点人声浮在伴奏上 没有沉下去（音量）
-84. 感觉有点人声浮在伴奏上 没有沉下去（声场）
-85. 觉得一点点歌声浮在乐器上 没有沉下去（中频）
-86. 觉得一点点歌声浮在乐器上 没有沉下去（压缩）
-87. 觉得一点点歌声浮在乐器上 没有沉下去（音量）
-88. 感觉空间感稍微小一点好（reverb）
-89. 感觉空间感稍微小一点好（声场）
-90. 听感立体感轻微小一点好（声场）
-91. 觉得3D感略带小一点好（声场）
-92. 觉得3D感略带小一点好（reverb）
-93. 声场再贴一点（声场）
-94. 人声凸出来吧（声场）
-95. 混低一点吧（低频）
-96. Autotune挂的重了（高频）
-97. Autotune挂的重了（中频）
-98. 颗粒感太强了有点粗（高频）
-99. 颗粒感太强了有点粗（压缩）
-100. 混弱一点（音量）
-101. 句头被压了（压缩）
-102. Bass大过人声了（低频）
-103. Bass大过人声了（音量）
-104. Intro部分人声在伴奏后面（音量）
-105. Intro部分人声在伴奏后面（声场）
-106. 乐器独奏时人声让开（中频）
-107. 乐器独奏时人声让开（音量）
-108. 能量主要集中在中和高了伴奏的中频和高频可以控制一下（中频）
-109. 能量主要集中在中和高了伴奏的中频和高频可以控制一下（高频）
-110. 人声就被埋在下面了（中频）
-111. 人声就被埋在下面了（音量）
-112. 还有就是整首歌的空间感可以再足一点（reverb）
-113. 还有就是整首歌的空间感可以再足一点（声场）
-114. 还有就整首歌的环绕感可以再足一丢（声场）
-115. 还有就整首歌的环绕感可以再足一丢（reverb）
-116. 还有就整首歌的3D感可以再足一点（声场）
-117. 还有就整首歌的3D感可以再足一点（reverb）
-118. 想的在稍微弄稍微 “滑” 一点（reverb）
-119. 想的在稍微弄稍微 “滑” 一点（声场）
-120. 想要的在少许弄轻微 “滑” 一点（reverb）
-121. 想要的在少许弄轻微 “滑” 一点（声场）
-122. 想要的在略带弄少许 “滑” 一丢（reverb）
-123. 想要的在略带弄少许 “滑” 一丢（声场）
-124. 就是感觉那种连贯一点（声场）
-125. 就是感觉那种连贯一点（reverb）
-126. 就是感觉像那种连贯一些（reverb）
-127. 就是感觉像那种连贯一些（声场）
-128. 就是要听感那种连贯一些（reverb）
-129. 就是要听感那种连贯一些（声场）
-130. 然后我的鼻音能帮我去一点吧（中频）
-131. 还是少加点增加空间感（reverb）
-132. 还是少加点增加空间感（声场）
-133. 电话音那段空间感可以更足一点然后声音往后（高频）
-134. 电话音那段空间感可以更足一点然后声音往后（reverb）
-135. 电话音那段空间感可以更足一点然后声音往后（声场）
-136. 电话音那段远近感可以更足少点接着声儿靠后（高频）
-137. 电话音那段3D感可以更足一些之后嗓音往后（高频）
-138. 然后hook 的有些大喘气弱化一下（中频）
-139. 然后hook 的有些大喘气弱化一下（压缩）
-140. 人声可以控制一点高频，再去去齿音，听着挺亮的（高频）
-141. 主唱可以控制一丢高频，再去去高频刺音，听着挺亮的（高频）
-142. 主唱可以控制一丢高频，再去去高频刺音，听着挺亮的（压缩）
-143. vocal可以控制一些高频，再去去高频刺音，听着挺亮的（高频）
-144. vocal可以控制一些高频，再去去高频刺音，听着挺亮的（压缩）
-145. 中低的部分饱和感比较重然后导致中低很厚浑浊（中频）
-146. 就是混的太干了（reverb）
-147. 就是混的太干了（声场）
-148. 但是感觉你的声音飘在beat上（声场）
-149. 但是感觉你的声音飘在beat上（reverb）
-150. 但是听感你的音效飘在伴奏上（声场）
-151. 但是听感你的音效飘在伴奏上（音量）
-152. 但是听起来像你的声儿飘在伴奏上（reverb）
-153. 但是听起来像你的声儿飘在伴奏上（声场）
-154. 是不是有点闷（中频）
-155. 还有啦啦啦调虚幻一点（reverb）
-156. 还有啦啦啦调虚幻一点（声场）
-157. 有没有立体感（声场）
-158. 还是声场拓宽一点做区别处理（声场）
-159. 还是声场拓宽一些做区别切（声场）
-160. 或是声场拓宽少点做区别切（声场）
-161. 但是音量的话差不多就是你那效果你可以做区别一点（音量）
-162. 但是音量的话好像就是你那效果你可以做区别一些（音量）
-163. 但是音量的话好像就你那效果你可以做区别一丢（音量）
-164. 人声可以小点（音量）
-165. 混音多给人生一点空间（reverb）
-166. 可以电开的大一下把人声做的厚一点（高频）
-167. 可以电开的大一下把人声做的厚一点（中频）
-168. 可以电开的大一刻把嗓子做的厚一些（高频）
-169. 可以电开的大一刻把嗓子做的厚一些（中频）
-170. 可以电开的大一瞬把vocal做的厚一点（高频）
-171. 可以电开的大一瞬把vocal做的厚一点（中频）
-172. 然后我和声的声音和混响稍微小一点（reverb）
-173. 再然后我和声的嗓音和厅堂效果有点小一丢（reverb）
-174. 再然后我和声的嗓音和厅堂效果有点小一丢（音量）
-175. 之后我和声的音效和空间少许小一些（reverb）
-176. 然后声音的穿透性强一点就我想要的颗粒度明显一点（高频）
-177. 然后声音的穿透性强一点就我想要的颗粒度明显一点（中频）
-178. 接着声儿的穿透性强一些就是我打算的颗粒度明显一些（高频）
-179. 接着声儿的穿透性强一些就是我打算的颗粒度明显一些（中频）
-180. 接着声儿的穿透性强一些就是我打算的颗粒度明显一些（压缩）
-181. 之后嗓音的穿透性强少点就是我希望的颗粒度明显少点（高频）
-182. 之后嗓音的穿透性强少点就是我希望的颗粒度明显少点（压缩）
-183. 所以我想弄的夯实厚一点（中频）
-184. 我就喜欢声音实一点（中频）
-185. 我就喜欢声音实一点（低频）
-186. 我就是喜欢声儿实一丢（中频）
-187. 我就是喜欢声儿实一丢（压缩）
-188. 我就是喜欢音效实一些（中频）
-189. 我就是喜欢音效实一些（低频）
-190. 我就是喜欢音效实一些（压缩）
-191. 能有穿透力一点（高频）
-192. 能有穿透力一点（压缩）
-193. 感觉声音有点飘能不能把声音压实一点（压缩）
-194. 感觉声音有点飘能不能把声音压实一点（中频）
-195. 听起来嗓音一丢丢飘能不能把声儿压实一点（压缩）
-196. 听起来嗓音一丢丢飘能不能把声儿压实一点（中频）
-197. 听起来声儿稍微飘能不能把嗓音压实少点（压缩）
-198. 听起来声儿稍微飘能不能把嗓音压实少点（中频）
-199. 巨沙沙的（低频）
-200. 巨沙沙的（中频）
-201. 巨沙沙的（压缩）
-202. 整体混的脏一点（低频）
-203. 整体混的脏一点（中频）
-204. 整体混的脏一点（高频）
-205. 全盘来看混的闷一些（中频）
-206. 整体感觉混的糊一丢（中频）
-207. 整体感觉混的糊一丢（低频）
-208. 整体感觉混的糊一丢（压缩）
-209. 声音处理的干净一点（高频）
-210. 声儿切的无杂音一丢（高频）
-211. 声儿切的无杂音一丢（中频）
-212. 声儿切的无杂音一丢（低频）
-213. 嗓音切的清晰少点（中频）
-214. 嗓音切的清晰少点（压缩）
-215. 能不能把声音变得更有识别度（中频）
-216. 能不能把声音变得更有识别度（高频）
-217. 加重我的鼻音（中频）
-218. 给我的韵脚的声音加重（低频）
-219. 给我的韵脚的声音加重（压缩）
-220. 把我的声音变得破碎一点（压缩）
-221. 把我的声音变得破碎一点（高频）
-222. 呼吸声太大了（音量）
-223. 吞音严重（中频）
-224. 吞音严重（低频）
-225. 整首氛围更安静一点（音量）
-226. 人声柔和顺滑一点（中频）
-227. 人声柔和顺滑一点（压缩）
-228. 人声颗粒感小一点（中频）
-229. 人声颗粒感小一点（压缩）
-230. 把人声混的更有攻击性（高频）
-231. 把人声混的更有攻击性（压缩）
-232. 人声混的更工业一点（压缩）
-233. 人声混的更工业一点（中频）
-234. 人声混的更工业一点（低频）
-235. 混响更工业一点（reverb）
-236. 人声混响模仿音乐厅（reverb）
-237. 就是我想人声再干一些（压缩）
-238. 就是我想人声再干一些（音量）
-239. 就是要我想要歌声再干些许（reverb）
-240. 就是要我想要歌声再干些许（声场）
-241. 就是我想要嗓子再干少许（中频）
-242. 就是我想要嗓子再干少许（压缩）
-243. 因为我很喜欢demo那个tune的那个电流感 所以再干一点（高频）
-244. 人声稍微小一点点（音量）
-245. 主唱轻微小稍微（中频）
-246. 主唱轻微小稍微（音量）
-247. 歌声少许小稍微（音量）
-248. 混响可以再小一点（reverb）
-249. 现在听着有点顶耳朵（音量）
-250. 现在听着有点顶耳朵（压缩）
-251. 当下听着略微顶听觉（高频）
-252. 当下听着略微顶听觉（压缩）
-253. 此刻听着略微顶耳朵（高频）
-254. 此刻听着略微顶耳朵（音量）
-255. 咋感觉听着这么糊（中频）
-256. 咋感觉听着这么糊（低频）
-257. 咋感觉听着这么糊（压缩）
-258. 感觉听起来质感沙沙的（高频）
-259. 感觉听起来质感沙沙的（中频）
-260. 感觉听起来质感沙沙的（低频）
-261. 帮我弄的带动气氛一点吧 听起来有点沉（高频）
-262. 帮我弄的带动气氛一点吧 听起来有点沉（压缩）
-263. 帮我弄的带动气氛一点吧 听起来有点沉（音量）
-264. 帮我弄的带动气氛一点吧 听感一丢丢沉（低频）
-265. 帮我弄的带动气氛一点吧 听感一丢丢沉（压缩）
-266. 帮我弄的带动气氛一点吧 听感一丢丢沉（reverb）
-267. 帮我弄的带动气氛一丢吧 感觉略微沉（高频）
-268. 帮我弄的带动气氛一丢吧 感觉略微沉（压缩）
-269. 帮我弄的带动气氛一丢吧 感觉略微沉（reverb）
-270. 咋感觉听上去有种在打电话的感觉哈哈哈哈哈（高频）
-271. 就像我人生剥离出那个伴奏了一样，像两个独立的东西一样，没融进去（声场）
-272. 就像我人生剥离出那个伴奏了一样，像两个独立的东西一样，没融进去（压缩）
-273. 再薄一丢（高频）
-274. 然后delay多一点（reverb）
-275. 其实有那种就是特别薄，然后就有一点刺刺的那种感觉（高频）
-276. 其实有那种就是特别薄，然后就有一点刺刺的那种感觉（压缩）
-277. 其实有那种就是说太薄，随后就是有少点刺刺的那种感觉像（低频）
-278. 其实有那种就是说太薄，随后就是有少点刺刺的那种感觉像（中频）
-279. 其实有那种就是说太薄，随后就是有少点刺刺的那种感觉像（压缩）
-280. 其实有那种就是说太薄，再然后就是有一丢刺刺的那种觉得（低频）
-281. 其实有那种就是说太薄，再然后就是有一丢刺刺的那种觉得（压缩）
-282. 就比较跳一点。（高频）
-283. 就比较跳一点。（中频）
-284. 就比较跳一点。（低频）
-285. 人声还是有点厚（中频）
-286. vocal还是说略微厚（中频）
-287. 歌声还是一丢丢厚（中频）
-288. 有点突兀，突然（压缩）
-289. 有点突兀，突然（音量）
-290. 压缩器感觉有点大（压缩）
-291. 感觉可以再尖锐点（高频）
-292. 切得还是有点过于猛烈了，感觉气势好像没了。（压缩）
-293. 切得还是有点过于猛烈了，感觉气势好像没了。（音量）
-294. The cut is still a bit too harsh, it seems like the momentum has been lost.（中频）
-295. The cut is still a bit too harsh, it seems like the momentum has been lost.（压缩）
-296. 剪辑得太柔和了，反而让作品显得更有力量感。（低频）
-297. 剪辑得太柔和了，反而让作品显得更有力量感。（压缩）
-298. 剪辑得太柔和了，反而让作品显得更有力量感。（音量）
-299. 可能被压缩得太厉害之后，听起来很弱。（压缩）
-300. It might sound too weak after being compressed too aggressively.（压缩）
-301. It might sound too weak after being compressed too aggressively.（音量）
-302. 它可能在经过适当的处理后，听起来非常强劲。（低频）
-303. 它可能在经过适当的处理后，听起来非常强劲。（压缩）
-304. 人声和伴奏不太匹配。（音量）
-305. 人声和伴奏不太匹配。（声场）
-306. 人声和伴奏非常契合。（音量）
-307. 人声和伴奏非常契合。（声场）
-308. Make the tone come out a bit more and be punchier.（中频）
-309. Make the tone come out a bit more and be punchier.（压缩）
-310. 让音色稍微收回去一些，并且柔和一些。（压缩）
-311. 让音色稍微收回去一些，并且柔和一些。（reverb）
-312. 整体人声可以稍微往后拉一点点，因为现在听起来有些前置了。我希望整体感觉更加放松一些。（reverb）
-313. 整体人声可以稍微往后拉一点点，因为现在听起来有些前置了。我希望整体感觉更加放松一些。（声场）
-314. The overall vocals could be pulled back a little bit, as they sound a bit too forward right now. I'd like the overall feel to be more laid-back.（中频）
-315. The overall vocals could be pulled back a little bit, as they sound a bit too forward right now. I'd like the overall feel to be more laid-back.（音量）
-316. 整体人声可以稍微往前推一点点，现在听感上有一些后置了，想让整体更突出一些。（reverb）
-317. adibs的声音也可以稍微小一点。（音量）
-318. The volume of adibs can also be a bit lower.（音量）
-319. adibs的声音也可以稍微大一点。（音量）
-320. 人声应该离耳朵远一点。（reverb）
-321. 人声应该离耳朵远一点。（声场）
-322. The vocals should be a bit further from the ear.（reverb）
-323. The vocals should be a bit further from the ear.（声场）
-324. 人声离耳朵近一点。（reverb）
-325. 人声离耳朵近一点。（声场）
-326. 让人声更加贴近。（中频）
-327. 让人声更加贴近。（reverb）
-328. 让人声更加贴近。（声场）
-329. Make the vocals more intimate.（reverb）
-330. Make the vocals more intimate.（声场）
-331. 让声音听起来更遥远一些。（reverb）
-332. 让声音听起来更遥远一些。（声场）
-333. 让人声更平滑一点。（压缩）
-334. 让人声更平滑一点。（reverb）
-335. Make the vocals a bit smoother.（压缩）
-336. Make the vocals a bit smoother.（reverb）
-337. 让声音更粗糙一些。（低频）
-338. 让声音更粗糙一些。（压缩）
-339. 我想要后朋克的颓废感。（reverb）
-340. I want a post-punk sense of decay.（reverb）
-341. I want a post-punk sense of decay.（声场）
-342. I want a post-punk sense of decay.（低频）
-343. 我希望有一种充满活力且积极向上的感觉，远离后朋克风格。（高频）
-344. 我希望有一种充满活力且积极向上的感觉，远离后朋克风格。（中频）
-345. 我希望有一种充满活力且积极向上的感觉，远离后朋克风格。（压缩）
-346. 希望获得如同在教堂中的混响听感（reverb）
-347. Desire the reverb sound as if in a church（reverb）
-348. Desire the reverb sound as if in a church（声场）
-349. 不想要任何类似于教堂的混响效果，偏好干声或其它环境下的自然声音（reverb）
-350. 我希望人声能够再宽一些，不要那么集中在中间。（声场）
-351. I want the vocals to be a bit wider and not so centered.（声场）
-352. 我希望人声更窄一些，并且更加集中在中间。（中频）
-353. 我希望人声更窄一些，并且更加集中在中间。（声场）
-354. 让女生的声音更甜美一点。（高频）
-355. Make the female vocals a bit sweeter.（中频）
-356. Make the female vocals a bit sweeter.（reverb）
-357. 让女生的声音不那么甜美。（高频）
-358. 我希望整体声音具有磁性。（中频）
-359. I want the overall sound to be magnetic.（中频）
-360. I want the overall sound to be magnetic.（低频）
-361. I want the overall sound to be magnetic.（压缩）
-362. 我不希望整体声音有磁性，想要它听起来更平淡一些。（中频）
-363. 然后，伴奏的声音有点小。（音量）
-364. Then, the accompaniment sound is a bit low.（低频）
-365. Then, the accompaniment sound is a bit low.（音量）
-366. 然后，伴奏的声音有点大。（音量）
-367. 从1:06到1:17，声音感觉缺乏空间感。1:06之前，听起来像是在KTV里；1:06之后，听起来像是在录音棚里。（reverb）
-368. 从1:06到1:17，声音感觉缺乏空间感。1:06之前，听起来像是在KTV里；1:06之后，听起来像是在录音棚里。（声场）
-369. From 1:06 to 1:17, the sound feels lacking in spatial sense. Before 1:06, it sounds like it's in a KTV, and after 1:06, it sounds like it's in a recording studio.（声场）
-370. 从1:06到1:17，声音感觉非常有空间感。1:06之前，听起来像是在录音棚里；1:06之后，听起来像是在KTV里。（reverb）
-371. 从1:06到1:17，声音感觉非常有空间感。1:06之前，听起来像是在录音棚里；1:06之后，听起来像是在KTV里。（声场）
-372. 让声音干净一点，不要太电子化。（高频）
-373. Make the sound a bit cleaner, not too electric.（高频）
-374. Make the sound a bit cleaner, not too electric.（中频）
-375. Make the sound a bit cleaner, not too electric.（低频）
-376. 让声音更浑浊一些，增加电子感。（高频）
-377. 可以再干净一点。（高频）
-378. It can be a bit cleaner.（高频）
-379. It can be a bit cleaner.（中频）
-380. It can be a bit cleaner.（低频）
-381. 可以让它更浑浊一些。（低频）
-382. 可以让它更浑浊一些。（压缩）
-383. 能不能加点什么让混音更干净一些？（高频）
-384. Can we add something to make the mix cleaner?（压缩）
-385. Can we add something to make the mix cleaner?（音量）
-386. 能不能减少些什么让混音听起来更浑浊一些？（低频）
-387. 能不能减少些什么让混音听起来更浑浊一些？（压缩）
-388. 整体人声可以稍微大一点，因为现在的伴奏听起来有点太突出了。（音量）
-389. 整体人声可以稍微大一点，因为现在的伴奏听起来有点太突出了。（声场）
-390. The overall vocals could be a bit louder, as the accompaniment seems a little too prominent right now.（音量）
-391. 整体人声可以小一点，现在伴奏好像有点不够突出。（音量）
-392. 整体人声可以小一点，现在伴奏好像有点不够突出。（声场）
-393. 感觉人声有点浮在伴奏之上，没有融入进去。（音量）
-394. 感觉人声有点浮在伴奏之上，没有融入进去。（声场）
-395. It feels like the vocals are floating above the instrumental, not sinking into it.（声场）
-396. It feels like the vocals are floating above the instrumental, not sinking into it.（音量）
-397. 感觉人声很好地融入了伴奏之中，完全沉下去了。（音量）
-398. 感觉人声很好地融入了伴奏之中，完全沉下去了。（声场）
-399. 感觉稍微小一点的空间感会更好（reverb）
-400. 感觉稍微小一点的空间感会更好（声场）
-401. Feel like a slightly smaller sense of space would be better（声场）
-402. 感觉空间感稍微大一点好（reverb）
-403. 感觉空间感稍微大一点好（声场）
-404. 让声场再贴近一点。（声场）
-405. Make the sound field a bit more intimate.（声场）
-406. 让声场更开阔一些。（声场）
-407. 让人声突出一些。（中频）
-408. 让人声突出一些。（音量）
-409. Let the vocals stand out.（中频）
-410. Let the vocals stand out.（音量）
-411. 让背景音乐盖过人声。（低频）
-412. 让背景音乐盖过人声。（中频）
-413. 让背景音乐盖过人声。（音量）
-414. Mix it a bit lower.（音量）
-415. 混高一点吧（高频）
-416. Autotune挂得过重了。（高频）
-417. Autotune挂得过重了。（中频）
-418. The Autotune is too heavy.（高频）
-419. The Autotune is too heavy.（中频）
-420. Autotune挂得太轻了。（高频）
-421. Autotune挂得太轻了。（中频）
-422. 颗粒感太强了，感觉有点粗糙。（高频）
-423. 颗粒感太强了，感觉有点粗糙。（压缩）
-424. The graininess is too strong, it feels a bit coarse.（高频）
-425. The graininess is too strong, it feels a bit coarse.（中频）
-426. 颗粒感不够细腻，显得有些平滑。（高频）
-427. 颗粒感不够细腻，显得有些平滑。（中频）
-428. 颗粒感不够细腻，显得有些平滑。（低频）
-429. 混得稍微柔和一点。（压缩）
-430. 混得稍微柔和一点。（reverb）
-431. 混得稍微柔和一点。（音量）
-432. Mix it a bit softer.（音量）
-433. 混强一点（压缩）
-434. 混强一点（音量）
-435. 句子的开头被压缩了。（压缩）
-436. The beginning of the sentence is being compressed.（压缩）
-437. 句头需要被放大/增强。（压缩）
-438. 贝斯盖过了人声。（低频）
-439. 贝斯盖过了人声。（音量）
-440. The bass is overpowering the vocals.（低频）
-441. The bass is overpowering the vocals.（音量）
-442. 人声盖过了贝斯。（音量）
-443. 人声盖过了贝斯。（低频）
-444. Intro部分的人声在伴奏后面。（音量）
-445. Intro部分的人声在伴奏后面。（声场）
-446. The vocal in the intro section is behind the instrumental.（声场）
-447. The vocal in the intro section is behind the instrumental.（音量）
-448. Intro部分人声在伴奏前面。（音量）
-449. Intro部分人声在伴奏前面。（声场）
-450. 当乐器独奏时，人声应该退后。（声场）
-451. 当乐器独奏时，人声应该退后。（音量）
-452. When the instrument is playing solo, the vocals should step back.（音量）
-453. When the instrument is playing solo, the vocals should step back.（声场）
-454. 当乐器独奏时，人声应该更加突出。（中频）
-455. 当乐器独奏时，人声应该更加突出。（音量）
-456. 能量主要集中在中频和高频，因此伴奏的中频和高频可以稍微控制一下。（中频）
-457. 能量主要集中在中频和高频，因此伴奏的中频和高频可以稍微控制一下。（高频）
-458. The energy is mainly concentrated in the mid and high frequencies, so the mid and high frequencies of the accompaniment could be controlled a bit.（中频）
-459. The energy is mainly concentrated in the mid and high frequencies, so the mid and high frequencies of the accompaniment could be controlled a bit.（高频）
-460. 能量不足于中频和高频，所以需要增强伴奏中的中频和高频。（中频）
-461. 能量不足于中频和高频，所以需要增强伴奏中的中频和高频。（高频）
-462. 人声被埋在下面了。（中频）
-463. 人声被埋在下面了。（音量）
-464. The vocals are buried underneath.（中频）
-465. The vocals are buried underneath.（音量）
-466. 人声非常突出。（中频）
-467. 人声非常突出。（音量）
-468. 还有就是整首歌的空间感可以再增强一点。（reverb）
-469. 还有就是整首歌的空间感可以再增强一点。（声场）
-470. Also, the sense of space throughout the entire song could be enhanced a bit more.（声场）
-471. 另外，整首歌的空间感应该减少一些。（reverb）
-472. 另外，整首歌的空间感应该减少一些。（声场）
-473. 我希望它能稍微“滑”一点。（reverb）
-474. 我希望它能稍微“滑”一点。（声场）
-475. I'd like it to be a bit more "smooth".（压缩）
-476. I'd like it to be a bit more "smooth".（reverb）
-477. 我想让它稍微“粗糙”一点。（高频）
-478. 我想让它稍微“粗糙”一点。（中频）
-479. 我想让它稍微“粗糙”一点。（低频）
-480. It just feels like it needs to be a bit more cohesive.（压缩）
-481. It just feels like it needs to be a bit more cohesive.（声场）
-482. 就是感觉那种断开一些（压缩）
-483. 就是感觉那种断开一些（音量）
-484. 然后你能帮我减少一点鼻音吗？（中频）
-485. Could you help me reduce my nasal sound a bit?（中频）
-486. Could you help me reduce my nasal sound a bit?（压缩）
-487. 然后我的鼻音能帮我加多一点吧（中频）
-488. 还是少加点来增强空间感。（reverb）
-489. 还是少加点来增强空间感。（声场）
-490. Still, add a bit less to enhance the sense of space.（reverb）
-491. Still, add a bit less to enhance the sense of space.（声场）
-492. 反而多加一些减少空间感。（reverb）
-493. 反而多加一些减少空间感。（声场）
-494. 电话音那段的空间感可以更明显一些，然后声音应该往后推。（高频）
-495. 电话音那段的空间感可以更明显一些，然后声音应该往后推。（reverb）
-496. 电话音那段的空间感可以更明显一些，然后声音应该往后推。（声场）
-497. The sense of space in the telephone sound part can be a bit more pronounced, and the sound should be pushed back.（reverb）
-498. The sense of space in the telephone sound part can be a bit more pronounced, and the sound should be pushed back.（声场）
-499. 电话音那段空间感需要减少一点，并且声音要往前拉。（高频）
-500. 电话音那段空间感需要减少一点，并且声音要往前拉。（reverb）
-501. 电话音那段空间感需要减少一点，并且声音要往前拉。（声场）
-502. 然后，把hook里的大喘气稍微弱化一下。（中频）
-503. 然后，把hook里的大喘气稍微弱化一下。（压缩）
-504. Then, weaken the heavy breathing in the hook a bit.（中频）
-505. Then, weaken the heavy breathing in the hook a bit.（低频）
-506. 然后，增强一下hook部分的大喘气。（中频）
-507. 然后，增强一下hook部分的大喘气。（音量）
-508. 人声可以控制一点高频，同时再做一些去齿音处理，因为听起来挺亮的。（高频）
-509. The vocals could use a bit of high-frequency control, and also some de-essing, as they sound quite bright.（高频）
-510. The vocals could use a bit of high-frequency control, and also some de-essing, as they sound quite bright.（压缩）
-511. 人声需要增加一些高频，并减少去齿音处理，因为听起来不够明亮。（高频）
-512. 中低部分的饱和感比较重，这使得中低音变得厚重且浑浊。（中频）
-513. The mid-low part has a rather heavy saturation, which makes the mid-lows thick and muddy.（中频）
-514. The mid-low part has a rather heavy saturation, which makes the mid-lows thick and muddy.（低频）
-515. 中低的部分饱和感较轻，因此中低音显得清晰而干净。（高频）
-516. 中低的部分饱和感较轻，因此中低音显得清晰而干净。（中频）
-517. 就是混得太干了。（reverb）
-518. 就是混得太干了。（声场）
-519. It's just mixed too dry.（reverb）
-520. 就是混得太过湿润了。（reverb）
-521. But I feel like your voice is floating over the beat.（reverb）
-522. But I feel like your voice is floating over the beat.（声场）
-523. 但是感觉你的声音稳稳地贴合着beat（中频）
-524. 但是感觉你的声音稳稳地贴合着beat（压缩）
-525. 但是感觉你的声音稳稳地贴合着beat（音量）
-526. 是不是有点闷？（中频）
-527. Is it a bit muffled?（中频）
-528. Is it a bit muffled?（低频）
-529. 是不是听起来很清晰？（高频）
-530. 是不是听起来很清晰？（中频）
-531. 是不是听起来很清晰？（音量）
-532. 还有，把“啦啦啦”部分调得更虚幻一点。（reverb）
-533. 还有，把“啦啦啦”部分调得更虚幻一点。（声场）
-534. Also, make the "la la la" part a bit more ethereal.（reverb）
-535. Also, make the "la la la" part a bit more ethereal.（声场）
-536. 另外，让“啦啦啦”这部分听起来更加实在一些。（中频）
-537. 另外，让“啦啦啦”这部分听起来更加实在一些。（低频）
-538. Is there a sense of stereo?（声场）
-539. 是不是感觉很平面？（声场）
-540. 是不是感觉很平面？（reverb）
-541. 还是把声场拓宽一点来做区分。（声场）
-542. Still, widen the sound field a bit for differentiation.（声场）
-543. 反而缩小声场，不做特别处理。（声场）
-544. 但是对于音量来说，差不多就是你的那个效果；你可以让它稍微有些区别。（音量）
-545. But for the volume, it's about the same as your effect; you could make it a bit more distinct.（音量）
-546. 但是关于音量，我希望它与你之前的效果完全不同；请尽量让它们听起来更加相似。（音量）
-547. 人声可以稍微柔和一点。（中频）
-548. 人声可以稍微柔和一点。（压缩）
-549. The vocals can be a bit softer.（音量）
-550. 在混音中给歌声多留一点空间。（reverb）
-551. Give the vocals a bit more space in the mix.（reverb）
-552. Give the vocals a bit more space in the mix.（声场）
-553. 压缩混音中人声的空间。（压缩）
-554. 当电开较大时，可以把人声做得厚一点。（高频）
-555. 当电开较大时，可以把人声做得厚一点。（中频）
-556. Could you make the vocal a bit thicker when the electric opening is big?（中频）
-557. Could you make the vocal a bit thicker when the electric opening is big?（压缩）
-558. 可以电开的小一点把人声做得薄一些。（高频）
-559. 然后，让我的和声声音和混响稍微小一点。（reverb）
-560. Then, make my harmony vocals and reverb a bit softer.（reverb）
-561. Then, make my harmony vocals and reverb a bit softer.（音量）
-562. 接着，请把我的和声部分以及混响效果调得更明显一些。（reverb）
-563. 然后，我希望声音的穿透性强一点，并且颗粒感更明显一些。（高频）
-564. 然后，我希望声音的穿透性强一点，并且颗粒感更明显一些。（压缩）
-565. Then, I want the sound to have a bit more penetration and a more noticeable graininess.（高频）
-566. Then, I want the sound to have a bit more penetration and a more noticeable graininess.（中频）
-567. 接着，我希望声音的穿透性弱一些，颗粒度不那么明显。（低频）
-568. 接着，我希望声音的穿透性弱一些，颗粒度不那么明显。（压缩）
-569. So I want it to sound more solid and fuller.（低频）
-570. So I want it to sound more solid and fuller.（中频）
-571. 所以我想要它听起来更轻薄些。（高频）
-572. 所以我想要它听起来更轻薄些。（中频）
-573. 所以我想要它听起来更轻薄些。（压缩）
-574. 我就喜欢声音更实一点。（中频）
-575. 我就喜欢声音更实一点。（低频）
-576. I just prefer the sound to be more solid.（低频）
-577. I just prefer the sound to be more solid.（中频）
-578. 我更倾向于让声音听起来轻柔一些。（reverb）
-579. 我更倾向于让声音听起来轻柔一些。（声场）
-580. 我更倾向于让声音听起来轻柔一些。（音量）
-581. 能更有穿透力一点吗？（高频）
-582. 能更有穿透力一点吗？（压缩）
-583. Can it be a bit more piercing?（高频）
-584. 能让它更柔和一些吗？（压缩）
-585. 能让它更柔和一些吗？（reverb）
-586. 感觉声音有点飘，能不能让声音更扎实一点？（中频）
-587. 感觉声音有点飘，能不能让声音更扎实一点？（低频）
-588. The sound feels a bit floaty, could you make it more grounded?（低频）
-589. The sound feels a bit floaty, could you make it more grounded?（压缩）
-590. 感觉声音太沉了，能不能让它听起来更轻盈一些？（高频）
-591. 感觉声音太沉了，能不能让它听起来更轻盈一些？（压缩）
-592. 感觉声音太沉了，能不能让它听起来更轻盈一些？（音量）
-593. 极其沙哑的（中频）
-594. 极其沙哑的（低频）
-595. Extremely sandy（高频）
-596. Extremely sandy（中频）
-597. Extremely sandy（低频）
-598. 非常清晰的 注释：这里的“巨沙沙的”可能是指声音特别沙哑，因此在翻译时选择了“Extremely sandy”，但更常见的表达方式可能是“Extremely raspy”。根据上下文，“非常清晰的”作为其反义较为合适。如果原句指的是其他含义，请提供更多的背景信息以便于更准确地翻译。（高频）
-599. 非常清晰的 注释：这里的“巨沙沙的”可能是指声音特别沙哑，因此在翻译时选择了“Extremely sandy”，但更常见的表达方式可能是“Extremely raspy”。根据上下文，“非常清晰的”作为其反义较为合适。如果原句指的是其他含义，请提供更多的背景信息以便于更准确地翻译。（中频）
-600. 非常清晰的 注释：这里的“巨沙沙的”可能是指声音特别沙哑，因此在翻译时选择了“Extremely sandy”，但更常见的表达方式可能是“Extremely raspy”。根据上下文，“非常清晰的”作为其反义较为合适。如果原句指的是其他含义，请提供更多的背景信息以便于更准确地翻译。（低频）
-601. 让整体混音稍微脏一点。（压缩）
-602. 让整体混音稍微脏一点。（低频）
-603. Make the overall mix a bit dirtier.（压缩）
-604. Make the overall mix a bit dirtier.（低频）
-605. 让整体混音更加干净。（高频）
-606. 让声音处理更干净一点。（高频）
-607. Make the sound processing cleaner.（高频）
-608. Make the sound processing cleaner.（中频）
-609. Make the sound processing cleaner.（低频）
-610. 让声音处理更加浑浊一些。（低频）
-611. 让声音处理更加浑浊一些。（压缩）
-612. 能不能让声音变得更易识别？（中频）
-613. 能不能让声音变得更易识别？（高频）
-614. Could you make the voice more recognizable?（中频）
-615. Could you make the voice more recognizable?（高频）
-616. 能不能把声音变得不那么有识别度？（reverb）
-617. 能不能把声音变得不那么有识别度？（压缩）
-618. 能不能把声音变得不那么有识别度？（低频）
-619. 增强我的鼻音（中频）
-620. Enhance my nasal tone（中频）
-621. Enhance my nasal tone（reverb）
-622. 减轻我的鼻音（中频）
-623. Add more weight to the sound of my rhymes.（低频）
-624. Add more weight to the sound of my rhymes.（压缩）
-625. 减轻我韵脚的声音重量 这样处理后，既满足了翻译的要求也实现了意思的反转。希望这能帮到你！如果有更多具体的混音需求或其它帮助，请随时告诉我。（低频）
-626. 减轻我韵脚的声音重量 这样处理后，既满足了翻译的要求也实现了意思的反转。希望这能帮到你！如果有更多具体的混音需求或其它帮助，请随时告诉我。（压缩）
-627. 把我的声音变得稍微破碎一点。（压缩）
-628. 把我的声音变得稍微破碎一点。（高频）
-629. Make my voice sound a bit more broken.（中频）
-630. Make my voice sound a bit more broken.（压缩）
-631. 让我的声音听起来更加圆润流畅。（高频）
-632. 呼吸声太大了。（音量）
-633. The breathing sound is too loud.（低频）
-634. The breathing sound is too loud.（压缩）
-635. 呼吸声太小了。（音量）
-636. 严重的吞音现象（低频）
-637. 严重的吞音现象（中频）
-638. 严重的吞音现象（压缩）
-639. Severe swallowing of sounds（压缩）
-640. Severe swallowing of sounds（低频）
-641. 发音清晰（高频）
-642. 发音清晰（中频）
-643. 发音清晰（压缩）
-644. 让整体氛围稍微安静一点。（音量）
-645. Make the overall atmosphere a bit quieter.（音量）
-646. 让整首歌的氛围更加热闹一些。（高频）
-647. 让整首歌的氛围更加热闹一些。（中频）
-648. 让整首歌的氛围更加热闹一些。（低频）
-649. 让人声更柔和顺滑一点。（中频）
-650. 让人声更柔和顺滑一点。（reverb）
-651. Make the vocals softer and smoother.（压缩）
-652. Make the vocals softer and smoother.（reverb）
-653. 让声音更加粗糙和尖锐。（高频）
-654. 让声音更加粗糙和尖锐。（压缩）
-655. 让人声的颗粒感减少一点。（中频）
-656. 让人声的颗粒感减少一点。（压缩）
-657. Reduce the graininess of the vocals a bit.（中频）
-658. Reduce the graininess of the vocals a bit.（压缩）
-659. 让人声更有攻击性。（高频）
-660. 让人声更有攻击性。（压缩）
-661. Make the vocals more aggressive.（中频）
-662. Make the vocals more aggressive.（压缩）
-663. 把人声混得更加柔和。（中频）
-664. 把人声混得更加柔和。（压缩）
-665. 把人声混得更加柔和。（reverb）
-666. 让人声听起来更工业一些。（压缩）
-667. 让人声听起来更工业一些。（中频）
-668. 让人声听起来更工业一些。（高频）
-669. Make the vocals sound more industrial.（压缩）
-670. Make the vocals sound more industrial.（中频）
-671. Make the vocals sound more industrial.（高频）
-672. 让声音听起来更加自然柔和。（reverb）
-673. 让声音听起来更加自然柔和。（压缩）
-674. 让声音听起来更加自然柔和。（中频）
-675. 让混响更工业一些。（reverb）
-676. Make the reverb more industrial.（reverb）
-677. 让混响更加自然柔和。（reverb）
-678. 人声混响应该模仿音乐厅（reverb）
-679. Vocal reverb should mimic a concert hall（reverb）
-680. Vocal reverb should mimic a concert hall（声场）
-681. 人声混响避免模仿音乐厅，寻求更直接或不同的空间感（reverb）
-682. 人声混响避免模仿音乐厅，寻求更直接或不同的空间感（声场）
-683. 我想让人声更干一些。（reverb）
-684. I want the vocals to be drier.（reverb）
-685. 我希望人声更加湿润。（reverb）
-686. 因为我非常喜欢demo中那个曲调的电流感，所以请让它更干一点。（高频）
-687. Because I really like the electric feel of that tune in the demo, please make it drier.（reverb）
-688. 因为我不是很喜欢demo中那个tune的电流感，所以请让声音更加湿润一些。（高频）
-689. 人声应该稍微小一点。（音量）
-690. The vocals should be slightly quieter.（音量）
-691. 人声稍微大一点点。（音量）
-692. 混响可以稍微减少一点。（reverb）
-693. The reverb can be a bit less.（reverb）
-694. 混响可以再大一点。（reverb）
-695. 现在听着有点刺耳。（高频）
-696. It sounds a bit harsh on the ears right now.（高频）
-697. It sounds a bit harsh on the ears right now.（压缩）
-698. 现在听起来非常柔和悦耳。（高频）
-699. 现在听起来非常柔和悦耳。（中频）
-700. 现在听起来非常柔和悦耳。（低频）
-701. 怎么感觉听起来这么闷？（中频）
-702. How come it sounds so muffled?（低频）
-703. How come it sounds so muffled?（中频）
-704. How come it sounds so muffled?（压缩）
-705. 怎么感觉听起来这么清晰？（高频）
-706. 怎么感觉听起来这么清晰？（中频）
-707. 怎么感觉听起来这么清晰？（低频）
-708. 感觉听起来质感沙沙的。（高频）
-709. 感觉听起来质感沙沙的。（中频）
-710. 感觉听起来质感沙沙的。（低频）
-711. It feels like the sound has a gritty texture.（中频）
-712. It feels like the sound has a gritty texture.（低频）
-713. 感觉听起来质感非常平滑。（高频）
-714. 感觉听起来质感非常平滑。（中频）
-715. 感觉听起来质感非常平滑。（低频）
-716. 能帮我弄得更活跃一点吗？听起来有点沉闷。（中频）
-717. Could you make it a bit more lively? It sounds a bit dull.（高频）
-718. Could you make it a bit more lively? It sounds a bit dull.（中频）
-719. Could you make it a bit more lively? It sounds a bit dull.（压缩）
-720. 请让它更加平静一些吧，现在感觉太活泼了。（压缩）
-721. 请让它更加平静一些吧，现在感觉太活泼了。（reverb）
-722. 请让它更加平静一些吧，现在感觉太活泼了。（声场）
-723. 感觉听起来有种在打电话的感觉，哈哈哈哈哈。（高频）
-724. It feels like there's a sense of listening to a phone call, hahaha.（高频）
-725. It feels like there's a sense of listening to a phone call, hahaha.（中频）
-726. It feels like there's a sense of listening to a phone call, hahaha.（低频）
-727. 怎么觉得听起来完全没有在打电话的那种感觉呢，一点都不像。（高频）
-728. 感觉就像是我的生活中剥离出了那个伴奏一样，像是两个没有融合在一起的独立实体。（声场）
-729. 感觉就像是我的生活中剥离出了那个伴奏一样，像是两个没有融合在一起的独立实体。（音量）
-730. It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.（声场）
-731. It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.（中频）
-732. It feels as if the accompaniment has been stripped away from my life, like two separate entities that haven't blended together.（低频）
-733. 就像我的生活与那个伴奏完美地融为一体，彼此之间没有任何分离感。（reverb）
-734. 就像我的生活与那个伴奏完美地融为一体，彼此之间没有任何分离感。（声场）
-735. 让它再薄一点（高频）
-736. 让它再薄一点（中频）
-737. Make it a bit thinner（高频）
-738. Make it a bit thinner（中频）
-739. 让它更厚一些（中频）
-740. 然后增加更多的延迟。（reverb）
-741. Then add more delay.（reverb）
-742. 然后减少delay。（reverb）
-743. 然后减少delay。（声场）
-744. 其实有那种声音特别薄，然后有一点刺耳的感觉。（高频）
-745. Actually, there's this kind of sound that is particularly thin and has a slightly piercing quality to it.（高频）
-746. Actually, there's this kind of sound that is particularly thin and has a slightly piercing quality to it.（压缩）
-747. 实际上，想要的是那种非常饱满且听起来柔和舒适的声音。（中频）
-748. 实际上，想要的是那种非常饱满且听起来柔和舒适的声音。（低频）
-749. 实际上，想要的是那种非常饱满且听起来柔和舒适的声音。（压缩）
-750. 让它稍微更跳跃一点。（高频）
-751. 让它稍微更跳跃一点。（压缩）
-752. Make it a bit more bouncy.（低频）
-753. Make it a bit more bouncy.（压缩）
-754. 让它更加平稳一些。（压缩）
-755. 让它更加平稳一些。（音量）
-756. 人声还是有点厚重。（中频）
-757. The vocals are still a bit thick.（中频）
-758. The vocals are still a bit thick.（压缩）
-759. 人声还是有点薄。（中频）
-760. 人声还是有点薄。（低频）
-761. A bit abrupt, sudden（压缩）
-762. A bit abrupt, sudden（音量）
-763. 非常平滑，渐进 这样处理后，既保留了原句的意思，也给出了其相反意思的表达。希望这对你的混音项目有所帮助！如果还有其他需求或更具体的调整，请随时告诉我。（中频）
-764. 非常平滑，渐进 这样处理后，既保留了原句的意思，也给出了其相反意思的表达。希望这对你的混音项目有所帮助！如果还有其他需求或更具体的调整，请随时告诉我。（reverb）
-765. 压缩器感觉有点太强了。（压缩）
-766. The compressor feels a bit too strong.（压缩）
-767. 压缩器感觉不够强。（压缩）
-768. 感觉可以再尖锐一点。（高频）
-769. It feels like it could be a bit sharper.（高频）
-770. 感觉可以更柔和一些。（压缩）
-771. 感觉可以更柔和一些。（reverb）
-772. 感觉可以更柔和一些。（音量）
+1. 215. Its just feeling a bit more coherent.（高频，中频，低频）
+2. 50. The human voice is a bit more mellow.（高频，中频，低频）
+3. 502. A bit thinner（低频）
+4. 345. 感觉声音有点飘能不能把声音压实一点（中频，低频，压缩）
+5. 25. 整体人声可以稍微往后拖一点点现在听感上有一些前置了想整体更layback感一些（reverb）
+6. 70. 希望人声听起来更宽广一些不要只集中在中间（声场）
+7. 459. 人声稍微大一点点（音量）
+8. 99. 请让音色更加纯净减少电子音效的使用（效果器，高频）
+9. 1. 切的还是有点猛了气势好像没了（压缩，低频）
+10. 2. The cut is still a bit too harsh, the momentum seems to be lost.（高频，压缩）
+11. 3. 这剪辑还是有点太生硬了感觉失去了连贯性（压缩，音量，效果器）
+12. 4. 切割得稍微有些过激导致乐句的气势似乎有所减弱（低频，高频）
+13. 5. 切得太狠了感觉气势都没了（低频，中频，压缩）
+14. 6. 需要更柔和一些保持住那份细腻的情感（高频，中频，音量）
+15. 7. 可能被压的太凶之后显得听着很弱（压缩，音量）
+16. 8. It might sound very weak after being suppressed too harshly.（压缩，高频，中频）
+17. 9. 被压制得太厉害后它听起来可能非常弱（压缩，音量）
+18. 10. 可能在被过度压缩后听起来动态范围显得较弱（压缩）
+19. 11. 可能是被批评得太厉害了所以听起来感觉很没底气（低频，中频，压缩）
+20. 12. 需要一种充满力量和活力的音乐让人感觉振奋和强大（低频，中频，高频）
+21. 13. 人声跟伴奏不贴（音量，声场）
+22. 14. The vocals and the accompaniment do not match.（音量，中频，压缩）
+23. 15. 人声和伴奏不匹配（音量，声场）
+24. 16. 人声与伴奏之间的融合度不足（音量，声场）
+25. 17. 人声和伴奏不合拍（音量，声场）
+26. 18. 人声与伴奏紧密结合（音量，声场）
+27. 19. 音色再出来一点更punchy一点（压缩，中频）
+28. 20. The tone should come out a bit more punchy.（压缩，中频）
+29. 21. 语气应该再有力一点（低频，中频，压缩）
+30. 22. 请让音色更加突出且更具冲击力（高频，中频，低频）
+31. 23. 让声音更鲜明更有冲击力一点（高频，中频，低频）
+32. 24. 音色再柔和一点更圆润一点（高频）
+33. 26. The overall vocals can be slightly pushed back a bit; currently, they sound a little too forward, and I want them to have a more laid-back feel.（中频，压缩，reverb）
+34. 27. 整体的人声可以稍微往后退一点目前听起来有点太靠前了我希望它们能有一种更放松的感觉（声场，reverb）
+35. 28. 整体人声可以稍微向后调整一点目前听起来有些过于前置了希望整体能够更加靠后一些以达到更放松更慵懒的效果（声场，reverb，压缩）
+36. 29. 可以把人声稍微往后调一点现在听起来有点靠前了想让整体感觉更放松更慵懒一些（高频，声场，reverb）
+37. 30. 整体人声需要更加前置一些现在听感上有些靠后希望整体感觉更突出更具冲击力（高频，音量，声场）
+38. 31. adibs的也可以小声一点（音量）
+39. 32. adibs can also be a bit quieter（音量）
+40. 33. 阿迪布的也可以稍微安静一点（音量）
+41. 34. Adibs的部分也可以稍微减弱一些音量（音量）
+42. 35. adibs的也可以轻声一点（音量，压缩）
+43. 36. adibs的音量需要大一些（音量）
+44. 37. 人声离耳朵远一点（高频，reverb，声场）
+45. 38. The human voice is a bit farther from the ear.（声场，reverb）
+46. 39. 人的声音离耳朵稍微远一点（reverb，声场）
+47. 40. 将人声的位置稍微后移一些（声场，reverb，高频）
+48. 41. 让人声离耳朵远一些（reverb，声场）
+49. 42. 人声离耳朵近一点（高频，中频，音量）
+50. 43. 人声更贴耳一点（声场）
+51. 44. The human voice is a bit closer to the ear.（声场，音量，reverb）
+52. 45. 人声离耳朵更近一些（音量，声场，reverb）
+53. 46. 人声更靠近听者一些或者说让人声更加贴近耳朵（高频，中频，音量）
+54. 47. 人声听起来更亲近一些（音量，reverb，中频）
+55. 48. 人声更遥远一点（reverb，声场，高频）
+56. 49. 人声更圆润一点（高频）
+57. 51. 人的声音更加圆润一些（高频）
+58. 52. 人声更加丰满圆润一些（高频）
+59. 53. 人声听起来更柔和一些（高频，压缩，reverb）
+60. 54. 人声更尖锐一点（高频，效果器）
+61. 55. 想要后朋克的颓废感（reverb）
+62. 56. Wanting the post-punk sense of decadence（低频，reverb，声场）
+63. 57. 希望呈现出后朋克风格中的那种颓废特质（reverb）
+64. 58. 想要那种后朋克的慵懒随性又带点消极的感觉（低频，压缩，reverb）
+65. 59. 需要充满活力与乐观的旋律（高频，低频，压缩）
+66. 60. 想要在教堂里的混响听感（reverb）
+67. 61. Wanting the reverberation sound in the church（reverb，声场）
+68. 62. 想要教堂里的回声（reverb）
+69. 63. 希望在教堂环境中体验丰富的混响效果（reverb）
+70. 64. 想要在教堂里听到那种空旷回音的感觉（reverb）
+71. 65. 需要在无回声的干燥环境中聆听音乐（reverb）
+72. 66. 想要人声再宽一点别聚集在中间（声场，效果器）
+73. 67. Want the vocals to be wider and not clustered in the middle（声场，效果器）
+74. 68. 希望人声更宽广不要集中在中间（声场，reverb）
+75. 69. 希望人声的声像更宽广一些不要集中在中央（声场，效果器）
+76. 71. 希望人声更加集中不要分散得太开（声场，效果器）
+77. 72. 女生做的更甜一点（高频）
+78. 73. The girls make it a bit sweeter.（高频，中频，压缩）
+79. 74. 女孩们让它变得更甜美一些（高频）
+80. 75. 女声部分可以处理得更加柔美一些（高频，中频，压缩）
+81. 76. 女生做得更甜一些（高频）
+82. 77. 男生做的更酷一点（中频，压缩，效果器）
+83. 78. 想要整体有磁性（中频）
+84. 79. Want to have magnetism as a whole（高频，中频，低频）
+85. 80. 想要整体上具有魅力（高频，中频，低频）
+86. 81. 希望整体音色具有磁性特质（中频）
+87. 82. 想要整个东西都有磁性（中频）
+88. 83. 希望整体没有磁性（中频）
+89. 84. 然后伴奏声音有点小（音量，声场）
+90. 85. Then the accompaniment sound is a bit low.（低频，音量）
+91. 86. 然后伴奏声音有点低（音量，低频）
+92. 87. 随后伴奏的音量略显不足（音量）
+93. 88. 然后伴奏的声音有点轻（音量，压缩）
+94. 89. 伴奏声音大一些（音量）
+95. 90. 1:06-1:17感觉声音没有空间感1:06之前感觉声音像在ktv 1:06之后感觉在录音棚（reverb，声场）
+96. 91. 1:06-1:17 feels like the sound lacks spatial sense; before 1:06, it feels like the sound is in a KTV; after 1:06, it feels like its in a recording studio.（声场，reverb）
+97. 92. 1:06-1:17感觉声音缺乏空间感1:06之前感觉声音像是在KTV里1:06之后感觉像是在录音棚里（reverb，声场）
+98. 93. 1:06至1:17段落中声音缺乏空间感（reverb，声场）
+99. 94. 简单来说就是 1:06之前声音听起来像是在KTV里唱的1:06之后声音听起来像是在录音棚里录的（高频，中频，低频）
+100. 95. 1:06-1:17感觉声音充满空间感1:06之前感觉声音像在录音棚1:06之后感觉在KTV（reverb，声场）
+101. 96. 声音干净一点别太电（高频，效果器）
+102. 97. Make the sound cleaner and less electronic.（高频，中频，压缩）
+103. 98. 让声音更干净减少电子感（高频，效果器）
+104. 100. 让声音更自然一些不要太电子化（效果器，高频）
+105. 101. 声音浑厚一点多用电音元素（效果器，高频，中频）
+106. 102. 可以再干净一点（高频）
+107. 103. It can be a bit cleaner.（高频，低频）
+108. 104. 可以更干净一点（高频）
+109. 105. 可以再纯净一些（高频，中频，压缩）
+110. 106. 可以更干净一些（高频）
+111. 107. 可以再复杂一点（高频，中频，低频）
+112. 108. 能加什么给整的干净一点不（高频）
+113. 109. What can be added to make it cleaner?（高频，中频，压缩）
+114. 110. 可以添加什么让它更干净（高频）
+115. 111. 能否添加一些元素使整体更加纯净简洁（高频，中频，低频）
+116. 112. 可以加点什么让它变得更干净些吗（高频）
+117. 113. 能让整首曲子听起来更复杂更混乱一些吗（高频，中频，低频）
+118. 114. 整体人声可以大一点现在伴奏好像有点大（音量，声场）
+119. 115. The overall vocals can be a bit louder now, the accompaniment seems a bit too loud.（音量）
+120. 116. 整体的人声现在可以稍微大一点伴奏似乎有点太响了（音量，声场）
+121. 117. 整体人声的音量可以适当增加目前伴奏的音量略显过大（音量，声场）
+122. 118. 可以把人声调大一点现在伴奏声音有点盖过人声了（音量，声场）
+123. 119. 整体伴奏可以大一点现在人声好像有点大（音量）
+124. 120. 感觉有点人声浮在伴奏上 没有沉下去（音量，声场）
+125. 121. It feels like the vocals are floating above the accompaniment and not sinking in.（中频，压缩，reverb）
+126. 122. 感觉人声像是浮在伴奏之上没有沉进去（音量，声场）
+127. 123. 感觉人声有些悬浮在伴奏之上缺乏融合度（音量，声场）
+128. 124. 感觉人声有点飘在伴奏上面没有很好地融合在一起（音量，声场）
+129. 125. 需要人声与伴奏紧密结合完全融入其中（音量，声场）
+130. 126. 感觉空间感稍微小一点好（reverb，声场）
+131. 127. Feel that a slightly smaller sense of space is better（reverb，声场）
+132. 128. 感觉稍微小一点的空间感更好（reverb，声场）
+133. 129. 感觉稍微减小一些混响空间会更好（reverb）
+134. 130. 感觉空间稍微紧凑一点更好（reverb）
+135. 131. 感觉空间感更大一些更好（reverb，声场）
+136. 132. 声场再贴一点（声场）
+137. 133. Move the sound field a bit closer.（声场，reverb）
+138. 134. 将声场稍微移近一点（声场）
+139. 135. 声场再紧凑一些（声场）
+140. 136. 把声音调得更近一些（高频，声场，reverb）
+141. 137. 声场再宽广一点（声场）
+142. 138. 人声凸出来吧（声场）
+143. 139. Let the human voice stand out.（中频，高频，压缩）
+144. 140. 让人声脱颖而出（高频，中频，压缩）
+145. 141. 请将人声部分进行突出处理（中频，压缩，音量）
+146. 142. 让人声更突出一些（高频，中频，压缩）
+147. 143. 人声沉下去吧（高频，reverb，声场）
+148. 144. 混低一点吧（低频，音量）
+149. 145. Mix a bit lower（音量）
+150. 146. 调低一点混音（音量）
+151. 147. 请将低频部分稍微减弱一些（低频）
+152. 148. 稍微低调一点吧（高频，音量，压缩）
+153. 149. 把混音调高一点吧（音量，压缩）
+154. 150. Autotune挂的重了（效果器）
+155. 151. The Autotune is set too heavily.（效果器）
+156. 152. 自动调音设置得太重了（压缩，效果器）
+157. 153. 过度使用了音高修正Autotune技术（效果器）
+158. 154. Autotune开得太强了（效果器）
+159. 155. 完全不使用Autotune（效果器）
+160. 156. 颗粒感太强了有点粗（高频，压缩）
+161. 157. The graininess is too strong, a bit coarse.（高频，中频，压缩）
+162. 158. 颗粒感太强有点粗糙（高频，压缩）
+163. 159. 音质的颗粒感过于明显显得有些粗糙（高频，压缩）
+164. 160. 感觉有点粗糙不够细腻（高频，中频，压缩）
+165. 161. 需要更加细腻和平滑的音乐质感（高频，中频，压缩）
+166. 162. Mix weaker（高频，中频，低频）
+167. 163. 混合较弱的（高频，中频，低频）
+168. 164. 将混音稍微降低一些（音量）
+169. 165. 稍微弱一点（音量）
+170. 166. 句头被压了（压缩）
+171. 167. The sentence head was suppressed.（压缩，音量）
+172. 168. 句子开头被抑制了（压缩，音量）
+173. 169. 句首被减弱了（音量，压缩）
+174. 170. 开头被压低了（压缩，音量）
+175. 171. 句尾被提了（压缩）
+176. 172. Bass大过人声了（低频，音量）
+177. 173. The bass is overpowering the vocals.（低频，中频，压缩）
+178. 174. 贝斯盖过了人声（低频，中频，音量）
+179. 175. 贝斯的音量超过了人声（音量）
+180. 176. 低音太响盖过了人声（低频，音量）
+181. 177. 人声大过Bass了（音量，低频）
+182. 178. Intro部分人声在伴奏后面（音量，声场）
+183. 179. The vocals in the Intro section are behind the accompaniment.（音量，声场，压缩）
+184. 180. 在引子部分人声位于伴奏之后（音量，声场）
+185. 181. 在Intro部分人声位于伴奏之后进入（音量，声场）
+186. 182. 开头部分的人声是在伴奏之后才出现的（音量，声场）
+187. 183. Intro部分人声在伴奏前面（音量，声场）
+188. 184. 乐器独奏时人声让开（音量，声场）
+189. 185. When an instrument is playing a solo, the vocals step back.（音量，声场）
+190. 186. 当乐器独奏时人声会退后（高频，压缩，声场）
+191. 187. 在乐器独奏时人声应避让（音量，中频，声场）
+192. 188. 当乐器独奏时人声暂停（音量）
+193. 189. 人声独唱时乐器让开（中频，音量，声场）
+194. 190. 能量主要集中在中和高了伴奏的中频和高频可以控制一下（中频，高频，压缩）
+195. 191. The energy is mainly concentrated in the mid and high frequencies of the accompaniment, and the mid and high frequencies can be controlled.（高频，中频，压缩）
+196. 192. 能量主要集中在伴奏的中高频部分并且中高频是可以被控制的（高频，中频，压缩）
+197. 193. 能量主要集中在中频和高频部分建议适当控制伴奏在这些频段的响度（中频，高频，音量）
+198. 194. 可以把这句话简化为 主要把能量集中在中频和高频上同时适当控制这些频率的音量（音量）
+199. 195. 能量主要集中在低频伴奏的中频和高频需要增强（低频）
+200. 196. 人声就被埋在下面了（中频，低频，压缩）
+201. 197. The human voice is buried underneath.（音量，中频，低频）
+202. 198. 人的声音被埋在了下面（中频，低频，压缩）
+203. 199. 人声就被掩盖在混音之下了（音量，中频，压缩）
+204. 200. 人声就被盖住了（音量，中频，声场）
+205. 201. 人声清晰突出在前面（高频，中频，压缩）
+206. 202. 还有就是整首歌的空间感可以再足一点（reverb，声场）
+207. 203. Also, the spatial sense of the entire song could be a bit more pronounced.（声场，reverb）
+208. 204. 另外整首歌的空间感可以再明显一些（reverb，声场）
+209. 205. 此外整首曲目的空间感可以进一步增强（reverb，声场）
+210. 206. 可以这样说 整首歌的立体感和氛围还可以再强一些（声场）
+211. 207. 整首歌的空间感可以再紧凑一点（reverb，声场）
+212. 208. 想的在稍微弄稍微 滑 一点（效果器，reverb）
+213. 209. Think of making it a bit slippery（reverb，声场，压缩）
+214. 210. 想象一下让它变得有点滑（效果器，reverb，声场）
+215. 211. 希望将这段稍微处理得更具有滑音效果（效果器）
+216. 212. 想让它再稍微顺一点（压缩，高频，中频）
+217. 213. 想要的音乐更加稳重一些（低频，中频，压缩）
+218. 214. 就是感觉那种连贯一点（压缩，声场，reverb）
+219. 216. 只是感觉更加连贯了（压缩，声场，效果器）
+220. 217. 可以表达为希望旋律或演奏能够更加流畅连贯（压缩，效果器）
+221. 218. 就是希望感觉更流畅一些（高频，中频，低频）
+222. 219. 需要那种断断续续的感觉（效果器，压缩）
+223. 220. 然后我的鼻音能帮我去一点吧（中频）
+224. 221. Then my nasal sound can help me remove a bit, right?（中频，压缩，效果器）
+225. 222. 那我的鼻音可以帮助我稍微去除一点对吧（中频）
+226. 223. 然后我的鼻音能够为我增添一些色彩吧（中频）
+227. 224. 然后我的鼻音能稍微减轻一点吧（中频）
+228. 225. 我希望我的鼻音能更重一些（中频）
+229. 226. 还是少加点增加空间感（reverb，声场）
+230. 227. Still, add less to increase the sense of space.（reverb，声场，压缩）
+231. 228. 不过少加一些以增加空间感（reverb，声场）
+232. 229. 还是稍微减少一些以增强空间感（reverb，声场）
+233. 230. 还是少加点东西让空间显得更大一些（reverb）
+234. 231. 多加点减少空间感（reverb，声场）
+235. 232. 电话音那段空间感可以更足一点然后声音往后（效果器，声场，reverb）
+236. 233. The spatial sense in the telephone sound can be more pronounced, and the voice can be pushed further back.（声场，reverb，音量）
+237. 234. 电话中的声音空间感可以更明显声音可以被推得更远（效果器，声场，reverb）
+238. 235. 电话音部分的空间感可以增强一些并将声像位置向后调整（效果器，声场，reverb）
+239. 236. 可以让电话里的声音听起来更远一点感觉像是从后面传来的（效果器，高频）
+240. 237. 电话音那段空间感可以更紧凑一点然后声音往前（效果器，声场，reverb）
+241. 238. 然后hook 的有些大喘气弱化一下（中频，压缩）
+242. 239. Then, the heavy breathing in the hook should be toned down a bit.（音量，压缩）
+243. 240. 然后钩子中的沉重呼吸应该稍微减弱一点（低频，音量）
+244. 241. 然后将hook部分的呼吸感稍微减弱一些（压缩，效果器）
+245. 242. 然后让hook的部分不要那么急促稍微平缓一些（高频，压缩，reverb）
+246. 243. hook部分的大喘气效果增强一些（高频，中频，音量）
+247. 244. 人声可以控制一点高频再去去齿音听着挺亮的（高频）
+248. 245. The vocals can be controlled a bit in the high frequencies, and then the sibilance can be reduced; it sounds quite bright.（高频，压缩，效果器）
+249. 246. 人声的高频部分可以稍微控制一下这样就能减少齿音听起来会相当明亮（高频）
+250. 247. 可以适当调整人声的高频成分并进行去齿音处理这样听起来会更加明亮（高频）
+251. 248. 可以把人声调得稍微亮一点同时减少一些刺耳的齿音这样听起来会更舒服更明亮（高频）
+252. 249. 人声增加一些低频保留齿音听起来更加温暖和自然（高频）
+253. 250. 中低的部分饱和感比较重然后导致中低很厚浑浊（中频）
+254. 251. The mid-low part has a heavier saturation, leading to a thick and murky mid-low.（中频，效果器）
+255. 252. 中低频部分的饱和度较重导致中低频听起来厚重且浑浊（低频，中频）
+256. 253. 中低频段的饱和度较高导致该频段听起来较为厚重且不够清晰（低频，中频）
+257. 254. 中低音部分听起来很饱满但过于饱满反而让这部分声音显得厚重且不够清晰（中频）
+258. 255. 高音部分明亮清晰中低音部分轻薄干净（高频）
+259. 256. 就是混的太干了（reverb，声场，效果器）
+260. 257. Its just mixed too dry.（reverb，效果器）
+261. 258. 只是拌得太干了（reverb，声场）
+262. 259. 就是混音时干声过于突出（音量，效果器，reverb）
+263. 260. 就是混得太差了（高频，中频，低频）
+264. 261. 需要更加湿润和丰富的混音效果（reverb，中频，低频）
+265. 262. 但是感觉你的声音飘在beat上（高频，低频，声场）
+266. 263. But it feels like your voice is floating on the beat.（reverb，声场）
+267. 264. 但感觉你的声音像是漂浮在节奏上（低频，高频，声场）
+268. 265. 但是感觉你的声音在节拍上显得不够稳定（低频，压缩）
+269. 266. 但感觉你的声音和节奏不太合拍（低频，音量，压缩）
+270. 267. 需要你的声音紧密贴合beat（低频，音量，压缩）
+271. 268. 是不是有点闷（中频）
+272. 269. Is it a bit闷? 注这里的闷直接翻译为英文可能会失去一些语境下的含义通常我们会根据上下文选择合适的英文表达比如stuffy, boring, 或 depressed等（中频）
+273. 270. 是否感觉有些单调乏味（高频，中频，低频）
+274. 271. 是不是有点无聊（高频，中频，压缩）
+275. 272. 需要非常活泼欢快的音乐（高频，中频，低频）
+276. 273. 还有啦啦啦调虚幻一点（reverb，声场，效果器）
+277. 274. And also make the la la la tune a bit more ethereal.（高频，reverb，声场）
+278. 275. 同时让啦啦啦的旋律更加空灵一些（高频，reverb，声场）
+279. 276. 可以将这句话改写为此外让啦啦啦的部分听起来更加空灵虚幻一些（高频，reverb，声场）
+280. 277. 就是说让啦啦啦的音调再梦幻一点（高频，reverb，声场）
+281. 278. 需要实感强烈的音乐不要有啦啦啦的调子（低频，声场，中频）
+282. 279. 有没有立体感（声场）
+283. 280. Does it have a sense of three-dimensionality?（声场，reverb）
+284. 281. 它有立体感吗（声场）
+285. 282. 是否有空间感（reverb，声场）
+286. 283. 有没有立体感简单来说就是看起来是不是像真的有深度还是扁平的像贴纸一样（声场）
+287. 284. 需要完全没有立体感（声场）
+288. 285. 还是声场拓宽一点做区别处理（声场）
+289. 286. Still, the sound field should be widened a bit to make a distinction.（声场）
+290. 287. 不过声场应该再拓宽一点以做出区分（声场）
+291. 288. 还是在声场宽度上做一些差异化处理（声场）
+292. 289. 简单来说就是把声音的空间感做得更宽一些让不同的声音听起来更有层次更分明（reverb，声场）
+293. 290. 声场缩小一点不做区别处理（声场）
+294. 291. 但是音量的话差不多就是你那效果你可以做区别一点（音量）
+295. 292. But in terms of volume, its about the same as yours; you can make it a bit more distinct.（音量，压缩）
+296. 293. 但在量上它和你的差不多你可以让它更独特一些（高频，低频，声场）
+297. 294. 但是关于音量方面可以保持你现有的动态效果不过建议在不同部分做一些动态对比（音量，压缩）
+298. 295. 你可以把音量调整得有点区别不要完全一样（音量）
+299. 296. 音量需要有显著的区别以创造出截然不同的听觉体验（音量）
+300. 297. 人声可以小点（音量）
+301. 298. The human voice can be a bit lower.（低频，音量）
+302. 299. 人的声音可以稍微低一点（音量）
+303. 300. 请将人声的音量稍微降低一些（音量）
+304. 301. 请小声一点说话（音量）
+305. 302. 人声需要大一些（音量，中频）
+306. 303. 混音多给人生一点空间（reverb）
+307. 304. Mixing gives life a bit more space（声场，reverb）
+308. 305. 混合让生活多了一点空间（reverb）
+309. 306. 在混音时应为各声部留出更多的音频空间（reverb）
+310. 307. 给生活多留点空间别把日程排得太满（reverb）
+311. 308. 混音紧凑不留空间（reverb）
+312. 309. 可以电开的大一下把人声做的厚一点（效果器，高频，中频）
+313. 310. Can the vocal be made thicker with one electric adjustment?（低频，中频，压缩）
+314. 311. 能否通过一次电子调节使声音变得更厚实（效果器，高频，中频）
+315. 312. 可以使用电子处理技术将人声的厚度增加一些（效果器，高频，中频）
+316. 313. 可以用电子设备把人声处理得更浑厚一些（效果器，高频，中频）
+317. 314. 将人声做得薄一些不要用电音处理（效果器，高频）
+318. 315. 然后我和声的声音和混响稍微小一点（reverb）
+319. 316. Then my harmonized voice and reverb are slightly reduced.（reverb，效果器）
+320. 317. 然后我的和声和混响稍微减少了一些（reverb）
+321. 318. 随后我的和声部分的音量以及混响效果略微减弱（音量，reverb）
+322. 319. 然后让我的声音和回声稍微小一点（音量，reverb）
+323. 320. 我和声的声音和混响需要大大增强（reverb）
+324. 321. 然后声音的穿透性强一点就我想要的颗粒度明显一点（高频，压缩）
+325. 322. Then, the sound penetration should be a bit stronger, and the granularity I want should be more noticeable.（高频，中频，效果器）
+326. 323. 然后声音的穿透力应该更强一些我想要的颗粒感应该更明显（高频，中频，压缩）
+327. 324. 然后希望声音的穿透力更强一些同时增加音色的颗粒感（高频，中频，压缩）
+328. 325. 就是希望声音能更清晰有力一些听起来颗粒感更强一点（高频，中频）
+329. 326. 然后声音的穿透性弱一点我想要的颗粒度模糊一点（高频，reverb，压缩）
+330. 327. 所以我想弄的夯实厚一点（中频）
+331. 328. So I want to make it more solid and thicker.（低频，中频，声场）
+332. 329. 所以我想让它更结实更厚一些（中频）
+333. 330. 所以我希望将低音部分加强使其更加饱满（低频，压缩）
+334. 331. 所以我想做得更扎实一些（低频，压缩）
+335. 332. 所以我想弄得轻盈薄一点（高频，低频，中频）
+336. 333. 我就喜欢声音实一点（低频，中频，压缩）
+337. 334. I just like the voice to be a bit more solid.（低频，中频，压缩）
+338. 335. 我只是希望声音能更扎实一点（低频，中频，压缩）
+339. 336. 我更偏好音色饱满一些（中频，低频，压缩）
+340. 337. 我就喜欢声音厚实一点（中频）
+341. 338. 我更倾向于声音虚一点（reverb，声场，效果器）
+342. 339. 能有穿透力一点（高频，中频，压缩）
+343. 340. Can it be a bit more penetrating?（高频，压缩，音量）
+344. 341. 能不能再深入一点（低频，压缩，reverb）
+345. 342. 可以增强一点音色的穿透力（高频，中频，压缩）
+346. 343. 可以表达为能不能说得更直接一点（压缩，reverb，声场）
+347. 344. 希望音乐更加柔和一些（高频，压缩，reverb）
+348. 346. Can the voice be made more solid as it feels a bit floaty?（中频，低频，压缩）
+349. 347. 能不能让声音更扎实一点感觉有点飘（低频，压缩）
+350. 348. 能否让声音更加稳定和集中一些感觉现在有些不够扎实（低频，压缩，声场）
+351. 349. 感觉声音有点虚能不能让声音更稳一些（中频，低频，压缩）
+352. 350. 感觉声音太实了能不能让声音更飘一点（reverb，声场，效果器）
+353. 351. Jushashas（高频，中频，低频）
+354. 352. 具有沙哑质感的（高频，中频，效果器）
+355. 353. 巨沙沙的这个表达可能是指某个东西非常大或者非常多沙子（高频，低频，声场）
+356. 354. 细腻柔和的（高频，中频，低频）
+357. 355. 整体混的脏一点（低频，中频，压缩）
+358. 356. Make the whole thing a bit dirtier.（效果器，压缩，高频）
+359. 357. 让整个东西变得更脏一些（效果器，压缩，音量）
+360. 358. 整体混音时增加一些浑浊度（低频，压缩）
+361. 359. 整体弄得乱一点（高频，中频，低频）
+362. 360. 整体混得干净清晰一点（高频）
+363. 361. 声音处理的干净一点（高频）
+364. 362. Clean up the sound a bit.（高频，压缩）
+365. 363. 把声音稍微清理一下（高频，中频，压缩）
+366. 364. 将声音处理得更为纯净一些（高频，中频，低频）
+367. 365. 把声音处理得更清晰一些（高频，压缩，reverb）
+368. 366. 声音处理得粗糙一些（高频，压缩，效果器）
+369. 367. 能不能把声音变得更有识别度（高频，中频，压缩）
+370. 368. Can the voice be made more recognizable?（高频，中频，压缩）
+371. 369. 能否让声音更具有辨识度（高频，中频，低频）
+372. 370. 能否让音色更具辨识度（高频，中频，低频）
+373. 371. 能不能让声音更特别一点好让大家一听就能认出来（中频，效果器，声场）
+374. 372. 能不能把声音变得难以辨认（高频，中频，低频）
+375. 373. 加重我的鼻音（中频）
+376. 374. Intensify my nasal sound（中频，压缩，效果器）
+377. 375. 加强我的鼻音（中频）
+378. 376. 增强我的鼻音共鸣（中频）
+379. 377. 让我的鼻音更重一些（中频）
+380. 378. 减轻我的鼻音（中频）
+381. 379. 给我的韵脚的声音加重（中频，压缩）
+382. 380. Put more emphasis on the sound of my rhyme（高频，中频，压缩）
+383. 381. 更注重我的韵律的声音（低频，中频，压缩）
+384. 382. 请增强我的韵脚的音量（音量）
+385. 383. 把韵脚的部分念得更重一些（中频，压缩，音量）
+386. 384. 给我的韵脚的声音减轻（低频，中频，音量）
+387. 385. 把我的声音变得破碎一点（高频，效果器）
+388. 386. Make my voice a bit broken.（高频，压缩，效果器）
+389. 387. 让我的声音有点沙哑（效果器，压缩）
+390. 388. 请将我的声音处理得更加断续和破碎（效果器）
+391. 389. 让我的声音听起来有点沙哑或者断断续续的（效果器）
+392. 390. 让我的声音变得更加圆润清晰（高频）
+393. 391. 呼吸声太大了（音量）
+394. 392. The breathing sound is too loud.（高频，音量，压缩）
+395. 393. 呼吸音过重（压缩，高频）
+396. 394. 喘气声太响了（高频，压缩，音量）
+397. 395. 呼吸声太小了（音量）
+398. 396. Severe sound swallowing（低频，压缩，高频）
+399. 397. 严重的声音吞咽（压缩，低频）
+400. 398. 音符被显著地抑制或缺失（压缩，音量）
+401. 399. 说话时有些音发不清楚像是被吃掉了一样（高频，中频，压缩）
+402. 400. 整首氛围更安静一点（音量，高频，reverb）
+403. 401. The entire song has a slightly quieter atmosphere.（音量）
+404. 402. 整首歌的气氛稍微安静一些（音量，高频，低频）
+405. 403. 整首曲目的整体氛围应更为柔和宁静（高频，中频，低频）
+406. 404. 整首歌的氛围再安静一些（音量，高频，中频）
+407. 405. 整首氛围更热烈一点（高频，中频，低频）
+408. 406. 人声柔和顺滑一点（高频，中频，压缩）
+409. 407. The human voice is a bit softer and smoother.（高频，压缩，音量）
+410. 408. 人的声音稍微柔和和圆润一些（高频）
+411. 409. 人声更加柔和圆润一些（高频）
+412. 410. 让声音温柔一点（高频，压缩，reverb）
+413. 411. 人声尖锐粗糙一点（高频，效果器）
+414. 412. 人声颗粒感小一点（高频，压缩，效果器）
+415. 413. The graininess of the human voice is a bit less.（高频，压缩）
+416. 414. 人声的颗粒感稍微少了一点（高频，压缩）
+417. 415. 人声的颗粒感稍微细腻一些（高频，压缩）
+418. 416. 让人声听起来更细腻一点（高频，中频，压缩）
+419. 417. 人声颗粒感大一点（高频，效果器）
+420. 418. 把人声混的更有攻击性（高频，中频，压缩）
+421. 419. Mix the vocals to be more aggressive（高频，中频，压缩）
+422. 420. 将人声混音得更具攻击性（高频，中频，压缩）
+423. 421. 将人声处理得更具侵略性（高频，中频，压缩）
+424. 422. 让人的声音听起来更有冲击力（低频，中频，压缩）
+425. 423. 把人声混得更加柔和（高频，中频，压缩）
+426. 424. 人声混的更工业一点（低频，中频，压缩）
+427. 425. Mix the vocals to be more industrial.（低频，压缩，声场）
+428. 426. 将人声混音得更偏向工业风格（低频，压缩，reverb）
+429. 427. 将人声处理得更具工业风格（低频，压缩，reverb）
+430. 428. 让人声听起来更有电子感或机械感（效果器，高频）
+431. 429. 人声混的更自然一点（压缩，reverb，声场）
+432. 430. 混响更工业一点（reverb）
+433. 431. The reverb is more industrial.（reverb，声场，低频）
+434. 432. 混响更偏向工业风格（reverb）
+435. 433. 混响更具工业质感（reverb）
+436. 434. 混响听起来更有工业感（reverb）
+437. 435. 混响更自然一点（reverb）
+438. 436. 人声混响模仿音乐厅（reverb）
+439. 437. Vocal reverb imitates concert hall（reverb，声场）
+440. 438. 人声混响模仿音乐厅效果（reverb）
+441. 439. 人声混响模拟音乐厅的声学环境（reverb）
+442. 440. 用人声加上混响效果让声音听起来像是在音乐厅里一样（reverb）
+443. 441. 人声干声无混响（reverb）
+444. 442. 就是我想人声再干一些（reverb）
+445. 443. I just want the vocals to be drier.（reverb，效果器）
+446. 444. 我只想让人声更干一些（reverb，效果器）
+447. 445. 我希望人声的混响减少一些让声音更加干涩（reverb）
+448. 446. 就是我想让人声听起来更清晰更直接一些（高频，中频，压缩）
+449. 447. 我希望人声更加湿润丰满一些（reverb，中频，低频）
+450. 448. 因为我很喜欢demo那个tune的那个电流感 所以再干一点（效果器，高频）
+451. 449. Because I really like the electric current feel of that demo tune, so make it a bit drier.（高频，reverb，效果器）
+452. 450. 因为我真的很喜欢那首演示曲的电流感所以让它干一点（效果器，高频）
+453. 451. 因为我非常欣赏那个demo中的音调所具有的电子质感希望这种效果能够更加突出一些（效果器，高频）
+454. 452. 因为我特别喜欢那个demo里的电流声所以想让这种感觉再强烈一点（效果器，高频）
+455. 453. 我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅（效果器，高频）
+456. 454. 人声稍微小一点点（音量）
+457. 455. The human voice is a little bit softer.（高频，音量）
+458. 456. 人的声音稍微柔和一些（高频，压缩）
+459. 457. 人声稍微降低一点音量（音量）
+460. 458. 说话声音稍微轻一点（音量）
+461. 460. 混响可以再小一点（reverb）
+462. 461. The reverb can be a bit smaller.（reverb）
+463. 462. 混响可以稍微小一点（reverb）
+464. 463. 可以将混响的量稍微减少一些（reverb）
+465. 464. 可以把混响调低一些（reverb）
+466. 465. 混响可以再大一点（reverb）
+467. 466. 现在听着有点顶耳朵（高频，压缩，效果器）
+468. 467. Now it sounds a bit piercing to the ears（高频，压缩，reverb）
+469. 468. 现在听起来有点刺耳（高频）
+470. 469. 当前的听感有些刺耳（高频）
+471. 470. 现在听着有点刺耳（高频）
+472. 471. 现在听着非常柔和舒适（高频，压缩，reverb）
+473. 472. 咋感觉听着这么糊（高频，中频，压缩）
+474. 473. How does it feel so muddled?（低频，中频，压缩）
+475. 474. 感觉怎么这么混乱（高频，中频，低频）
+476. 475. 这种听感似乎缺乏清晰度（高频，中频，压缩）
+477. 476. 感觉听起来有点不清楚或者混乱（高频，中频，压缩）
+478. 477. 希望音乐听起来非常清晰透亮（高频，中频，声场）
+479. 478. 感觉听起来质感沙沙的（高频，压缩，效果器）
+480. 479. It feels like it sounds gritty.（高频，效果器）
+481. 480. 感觉听起来很沙哑（高频，压缩）
+482. 481. 感觉听起来音质带有颗粒感（高频，压缩，效果器）
+483. 482. 感觉听起来有点粗糙（高频，中频，压缩）
+484. 483. 感觉听起来质感非常光滑细腻（高频，压缩）
+485. 484. 帮我弄的带动气氛一点吧 听起来有点沉（高频，低频，压缩）
+486. 485. Make it a bit more lively, it sounds a bit dull.（高频，压缩，reverb）
+487. 486. 让它更生动一些听起来有点枯燥（高频，中频，低频）
+488. 487. 请调整一下让音乐更加具有活力和感染力目前听起来有些沉重（高频，低频，中频）
+489. 488. 好的我来帮你让气氛更活跃一些吧现在感觉有点沉闷（中频）
+490. 489. 帮我弄的安静舒缓一点吧听起来轻松愉快（低频，压缩，reverb）
+491. 490. 咋感觉听上去有种在打电话的感觉哈哈哈哈哈（效果器，高频）
+492. 491. It really sounds like theres a feeling of being on the phone, hahaha.（高频，低频，压缩）
+493. 492. 听起来真的有一种在打电话的感觉哈哈（效果器，高频）
+494. 493. 这种听感似乎带有一种电话音频的特质令人发笑（效果器，高频）
+495. 494. 听起来好像在打电话一样哈哈哈哈哈（效果器，高频）
+496. 495. 需要一种听起来完全没有在打电话感觉的音乐（效果器，高频）
+497. 496. 就像我人生剥离出那个伴奏了一样像两个独立的东西一样没融进去（声场，压缩，reverb）
+498. 497. Just like the accompaniment was stripped from my life, like two separate things, not integrated together.（声场，压缩，reverb）
+499. 498. 就像伴奏从我的生活中被剥离了一样像是两件分开的东西没有融合在一起（高频，中频，低频）
+500. 499. 就像是我的人生与那个伴奏分离开来一样两者仿佛独立存在未能融为一体（高频，中频，低频）
+501. 500. 就像我的生活和那个伴奏分开了变成了两个独立的部分没有融合在一起（高频，中频，低频）
+502. 501. 我需要一段音乐它能够与我的人生经历紧密相连就像是专门为我的故事而谱写的一样每一个音符都能触动心灵深处完美地融合在一起（高频，中频，低频）
+503. 503. 稍微瘦一点（低频，压缩，reverb）
+504. 504. 稍微减弱一点（音量）
+505. 505. 再薄一点点（低频，中频）
+506. 506. 然后delay多一点（效果器）
+507. 507. Then delay a bit more（效果器）
+508. 508. 然后再延迟一点（效果器，声场）
+509. 509. 然后增加延迟效果的混响时间（reverb）
+510. 510. 然后等的时间长一点（reverb，效果器）
+511. 511. 然后delay少一点（效果器）
+512. 512. 其实有那种就是特别薄然后就有一点刺刺的那种感觉（高频，低频，压缩）
+513. 513. Actually, there is the kind that is particularly thin and gives a slightly prickly feeling.（高频，低频，压缩）
+514. 514. 实际上有一种特别薄的会给人一种微微刺痛的感觉（高频，中频，低频）
+515. 515. 实际上指的是那种音色特别明亮且略带尖锐感的音响效果（高频）
+516. 516. 其实就是说有一种东西特别薄摸起来有点刺刺的感觉（高频，低频，压缩）
+517. 517. 需要那种特别厚重然后非常柔和平滑的感觉（中频）
+518. 518. 就比较跳一点（低频，高频，压缩）
+519. 519. Its a bit more bouncy.（低频，压缩）
+520. 520. 它有点更弹了（低频，压缩）
+521. 521. 可以表达为稍微更富有跳跃感（高频，压缩，声场）
+522. 522. 就是比较活泼一些（高频，压缩，声场）
+523. 523. 就比较柔和一点（高频，压缩，音量）
+524. 524. 人声还是有点厚（中频）
+525. 525. The human voice is still a bit thick.（高频，中频，低频）
+526. 526. 人的声音还是有点厚（中频）
+527. 527. 人声的音色略显厚重（中频）
+528. 528. 人声听起来有点沉闷（中频）
+529. 529. 人声要非常轻薄（高频，低频，压缩）
+530. 530. 有点突兀突然（音量，压缩）
+531. 531. A bit abrupt, suddenly（音量，压缩，reverb）
+532. 532. 有点突然一下子（音量，压缩）
+533. 533. 有些突兀显得较为突变（高频，压缩，声场）
+534. 534. 有点突然感觉来得有点意外（音量，效果器，声场）
+535. 535. 平滑流畅渐进过渡（音量，压缩，reverb）
+536. 536. 压缩器感觉有点大（压缩）
+537. 537. The compressor feels a bit large.（压缩，音量）
+538. 538. 压缩机感觉有点大（压缩）
+539. 539. 压缩器的阈值设置得可能有些低导致了过多的信号被压缩（压缩）
+540. 540. 压缩器感觉有点小（压缩）
+541. 541. 感觉可以再尖锐点（高频，效果器）
+542. 542. It feels like it could be sharper.（高频，压缩，reverb）
+543. 543. 感觉可以更犀利一些（高频，压缩，reverb）
+544. 544. 可以尝试让音色更加明亮尖锐一些（高频）
+545. 545. 可以再犀利一点（高频，效果器）
+546. 546. 感觉可以再柔和点（高频，压缩）
+547. 547. 改变的或者是略微猛了力量感有点像消退了（低频，压缩）
+548. 548. 改变的还是稍微猛了力度差不多减弱了（压缩，效果器，reverb）
+549. 549. 可能被压的特别凶接着显得感受带过于疲软（压缩，中频）
+550. 550. 可能被压的超级凶然后显得听带我认为有些没劲（压缩，音量）
+551. 551. 音色再出来一丢更炸一点（低频，效果器，音量）
+552. 552. 音色又出来一些更冲一点（高频，效果器）
+553. 553. 全局主唱可以轻微往后放慢有点此刻感觉上着少许前置了想要整体感觉更慵懒感少许（声场，reverb，压缩）
+554. 554. 全局主唱可以有点再后面点往后挪有点当下感觉上着一点前置了希望全局更拖拍感一点（声场，reverb，压缩）
+555. 555. 嗓子离耳朵远少点（高频，声场，reverb）
+556. 556. 主唱离听觉远一丢（声场，reverb）
+557. 557. 期待在教堂里的回声声音效果（reverb）
+558. 558. 想在教堂里的回声听起来（reverb）
+559. 559. 想嗓子又宽一些别聚集在中间（声场，效果器，reverb）
+560. 560. 想歌声重新宽一点别聚集在中间（声场，效果器）
+561. 561. 想全局着磁性（中频）
+562. 562. 希望全局着磁性（中频）
+563. 563. 随后乐器音效一点点微小（中频，压缩，效果器）
+564. 564. 接着配乐音效略微微小（音量）
+565. 565. 1:06-1:17感觉像声儿没有远近感1:06之前听起来像音效像在ktv 1:06然后听起来像在录音棚（reverb，声场，效果器）
+566. 566. 1:06-1:17听起来像声儿没有远近感1:06之前听感音效像在ktv 1:06之后听起来像在录音棚（声场，reverb）
+567. 567. 声儿透亮一些别太电（效果器，高频）
+568. 568. 音效清晰少点别太电（效果器，高频）
+569. 569. 可以又透亮一点（高频，声场）
+570. 570. 可以再无杂音一些（压缩，效果器）
+571. 571. 能加什么给整的纯正一丢不够（低频，reverb，压缩）
+572. 572. 能加什么给整的清晰一点差点（高频，声场，reverb）
+573. 573. 整体感觉主唱可以重一点目前乐器仿佛稍微厚（中频）
+574. 574. 整体感觉嗓子可以厚一丢此刻乐器似乎稍微强（中频）
+575. 575. 觉得略微嗓子浮在配乐上 没有沉下去（高频，中频，低频）
+576. 576. 听感一丢丢歌声浮在bgm上 没有沉下去（高频，中频，压缩）
+577. 577. 听起来立体感少许小小一些好（声场）
+578. 578. 听起来像环绕感略带小小 bit一丢好（声场，效果器）
+579. 579. 还有就是要整首歌的3D感可以再足一丢（声场，reverb，效果器）
+580. 580. 还有就是整首歌的立体感可以再足一些（声场）
+581. 581. 想要的在少许弄少许 滑 少点（reverb，效果器）
+582. 582. 想要的在略带弄轻微 滑 一些（效果器，reverb，声场）
+583. 583. 就是听起来像那种连贯一些（压缩，reverb，声场）
+584. 584. 就是感觉像那种连贯一点（低频，压缩，reverb）
+585. 585. 随后自己的鼻音能帮咱去一些吧（中频）
+586. 586. 接着我的鼻音能帮自己去一些吧（中频）
+587. 587. 电话音那段远近感可以更足一点再然后嗓音往后（效果器，高频）
+588. 588. 电话音那段立体感可以更足一些之后嗓音再后面点（效果器，高频，声场）
+589. 589. 接着hook 的有些重喘气弱化一下子（压缩，音量）
+590. 590. 之后hook 的有些重喘气弱化一刻（高频，压缩）
+591. 591. 歌声可以控制少点高频再去去呲呲声感受含挺亮的（高频，压缩）
+592. 592. 嗓子可以控制一点高频重新去去高频刺音耳闻有挺亮的（高频，音量）
+593. 593. 中低的部分饱和感比较大随后导致中低过于大浑浊（中频）
+594. 594. 中低的部分饱和感比较大接着导致中低过于大浑浊（中频）
+595. 595. 但是听起来你的音效飘在伴奏上（声场，reverb，压缩）
+596. 596. 但是听起来像你的音效飘在伴奏上（高频，声场，reverb）
+597. 597. 或是声场拓宽少点做区别切（声场）
+598. 598. 还是声场拓宽一点做区别切（声场）
+599. 599. 但是音量的话好像就是说你那效果你可以做区别一丢（音量）
+600. 600. 但是音量的话好像就是你那效果你可以做区别一丢（音量）
+601. 601. 混音多把人生一点混响（reverb）
+602. 602. 混音多把人生一些混响（reverb）
+603. 603. 可以电开的强一下子把主唱做的大一点（效果器，高频）
+604. 604. 可以电开的强一瞬把嗓子做的大一些（效果器，高频）
+605. 605. 接着咱和声的声儿和空间略带小小 bit一点（reverb）
+606. 606. 接着我和声的音效和环境一点点小小 bit少点（reverb，声场，效果器）
+607. 607. 之后声儿的穿透性大少点就是咱想的颗粒度明显一点（高频，压缩，reverb）
+608. 608. 之后声儿的穿透性大一丢就是咱期待的颗粒度明显少点（高频，中频，效果器）
+609. 609. 所以自己想要弄的夯实大一些（低频，声场）
+610. 610. 所以我希望弄的夯实大一些（低频，压缩，声场）
+611. 611. 咱就是喜欢音效实一丢（效果器，声场，高频）
+612. 612. 自己就是喜欢音效实一点（低频，压缩，reverb）
+613. 613. 感觉像嗓音一点点飘能不能把音效压实少点（reverb，声场，效果器）
+614. 614. 听起来像音效一点点飘能不能将嗓音压实一丢（中频，压缩，reverb）
+615. 615. 整体感觉混的糊一些（低频，压缩，reverb）
+616. 616. 全盘来看混的闷一点（中频）
+617. 617. 音效切的清晰一丢（高频，压缩，效果器）
+618. 618. 嗓音切的纯正少点（高频，效果器）
+619. 619. 能不能把嗓音变得更着识别度（高频，中频，压缩）
+620. 620. 能不能把声儿变得更着识别度（高频，中频，压缩）
+621. 621. 把咱的韵脚的嗓音加重（中频，高频，压缩）
+622. 622. 把我的韵脚的音效加重（中频，音量，效果器）
+623. 623. 将我的嗓音变得破碎一点（效果器，压缩，高频）
+624. 624. 把我的声儿变得破碎少点（效果器，压缩）
+625. 625. 嗓子颗粒感小小 bit一些（高频，效果器）
+626. 626. 歌声颗粒感微小一丢（高频，压缩）
+627. 627. 把主唱混的更着攻击性（高频，中频，压缩）
+628. 628. 给嗓子混的更着攻击性（高频，中频，压缩）
+629. 629. 就咱觉得嗓子又干几许（高频，音量，reverb）
+630. 630. 就我想要歌声又干一点（reverb，压缩）
+631. 631. 因为我我认为有些喜欢demo那个tune的那个电流感 所以又干一些（效果器，高频）
+632. 632. 因为咱过于喜欢demo那个tune的那个电流感 所以又干少点（效果器，高频）
+633. 633. 主唱少许小小有点（高频，中频，压缩）
+634. 634. 嗓子少许小小稍微（中频，压缩，音量）
+635. 635. 环境可以再小小一点（reverb，声场）
+636. 636. 环境可以又微小一丢（reverb，声场）
+637. 637. 此刻耳闻有略微顶听觉（高频，声场）
+638. 638. 目前感受有稍微顶耳朵（高频，压缩，声场）
+639. 639. 咋感觉像感受带这么脏（高频，压缩，效果器）
+640. 640. 咋听起来像听带这么脏（高频，低频，效果器）
+641. 641. 帮自己弄的带动气氛一丢吧 听感稍微沉（高频，低频，reverb）
+642. 642. 帮自己弄的带动气氛一些吧 听感一点点沉（高频，低频，reverb）
+643. 643. 咋听感耳闻上去有种在打电话的听起来像哈哈哈哈哈（效果器，高频）
+644. 644. 咋听起来像听上去有种在打电话的听感哈哈哈哈哈（效果器，高频）
+645. 645. 就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去（声场，reverb，压缩）
+646. 646. 就是像咱人生剥离出那个配乐了一样像两个独立的东西一样没融进去（声场，reverb，压缩）
+647. 647. 其实着那种就是太薄之后就是着一丢刺刺的那种感觉像（高频，中频，低频）
+648. 648. 其实着那种就是说太薄再然后就是着一丢刺刺的那种感觉像（高频，低频，压缩）
+649. 649. 嗓子或者是一丢丢大（音量，声场，reverb）
+650. 650. vocal还是略微大（音量，压缩）
+651. 651. 压缩器觉得略微厚（压缩，中频）
+652. 652. 压缩器觉得一丢丢强（压缩）
+653. Bass的自然需要更通透（低频）
+654. 整体低频的高频阻尼需要调整（低频）
+655. 整体低频的衰减时间需要调整（低频）
+656. Bass的激进需要更通透（低频）
+657. Bass的突出需要更磁性（低频）
+658. Bass的激进需要更现代感（低频）
+659. 整体低频的衰减时间需要调整（低频）
+660. 整体低频的衰减时间需要调整（低频）
+661. 整体低频的预延迟需要调整（低频）
+662. 整体低频的密度需要调整（低频）
+663. Bass的柔和需要更温暖（低频）
+664. Pad音色的动态范围需要更细腻（音量）
+665. 贝斯的电平超过其他元素（音量）
+666. 底鼓的动态范围需要更细腻（音量）
+667. 合成器的电平低于其他元素（音量）
+668. 副歌部分的过渡段需要衰减3dB左右（音量）
+669. 副歌部分的句尾需要衰减3dB左右（音量）
+670. 副歌部分的过渡段需要限制3dB左右（音量）
+671. 需要添加和声效果让人声更有复古感（效果器）
+672. 希望句尾部分加入延迟制造迷幻感（效果器）
+673. 希望过渡段部分加入和声制造迷幻感（效果器）
+674. 这段人声的和声处理需要更突出（效果器）
+675. 这段人声的镶边处理需要更突出（效果器）
+676. 需要添加电话音效果让人声更有颗粒感（效果器）
+677. 希望过渡段部分加入和声制造迷幻感（效果器）
+678. 希望前奏部分加入电话音制造冲击力（效果器）
+679. 这段人声的autotune处理需要更激进（效果器）
+680. 希望过渡段部分加入和声制造冲击力（效果器）
+681. 希望句尾部分加入延迟制造距离感（效果器）
+682. 这段人声的失真处理需要更激进（效果器）
+683. 希望句头部分加入失真制造迷幻感（效果器）
+684. 这段弦乐的autotune处理需要更明显（效果器）
+685. 这段吉他的autotune处理需要更细腻（效果器）
+686. 这段贝斯的电话音处理需要更突出（效果器）
+687. 需要添加延迟效果让人声更有复古感（效果器）
+688. 需要添加延迟效果让人声更有磁性（效果器）
+689. 希望过渡段部分加入镶边制造距离感（效果器）
