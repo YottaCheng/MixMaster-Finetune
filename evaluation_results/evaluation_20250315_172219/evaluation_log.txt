@@ -1,0 +1,119 @@
+Using device: cuda
+Model type: Qwen2ForSequenceClassification
+Model config: Qwen2Config {
+  "_attn_implementation_autoset": true,
+  "_name_or_path": "D:\\kings\\prj\\Finetune_local\\Models\\deepseek_R1_MixMaster\\v2",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151643,
+  "hidden_act": "silu",
+  "hidden_size": 1536,
+  "initializer_range": 0.02,
+  "intermediate_size": 8960,
+  "max_position_embeddings": 131072,
+  "max_window_layers": 21,
+  "model_type": "qwen2",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 2,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 10000,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.49.0",
+  "use_cache": true,
+  "use_mrope": false,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+
+Chinese to English label mapping: {'高频': 'high_freq', '中频': 'mid_freq', '低频': 'low_freq', '压缩': 'compression', '声场': 'soundstage', '混响': 'reverb', 'reverb': 'reverb', '音量': 'volume', '效果器': 'effect'}
+
+Expected labels: ['high_freq', 'mid_freq', 'low_freq', 'compression', 'soundstage', 'reverb', 'volume', 'effect']
+
+Loaded 228 test samples
+
+=== Test Data Label Distribution ===
+high_freq: 33 samples
+compression: 57 samples
+soundstage: 36 samples
+reverb: 36 samples
+low_freq: 39 samples
+volume: 33 samples
+mid_freq: 36 samples
+effect: 27 samples
+
+Multi-label samples: 66 (28.95%)
+Using unique labels: ['high_freq', 'mid_freq', 'low_freq', 'compression', 'soundstage', 'reverb', 'volume', 'effect']
+
+First sample logits shape: (1, 2)
+First sample logits: [-0.18870845 -2.4431562 ]
+Processed 20/228 samples
+Processed 40/228 samples
+Processed 60/228 samples
+Processed 80/228 samples
+Processed 100/228 samples
+Processed 120/228 samples
+Processed 140/228 samples
+Processed 160/228 samples
+Processed 180/228 samples
+Processed 200/228 samples
+Processed 220/228 samples
+Processed 228/228 samples
+
+Logits shape: (228, 2)
+Model output dimensions: 2
+
+⚠️ Warning: Model output dimensions(2) less than label count(8)
+Need to adapt model outputs
+Output column 0 maps to label low_freq (index 2)
+Output column 1 maps to label effect (index 7)
+Adjusted logits shape: (228, 8)
+
+Probability matrix shape: (228, 8)
+First sample probabilities: [0.5        0.5        0.45296239 0.5        0.5        0.5
+ 0.5        0.07994046]
+
+=== Testing Different Thresholds ===
+Threshold 0.1 - Precision: 0.1083 - Recall: 0.4060 - F1: 0.1637
+Threshold 0.2 - Precision: 0.1083 - Recall: 0.4060 - F1: 0.1637
+Threshold 0.3 - Precision: 0.1083 - Recall: 0.4060 - F1: 0.1637
+Threshold 0.4 - Precision: 0.1083 - Recall: 0.4060 - F1: 0.1637
+Threshold 0.5 - Precision: 0.0794 - Recall: 0.2052 - F1: 0.1131
+Threshold 0.6 - Precision: 0.0843 - Recall: 0.2052 - F1: 0.1172
+Threshold 0.7 - Precision: 0.0854 - Recall: 0.2052 - F1: 0.1183
+
+Best threshold: 0.1
+Best precision: 0.1083
+Best recall: 0.4060
+Best F1 score: 0.1637
+
+Prediction count by category:
+high_freq: 0
+mid_freq: 0
+low_freq: 105
+compression: 0
+soundstage: 102
+reverb: 207
+volume: 228
+effect: 42
+
+=== Per-Label Metrics ===
+Label        Precision  Recall     F1 Score   Support   
+------------------------------------------------------------
+high_freq    0.0000     0.0000     0.0000     33
+mid_freq     0.0000     0.0000     0.0000     36
+low_freq     0.2571     0.6923     0.3750     39
+compression  0.0000     0.0000     0.0000     57
+soundstage   0.1765     0.5000     0.2609     36
+reverb       0.1449     0.8333     0.2469     36
+volume       0.1447     1.0000     0.2529     33
+effect       0.1429     0.2222     0.1739     27
+
+Evaluation report saved to: D:\kings\prj\MixMaster-Finetune\evaluation_results\evaluation_20250315_172219\evaluation_report.html

@@ -1,0 +1,811 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DeepSeek-R1-MixMaster 评估报告</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+                color: #333;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+            }
+            .header {
+                text-align: center;
+                padding: 20px 0;
+                margin-bottom: 30px;
+                border-bottom: 1px solid #eee;
+            }
+            .section {
+                margin-bottom: 40px;
+            }
+            .metrics-card {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            .metrics-row {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -10px;
+            }
+            .metric-item {
+                flex: 1;
+                padding: 10px;
+                min-width: 150px;
+            }
+            .metric-value {
+                font-size: 2em;
+                font-weight: bold;
+                color: #3498db;
+            }
+            .metric-name {
+                font-size: 0.9em;
+                color: #7f8c8d;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px 12px;
+                text-align: left;
+            }
+            th {
+                background-color: #f5f5f5;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .image-container {
+                margin: 20px 0;
+                text-align: center;
+            }
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+                border: 1px solid #eee;
+                border-radius: 4px;
+            }
+            .sample {
+                margin-bottom: 20px;
+                padding: 15px;
+                border: 1px solid #eee;
+                border-radius: 4px;
+            }
+            .sample-text {
+                font-size: 1.1em;
+                margin-bottom: 10px;
+            }
+            .label {
+                display: inline-block;
+                padding: 2px 8px;
+                margin: 2px;
+                border-radius: 4px;
+                font-size: 0.9em;
+            }
+            .true-label {
+                background-color: #d5f5e3;
+                color: #27ae60;
+            }
+            .pred-label {
+                background-color: #e8f4fc;
+                color: #2980b9;
+            }
+            .matched {
+                background-color: #2ecc71;
+                color: white;
+            }
+            .footer {
+                text-align: center;
+                padding: 20px 0;
+                margin-top: 40px;
+                border-top: 1px solid #eee;
+                font-size: 0.9em;
+                color: #7f8c8d;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>DeepSeek-R1-MixMaster 评估报告</h1>
+            <p>生成时间: 2025-03-15 17:17:17</p>
+        </div>
+        
+        <div class="section">
+            <h2>1. 总体性能指标</h2>
+            <div class="metrics-card">
+                <h3>多标签分类性能</h3>
+                <div class="metrics-row">
+                    <div class="metric-item">
+                        <div class="metric-value">0.0994</div>
+                        <div class="metric-name">精确率 (Precision)</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">0.4119</div>
+                        <div class="metric-name">召回率 (Recall)</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">0.1491</div>
+                        <div class="metric-name">F1 分数</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metrics-card">
+                <h3>文本生成性能 (LlamaFactory)</h3>
+                <div class="metrics-row">
+                    <div class="metric-item">
+                        <div class="metric-value">29.06</div>
+                        <div class="metric-name">BLEU-4</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">49.64</div>
+                        <div class="metric-name">ROUGE-1</div>
+                    </div>
+                    <div class="metric-item">
+                        <div class="metric-value">47.55</div>
+                        <div class="metric-name">ROUGE-L</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <img src="performance_comparison.png" alt="Performance Comparison">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>2. 每个标签的性能</h2>
+            <table>
+                <tr>
+                    <th>标签</th>
+                    <th>精确率</th>
+                    <th>召回率</th>
+                    <th>F1 分数</th>
+                    <th>支持数</th>
+                </tr>
+    
+                <tr>
+                    <td>high_freq</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>33</td>
+                </tr>
+        
+                <tr>
+                    <td>mid_freq</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>36</td>
+                </tr>
+        
+                <tr>
+                    <td>low_freq</td>
+                    <td>0.2203</td>
+                    <td>1.0000</td>
+                    <td>0.3611</td>
+                    <td>39</td>
+                </tr>
+        
+                <tr>
+                    <td>compression</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>0.0000</td>
+                    <td>57</td>
+                </tr>
+        
+                <tr>
+                    <td>soundstage</td>
+                    <td>0.1250</td>
+                    <td>0.0833</td>
+                    <td>0.1000</td>
+                    <td>36</td>
+                </tr>
+        
+                <tr>
+                    <td>reverb</td>
+                    <td>0.1951</td>
+                    <td>0.6667</td>
+                    <td>0.3019</td>
+                    <td>36</td>
+                </tr>
+        
+                <tr>
+                    <td>volume</td>
+                    <td>0.1364</td>
+                    <td>0.5455</td>
+                    <td>0.2182</td>
+                    <td>33</td>
+                </tr>
+        
+                <tr>
+                    <td>effect</td>
+                    <td>0.1184</td>
+                    <td>1.0000</td>
+                    <td>0.2118</td>
+                    <td>27</td>
+                </tr>
+        
+            </table>
+            
+            <div class="image-container">
+                <img src="confusion_matrices.png" alt="Confusion Matrices">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>3. 标签分布</h2>
+            <div class="image-container">
+                <img src="label_distribution.png" alt="Label Distribution">
+            </div>
+            
+            <div class="image-container">
+                <img src="multi_label_distribution.png" alt="Multi-label Distribution">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>4. 样本预测</h2>
+    
+            <div class="sample">
+                <div class="sample-text"><strong>文本 1:</strong> 特殊效果镶边过重</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">effect</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">volume</span> <span class="label matched">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.8035</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.2112</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 2:</strong> 像在澡堂唱歌</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">reverb</span> </div>
+                <div><strong>预测标签:</strong> <span class="label matched">reverb</span> <span class="label pred-label">volume</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.8068</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.1499</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 3:</strong> 高频沙沙响</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">high_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">reverb</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.7573</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.5450</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 4:</strong> 底鼓Hz过量</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">low_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label matched">low_freq</span> <span class="label pred-label">reverb</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.7841</td>
+                    </tr>
+            
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.7317</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 5:</strong> 声音太尖刺耳</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">high_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">reverb</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.9363</td>
+                    </tr>
+            
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.8165</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 6:</strong> 高频金属感过强</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">effect</span> <span class="label true-label">high_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">reverb</span> <span class="label matched">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.8555</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.6082</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 7:</strong> 中频段有遮蔽效应</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">soundstage</span> <span class="label true-label">mid_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">volume</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.5614</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.4886</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 8:</strong> 我想透一点但人声轻一点混响宽宽的</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">reverb</span> <span class="label true-label">compression</span> <span class="label true-label">high_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">volume</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.9239</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.2198</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 9:</strong> 手机放没低音</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">low_freq</span> <span class="label true-label">volume</span> </div>
+                <div><strong>预测标签:</strong> <span class="label matched">low_freq</span> <span class="label matched">volume</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.8532</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.3814</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="sample">
+                <div class="sample-text"><strong>文本 10:</strong> 人声鼻音太重</div>
+                <div><strong>真实标签:</strong> <span class="label true-label">compression</span> <span class="label true-label">mid_freq</span> </div>
+                <div><strong>预测标签:</strong> <span class="label pred-label">low_freq</span> <span class="label pred-label">reverb</span> <span class="label pred-label">effect</span> </div>
+                <div><strong>标签概率:</strong></div>
+                <table style="width: auto;">
+                    <tr>
+                        <th>标签</th>
+                        <th>概率</th>
+                    </tr>
+        
+                    <tr>
+                        <td>reverb</td>
+                        <td>0.8807</td>
+                    </tr>
+            
+                    <tr>
+                        <td>low_freq</td>
+                        <td>0.5522</td>
+                    </tr>
+            
+                    <tr>
+                        <td>high_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>mid_freq</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>compression</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>soundstage</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>volume</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                    <tr>
+                        <td>effect</td>
+                        <td>0.5000</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+        </div>
+        
+        <div class="footer">
+            <p>此报告由音频处理参数评估脚本自动生成</p>
+        </div>
+    </body>
+    </html>
+    
