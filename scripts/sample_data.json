@@ -1,0 +1,26 @@
+[
+  {
+    "id": "audio_001",
+    "text": "This is a sample audio clip with bass",
+    "labels": [
+      "低频",
+      "混响"
+    ]
+  },
+  {
+    "id": "audio_002",
+    "text": "Medium frequency test audio sample",
+    "labels": [
+      "中频",
+      "音量"
+    ]
+  },
+  {
+    "id": "audio_003",
+    "text": "High frequency audio sample with effects",
+    "labels": [
+      "高频",
+      "效果器"
+    ]
+  }
+]
