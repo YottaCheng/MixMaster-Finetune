@@ -25,7 +25,7 @@ def generate_instructions():
 
 def convert_to_alpaca():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.normpath(os.path.join(script_dir, "../data/processed/cleaned_data.json"))
+    input_path = os.path.normpath(os.path.join(script_dir, "../data/processed/modified_data.json"))
     
     # 修改点1：output_dir应该指向目录路径
     output_dir = os.path.normpath(os.path.join(script_dir, "../data/llama_factory"))

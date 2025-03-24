@@ -1,0 +1,839 @@
+{
+  "model": "D:\\kings\\prj\\Finetune_local\\Models\\deepseek_R1_MixMaster\\v4",
+  "timestamp": "20250320_231023",
+  "accuracy": 0.19736842105263158,
+  "results": [
+    {
+      "input": "就是不够亮不够宽",
+      "true_labels": [
+        "high frequency",
+        "sound field"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "我想要轻轻的",
+      "true_labels": [
+        "compression",
+        "volume"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "宽宽的",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "我想透一点但人声轻一点混响宽宽的",
+      "true_labels": [
+        "reverb",
+        "sound field",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "然后backup我不要双耳我要在人声的后面",
+      "true_labels": [
+        "compression",
+        "sound field",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "烘托一种饱满但不过分扭捏的氛围",
+      "true_labels": [
+        "reverb",
+        "low frequency"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "整个歌我还是想要很沉静",
+      "true_labels": [
+        "compression",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "不舒服听感被砍住了掐着喉咙的感觉",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "那听着完全是那大舌头那种声音",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "compression"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "声音有点小",
+      "true_labels": [
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "低音轰头",
+      "true_labels": [
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声听着好远",
+      "true_labels": [
+        "mid frequency",
+        "sound field"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "声音太尖刺耳",
+      "true_labels": [
+        "high frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "像在澡堂唱歌",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "电吉他像玩具声",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "声音全挤在中间",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "sound field",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声忽大忽小",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "compression"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "整体音量太小",
+      "true_labels": [
+        "volume"
+      ],
+      "predicted_labels": [
+        "volume"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "贝斯嗡嗡响",
+      "true_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "副歌突然变炸",
+      "true_labels": [
+        "compression",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "高频像刮玻璃",
+      "true_labels": [
+        "high frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声被音乐淹没",
+      "true_labels": [
+        "mid frequency",
+        "volume"
+      ],
+      "predicted_labels": [
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "回音太重",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "特殊音效听不清",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "effects",
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "左边声音比右边大",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "compression"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "呼吸声太明显",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "compression",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "手机放没低音",
+      "true_labels": [
+        "low frequency",
+        "volume"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "声音闷在罐子里",
+      "true_labels": [
+        "high frequency",
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声像被掐着",
+      "true_labels": [
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "回响太短",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "低频段有共振",
+      "true_labels": [
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声kHz需要提升",
+      "true_labels": [
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "高频齿音突出",
+      "true_labels": [
+        "high frequency",
+        "compression"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "立体声场太窄",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "sound field"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "混响衰减调至秒",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "延迟反馈过多",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "整体响度不足",
+      "true_labels": [
+        "volume"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "底鼓Hz过量",
+      "true_labels": [
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声Hz凹陷",
+      "true_labels": [
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "高频空气感不足",
+      "true_labels": [
+        "high frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "混响predelay加长",
+      "true_labels": [
+        "reverb",
+        "effects"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "立体声像偏移",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "特殊效果镶边过重",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "compression",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "左右声道不平衡",
+      "true_labels": [
+        "sound field",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "低频浑浊",
+      "true_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "中频段有遮蔽效应",
+      "true_labels": [
+        "mid frequency",
+        "sound field"
+      ],
+      "predicted_labels": [
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "混响干湿比调整",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "动态范围过小",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "compression",
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "低音听着心慌",
+      "true_labels": [
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "low frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声像隔着门",
+      "true_labels": [
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "高频沙沙响",
+      "true_labels": [
+        "high frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "房间回声不自然",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "失真效果太假",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "声音没层次感",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声压缩过度",
+      "true_labels": [
+        "compression"
+      ],
+      "predicted_labels": [
+        "compression"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "伴奏比人声响",
+      "true_labels": [
+        "volume"
+      ],
+      "predicted_labels": [
+        "sound field",
+        "volume"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "贝斯和底鼓打架",
+      "true_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "compression",
+        "low frequency"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "副歌电平突降",
+      "true_labels": [
+        "mid frequency",
+        "volume"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "高频金属感过强",
+      "true_labels": [
+        "high frequency",
+        "effects"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "compression",
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声鼻音太重",
+      "true_labels": [
+        "compression",
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "mid frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "混响像金属房间",
+      "true_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "延迟效果不跟拍",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "声音左右飘忽",
+      "true_labels": [
+        "sound field",
+        "volume"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "手机外放没厚度",
+      "true_labels": [
+        "low frequency",
+        "volume"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "高频像电话音",
+      "true_labels": [
+        "high frequency"
+      ],
+      "predicted_labels": [
+        "high frequency",
+        "effects"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声闷在胸腔",
+      "true_labels": [
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "mid frequency"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "混响和干声脱节",
+      "true_labels": [
+        "compression",
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "低音喇叭破音",
+      "true_labels": [
+        "low frequency",
+        "effects"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    },
+    {
+      "input": "人声kHz缺失",
+      "true_labels": [
+        "high frequency",
+        "mid frequency"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "立体声像头中效应",
+      "true_labels": [
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "板式混响密度过高",
+      "true_labels": [
+        "reverb"
+      ],
+      "predicted_labels": [
+        "reverb"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "滤波效果太突兀",
+      "true_labels": [
+        "effects"
+      ],
+      "predicted_labels": [
+        "compression"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "左右声道相位问题",
+      "true_labels": [
+        "low frequency",
+        "sound field"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "sound field"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "整体动态被压扁",
+      "true_labels": [
+        "compression",
+        "volume"
+      ],
+      "predicted_labels": [
+        "compression",
+        "volume"
+      ],
+      "is_correct": true
+    },
+    {
+      "input": "低频下潜不足",
+      "true_labels": [
+        "low frequency"
+      ],
+      "predicted_labels": [
+        "reverb",
+        "low frequency"
+      ],
+      "is_correct": false
+    },
+    {
+      "input": "人声喉音过重",
+      "true_labels": [
+        "compression",
+        "mid frequency"
+      ],
+      "predicted_labels": [],
+      "is_correct": false
+    }
+  ]
+}

@@ -952,27 +952,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "adibs can also be a bit quieter",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "adibs can also be a bit quieter",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "adibs can also be a bit quieter",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "adibs can also be a bit quieter",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "adibs can also be a bit quieter",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -1077,27 +1077,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "人声离耳朵远一点",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "人声离耳朵远一点",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "人声离耳朵远一点",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "人声离耳朵远一点",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "人声离耳朵远一点",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -1627,27 +1627,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "想要在教堂里的混响听感",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "想要在教堂里的混响听感",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "想要在教堂里的混响听感",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "想要在教堂里的混响听感",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "想要在教堂里的混响听感",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -2102,27 +2102,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "想要整体上具有魅力",
-    "output": "高频, 中频, 低频"
+    "output": "高频, 效果器"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "想要整体上具有魅力",
-    "output": "高频, 中频, 低频"
+    "output": "高频, 效果器"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "想要整体上具有魅力",
-    "output": "高频, 中频, 低频"
+    "output": "高频, 效果器"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "想要整体上具有魅力",
-    "output": "高频, 中频, 低频"
+    "output": "高频, 效果器"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "想要整体上具有魅力",
-    "output": "高频, 中频, 低频"
+    "output": "高频, 效果器"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -2377,27 +2377,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "feels like the sound lacks spatial sense before it feels like the sound is in a KTV after it feels like its in a recording studio",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "feels like the sound lacks spatial sense before it feels like the sound is in a KTV after it feels like its in a recording studio",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "feels like the sound lacks spatial sense before it feels like the sound is in a KTV after it feels like its in a recording studio",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "feels like the sound lacks spatial sense before it feels like the sound is in a KTV after it feels like its in a recording studio",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "feels like the sound lacks spatial sense before it feels like the sound is in a KTV after it feels like its in a recording studio",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -3277,27 +3277,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "感觉稍微小一点的空间感更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "感觉稍微小一点的空间感更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "感觉稍微小一点的空间感更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "感觉稍微小一点的空间感更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "感觉稍微小一点的空间感更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -3327,52 +3327,52 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "感觉空间稍微紧凑一点更好",
-    "output": "reverb"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "感觉空间稍微紧凑一点更好",
-    "output": "reverb"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "感觉空间稍微紧凑一点更好",
-    "output": "reverb"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "感觉空间稍微紧凑一点更好",
-    "output": "reverb"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "感觉空间稍微紧凑一点更好",
-    "output": "reverb"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "感觉空间感更大一些更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "感觉空间感更大一些更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "感觉空间感更大一些更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "感觉空间感更大一些更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "感觉空间感更大一些更好",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -3402,27 +3402,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Move the sound field a bit closer",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Move the sound field a bit closer",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Move the sound field a bit closer",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Move the sound field a bit closer",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Move the sound field a bit closer",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -3652,27 +3652,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "人声沉下去吧",
-    "output": "高频, reverb, 声场"
+    "output": "声场, 中频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "人声沉下去吧",
-    "output": "高频, reverb, 声场"
+    "output": "声场, 中频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "人声沉下去吧",
-    "output": "高频, reverb, 声场"
+    "output": "声场, 中频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "人声沉下去吧",
-    "output": "高频, reverb, 声场"
+    "output": "声场, 中频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "人声沉下去吧",
-    "output": "高频, reverb, 声场"
+    "output": "声场, 中频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -5152,27 +5152,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Also the spatial sense of the entire song could be a bit more pronounced",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Also the spatial sense of the entire song could be a bit more pronounced",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Also the spatial sense of the entire song could be a bit more pronounced",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Also the spatial sense of the entire song could be a bit more pronounced",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Also the spatial sense of the entire song could be a bit more pronounced",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -5202,27 +5202,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "此外整首曲目的空间感可以进一步增强",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "此外整首曲目的空间感可以进一步增强",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "此外整首曲目的空间感可以进一步增强",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "此外整首曲目的空间感可以进一步增强",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "此外整首曲目的空间感可以进一步增强",
-    "output": "reverb, 声场"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -5727,27 +5727,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Still add less to increase the sense of space",
-    "output": "reverb, 声场, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Still add less to increase the sense of space",
-    "output": "reverb, 声场, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Still add less to increase the sense of space",
-    "output": "reverb, 声场, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Still add less to increase the sense of space",
-    "output": "reverb, 声场, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Still add less to increase the sense of space",
-    "output": "reverb, 声场, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -5877,27 +5877,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "The spatial sense in the telephone sound can be more pronounced and the voice can be pushed further back",
-    "output": "声场, reverb, 音量"
+    "output": "声场, 音量, 效果器"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "The spatial sense in the telephone sound can be more pronounced and the voice can be pushed further back",
-    "output": "声场, reverb, 音量"
+    "output": "声场, 音量, 效果器"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "The spatial sense in the telephone sound can be more pronounced and the voice can be pushed further back",
-    "output": "声场, reverb, 音量"
+    "output": "声场, 音量, 效果器"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "The spatial sense in the telephone sound can be more pronounced and the voice can be pushed further back",
-    "output": "声场, reverb, 音量"
+    "output": "声场, 音量, 效果器"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "The spatial sense in the telephone sound can be more pronounced and the voice can be pushed further back",
-    "output": "声场, reverb, 音量"
+    "output": "声场, 音量, 效果器"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -5927,27 +5927,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "电话音部分的空间感可以增强一些并将声像位置向后调整",
-    "output": "效果器, 声场, reverb"
+    "output": "效果器, 声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "电话音部分的空间感可以增强一些并将声像位置向后调整",
-    "output": "效果器, 声场, reverb"
+    "output": "效果器, 声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "电话音部分的空间感可以增强一些并将声像位置向后调整",
-    "output": "效果器, 声场, reverb"
+    "output": "效果器, 声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "电话音部分的空间感可以增强一些并将声像位置向后调整",
-    "output": "效果器, 声场, reverb"
+    "output": "效果器, 声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "电话音部分的空间感可以增强一些并将声像位置向后调整",
-    "output": "效果器, 声场, reverb"
+    "output": "效果器, 声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -6527,27 +6527,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "就是混音时干声过于突出",
-    "output": "音量, 效果器, reverb"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "就是混音时干声过于突出",
-    "output": "音量, 效果器, reverb"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "就是混音时干声过于突出",
-    "output": "音量, 效果器, reverb"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "就是混音时干声过于突出",
-    "output": "音量, 效果器, reverb"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "就是混音时干声过于突出",
-    "output": "音量, 效果器, reverb"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -6652,27 +6652,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "但感觉你的声音像是漂浮在节奏上",
-    "output": "低频, 高频, 声场"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "但感觉你的声音像是漂浮在节奏上",
-    "output": "低频, 高频, 声场"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "但感觉你的声音像是漂浮在节奏上",
-    "output": "低频, 高频, 声场"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "但感觉你的声音像是漂浮在节奏上",
-    "output": "低频, 高频, 声场"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "但感觉你的声音像是漂浮在节奏上",
-    "output": "低频, 高频, 声场"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -6927,27 +6927,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "同时让啦啦啦的旋律更加空灵一些",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "同时让啦啦啦的旋律更加空灵一些",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "同时让啦啦啦的旋律更加空灵一些",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "同时让啦啦啦的旋律更加空灵一些",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "同时让啦啦啦的旋律更加空灵一些",
-    "output": "高频, reverb, 声场"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -7052,27 +7052,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Does it have a sense of threedimensionality",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Does it have a sense of threedimensionality",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Does it have a sense of threedimensionality",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Does it have a sense of threedimensionality",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Does it have a sense of threedimensionality",
-    "output": "声场, reverb"
+    "output": "声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -7427,27 +7427,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "你可以把音量调整得有点区别不要完全一样",
-    "output": "音量"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "你可以把音量调整得有点区别不要完全一样",
-    "output": "音量"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "你可以把音量调整得有点区别不要完全一样",
-    "output": "音量"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "你可以把音量调整得有点区别不要完全一样",
-    "output": "音量"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "你可以把音量调整得有点区别不要完全一样",
-    "output": "音量"
+    "output": "音量, 效果器"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -8002,27 +8002,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "随后我的和声部分的音量以及混响效果略微减弱",
-    "output": "音量, reverb"
+    "output": "音量"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "随后我的和声部分的音量以及混响效果略微减弱",
-    "output": "音量, reverb"
+    "output": "音量"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "随后我的和声部分的音量以及混响效果略微减弱",
-    "output": "音量, reverb"
+    "output": "音量"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "随后我的和声部分的音量以及混响效果略微减弱",
-    "output": "音量, reverb"
+    "output": "音量"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "随后我的和声部分的音量以及混响效果略微减弱",
-    "output": "音量, reverb"
+    "output": "音量"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -8677,27 +8677,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Can the voice be made more solid as it feels a bit floaty",
-    "output": "中频, 低频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Can the voice be made more solid as it feels a bit floaty",
-    "output": "中频, 低频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Can the voice be made more solid as it feels a bit floaty",
-    "output": "中频, 低频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Can the voice be made more solid as it feels a bit floaty",
-    "output": "中频, 低频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Can the voice be made more solid as it feels a bit floaty",
-    "output": "中频, 低频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -9102,27 +9102,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "把声音稍微清理一下",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "把声音稍微清理一下",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "把声音稍微清理一下",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "把声音稍微清理一下",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "把声音稍微清理一下",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -10102,27 +10102,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "整首曲目的整体氛围应更为柔和宁静",
-    "output": "高频, 中频, 低频"
+    "output": "低频, 声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "整首曲目的整体氛围应更为柔和宁静",
-    "output": "高频, 中频, 低频"
+    "output": "低频, 声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "整首曲目的整体氛围应更为柔和宁静",
-    "output": "高频, 中频, 低频"
+    "output": "低频, 声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "整首曲目的整体氛围应更为柔和宁静",
-    "output": "高频, 中频, 低频"
+    "output": "低频, 声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "整首曲目的整体氛围应更为柔和宁静",
-    "output": "高频, 中频, 低频"
+    "output": "低频, 声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -10252,27 +10252,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "人声更加柔和圆润一些",
-    "output": "高频"
+    "output": "高频, 中频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "人声更加柔和圆润一些",
-    "output": "高频"
+    "output": "高频, 中频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "人声更加柔和圆润一些",
-    "output": "高频"
+    "output": "高频, 中频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "人声更加柔和圆润一些",
-    "output": "高频"
+    "output": "高频, 中频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "人声更加柔和圆润一些",
-    "output": "高频"
+    "output": "高频, 中频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -10352,27 +10352,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "The graininess of the human voice is a bit less",
-    "output": "高频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "The graininess of the human voice is a bit less",
-    "output": "高频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "The graininess of the human voice is a bit less",
-    "output": "高频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "The graininess of the human voice is a bit less",
-    "output": "高频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "The graininess of the human voice is a bit less",
-    "output": "高频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -10552,52 +10552,52 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "将人声处理得更具侵略性",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "将人声处理得更具侵略性",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "将人声处理得更具侵略性",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "将人声处理得更具侵略性",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "将人声处理得更具侵略性",
-    "output": "高频, 中频, 压缩"
+    "output": "高频, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "让人的声音听起来更有冲击力",
-    "output": "低频, 中频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "让人的声音听起来更有冲击力",
-    "output": "低频, 中频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "让人的声音听起来更有冲击力",
-    "output": "低频, 中频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "让人的声音听起来更有冲击力",
-    "output": "低频, 中频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "让人的声音听起来更有冲击力",
-    "output": "低频, 中频, 压缩"
+    "output": "压缩, 高频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -10802,27 +10802,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "The reverb is more industrial",
-    "output": "reverb, 声场, 低频"
+    "output": "声场, 低频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "The reverb is more industrial",
-    "output": "reverb, 声场, 低频"
+    "output": "声场, 低频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "The reverb is more industrial",
-    "output": "reverb, 声场, 低频"
+    "output": "声场, 低频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "The reverb is more industrial",
-    "output": "reverb, 声场, 低频"
+    "output": "声场, 低频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "The reverb is more industrial",
-    "output": "reverb, 声场, 低频"
+    "output": "声场, 低频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -11352,27 +11352,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅",
-    "output": "效果器, 高频"
+    "output": "效果器, 高频, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅",
-    "output": "效果器, 高频"
+    "output": "效果器, 高频, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅",
-    "output": "效果器, 高频"
+    "output": "效果器, 高频, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅",
-    "output": "效果器, 高频"
+    "output": "效果器, 高频, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "我希望音乐更加柔和减少电流感让整体感觉更加湿润和流畅",
-    "output": "效果器, 高频"
+    "output": "效果器, 高频, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -12827,27 +12827,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "实际上有一种特别薄的会给人一种微微刺痛的感觉",
-    "output": "高频, 中频, 低频"
+    "output": "高频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "实际上有一种特别薄的会给人一种微微刺痛的感觉",
-    "output": "高频, 中频, 低频"
+    "output": "高频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "实际上有一种特别薄的会给人一种微微刺痛的感觉",
-    "output": "高频, 中频, 低频"
+    "output": "高频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "实际上有一种特别薄的会给人一种微微刺痛的感觉",
-    "output": "高频, 中频, 低频"
+    "output": "高频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "实际上有一种特别薄的会给人一种微微刺痛的感觉",
-    "output": "高频, 中频, 低频"
+    "output": "高频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -14577,27 +14577,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "就是感觉像那种连贯一点",
-    "output": "低频, 压缩, reverb"
+    "output": "低频, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "就是感觉像那种连贯一点",
-    "output": "低频, 压缩, reverb"
+    "output": "低频, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "就是感觉像那种连贯一点",
-    "output": "低频, 压缩, reverb"
+    "output": "低频, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "就是感觉像那种连贯一点",
-    "output": "低频, 压缩, reverb"
+    "output": "低频, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "就是感觉像那种连贯一点",
-    "output": "低频, 压缩, reverb"
+    "output": "低频, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -14827,27 +14827,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "中低的部分饱和感比较大接着导致中低过于大浑浊",
-    "output": "中频"
+    "output": "中频, 低频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "中低的部分饱和感比较大接着导致中低过于大浑浊",
-    "output": "中频"
+    "output": "中频, 低频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "中低的部分饱和感比较大接着导致中低过于大浑浊",
-    "output": "中频"
+    "output": "中频, 低频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "中低的部分饱和感比较大接着导致中低过于大浑浊",
-    "output": "中频"
+    "output": "中频, 低频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "中低的部分饱和感比较大接着导致中低过于大浑浊",
-    "output": "中频"
+    "output": "中频, 低频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -14877,27 +14877,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "但是听起来像你的音效飘在伴奏上",
-    "output": "高频, 声场, reverb"
+    "output": "高频, 声场"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "但是听起来像你的音效飘在伴奏上",
-    "output": "高频, 声场, reverb"
+    "output": "高频, 声场"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "但是听起来像你的音效飘在伴奏上",
-    "output": "高频, 声场, reverb"
+    "output": "高频, 声场"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "但是听起来像你的音效飘在伴奏上",
-    "output": "高频, 声场, reverb"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "但是听起来像你的音效飘在伴奏上",
-    "output": "高频, 声场, reverb"
+    "output": "高频, 声场"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -15002,27 +15002,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "混音多把人生一点混响",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "混音多把人生一点混响",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "混音多把人生一点混响",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "混音多把人生一点混响",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "混音多把人生一点混响",
-    "output": "reverb"
+    "output": "无相关需求"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -15127,27 +15127,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "接着我和声的音效和环境一点点小小 bit少点",
-    "output": "reverb, 声场, 效果器"
+    "output": "声场, 效果器"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "接着我和声的音效和环境一点点小小 bit少点",
-    "output": "reverb, 声场, 效果器"
+    "output": "声场, 效果器"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "接着我和声的音效和环境一点点小小 bit少点",
-    "output": "reverb, 声场, 效果器"
+    "output": "声场, 效果器"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "接着我和声的音效和环境一点点小小 bit少点",
-    "output": "reverb, 声场, 效果器"
+    "output": "声场, 效果器"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "接着我和声的音效和环境一点点小小 bit少点",
-    "output": "reverb, 声场, 效果器"
+    "output": "声场, 效果器"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -15802,27 +15802,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "主唱少许小小有点",
-    "output": "高频, 中频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "主唱少许小小有点",
-    "output": "高频, 中频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "主唱少许小小有点",
-    "output": "高频, 中频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "主唱少许小小有点",
-    "output": "高频, 中频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "主唱少许小小有点",
-    "output": "高频, 中频, 压缩"
+    "output": "压缩, 音量"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -16102,27 +16102,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去",
-    "output": "声场, reverb, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去",
-    "output": "声场, reverb, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去",
-    "output": "声场, reverb, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去",
-    "output": "声场, reverb, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "就是像自己人生剥离出那个bgm了一样像两个独立的东西一样没融进去",
-    "output": "声场, reverb, 压缩"
+    "output": "声场, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -16302,27 +16302,27 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "Bass的自然需要更通透",
-    "output": "低频"
+    "output": "低频, 高频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "Bass的自然需要更通透",
-    "output": "低频"
+    "output": "低频, 高频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "Bass的自然需要更通透",
-    "output": "低频"
+    "output": "低频, 高频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "Bass的自然需要更通透",
-    "output": "低频"
+    "output": "低频, 高频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "Bass的自然需要更通透",
-    "output": "低频"
+    "output": "低频, 高频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
@@ -16727,52 +16727,52 @@
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "副歌部分的过渡段需要限制dB左右",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "副歌部分的过渡段需要限制dB左右",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "副歌部分的过渡段需要限制dB左右",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "副歌部分的过渡段需要限制dB左右",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "副歌部分的过渡段需要限制dB左右",
-    "output": "音量"
+    "output": "音量, 压缩"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
     "input": "需要添加和声效果让人声更有复古感",
-    "output": "效果器"
+    "output": "效果器, 中频"
   },
   {
     "instruction": "识别需要调整的1-3个关键音频参数：",
     "input": "需要添加和声效果让人声更有复古感",
-    "output": "效果器"
+    "output": "效果器, 中频"
   },
   {
     "instruction": "提取主要音效处理类型（最多三项）：",
     "input": "需要添加和声效果让人声更有复古感",
-    "output": "效果器"
+    "output": "效果器, 中频"
   },
   {
     "instruction": "从以下需求中选择至多三个处理需求：",
     "input": "需要添加和声效果让人声更有复古感",
-    "output": "效果器"
+    "output": "效果器, 中频"
   },
   {
     "instruction": "分析需要优化的音频参数（选择最重要的一到三个）：",
     "input": "需要添加和声效果让人声更有复古感",
-    "output": "效果器"
+    "output": "效果器, 中频"
   },
   {
     "instruction": "分类音频处理需求（选择1-3个相关参数）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量",
