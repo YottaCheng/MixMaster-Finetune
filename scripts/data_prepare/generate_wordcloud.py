@@ -1,7 +1,7 @@
 """
-生成词云脚本 v1.4
-（修复代码块标记错误 + 完整路径验证）
-论文参考:
+Generate Word Cloud Script v1.4
+(Fix code block markup errors + full path validation)
+References:
 1. 《A Survey of Data Augmentation Approaches for NLP》
 2. 《AEDA: An Easier Data Augmentation Technique for Text Classification》
 """
@@ -15,52 +15,53 @@ import jieba
 import json
 import re
 
-# ==================== 配置相对路径 ====================
-BASE_DIR = Path(__file__).parent.parent.parent  # 假设脚本在 scripts/data_prepare/ 目录
+# ==================== Configuration of relative paths ====================
+BASE_DIR = Path(__file__).parent.parent.parent  # Assuming script is in scripts/data_prepare/ directory
 CONFIG_PATH = BASE_DIR / "config" / "music_synonyms.json"
 INPUT_PATH = BASE_DIR / "data" / "raw" / "training_raw_data.docx"
 WORDCLOUD_OUTPUT_PATH = BASE_DIR / "data" / "processed" / "wordcloud.png"
 JSON_OUTPUT_PATH = BASE_DIR / "data" / "processed" / "top_20_words.json"
 
-# ==================== 函数定义 ====================
+# ==================== Function definitions ====================
 def load_text_from_docx(file_path):
-    """从 .docx 文件中提取所有段落文本"""
+    """Load text content from .docx file"""
     if not file_path.exists():
-        raise FileNotFoundError(f"输入文件不存在：{file_path}")
+        raise FileNotFoundError(f"Input file not found: {file_path}")
     
     try:
         doc = Document(file_path)
         text = "\n".join([para.text.strip() for para in doc.paragraphs if para.text.strip()])
         return text
     except Exception as e:
-        raise RuntimeError(f"文档读取失败：{str(e)}")
-
+        raise RuntimeError(f"Document loading failed: {str(e)}")
 
 def load_protected_terms(config_path):
-    """从配置文件加载受保护领域术语"""
+    """Load protected domain terms from configuration file"""
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
         return config.get("_protected", [])
     except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"警告：无法加载保护术语配置 - {str(e)}")
+        print(f"Warning: Failed to load protected terms config - {str(e)}")
         return []
 
 def is_valid_word(word):
-    """智能词汇验证（增强过滤逻辑）"""
-    # 基础过滤条件
-    if len(word) < 1 or not re.search(r'[\u4e00-\u9fa5]', word):
+    """Smart word validation (enhanced filtering logic)"""
+    # Basic filtering conditions
+    if len(word) < 1 or not re.search(r'[a-zA-Z\u4e00-\u9fa5]', word):
         return False
     
-    # 无意义词汇黑名单（已内置）
+    # Meaningless words blacklist (built-in)
     meaningless_words = {
         "一点", "些", "有些", "某个", "某些", "那种", 
-        "这种", "这个", "那个", "哪些", "什么", "怎么"
+        "这种", "这个", "那个", "哪些", "什么", "怎么",
+        "one", "some", "this", "that", "those", "what", "how"
     }
     
-    # 模式匹配过滤
+    # Pattern matching filter
     quantifier_patterns = [
-        r".*点$", r".*些$", r"某.*", r".*种$", r".*么$"
+        r".*点$", r".*些$", r"某.*", r".*种$", r".*么$",
+        r".*one$", r".*some$", r".*this$", r".*that$", r".*those$", r".*what$", r".*how$"
     ]
     
     return (
@@ -69,19 +70,27 @@ def is_valid_word(word):
     )
 
 def preprocess_text(text):
-    """预处理文本（内置停用词库+领域术语保护）"""
-    # 内置专业停用词库
+    """Preprocess text (built-in stopword library + domain term protection)"""
+    # Built-in professional stopword library
     stopwords = {
         "的", "是", "在", "和", "有", "与", "了", "这", "我们", "可以",
         "要", "对", "就", "也", "都", "而", "及", "或", "但", "更", "其",
-        "他", "它", "他们", "它们", "这个", "那个", "这些", "那些", "一种"
+        "他", "它", "他们", "它们", "这个", "那个", "这些", "那些", "一种",
+        "a", "an", "the", "and", "or", "but", "for", "of", "to", 
+        "in", "on", "at", "by", "with", "as", "from", "about", "into", 
+        "through", "during", "before", "after", "above", "below", "up", 
+        "down", "in", "out", "over", "under", "again", "further", "then", 
+        "once", "here", "there", "when", "where", "why", "how", "all", "any", 
+        "both", "each", "few", "more", "most", "other", "some", "such", "no", 
+        "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", 
+        "t", "can", "will", "just", "don", "should", "now"
     }
     
-    # 加载领域保护术语并加入停用词
+    # Load domain protected terms and add to stopwords
     protected_terms = load_protected_terms(CONFIG_PATH)
     stopwords.update(protected_terms)
     
-    # 精确分词+过滤
+    # Precise segmentation + filtering
     words = [
         word for word in jieba.lcut(text)
         if word not in stopwords and is_valid_word(word)
@@ -90,7 +99,7 @@ def preprocess_text(text):
     return words
 
 def generate_wordcloud(word_freq, output_path):
-    """生成词云（优化显示参数）"""
+    """Generate word cloud (optimized display parameters)"""
     wc = WordCloud(
         font_path="/System/Library/Fonts/STHeiti Light.ttc",
         width=1200,
@@ -99,7 +108,7 @@ def generate_wordcloud(word_freq, output_path):
         max_words=200,
         colormap="viridis",
         prefer_horizontal=0.85,
-        collocations=False  # 禁用词组搭配
+        collocations=False  # Disable bigram generation
     )
     
     plt.figure(figsize=(12, 6))
@@ -109,7 +118,7 @@ def generate_wordcloud(word_freq, output_path):
     wc.to_file(output_path)
 
 def save_top_words_to_json(word_freq, output_path, top_n=20):
-    """保存高频词数据（带词频统计）"""
+    """Save top words data (with frequency statistics)"""
     top_words = {
         word: {
             "count": count,
@@ -122,32 +131,32 @@ def save_top_words_to_json(word_freq, output_path, top_n=20):
 
 def main():
     try:
-        # 加载并清洗文本
+        # Load and clean text
         raw_text = load_text_from_docx(INPUT_PATH)
-        print(f"原始文本长度：{len(raw_text)}字符")
+        print(f"Raw text length: {len(raw_text)} characters")
         
-        # 预处理与统计
+        # Preprocess and statistics
         words = preprocess_text(raw_text)
-        print(f"有效词汇数量：{len(words)}")
+        print(f"Valid words count: {len(words)}")
         
         word_freq = Counter(words)
-        print(f"不重复词数：{len(word_freq)}")
+        print(f"Unique words count: {len(word_freq)}")
         
-        # 生成可视化结果
+        # Generate visualization results
         generate_wordcloud(word_freq, WORDCLOUD_OUTPUT_PATH)
         save_top_words_to_json(word_freq, JSON_OUTPUT_PATH)
         
-        # 验证保护术语隔离
+        # Verify protected term isolation
         protected_terms = load_protected_terms(CONFIG_PATH)
         top_words = json.load(open(JSON_OUTPUT_PATH, "r", encoding="utf-8"))
         leakage = [term for term in protected_terms if term in top_words]
         if leakage:
-            print(f"⚠️ 保护术语泄漏：{leakage}")
+            print(f"⚠️ Protected term leakage: {leakage}")
         else:
-            print("✅ 领域术语隔离成功")
+            print("✅ Domain term isolation successful")
         
     except Exception as e:
-        print(f"处理失败: {str(e)}")
+        print(f"Processing failed: {str(e)}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,40 @@
+---
+config:
+  layout: fixed
+---
+flowchart TD
+ subgraph subGraph0["Data Preparation and Augmentation"]
+        B[/"generate_wordcloud.py"/]
+        A[["training_raw_data.docx"]]
+        C[["top_20_words.json"]]
+        D[/"renew_json.py"/]
+        E[["music_synonyms.json"]]
+        F[/"pure_eda.py"/]
+        G[["augmented_results.docx"]]
+        H[/"backtracking.py"/]
+        I[["backtrans_results.docx"]]
+        J["Next Stage Processing"]
+  end
+    A --> B & F & H
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    H --> I
+    G --> J
+    I --> J
+     B:::script
+     A:::input
+     C:::output
+     D:::script
+     E:::output
+     F:::script
+     G:::output
+     H:::script
+     I:::output
+     J:::transition
+    classDef input fill:#F9E79F,stroke:#333
+    classDef script fill:#AED6F1,stroke:#2E86C1
+    classDef output fill:#A9DFBF,stroke:#27AE60
+    classDef transition fill:#F5D6BA,stroke:#D35400

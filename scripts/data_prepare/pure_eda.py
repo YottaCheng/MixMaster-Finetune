@@ -30,16 +30,16 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 class MusicAugmentor:
     def __init__(self):
-        # 自动创建必要目录
+        # Automatically create necessary directories
         OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
         
         if not CONFIG_PATH.exists():
-            raise FileNotFoundError(f"术语库文件不存在于：{CONFIG_PATH}")
+            raise FileNotFoundError(f"Term library file does not exist at: {CONFIG_PATH}")
         
         self.term_map = self._load_config()
         jieba.initialize()
 
-        # 专业术语保护列表
+        # List of protected terms
         self.protected_terms = {
             "压缩": "[COMP]", "混响": "[REV]", "EQ": "[EQ]",
             "Autotune": "[AT]", "齿音": "[DEESS]", "底鼓": "[KICK]",
@@ -48,7 +48,7 @@ class MusicAugmentor:
         }
     
     def _load_config(self):
-        """安全加载层级化术语库"""
+        """Safely load hierarchical term library"""
         try:
             with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
                 raw_data = json.load(f)
@@ -59,21 +59,21 @@ class MusicAugmentor:
                     if not isinstance(values, list):
                         values = [values]
                     clean_values = list(set(values))
-                    # 主索引
+                    # Main index
                     term_map[key].extend(clean_values)
-                    # 创建小写索引
+                    # Create lowercase index
                     term_map[key.lower()].extend(clean_values)
-                    # 反向索引
+                    # Reverse index
                     for val in clean_values:
                         term_map[val].append(key)
             return term_map
         except json.JSONDecodeError:
-            raise ValueError(f"配置文件格式错误：{CONFIG_PATH}")
+            raise ValueError(f"Configuration file format error: {CONFIG_PATH}")
         except Exception as e:
-            raise RuntimeError(f"术语库加载失败：{str(e)}")
+            raise RuntimeError(f"Term library loading failed: {str(e)}")
     
     def _dynamic_replace(self, text: str, seed: int = None) -> tuple:
-        """智能术语替换引擎（返回替换文本和替换次数）"""
+        """Smart term replacement engine (returns replaced text and replacement count)"""
         if seed is not None:
             random.seed(seed)
         
@@ -84,7 +84,7 @@ class MusicAugmentor:
         
         while cursor < len(words):
             found = False
-            # 优先匹配长短语（3→2→1）
+            # Prioritize matching phrases (3→2→1)
             for length in [3, 2, 1]:
                 if cursor + length > len(words):
                     continue

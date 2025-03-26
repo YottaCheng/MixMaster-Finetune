@@ -1,0 +1,36 @@
+---
+config:
+  theme: base
+  themeVariables:
+    primaryColor: '#ffffff'
+    primaryTextColor: '#000000'
+    primaryBorderColor: '#000000'
+    lineColor: '#000000'
+    secondaryColor: '#ffffff'
+    tertiaryColor: '#ffffff'
+    background: '#ffffff'
+  flowchart:
+    diagramPadding: 10
+    nodeSpacing: 30
+    rankSpacing: 40
+    curve: linear
+  layout: fixed
+---
+flowchart LR
+    UserData[/"User Requirements Data"/] --> DataPhase
+    subgraph DataPhase["Data Processing"]
+        DataProc["Data Processing"] --> EDA["Exploratory Data"] & BT["Back-translation"]
+        EDA & BT --> DF["Data Filtering"]
+        DF --> AN["Pre Labeled"] --> CL["Data Cleaning"] --> EX["Expert"] --> FC["Format"]
+    end
+    DataPhase --> ModelPhase["Model Fine-tuning Phase"]
+    subgraph ModelPhase
+        MT["Model Fine-tuning"] --> WA["Web Application"]
+    end
+    ModelPhase --> EvalPhase["Evaluation & Deployment"]
+    subgraph EvalPhase
+        EV(["Evaluation"]) --> DP["Deployment"]
+    end
+    classDef default fill:#fff,stroke:#000,stroke-width:1px
+    classDef phaseStyle fill:#fff,stroke:#000,stroke-width:1px,stroke-dasharray: 5 5
+    class DataPhase,ModelPhase,EvalPhase phaseStyle

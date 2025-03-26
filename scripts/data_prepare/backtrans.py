@@ -69,13 +69,13 @@ class RobustAugmenter:
         self.start_time = time.time()
 
     def _call_api(self, prompt: str, text: str, is_critical: bool = False) -> str:
-        """强化API调用（带重试机制）"""
+        """API calling (with restart)"""
         params = {
             "model": "qwen-max",
             "prompt": f"{prompt}\n{text}",
             "temperature": CONFIG["sampling"]["high_temp"] if is_critical else CONFIG["sampling"]["base_temp"],
             "top_p": CONFIG["sampling"]["top_p"],
-            "max_tokens": 100  # 限制生成长度
+            "max_tokens": 100  
         }
         
         for attempt in range(CONFIG["sampling"]["max_retry"]):

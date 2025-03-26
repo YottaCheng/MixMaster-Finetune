@@ -5,9 +5,9 @@ import re
 VALID_LABELS = {'低频', '中频', '高频', 'reverb', '效果器', '声场', '压缩', '音量'}
 
 def clean_text(text):
-    # 同时移除数字和标点符号
-    text = re.sub(r'[\d_]', '', text)  # 新增数字和下划线过滤
-    text = re.sub(r'[^\u4e00-\u9fa5a-zA-Z\s]', '', text)  # 移除0-9数字
+    # Remove numbers and punctuation simultaneously
+    text = re.sub(r'[\d_]', '', text)  # New addition to filter out numbers and underscores
+    text = re.sub(r'[^\u4e00-\u9fa5a-zA-Z\s]', '', text)  # Remove punctuation
     return re.sub(r'\s+', ' ', text).strip()
 
 def generate_instructions():
@@ -27,15 +27,17 @@ def convert_to_alpaca():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     input_path = os.path.normpath(os.path.join(script_dir, "../data/processed/modified_data.json"))
     
-    # 修改点1：output_dir应该指向目录路径
+    # Modification 1: output_dir should point to a directory path
     output_dir = os.path.normpath(os.path.join(script_dir, "../data/llama_factory"))
-    # 修改点2：输出文件路径单独定义
+    # Modification 2: Output file path defined separately
     output_path = os.path.join(output_dir, "train.json")
     
-    os.makedirs(output_dir, exist_ok=True)  # 现在正确创建目录
+    os.makedirs(output_dir, exist_ok=True)  # Now correctly creates the directory
     
     with open(input_path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
+    
+    alpaca_data = []
     
     alpaca_data = []
     for item in raw_data:

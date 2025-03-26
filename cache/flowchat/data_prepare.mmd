@@ -1,0 +1,18 @@
+flowchart LR
+    A[Raw Data] --> B[Data Augmentation Phase]
+    B --> C[Pre-labeling Phase]
+    C --> D[Cleaning & Conversion]
+    D --> E{Expert Review?}
+    E -->|Yes| F[Expert Annotation Loop]
+    E -->|No| G[Direct Conversion]
+    F & G --> H[Alpaca Format]
+    H --> I{Proceed to Expert Review?}
+    I -->|Yes| F
+    I -->|No| J[[Model Fine-tuning]]
+
+    classDef phase fill:#D6EAF8,stroke:#3498DB;
+    classDef decision fill:#F9E79F,stroke:#F1C40F;
+    classDef final fill:#A9DFBF,stroke:#27AE60;
+    class A,J final;
+    class B,C,D,H phase;
+    class E,I decision;

@@ -1,0 +1,33 @@
+flowchart LR
+    subgraph "Data Cleaning, Annotation, and Conversion"
+        A[["training_labeled_data.docx"]] --> B[/clean_data.py/]
+        
+        B --> C[["data_quality_report.json"]]
+        B --> D[["cleaned_data.json"]]
+        B --> E[["cleaned_data.txt"]]
+        
+        D --> F{Review Path}
+        
+        F -->|Direct Conversion| G[/convert_data.py/]
+        F -->|Expert Review| H[/label_checker.py/]
+        
+        G --> I[["alpaca_format.json"]]
+        H --> J[["Expert Annotated Data"]]
+        
+        I --> K[/label_convert.py/]
+        K --> H
+        
+        I --> L[[Model Fine-tuning]]
+        J --> G
+    end
+
+    classDef input fill:#F9E79F,stroke:#333;
+    classDef script fill:#AED6F1,stroke:#2E86C1;
+    classDef output fill:#A9DFBF,stroke:#27AE60;
+    classDef decision fill:#F5D6BA,stroke:#D35400;
+    classDef finalstage fill:#D7BDE2,stroke:#8E44AD;
+    class A input;
+    class F decision;
+    class B,G,H,K script;
+    class C,D,E,I,J output;
+    class L finalstage;

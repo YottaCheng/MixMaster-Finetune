@@ -1,0 +1,62 @@
+%%{init: {
+  'theme': 'base', 
+  'themeVariables': { 
+    'primaryColor': '#ffffff', 
+    'primaryTextColor': '#000000', 
+    'primaryBorderColor': '#000000', 
+    'lineColor': '#000000', 
+    'secondaryColor': '#ffffff', 
+    'tertiaryColor': '#ffffff', 
+    'background': '#ffffff',
+    'mainBkg': '#ffffff',
+    'nodeBorder': '#000000',
+    'clusterBkg': '#ffffff',
+    'clusterBorder': '#000000',
+    'titleColor': '#000000'
+  }
+}}%%
+
+flowchart TD
+    %% Starting point
+    UserData[/"User Requirements Data"/] --> DataPhase
+    
+    %% Data Processing Phase
+    subgraph DataPhase["Data Processing Phase"]
+        DataProc["Data Processing"]
+        SynAug["Synonym Augmentation"]
+        BackTrans["Back-translation"]
+        DataFilter["Data Filtering"]
+        Annotation["Data Annotation"]
+        
+        DataProc --> SynAug
+        DataProc --> BackTrans
+        SynAug --> DataFilter
+        BackTrans --> DataFilter
+        DataFilter --> Annotation
+    end
+    
+    %% Model Fine-tuning Phase
+    subgraph ModelPhase["Model Fine-tuning Phase"]
+        ModelTuning["Model Fine-tuning"]
+        WebApp["Web Application"]
+        
+        ModelTuning --> WebApp
+    end
+    
+    %% Evaluation Phase
+    subgraph EvalPhase["Evaluation & Deployment Phase"]
+        Evaluation(["Evaluation"])
+        Deployment["Deployment"]
+        
+        Evaluation --> Deployment
+    end
+    
+    %% Connect the phases
+    DataPhase --> ModelPhase
+    ModelPhase --> EvalPhase
+    
+    %% Explicitly set all elements to white background
+    classDef default fill:#ffffff,stroke:#000000,stroke-width:1px,color:#000000
+    classDef phaseStyle fill:#ffffff,stroke:#000000,stroke-width:1px,stroke-dasharray: 5 5
+    
+    class DataPhase,ModelPhase,EvalPhase phaseStyle

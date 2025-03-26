@@ -1,0 +1,25 @@
+flowchart TD
+    subgraph "Filtering and Preliminary Labeling"
+        A[["augmented_results.docx"]] --> B[/index_merge.py & fliter.py/]
+        C[["backtrans_results.docx"]] --> B
+        
+        B --> D[["filtered_results.docx"]]
+        
+        D --> E[/prelabeled.py/]
+        E -.-> F["Random 8-label Check"]
+        
+        E --> G[["training_labeled_data.docx"]]
+        
+        G --> H[Next Stage Processing]
+    end
+
+    classDef input fill:#F9E79F,stroke:#333;
+    classDef script fill:#AED6F1,stroke:#2E86C1;
+    classDef output fill:#A9DFBF,stroke:#27AE60;
+    classDef check fill:#F5B7B1,stroke:#C0392B;
+    classDef transition fill:#F5D6BA,stroke:#D35400;
+    class A,C input;
+    class B,E script;
+    class D,G output;
+    class F check;
+    class H transition;

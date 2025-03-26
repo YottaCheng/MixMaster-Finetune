@@ -8,7 +8,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)  # 使用 insert(0) 确保优先搜索当前目录
 
 import gradio as gr
-from predict import MixingLabelPredictor
+from scripts.web.predict import MixingLabelPredictor
 
 # 初始化预测器
 predictor = MixingLabelPredictor()
@@ -761,11 +761,11 @@ with gr.Blocks(css=css, theme=gr.themes.Default(primary_hue="purple")) as app:
     
     # 复制按钮事件
     copy_advice_btn.click(
-        fn=lambda advice: advice,  # 直接传递建议文本
+        fn=lambda advice: advice,  
         inputs=[output_advice],
-        outputs=[paste_area]  # 输出到粘贴区域
+        outputs=[paste_area]  
     ).then(
-        fn=copy_notification,  # 显示复制成功通知
+        fn=copy_notification, 
         inputs=[output_advice, lang_state],
         outputs=[copy_status]
     )

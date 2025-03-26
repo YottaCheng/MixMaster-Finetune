@@ -208,13 +208,13 @@ class AudioPreLabelSystem:
         doc.save(CONFIG["output_path"])
         print(f"\n已保存预标注结果到：{CONFIG['output_path']}")
     def manual_verification(self):
-        """全新验证流程"""
+        """New verification process"""
         label_map = defaultdict(list)
         for sample in self.samples:
             for label in sample['labels']:
                 label_map[label].append(sample)
         
-        # 首轮验证：每类抽1个样本
+        # First round verification: Sample 1 from each category
         verify_samples = []
         for label in CONFIG["label_rules"].keys():
             samples = label_map.get(label, [])
@@ -222,13 +222,13 @@ class AudioPreLabelSystem:
                 verify_samples.append(random.choice(samples))
         
         print(f"\n{'='*50}")
-        print(f"开始标签抽样验证（共{len(verify_samples)}个样本）")
+        print(f"Starting label sampling verification (total {len(verify_samples)} samples)")
         
         for idx, sample in enumerate(verify_samples, 1):
-            print(f"\n【验证进度 {idx}/{len(verify_samples)}】")
-            print(f"原始描述：{sample['text']}")
-            print(f"当前标签：{', '.join(sample['labels'])}")
-            action = input("是否接受？(y/n/e): ").strip().lower()
+            print(f"\n[Verification Progress {idx}/{len(verify_samples)}]")
+            print(f"Original Description: {sample['text']}")
+            print(f"Current Labels: {', '.join(sample['labels'])}")
+            action = input("Accept? (y/n/e): ").strip().lower()
             
             if action == 'e':
                 self._edit_labels(sample)

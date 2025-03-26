@@ -235,43 +235,61 @@ def generate_supplementary_data(existing_data: List[dict], label_dist: Dict[str,
     
     return supplement_data
 
-def generate_report(data: List[dict], output_report: str):
-    """增强后的质量报告（包含多标签指标）"""
-    entropy, label_dist = calculate_entropy(data)
-    metrics = calculate_metrics(data)  # 新增指标计算
+def generate_report(data: List[dict], output_report_cn: str, output_report_en: str):
+    """
+    生成多语言的数据质量报告
     
-    report = {
-        "summary": {
-            "total_samples": len(data),
-            "unique_labels": len(label_dist),
-            "entropy": f"{entropy:.4f}",
-            **metrics,  # 包含多标签评估指标
-            "recommendations": []
+    Args:
+        data (List[dict]): 处理后的数据集
+        output_report_cn (str): 中文报告输出路径
+        output_report_en (str): 英文报告输出路径
+    """
+    entropy, label_dist = calculate_entropy(data)
+    metrics = calculate_metrics(data)
+    
+    avg = sum(label_dist.values()) / len(label_dist)
+    recommendations = [
+        f"标签【{label}】数据量偏低（{count}），建议增加相关标注数据"
+        for label, count in label_dist.items() if count < avg * 0.7
+    ]
+    
+    # 中文报告
+    report_cn = {
+        "摘要": {
+            "总样本数": len(data),
+            "唯一标签数": len(label_dist),
+            "信息熵": f"{entropy:.4f}",
+            **{k: f"{v:.4f}" for k, v in metrics.items()},
+            "改进建议": recommendations
         },
-        "label_distribution": label_dist
+        "标签分布": label_dist
     }
     
-    # 根据论文2的阈值建议
-    avg = sum(label_dist.values()) / len(label_dist)
-    for label, count in label_dist.items():
-        if count < avg * 0.7:
-            report["summary"]["recommendations"].append(
-                f"标签【{label}】数据量偏低（{count}），建议增加相关标注数据"
-            )
+    # 英文报告
+    report_en = {
+        "Summary": {
+            "Total Samples": len(data),
+            "Unique Labels": len(label_dist),
+            "Entropy": f"{entropy:.4f}",
+            **{k: f"{v:.4f}" for k, v in metrics.items()},
+            "Recommendations": [
+                f"Label [{label}] has low data volume ({count}), recommended to add more annotated data"
+                for label, count in label_dist.items() if count < avg * 0.7
+            ]
+        },
+        "Label Distribution": label_dist
+    }
     
-    with open(output_report, 'w', encoding='utf-8') as f:
-        json.dump(report, f, ensure_ascii=False, indent=2)
-
-    # 生成改进建议
-    avg = sum(label_dist.values()) / len(label_dist)
-    for label, count in label_dist.items():
-        if count < avg * 0.7:
-            report["summary"]["recommendations"].append(
-                f"标签【{label}】数据量偏低（{count}），建议增加相关标注数据"
-            )
+    # 保存中文报告
+    with open(output_report_cn, 'w', encoding='utf-8') as f:
+        json.dump(report_cn, f, ensure_ascii=False, indent=2)
     
-    with open(output_report, 'w', encoding='utf-8') as f:
-        json.dump(report, f, ensure_ascii=False, indent=2)
+    # 保存英文报告
+    with open(output_report_en, 'w', encoding='utf-8') as f:
+        json.dump(report_en, f, ensure_ascii=False, indent=2)
+    
+    print(f"已生成中文报告：{output_report_cn}")
+    print(f"已生成英文报告：{output_report_en}")
 
 def main():
     # 创建必要目录
@@ -310,8 +328,12 @@ def main():
         # 合并原始数据和增强数据
         final_data = cleaned_data + enhanced_data
         
-        # 生成最终报告
-        generate_report(final_data, PATH_CONFIG["report"])
+        # 生成最终报告 - 新增英文报告路径
+        generate_report(
+            final_data, 
+            PATH_CONFIG["report"].replace(".json", "_cn.json"),
+            PATH_CONFIG["report"].replace(".json", "_en.json")
+        )
         print(f"质量报告已生成：{PATH_CONFIG['report']}")
         print(f"最终数据总量：{len(final_data)}条")
     

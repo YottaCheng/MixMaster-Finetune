@@ -8,7 +8,7 @@ import json
 from colorama import init, Fore, Style
 
 # 导入预测器类
-from predict import MixingLabelPredictor
+from scripts.web.predict import MixingLabelPredictor
 
 def print_colored(text, color=Fore.WHITE, end='\n'):
     """打印彩色文本"""
