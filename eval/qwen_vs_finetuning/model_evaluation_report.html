@@ -1,0 +1,277 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audio Parameter Model Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1, h2, h3 {
+                color: #1E88E5;
+            }
+            h1 {
+                text-align: center;
+                border-bottom: 2px solid #eee;
+                padding-bottom: 10px;
+            }
+            .report-meta {
+                background-color: #f5f5f5;
+                padding: 15px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px 15px;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+            th {
+                background-color: #f8f8f8;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            .metric-table th:first-child {
+                width: 30%;
+            }
+            .example-container {
+                background-color: #f9f9f9;
+                border-left: 4px solid #2196F3;
+                padding: 15px;
+                margin: 15px 0;
+                border-radius: 0 4px 4px 0;
+            }
+            .correct {
+                color: #4CAF50;
+                font-weight: bold;
+            }
+            .incorrect {
+                color: #F44336;
+                font-weight: bold;
+            }
+            .improvement {
+                color: #4CAF50;
+            }
+            .regression {
+                color: #F44336;
+            }
+            .chart-container {
+                margin: 30px 0;
+                border: 1px solid #eee;
+                padding: 20px;
+                border-radius: 5px;
+            }
+            footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #eee;
+                color: #777;
+                font-size: 0.9em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Audio Parameter Model Evaluation Report</h1>
+        
+        <div class="report-meta">
+            <p><strong>Generated:</strong> 2025-03-26 23:43:08</p>
+            <p><strong>Sample Count:</strong> 76</p>
+            <p><strong>Device:</strong> GPU</p>
+            
+        </div>
+        
+        <h2>Evaluation Summary</h2>
+        <table class="metric-table">
+            <tr>
+                <th>Metric</th>
+                <th>Base Model</th>
+                <th>Fine-tuned Model</th>
+                <th>Improvement</th>
+            </tr>
+    
+            <tr>
+                <td>Exact Match</td>
+                <td>0.1316</td>
+                <td>0.2105</td>
+                <td class="improvement">+60.00%</td>
+            </tr>
+        
+            <tr>
+                <td>Partial Match</td>
+                <td>0.3421</td>
+                <td>0.6711</td>
+                <td class="improvement">+96.15%</td>
+            </tr>
+        
+            <tr>
+                <td>Precision (Micro)</td>
+                <td>0.2222</td>
+                <td>0.4043</td>
+                <td class="improvement">+81.91%</td>
+            </tr>
+        
+            <tr>
+                <td>Recall (Micro)</td>
+                <td>0.2593</td>
+                <td>0.5278</td>
+                <td class="improvement">+103.57%</td>
+            </tr>
+        
+            <tr>
+                <td>F1 Score (Micro)</td>
+                <td>0.2393</td>
+                <td>0.4578</td>
+                <td class="improvement">+91.31%</td>
+            </tr>
+        </table>
+        <h2>Label-specific F1 Scores</h2>
+        <table>
+            <tr>
+                <th>Label</th>
+                <th>Base Model</th>
+                <th>Fine-tuned Model</th>
+                <th>Improvement</th>
+                <th>Support</th>
+            </tr>
+    
+            <tr>
+                <td>compression</td>
+                <td>0.1429</td>
+                <td>0.4348</td>
+                <td class="improvement">+204.35%</td>
+                <td>18</td>
+            </tr>
+        
+            <tr>
+                <td>effects</td>
+                <td>0.2759</td>
+                <td>0.2222</td>
+                <td class="regression">-19.44%</td>
+                <td>10</td>
+            </tr>
+        
+            <tr>
+                <td>high frequency</td>
+                <td>0.1053</td>
+                <td>0.5185</td>
+                <td class="improvement">+392.59%</td>
+                <td>10</td>
+            </tr>
+        
+            <tr>
+                <td>low frequency</td>
+                <td>0.3636</td>
+                <td>0.3529</td>
+                <td class="regression">-2.94%</td>
+                <td>13</td>
+            </tr>
+        
+            <tr>
+                <td>mid frequency</td>
+                <td>0.1739</td>
+                <td>0.4444</td>
+                <td class="improvement">+155.56%</td>
+                <td>13</td>
+            </tr>
+        
+            <tr>
+                <td>reverb</td>
+                <td>0.1111</td>
+                <td>0.5116</td>
+                <td class="improvement">+360.47%</td>
+                <td>12</td>
+            </tr>
+        
+            <tr>
+                <td>sound field</td>
+                <td>0.3333</td>
+                <td>0.5333</td>
+                <td class="improvement">+60.00%</td>
+                <td>16</td>
+            </tr>
+        
+            <tr>
+                <td>volume</td>
+                <td>0.1667</td>
+                <td>0.4615</td>
+                <td class="improvement">+176.92%</td>
+                <td>16</td>
+            </tr>
+        </table>
+        <h2>Prediction Examples</h2>
+    <h3>Success Cases</h3>
+            <div class="example-container">
+                <p><strong>Input:</strong> 整体音量太小</p>
+                <p><strong>True Labels:</strong> volume</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">volume</span></p>
+            </div>
+            
+            <div class="example-container">
+                <p><strong>Input:</strong> 回音太重</p>
+                <p><strong>True Labels:</strong> reverb</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">reverb</span></p>
+            </div>
+            
+            <div class="example-container">
+                <p><strong>Input:</strong> 回响太短</p>
+                <p><strong>True Labels:</strong> reverb</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">reverb</span></p>
+            </div>
+            <h3>Improvement Cases</h3>
+            <div class="example-container">
+                <p><strong>Input:</strong> 整体音量太小</p>
+                <p><strong>True Labels:</strong> volume</p>
+                <p><strong>Base Model Prediction:</strong> <span class="incorrect">sound field</span></p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">volume</span></p>
+            </div>
+            
+            <div class="example-container">
+                <p><strong>Input:</strong> 回音太重</p>
+                <p><strong>True Labels:</strong> reverb</p>
+                <p><strong>Base Model Prediction:</strong> <span class="incorrect">mid frequency, effects, low frequency, high frequency, sound field</span></p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">reverb</span></p>
+            </div>
+            
+            <div class="example-container">
+                <p><strong>Input:</strong> 回响太短</p>
+                <p><strong>True Labels:</strong> reverb</p>
+                <p><strong>Base Model Prediction:</strong> <span class="incorrect">sound field</span></p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="correct">reverb</span></p>
+            </div>
+            <h3>Failure Cases</h3>
+            <div class="example-container">
+                <p><strong>Input:</strong> 就是不够亮不够宽</p>
+                <p><strong>True Labels:</strong> high frequency, sound field</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="incorrect">mid frequency, high frequency, compression</span></p>
+            <p><strong>Correct Labels:</strong> <span class="correct">high frequency</span></p><p><strong>Missed Labels:</strong> sound field</p><p><strong>Extra Labels:</strong> <span class="incorrect">mid frequency, compression</span></p></div>
+            <div class="example-container">
+                <p><strong>Input:</strong> 我想要轻轻的</p>
+                <p><strong>True Labels:</strong> volume, compression</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="incorrect">mid frequency, high frequency, compression</span></p>
+            <p><strong>Correct Labels:</strong> <span class="correct">compression</span></p><p><strong>Missed Labels:</strong> volume</p><p><strong>Extra Labels:</strong> <span class="incorrect">mid frequency, high frequency</span></p></div>
+            <div class="example-container">
+                <p><strong>Input:</strong> 宽宽的</p>
+                <p><strong>True Labels:</strong> sound field</p>
+                <p><strong>Fine-tuned Model Prediction:</strong> <span class="incorrect">sound field, reverb</span></p>
+            <p><strong>Correct Labels:</strong> <span class="correct">sound field</span></p><p><strong>Extra Labels:</strong> <span class="incorrect">reverb</span></p></div>
+        <footer>
+            <p>This report was automatically generated by the Audio Parameter Model Evaluation Tool</p>
+            <p>Generated on: 2025-03-26 23:43:08</p>
+        </footer>
+    </body>
+    </html>
+    

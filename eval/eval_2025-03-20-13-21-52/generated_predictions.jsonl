@@ -1,0 +1,228 @@
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n就是不够亮不够宽<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "高频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n就是不够亮不够宽<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "高频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n就是不够亮不够宽<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "高频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n我想要轻轻的<｜Assistant｜>", "predict": "高频, 低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n我想要轻轻的<｜Assistant｜>", "predict": "高频, 低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n我想要轻轻的<｜Assistant｜>", "predict": "高频, 低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n宽宽的<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n宽宽的<｜Assistant｜>", "predict": "声场, reverb", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n宽宽的<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n我想透一点但人声轻一点混响宽宽的<｜Assistant｜>", "predict": "reverb", "label": "高频, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n我想透一点但人声轻一点混响宽宽的<｜Assistant｜>", "predict": "reverb", "label": "高频, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n我想透一点但人声轻一点混响宽宽的<｜Assistant｜>", "predict": "reverb", "label": "高频, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n然后backup我不要双耳我要在人声的后面<｜Assistant｜>", "predict": "声场, reverb", "label": "压缩, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n然后backup我不要双耳我要在人声的后面<｜Assistant｜>", "predict": "声场, reverb", "label": "压缩, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n然后backup我不要双耳我要在人声的后面<｜Assistant｜>", "predict": "声场, reverb", "label": "压缩, 声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n烘托一种饱满但不过分扭捏的氛围<｜Assistant｜>", "predict": "压缩, 中频", "label": "混响, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n烘托一种饱满但不过分扭捏的氛围<｜Assistant｜>", "predict": "压缩, 中频", "label": "混响, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n烘托一种饱满但不过分扭捏的氛围<｜Assistant｜>", "predict": "压缩, 中频", "label": "混响, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n整个歌我还是想要很沉静<｜Assistant｜>", "predict": "低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整个歌我还是想要很沉静<｜Assistant｜>", "predict": "低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整个歌我还是想要很沉静<｜Assistant｜>", "predict": "低频, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n不舒服听感被砍住了掐着喉咙的感觉<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n不舒服听感被砍住了掐着喉咙的感觉<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n不舒服听感被砍住了掐着喉咙的感觉<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n那听着完全是那大舌头那种声音<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n那听着完全是那大舌头那种声音<｜Assistant｜>", "predict": "中频, 压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n那听着完全是那大舌头那种声音<｜Assistant｜>", "predict": "中频, 压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音有点小<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音有点小<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音有点小<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低音轰头<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音轰头<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音轰头<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声听着好远<｜Assistant｜>", "predict": "高频, 声场", "label": "中频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声听着好远<｜Assistant｜>", "predict": "高频, 声场, reverb", "label": "中频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声听着好远<｜Assistant｜>", "predict": "高频, 声场, reverb", "label": "中频, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音太尖刺耳<｜Assistant｜>", "predict": "高频, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音太尖刺耳<｜Assistant｜>", "predict": "高频, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音太尖刺耳<｜Assistant｜>", "predict": "高频, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n像在澡堂唱歌<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n像在澡堂唱歌<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n像在澡堂唱歌<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n电吉他像玩具声<｜Assistant｜>", "predict": "效果器, 高频", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n电吉他像玩具声<｜Assistant｜>", "predict": "效果器, 高频", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n电吉他像玩具声<｜Assistant｜>", "predict": "效果器, 高频", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音全挤在中间<｜Assistant｜>", "predict": "压缩, 中频", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音全挤在中间<｜Assistant｜>", "predict": "压缩, 中频", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音全挤在中间<｜Assistant｜>", "predict": "压缩, 中频", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声忽大忽小<｜Assistant｜>", "predict": "音量, 压缩", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声忽大忽小<｜Assistant｜>", "predict": "音量, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声忽大忽小<｜Assistant｜>", "predict": "音量, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n整体音量太小<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体音量太小<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体音量太小<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n贝斯嗡嗡响<｜Assistant｜>", "predict": "低频, 音量, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n贝斯嗡嗡响<｜Assistant｜>", "predict": "低频, 音量, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n贝斯嗡嗡响<｜Assistant｜>", "predict": "低频, 音量, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n副歌突然变炸<｜Assistant｜>", "predict": "音量, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n副歌突然变炸<｜Assistant｜>", "predict": "音量, 效果器", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n副歌突然变炸<｜Assistant｜>", "predict": "音量, 压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频像刮玻璃<｜Assistant｜>", "predict": "高频, 压缩", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频像刮玻璃<｜Assistant｜>", "predict": "高频, 压缩", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频像刮玻璃<｜Assistant｜>", "predict": "高频, 压缩", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声被音乐淹没<｜Assistant｜>", "predict": "音量, 中频, 压缩", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声被音乐淹没<｜Assistant｜>", "predict": "音量, 中频, 压缩", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声被音乐淹没<｜Assistant｜>", "predict": "音量, 中频, 压缩", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n回音太重<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n回音太重<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n回音太重<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n特殊音效听不清<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n特殊音效听不清<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n特殊音效听不清<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n左边声音比右边大<｜Assistant｜>", "predict": "音量, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左边声音比右边大<｜Assistant｜>", "predict": "音量, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左边声音比右边大<｜Assistant｜>", "predict": "音量, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n呼吸声太明显<｜Assistant｜>", "predict": "压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n呼吸声太明显<｜Assistant｜>", "predict": "压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n呼吸声太明显<｜Assistant｜>", "predict": "压缩, 效果器", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n手机放没低音<｜Assistant｜>", "predict": "效果器, 高频", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n手机放没低音<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n手机放没低音<｜Assistant｜>", "predict": "高频, 中频, 低频", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音闷在罐子里<｜Assistant｜>", "predict": "中频", "label": "高频, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音闷在罐子里<｜Assistant｜>", "predict": "中频", "label": "高频, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音闷在罐子里<｜Assistant｜>", "predict": "中频", "label": "高频, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声像被掐着<｜Assistant｜>", "predict": "压缩, 音量", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声像被掐着<｜Assistant｜>", "predict": "压缩, 音量", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声像被掐着<｜Assistant｜>", "predict": "压缩, 音量", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n回响太短<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n回响太短<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n回响太短<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低频段有共振<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频段有共振<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频段有共振<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声kHz需要提升<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声kHz需要提升<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声kHz需要提升<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频齿音突出<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "压缩, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频齿音突出<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "压缩, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频齿音突出<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "压缩, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n立体声场太窄<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声场太窄<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声场太窄<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n混响衰减调至秒<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响衰减调至秒<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响衰减调至秒<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n延迟反馈过多<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n延迟反馈过多<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n延迟反馈过多<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n整体响度不足<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体响度不足<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体响度不足<｜Assistant｜>", "predict": "音量", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n底鼓Hz过量<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n底鼓Hz过量<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n底鼓Hz过量<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声Hz凹陷<｜Assistant｜>", "predict": "声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声Hz凹陷<｜Assistant｜>", "predict": "声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声Hz凹陷<｜Assistant｜>", "predict": "声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频空气感不足<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频空气感不足<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频空气感不足<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n混响predelay加长<｜Assistant｜>", "predict": "reverb", "label": "混响, 效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响predelay加长<｜Assistant｜>", "predict": "reverb", "label": "混响, 效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响predelay加长<｜Assistant｜>", "predict": "reverb", "label": "混响, 效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n立体声像偏移<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声像偏移<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声像偏移<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n特殊效果镶边过重<｜Assistant｜>", "predict": "效果器, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n特殊效果镶边过重<｜Assistant｜>", "predict": "效果器, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n特殊效果镶边过重<｜Assistant｜>", "predict": "效果器, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n左右声道不平衡<｜Assistant｜>", "predict": "声场", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左右声道不平衡<｜Assistant｜>", "predict": "声场, 效果器", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左右声道不平衡<｜Assistant｜>", "predict": "声场, 效果器", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低频浑浊<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频浑浊<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频浑浊<｜Assistant｜>", "predict": "低频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n中频段有遮蔽效应<｜Assistant｜>", "predict": "中频", "label": "声场, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n中频段有遮蔽效应<｜Assistant｜>", "predict": "中频", "label": "声场, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n中频段有遮蔽效应<｜Assistant｜>", "predict": "中频", "label": "声场, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n混响干湿比调整<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响干湿比调整<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响干湿比调整<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n动态范围过小<｜Assistant｜>", "predict": "音量", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n动态范围过小<｜Assistant｜>", "predict": "音量", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n动态范围过小<｜Assistant｜>", "predict": "音量", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低音听着心慌<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音听着心慌<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音听着心慌<｜Assistant｜>", "predict": "低频, 高频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声像隔着门<｜Assistant｜>", "predict": "音量, 声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声像隔着门<｜Assistant｜>", "predict": "音量, 声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声像隔着门<｜Assistant｜>", "predict": "音量, 声场", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频沙沙响<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频沙沙响<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频沙沙响<｜Assistant｜>", "predict": "高频, 压缩, 效果器", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n房间回声不自然<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n房间回声不自然<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n房间回声不自然<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n失真效果太假<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n失真效果太假<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n失真效果太假<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音没层次感<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音没层次感<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音没层次感<｜Assistant｜>", "predict": "高频, 中频, 压缩", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声压缩过度<｜Assistant｜>", "predict": "压缩", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声压缩过度<｜Assistant｜>", "predict": "压缩", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声压缩过度<｜Assistant｜>", "predict": "压缩", "label": "压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n伴奏比人声响<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n伴奏比人声响<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n伴奏比人声响<｜Assistant｜>", "predict": "音量, 声场", "label": "音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n贝斯和底鼓打架<｜Assistant｜>", "predict": "低频, 中频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n贝斯和底鼓打架<｜Assistant｜>", "predict": "低频, 中频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n贝斯和底鼓打架<｜Assistant｜>", "predict": "低频, 中频, 压缩", "label": "低频, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n副歌电平突降<｜Assistant｜>", "predict": "音量", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n副歌电平突降<｜Assistant｜>", "predict": "音量", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n副歌电平突降<｜Assistant｜>", "predict": "音量", "label": "中频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频金属感过强<｜Assistant｜>", "predict": "高频, 效果器", "label": "效果器, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频金属感过强<｜Assistant｜>", "predict": "高频, 效果器", "label": "效果器, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频金属感过强<｜Assistant｜>", "predict": "高频, 音量", "label": "效果器, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声鼻音太重<｜Assistant｜>", "predict": "中频", "label": "压缩, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声鼻音太重<｜Assistant｜>", "predict": "中频", "label": "压缩, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声鼻音太重<｜Assistant｜>", "predict": "中频", "label": "压缩, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n混响像金属房间<｜Assistant｜>", "predict": "reverb", "label": "混响, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响像金属房间<｜Assistant｜>", "predict": "reverb", "label": "混响, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响像金属房间<｜Assistant｜>", "predict": "reverb", "label": "混响, 声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n延迟效果不跟拍<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n延迟效果不跟拍<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n延迟效果不跟拍<｜Assistant｜>", "predict": "效果器", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n声音左右飘忽<｜Assistant｜>", "predict": "高频, 声场", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音左右飘忽<｜Assistant｜>", "predict": "高频, 声场", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n声音左右飘忽<｜Assistant｜>", "predict": "高频, 声场", "label": "声场, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n手机外放没厚度<｜Assistant｜>", "predict": "高频, 中频, 效果器", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n手机外放没厚度<｜Assistant｜>", "predict": "高频, 中频, 效果器", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n手机外放没厚度<｜Assistant｜>", "predict": "高频, 中频, 效果器", "label": "低频, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n高频像电话音<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频像电话音<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n高频像电话音<｜Assistant｜>", "predict": "高频, 音量", "label": "高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声闷在胸腔<｜Assistant｜>", "predict": "中频", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声闷在胸腔<｜Assistant｜>", "predict": "中频", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声闷在胸腔<｜Assistant｜>", "predict": "中频", "label": "中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n混响和干声脱节<｜Assistant｜>", "predict": "reverb", "label": "混响, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响和干声脱节<｜Assistant｜>", "predict": "reverb", "label": "混响, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n混响和干声脱节<｜Assistant｜>", "predict": "reverb", "label": "混响, 压缩"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低音喇叭破音<｜Assistant｜>", "predict": "低频, 压缩", "label": "效果器, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音喇叭破音<｜Assistant｜>", "predict": "低频, 压缩", "label": "效果器, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低音喇叭破音<｜Assistant｜>", "predict": "低频, 压缩", "label": "效果器, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声kHz缺失<｜Assistant｜>", "predict": "高频, 压缩", "label": "中频, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声kHz缺失<｜Assistant｜>", "predict": "高频, 压缩", "label": "中频, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声kHz缺失<｜Assistant｜>", "predict": "高频, 压缩", "label": "中频, 高频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n立体声像头中效应<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声像头中效应<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n立体声像头中效应<｜Assistant｜>", "predict": "声场", "label": "声场"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n板式混响密度过高<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n板式混响密度过高<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n板式混响密度过高<｜Assistant｜>", "predict": "reverb", "label": "混响"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n滤波效果太突兀<｜Assistant｜>", "predict": "音量, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n滤波效果太突兀<｜Assistant｜>", "predict": "音量, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n滤波效果太突兀<｜Assistant｜>", "predict": "音量, 压缩", "label": "效果器"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n左右声道相位问题<｜Assistant｜>", "predict": "声场", "label": "声场, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左右声道相位问题<｜Assistant｜>", "predict": "声场", "label": "声场, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n左右声道相位问题<｜Assistant｜>", "predict": "声场", "label": "声场, 低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n整体动态被压扁<｜Assistant｜>", "predict": "压缩", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体动态被压扁<｜Assistant｜>", "predict": "压缩, 音量", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n整体动态被压扁<｜Assistant｜>", "predict": "压缩, 音量", "label": "压缩, 音量"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n低频下潜不足<｜Assistant｜>", "predict": "低频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频下潜不足<｜Assistant｜>", "predict": "低频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n低频下潜不足<｜Assistant｜>", "predict": "低频", "label": "低频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量（最多选3项）\n人声喉音过重<｜Assistant｜>", "predict": "压缩, 高频", "label": "压缩, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请选择分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声喉音过重<｜Assistant｜>", "predict": "压缩, 高频", "label": "压缩, 中频"}
+{"prompt": "<｜begin▁of▁sentence｜><｜User｜>请识别分析音频处理需求并选择相关参数（1-3个）：选项：低频/中频/高频/reverb/效果器/声场/压缩/音量\n人声喉音过重<｜Assistant｜>", "predict": "压缩, 高频", "label": "压缩, 中频"}

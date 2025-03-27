@@ -1,0 +1,173 @@
+[INFO|2025-03-20 23:22:46] configuration_utils.py:697 >> loading configuration file D:\kings\prj\Finetune_local\models-origin\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\snapshots\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562\config.json
+
+[INFO|2025-03-20 23:22:46] configuration_utils.py:771 >> Model config Qwen2Config {
+  "_name_or_path": "D:\\kings\\prj\\Finetune_local\\models-origin\\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\\snapshots\\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151643,
+  "hidden_act": "silu",
+  "hidden_size": 1536,
+  "initializer_range": 0.02,
+  "intermediate_size": 8960,
+  "max_position_embeddings": 131072,
+  "max_window_layers": 21,
+  "model_type": "qwen2",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 2,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 10000,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.49.0",
+  "use_cache": true,
+  "use_mrope": false,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer.model
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file added_tokens.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file special_tokens_map.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer_config.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file chat_template.jinja
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2313 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[INFO|2025-03-20 23:22:46] configuration_utils.py:697 >> loading configuration file D:\kings\prj\Finetune_local\models-origin\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\snapshots\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562\config.json
+
+[INFO|2025-03-20 23:22:46] configuration_utils.py:771 >> Model config Qwen2Config {
+  "_name_or_path": "D:\\kings\\prj\\Finetune_local\\models-origin\\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\\snapshots\\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151643,
+  "hidden_act": "silu",
+  "hidden_size": 1536,
+  "initializer_range": 0.02,
+  "intermediate_size": 8960,
+  "max_position_embeddings": 131072,
+  "max_window_layers": 21,
+  "model_type": "qwen2",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 2,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 10000,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.49.0",
+  "use_cache": true,
+  "use_mrope": false,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer.model
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file added_tokens.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file special_tokens_map.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file tokenizer_config.json
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2048 >> loading file chat_template.jinja
+
+[INFO|2025-03-20 23:22:46] tokenization_utils_base.py:2313 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[INFO|2025-03-20 23:22:46] logging.py:157 >> Loading dataset D:/kings/prj/Finetune_local/LLaMA-Factory/data/mix/test_data.json...
+
+[INFO|2025-03-20 23:22:47] configuration_utils.py:697 >> loading configuration file D:\kings\prj\Finetune_local\models-origin\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\snapshots\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562\config.json
+
+[INFO|2025-03-20 23:22:47] configuration_utils.py:771 >> Model config Qwen2Config {
+  "_name_or_path": "D:\\kings\\prj\\Finetune_local\\models-origin\\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\\snapshots\\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562",
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151643,
+  "hidden_act": "silu",
+  "hidden_size": 1536,
+  "initializer_range": 0.02,
+  "intermediate_size": 8960,
+  "max_position_embeddings": 131072,
+  "max_window_layers": 21,
+  "model_type": "qwen2",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 2,
+  "rms_norm_eps": 1e-06,
+  "rope_scaling": null,
+  "rope_theta": 10000,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.49.0",
+  "use_cache": true,
+  "use_mrope": false,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+}
+
+
+[INFO|2025-03-20 23:22:47] logging.py:157 >> Using KV cache for faster generation.
+
+[INFO|2025-03-20 23:22:47] modeling_utils.py:3979 >> loading weights file D:\kings\prj\Finetune_local\models-origin\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\snapshots\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562\model.safetensors
+
+[INFO|2025-03-20 23:22:47] modeling_utils.py:1633 >> Instantiating Qwen2ForCausalLM model under default dtype torch.bfloat16.
+
+[INFO|2025-03-20 23:22:47] configuration_utils.py:1140 >> Generate config GenerationConfig {
+  "bos_token_id": 151643,
+  "eos_token_id": 151643
+}
+
+
+[WARNING|2025-03-20 23:22:47] logging.py:329 >> Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+[INFO|2025-03-20 23:22:51] modeling_utils.py:4970 >> All model checkpoint weights were used when initializing Qwen2ForCausalLM.
+
+
+[INFO|2025-03-20 23:22:51] modeling_utils.py:4978 >> All the weights of Qwen2ForCausalLM were initialized from the model checkpoint at D:\kings\prj\Finetune_local\models-origin\models--deepseek-ai--DeepSeek-R1-Distill-Qwen-1.5B\snapshots\ad9f0ae0864d7fbcd1cd905e3c6c5b069cc8b562.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use Qwen2ForCausalLM for predictions without further training.
+
+[INFO|2025-03-20 23:22:52] modeling_utils.py:4366 >> Generation config file not found, using a generation config created from the model config.
+
+[INFO|2025-03-20 23:22:52] logging.py:157 >> Using torch SDPA for faster training and inference.
+
+[INFO|2025-03-20 23:22:53] logging.py:157 >> Merged 1 adapter(s).
+
+[INFO|2025-03-20 23:22:53] logging.py:157 >> Loaded adapter(s): saves\DeepSeek-R1-1.5B-Distill\lora\train_2025-03-19-20-37-51
+
+[INFO|2025-03-20 23:22:53] logging.py:157 >> all params: 1,777,088,000
+
+[WARNING|2025-03-20 23:22:53] logging.py:168 >> Batch generation can be very slow. Consider using `scripts/vllm_infer.py` instead.
+
+[INFO|2025-03-20 23:22:53] trainer.py:4258 >> 
+***** Running Prediction *****
+
+[INFO|2025-03-20 23:22:53] trainer.py:4260 >>   Num examples = 228
+
+[INFO|2025-03-20 23:22:53] trainer.py:4263 >>   Batch size = 2
+
+[INFO|2025-03-20 23:23:48] logging.py:157 >> Saving prediction results to saves\DeepSeek-R1-1.5B-Distill\lora\eval_2025-03-20-13-21-52\generated_predictions.jsonl
+

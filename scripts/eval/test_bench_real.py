@@ -71,8 +71,10 @@ class Template:
         # Add assistant prefix
         prompt += self.assistant_prefix
         
-        # Encode as tokens
+        # Encode as tokens (don't specify device here)
         inputs = tokenizer(prompt, return_tensors="pt", padding=True)
+        
+        # The device will be set in the predict method
         return inputs, len(inputs.input_ids[0])
     
     def get_stop_token_ids(self, tokenizer):
@@ -337,9 +339,12 @@ class EnhancedModelEvaluator:
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_path,
                 torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-                device_map="auto",
+                device_map="auto",  # This might be causing issues
                 trust_remote_code=True
             )
+            
+            # Explicitly set the model to the device
+            self.model = self.model.to(self.device)
             
             # Load tokenizer
             self.tokenizer = AutoTokenizer.from_pretrained(
@@ -367,36 +372,42 @@ class EnhancedModelEvaluator:
         # Create message
         message = [{"role": "user", "content": input_text}]
         
-        # Encode message
-        inputs, prompt_length = self.template.encode_oneturn(
-            self.tokenizer, message, system_message
-        )
-        inputs = inputs.to(self.device)
-        
-        # Create generation config
-        generation_config = GenerationConfig(
-            temperature=temperature,
-            top_p=0.9,
-            max_new_tokens=50,
-            repetition_penalty=1.2,
-            do_sample=True,
-            eos_token_id=self.template.get_stop_token_ids(self.tokenizer),
-            pad_token_id=self.tokenizer.pad_token_id
-        )
-        
-        # Generate response
-        with torch.no_grad():
-            generate_output = self.model.generate(
-                input_ids=inputs.input_ids,
-                attention_mask=inputs.attention_mask,
-                generation_config=generation_config
+        try:
+            # Encode message
+            inputs, prompt_length = self.template.encode_oneturn(
+                self.tokenizer, message, system_message
             )
-        
-        # Decode response
-        response_ids = generate_output[0, prompt_length:]
-        response = self.tokenizer.decode(response_ids, skip_special_tokens=True)
-        
-        return response.strip()
+            
+            # Explicitly move inputs to the device
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            
+            # Create generation config
+            generation_config = GenerationConfig(
+                temperature=temperature,
+                top_p=0.9,
+                max_new_tokens=50,
+                repetition_penalty=1.2,
+                do_sample=True,
+                eos_token_id=self.template.get_stop_token_ids(self.tokenizer),
+                pad_token_id=self.tokenizer.pad_token_id
+            )
+            
+            # Generate response
+            with torch.no_grad():
+                generate_output = self.model.generate(
+                    input_ids=inputs["input_ids"],
+                    attention_mask=inputs["attention_mask"],
+                    generation_config=generation_config
+                )
+            
+            # Decode response
+            response_ids = generate_output[0, prompt_length:]
+            response = self.tokenizer.decode(response_ids, skip_special_tokens=True)
+            
+            return response.strip()
+        except Exception as e:
+            print(f"Prediction error: {e}")
+            return f"Error during prediction: {str(e)}"
     
     def analyze_audio(self, description, system_message=None, temperature=None):
         """Analyze audio processing needs"""
