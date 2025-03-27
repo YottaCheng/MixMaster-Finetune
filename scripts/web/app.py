@@ -8,7 +8,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)  # 使用 insert(0) 确保优先搜索当前目录
 
 import gradio as gr
-from scripts.web.predict import MixingLabelPredictor
+from predict import MixingLabelPredictor
 
 # 初始化预测器
 predictor = MixingLabelPredictor()
