@@ -1,0 +1,72 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#264653',
+    'primaryBorderColor': '#f9c784',
+    'lineColor': '#f9c784',
+    'clusterBkg': '#f8f8f8',
+    'clusterBorder': 'transparent',
+    'fontFamily': 'Arial, Helvetica, sans-serif',
+    'flowchart': {
+      'nodeSpacing': 30,
+      'rankSpacing': 40
+    }
+  }
+}}%%
+flowchart LR
+  UserReq["User Requirements"] --> DataPhase
+  
+  subgraph DataPhase["Data Processing Phase"]
+    direction TB
+    DataProc["Data Processing"]
+    %% First row of Phase 1
+    EDA["EDA"] & BackTrans["Back-translation"]
+    DataFilter["Data Filtering"]
+    %% Second row of Phase 1
+    PreLabel["Pre-labeled"]
+    DataClean["Data Cleaning"]
+    ExportAnno["Export Annotation"]
+    Transform["Transform Format"]
+    %% Connect first row
+    DataProc --> EDA
+    DataProc --> BackTrans
+    EDA --> DataFilter
+    BackTrans --> DataFilter
+    %% Connect to second row
+    DataFilter --> PreLabel
+    %% Connect second row sequentially
+    PreLabel --> DataClean
+    DataClean --> ExportAnno
+    ExportAnno --> Transform
+  end
+  
+  DataPhase --> ModelPhase["Model Fine-tuning Phase"]
+  ModelPhase --> DeployPhase["Deployment Phase"]
+  
+  %% 全局居中样式
+  classDef default fill:#ffffff,stroke:#f9c784,stroke-width:1.5px,font-size:14px,text-align:center,font-weight:bold
+  classDef titleNode font-size:18px,font-weight:bold,text-align:center
+  
+  %% 阶段容器样式
+  classDef dashed stroke:#f9c784,stroke-dasharray: 5 5,stroke-width:1.5px,fill:#f8f8f8,text-align:center,font-size:18px,font-weight:bold
+  classDef otherDashed stroke:#f9c784,stroke-dasharray: 5 5,stroke-width:1.5px,fill:transparent,text-align:center,font-weight:bold
+  
+  %% 节点尺寸优化
+  classDef highlight fill:#FFF0D9,stroke:#f9c784,stroke-width:1.5px,color:#264653,min-width:140px,min-height:50px,text-align:center,font-weight:bold
+  classDef row1Node min-width:160px,min-height:60px,font-size:16px,font-weight:bold,text-align:center
+  classDef row2Node min-width:140px,min-height:50px,font-size:15px,text-align:center,font-weight:bold
+  
+  %% 应用样式
+  class DataPhase dashed
+  class ModelPhase,DeployPhase otherDashed
+  class DataProc,EDA,BackTrans,DataFilter,PreLabel,DataClean,ExportAnno,Transform highlight
+  class EDA,BackTrans,DataFilter row1Node
+  class PreLabel,DataClean,ExportAnno,Transform row2Node
+  class ModelPhase,DeployPhase phaseOnly
+  class UserReq userReq
+  class DataProc titleNode
+  
+  %% 特殊样式
+  classDef userReq fill:#FFF9F2,stroke:#f9c784,stroke-width:1.5px,font-size:15px,font-weight:bold,text-align:center,min-width:180px
+  classDef phaseOnly fill:#ffffff,stroke:#f9c784,stroke-width:1.5px,font-size:16px,text-align:center,min-width:200px,font-weight:bold

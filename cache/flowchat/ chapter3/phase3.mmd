@@ -1,0 +1,61 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#264653',
+    'primaryBorderColor': '#f9c784',
+    'lineColor': '#f9c784',
+    'clusterBkg': '#f8f8f8',
+    'clusterBorder': 'transparent',
+    'fontFamily': 'Arial, Helvetica, sans-serif',
+    'flowchart': {
+      'nodeSpacing': 30,
+      'rankSpacing': 40
+    }
+  }
+}}%%
+flowchart LR
+    UserReq["User Requirements"] --> DataPhase["Data Processing Phase"]
+    
+    DataPhase --> ModelPhase["Fine-tuned Model"]
+    
+    ModelPhase --> WebPhase
+    
+    subgraph WebPhase["Model & Web Application Phase"]
+        direction TB
+        ApiSetup["API Integration Setup"]
+        TermProc["Term Processing"] & LangGen["Language Generation"]
+        ModelConfig["Model Configuration to Web"]
+        WebInterface["Web Interface"]
+        
+        ApiSetup --> TermProc
+        ApiSetup --> LangGen
+        TermProc --> ModelConfig
+        LangGen --> ModelConfig
+        ModelConfig --> WebInterface
+    end
+    
+    WebPhase --> DeployPhase["Evaluation & Deployment Phase"]
+    
+    %% 全局居中样式
+    classDef default fill:#ffffff,stroke:#f9c784,stroke-width:1.5px,font-size:14px,text-align:center,font-weight:bold
+    
+    %% 阶段容器样式
+    classDef dashed stroke:#f9c784,stroke-dasharray: 5 5,stroke-width:1.5px,fill:#f8f8f8,text-align:center,font-size:18px,font-weight:bold
+    classDef otherDashed stroke:#f9c784,stroke-dasharray: 5 5,stroke-width:1.5px,fill:transparent,text-align:center,font-weight:bold
+    
+    %% 节点样式
+    classDef highlight fill:#FFF0D9,stroke:#f9c784,stroke-width:1.5px,color:#264653,min-width:160px,min-height:50px,text-align:center,font-weight:bold
+    
+    %% 应用样式
+    class WebPhase dashed
+    class DataPhase,ModelPhase,DeployPhase otherDashed
+    class ApiSetup,TermProc,LangGen,ModelConfig,WebInterface highlight
+    
+    %% 特殊样式
+    classDef userReq fill:#FFF9F2,stroke:#f9c784,stroke-width:1.5px,font-size:15px,font-weight:bold,text-align:center,min-width:180px
+    class UserReq userReq
+    
+    %% 特殊样式
+    classDef phaseOnly fill:#ffffff,stroke:#f9c784,stroke-width:1.5px,font-size:16px,text-align:center,min-width:200px,font-weight:bold
+    class DataPhase,ModelPhase,DeployPhase phaseOnly

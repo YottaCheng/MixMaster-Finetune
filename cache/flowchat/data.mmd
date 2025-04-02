@@ -1,36 +1,37 @@
----
-config:
-  theme: base
-  themeVariables:
-    primaryColor: '#ffffff'
-    primaryTextColor: '#000000'
-    primaryBorderColor: '#000000'
-    lineColor: '#000000'
-    secondaryColor: '#ffffff'
-    tertiaryColor: '#ffffff'
-    background: '#ffffff'
-  flowchart:
-    diagramPadding: 10
-    nodeSpacing: 30
-    rankSpacing: 40
-    curve: linear
-  layout: fixed
----
-flowchart LR
-    UserData[/"User Requirements Data"/] --> DataPhase
-    subgraph DataPhase["Data Processing"]
-        DataProc["Data Processing"] --> EDA["Exploratory Data"] & BT["Back-translation"]
-        EDA & BT --> DF["Data Filtering"]
-        DF --> AN["Pre Labeled"] --> CL["Data Cleaning"] --> EX["Expert"] --> FC["Format"]
-    end
-    DataPhase --> ModelPhase["Model Fine-tuning Phase"]
-    subgraph ModelPhase
-        MT["Model Fine-tuning"] --> WA["Web Application"]
-    end
-    ModelPhase --> EvalPhase["Evaluation & Deployment"]
-    subgraph EvalPhase
-        EV(["Evaluation"]) --> DP["Deployment"]
-    end
-    classDef default fill:#fff,stroke:#000,stroke-width:1px
-    classDef phaseStyle fill:#fff,stroke:#000,stroke-width:1px,stroke-dasharray: 5 5
-    class DataPhase,ModelPhase,EvalPhase phaseStyle
+%%{init: {
+ 'theme': 'base',
+'themeVariables': {
+'primaryColor': '#ffffff',
+'primaryTextColor': '#264653',
+'primaryBorderColor': '#f9c784',
+'lineColor': '#f9c784',
+'clusterBkg': 'transparent',
+'clusterBorder': 'transparent',
+'fontFamily': 'Arial, Helvetica, sans-serif',
+'flowchart': {
+'nodeSpacing': 25,
+'rankSpacing': 30,
+'curve': 'basis'
+}
+}
+}}%%
+flowchart TB
+A[Raw Data] --> B[Data Augmentation Phase]
+B --> C[Pre-labeling Phase]
+C --> D[Cleaning & Conversion]
+D --> E{Expert<br>Review?}
+E -->|"<font size=5>Yes</font>"| F[Expert Annotation Loop]
+E -->|"<font size=5>No</font>"| G[Direct Conversion]
+F --> H[Alpaca Format]
+G --> H
+H --> I{Proceed to<br>Expert Review?}
+H -.-> J[[Model Fine-tuning]]
+I -->|"<font size=5>Yes</font>"| F
+I -->|"<font size=5>No</font>"| J
+%% Improved styling
+classDef phase fill:#D6EAF8,stroke:#3498DB,stroke-width:2px,color:#2874A6,text-align:center,font-size:20px,font-weight:bold,border-radius:5px,padding:8px
+classDef decision fill:#F9E79F,stroke:#F1C40F,stroke-width:2px,color:#7D6608,text-align:center,font-size:20px,font-weight:bold,width:120px,height:120px
+classDef final fill:#A9DFBF,stroke:#27AE60,stroke-width:2px,color:#186A3B,text-align:center,font-size:20px,font-weight:bold,border-radius:5px,padding:8px
+class A,J final
+class B,C,D,F,G,H phase
+class E,I decision

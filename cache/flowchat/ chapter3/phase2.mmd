@@ -1,0 +1,55 @@
+%%{init: {
+ 'theme': 'base',
+'themeVariables': {
+'primaryColor': '#ffffff',
+'primaryTextColor': '#2d3436',
+'primaryBorderColor': '#e67e22',
+'lineColor': '#e67e22',
+'clusterBkg': '#f8f8f8',
+'clusterBorder': '#e67e22',
+'fontFamily': 'Arial, Helvetica, sans-serif',
+'flowchart': {
+'nodeSpacing': 40,
+'rankSpacing': 50
+}
+}
+}}%%
+flowchart LR
+UserReq["User Requirements"] --> DataPhase
+DataPhase["Data Processing Phase"] --> ModelPhase
+subgraph ModelPhase["Model Fine-tuning Phase"]
+direction TB
+LaunchFactory["Launch LLaMA Factory"]
+ParamTuning["Parameter Tuning"]
+CheckPoint{"LLaMA Factory<br>Built-in Evaluation"}
+ModelConfig["Model Export"]
+ReturnData["Return to<br>Data Processing Phase"]
+LaunchFactory --> ParamTuning
+ParamTuning --> CheckPoint
+CheckPoint -->|"Yes"| ModelConfig
+CheckPoint -->|"No"| ReturnData
+end
+ModelPhase --> WebApp["Web Application"]
+WebApp --> DeployPhase["Deployment Phase"]
+%% 全局居中样式
+classDef default fill:#ffffff,stroke:#e67e22,stroke-width:2px,font-size:26px,text-align:center,font-weight:bold
+%% 阶段容器样式
+classDef dashed stroke:#e67e22,stroke-dasharray: 5 5,stroke-width:2.5px,fill:#f8f8f8,text-align:center,font-size:20px,font-weight:bold
+classDef otherDashed stroke:#e67e22,stroke-dasharray: 5 5,stroke-width:2px,fill:transparent,text-align:center,font-weight:bold
+%% 决策点样式
+classDef decision fill:#ffffff,stroke:#2d3436,stroke-width:2px,text-align:center,font-weight:bold,font-size:26px
+%% 已完成节点样式
+classDef completed fill:#fef5e7,stroke:#e67e22,stroke-width:2px,color:#2d3436,min-width:200px,min-height:70px,text-align:center,font-weight:bold
+%% 未到达节点样式
+classDef pendingDashed stroke:#e67e22,stroke-dasharray: 5 5,stroke-width:2px,fill:transparent,min-width:200px,min-height:70px,text-align:center,font-weight:bold
+%% 主要阶段节点样式
+classDef mainPhase min-width:220px,min-height:70px,font-size:22px,font-weight:bold,text-align:center
+%% 连接线标签样式
+classDef edgeLabel font-size:32px,font-weight:bold
+%% 应用样式
+class ModelPhase dashed
+class LaunchFactory,ParamTuning,ModelConfig,ReturnData completed
+class UserReq,DataPhase,WebApp,DeployPhase mainPhase
+class UserReq,DataPhase completed
+class WebApp,DeployPhase pendingDashed
+class CheckPoint decision
