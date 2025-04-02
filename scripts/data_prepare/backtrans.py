@@ -26,7 +26,7 @@ from dashscope import Generation
 # ======================
 # 基础配置（论文参数优化）
 # ======================
-BASE_DIR = Path("/Volumes/Study/prj")
+BASE_DIR = Path(__file__).resolve().parents[2]
 CONFIG = {
     "api_key": "sk-3b986ed51abb4ed18aadde5d41e11397",
     "input_path": BASE_DIR / "data/raw/training_raw_data.docx",

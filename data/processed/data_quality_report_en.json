@@ -3,21 +3,24 @@
     "Total Samples": 1378,
     "Unique Labels": 8,
     "Entropy": "2.8802",
+    "HammingLoss": "0.0000",
     "SubsetAccuracy": "1.0000",
+    "Coverage": "0.0000",
+    "AveragePrecision": "0.0000",
     "Recommendations": [
-      "Label [low_eq] has low data volume (278), recommended to add more annotated data",
-      "Label [volume] has low data volume (307), recommended to add more annotated data",
-      "Label [effects] has low data volume (278), recommended to add more annotated data"
+      "Label [低频] has low data volume (278), recommended to add more annotated data",
+      "Label [音量] has low data volume (307), recommended to add more annotated data",
+      "Label [效果器] has low data volume (278), recommended to add more annotated data"
     ]
   },
   "Label Distribution": {
-    "high_eq": 742,
-    "mid_eq": 645,
-    "low_eq": 278,
-    "compression": 812,
+    "高频": 742,
+    "中频": 645,
+    "低频": 278,
+    "压缩": 812,
     "reverb": 400,
-    "sound_field": 451,
-    "volume": 307,
-    "effects": 278
+    "声场": 451,
+    "音量": 307,
+    "效果器": 278
   }
 }

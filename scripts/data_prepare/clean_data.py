@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # 脚本所在目录
 DATA_ROOT = os.path.abspath(os.path.join(BASE_DIR, '../../data'))
 # 配置日志
 logging.basicConfig(
-    filename=os.path.join(BASE_DIR, 'data_cleaning.log'),
+    #filename=os.path.join(BASE_DIR, 'data_cleaning.log'),
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )

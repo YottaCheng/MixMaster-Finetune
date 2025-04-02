@@ -7,11 +7,11 @@ from collections import defaultdict
 VALID_LABELS = {'低频', '中频', '高频', 'reverb', '效果器', '声场', '压缩', '音量'}
 MAX_LABELS = 3
 
-# 设置相对路径（相对于scripts目录）
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODIFIED_DATA_PATH = os.path.join(BASE_DIR, "..","data", "llama_factory", "modified_data.json")
-DOCX_INPUT_PATH = os.path.join(BASE_DIR, "..","data", "raw", "test_raw_data.docx")
-DEFAULT_OUTPUT_PATH = os.path.join(BASE_DIR, "..","data", "llama_factory", "alpaca_data.json")
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+MODIFIED_DATA_PATH = os.path.join(BASE_DIR, "data", "llama_factory", "modified_data.json")
+DOCX_INPUT_PATH = os.path.join(BASE_DIR, "data", "raw", "test_raw_data.docx")
+DEFAULT_OUTPUT_PATH = os.path.join(BASE_DIR, "data", "llama_factory", "alpaca_data.json")
 
 def clean_text(text):
     """改进的文本清洗函数"""

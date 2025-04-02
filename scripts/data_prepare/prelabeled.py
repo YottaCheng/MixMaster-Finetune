@@ -2,6 +2,7 @@ import os
 import re
 import time
 import random
+from pathlib import Path
 from typing import List, Dict
 from docx import Document
 from docx.shared import Pt
@@ -13,8 +14,9 @@ from dashscope import Generation
 CONFIG = {
     "api_key": "sk-3b986ed51abb4ed18aadde5d41e11397",
     "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
-    "input_path": "/Volumes/Study/prj/data/processed/filtered_results.docx",
-    "output_path": "/Volumes/Study/prj/data/raw/training_labeled_data.docx",
+    "input_path": Path(__file__).resolve().parents[2] / "data" / "processed" / "filtered_results.docx",
+    "output_path": Path(__file__).resolve().parents[2] / "data" / "raw" / "training_labeled_data.docx",
+    # 其余配置保持不变
     "label_rules": {
         "高频": ["明亮", "齿音", "空气感", "干净"],
         "中频": ["人声厚度", "鼻音", "浑浊感", "饱和感"],
@@ -28,9 +30,8 @@ CONFIG = {
     "conflict_rules": [
         (["高频", "低频"], 0.3),
         (["压缩", "reverb"], 0.5)
-        
     ],
-    "verify_per_label": 1  # 每个标签验证样本数
+    "verify_per_label": 1 # 每个标签验证样本数
 }
 
 class AudioPreLabelSystem:

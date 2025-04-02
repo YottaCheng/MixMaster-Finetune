@@ -8,6 +8,8 @@ import json
 from pathlib import Path
 from dashscope import Generation
 
+os.environ["QWEN_API_KEY"] = "sk-3b986ed51abb4ed18aadde5d41e11397"
+
 # Configuration of relative paths
 BASE_DIR = Path(__file__).parent.parent.parent  # Assuming script is in scripts/ directory
 CONFIG_DIR = BASE_DIR / "config"

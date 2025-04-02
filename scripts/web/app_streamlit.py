@@ -1,4 +1,3 @@
-
 import sys
 import os
 import dashscope
@@ -6,60 +5,34 @@ from dashscope import Generation
 import streamlit as st
 import time
 
-lang = st.session_state.get("lang", "English") if "lang" in st.session_state else "English"
+# ---------- 设置页面配置 ----------
 st.set_page_config(
     page_title="Mix Master",
     page_icon="🎚️",
     layout="centered",
     initial_sidebar_state="collapsed"
 )
+
+# ---------- 初始化会话状态 ----------
+if "lang" not in st.session_state:
+    st.session_state.lang = "English"
+if "run_analysis" not in st.session_state:
+    st.session_state.run_analysis = False
+if "model_loaded" not in st.session_state:
+    st.session_state.model_loaded = False
+if "custom_model_path" not in st.session_state:
+    st.session_state.custom_model_path = ""
+if "show_model_selector" not in st.session_state:
+    st.session_state.show_model_selector = False
+if "using_mock_predictor" not in st.session_state:
+    st.session_state.using_mock_predictor = False
+
 # ---------- 添加当前目录到导入路径 ----------
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)  # 确保优先搜索当前目录
 
-# ---------- 导入预测器 ----------
-try:
-    from predict import MixingLabelPredictor
-    
-    # 使用Streamlit缓存资源装饰器来加载模型
-    @st.cache_resource
-    def load_predictor(model_dir=r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6"):
-        print("加载模型中...这个过程只会执行一次")
-        return MixingLabelPredictor(model_dir=model_dir)
-    
-    # 初始化预测器 - 现在模型只会加载一次
-    try:
-        # 使用默认路径
-        predictor = load_predictor()
-    except Exception as e:
-        st.error(f"模型加载失败: {str(e)}")
-        
-        # 创建一个模拟预测器类
-        class MockMixingLabelPredictor:
-            def predict(self, text, lang):
-                if lang == "中文":
-                    return "高频提升", "声音空间感", "HF001"
-                else:
-                    return "High Frequency Enhancement", "Spatial Depth", "HF001"
-        
-        predictor = MockMixingLabelPredictor()
-        st.warning("使用模拟预测器替代。可能是系统内存不足，请尝试增加虚拟内存或关闭其他应用程序。")
-except ImportError as e:
-    st.error(f"导入 MixingLabelPredictor 失败: {str(e)}")
-    
-    # 创建一个模拟预测器类
-    class MockMixingLabelPredictor:
-        def predict(self, text, lang):
-            if lang == "中文":
-                return "高频提升", "声音空间感", "HF001"
-            else:
-                return "High Frequency Enhancement", "Spatial Depth", "HF001"
-    
-    predictor = MockMixingLabelPredictor()
-    st.warning("使用模拟预测器替代。请确保 predict.py 文件存在于同一目录中。")
-
-# ---------- API配置 ----------
-dashscope.api_key = "sk-3b986ed51abb4ed18aadde5d41e11397"
+# ---------- 语言配置 ----------
+lang = st.session_state.get("lang", "English")
 
 # ---------- 界面文本配置 ----------
 UI_TEXTS = {
@@ -95,7 +68,30 @@ UI_TEXTS = {
         "output_section": "分析结果",
         "advice_section": "混音建议",
         "examples_section": "示例输入", 
-        "advice_placeholder": "点击'开始分析'生成混音建议..."
+        "advice_placeholder": "点击'开始分析'生成混音建议...",
+        # 新增翻译
+        "model_settings": "模型设置",
+        "default_model_path": "默认模型路径",
+        "custom_model_path": "自定义模型路径",
+        "use_custom_model": "使用自定义模型",
+        "model_select_info": "默认模型未找到，请指定自定义模型路径",
+        "model_path_placeholder": "请输入模型路径...",
+        "load_model_btn": "加载模型",
+        "model_loaded_success": "✅ 模型加载成功",
+        "model_loaded_error": "❌ 模型加载失败",
+        "finetune_guide": "使用LlamaFactory进行DeepSeek-R1微调指南",
+        "finetune_steps": [
+            "1. 克隆LlamaFactory: git clone https://github.com/hiyouga/LLaMA-Factory.git",
+            "2. 准备数据集: 将 /Volumes/Study/prj/data/llama_factory/alpaca_data.json 复制到LlamaFactory的数据目录",
+            "3. 使用配置: 将 /Volumes/Study/prj/config 中的YAML复制到LlamaFactory",
+            "4.执行微调: 使用LlamaFactory自动微调deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B模型",
+            "5. 自动将微调后的模型保存到指定输出目录"],
+        "show_finetune_guide": "显示微调指南",
+        "hide_finetune_guide": "隐藏微调指南",
+        "select_model_path": "选择模型路径",
+        "using_mock_predictor": "⚠️ 当前使用模拟预测器，预测结果可能不准确",
+        "mock_predictor_note": "模拟预测器不需要模型权重，可用于演示",
+        "use_mock_predictor": "使用模拟预测器"
     },
     "English": {
         "title": "🎚️ Mix Master",
@@ -129,144 +125,54 @@ UI_TEXTS = {
         "output_section": "Analysis Results",
         "advice_section": "Mixing Advice",
         "examples_section": "Example Inputs",
-        "advice_placeholder": "Click 'Analyze' to generate mixing advice..."
+        "advice_placeholder": "Click 'Analyze' to generate mixing advice...",
+        # New translations
+        "model_settings": "Model Settings",
+        "default_model_path": "Default Model Path",
+        "custom_model_path": "Custom Model Path",
+        "use_custom_model": "Use Custom Model",
+        "model_select_info": "Default model not found. Please specify a custom model path",
+        "model_path_placeholder": "Enter model path...",
+        "load_model_btn": "Load Model",
+        "model_loaded_success": "✅ Model loaded successfully",
+        "model_loaded_error": "❌ Failed to load model",
+        "finetune_guide": "LlamaFactory Fine-tuning Guide with DeepSeek-R1",
+        "finetune_steps": [
+            "1. Clone LlamaFactory: git clone https://github.com/hiyouga/LLaMA-Factory.git",
+            "2. Prepare dataset: Copy /Study/prj/data/llama_factory/alpaca_data.json to LlamaFactory's data directory",
+            "3. Use configuration: Copy YAML from /Volumes/Study/prj/config to LlamaFactory",
+            "4. Execute fine-tuning: Use LlamaFactory's automated fine-tuning on deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+            "5. Automatically save fine-tuned model to specified output directory"
+        ],
+        "show_finetune_guide": "Show Fine-tuning Guide",
+        "hide_finetune_guide": "Hide Fine-tuning Guide",
+        "select_model_path": "Select Model Path",
+        "using_mock_predictor": "⚠️ Currently using mock predictor, predictions may not be accurate",
+        "mock_predictor_note": "Mock predictor doesn't require model weights and can be used for demonstration",
+        "use_mock_predictor": "Use Mock Predictor"
     }
 }
 
-# ---------- 设置页面配置 (MUST BE THE FIRST STREAMLIT COMMAND) ----------
+# ---------- API配置 ----------
+dashscope.api_key = "sk-3b986ed51abb4ed18aadde5d41e11397"
 
+# ---------- 导入预测器 ----------
+try:
+    from predict import MixingLabelPredictor
+    predictor_import_success = True
+except ImportError as e:
+    st.error(f"导入 MixingLabelPredictor 失败: {str(e)}")
+    predictor_import_success = False
 
-# 立即调用设置页面配置的函数
-
-
-# ---------- 核心逻辑 ----------
-def get_mixing_advice(user_input, label, lang="中文"):
-    """调用DashScope API生成混音建议"""
-    try:
-        # 构建提示词
+# ---------- 创建模拟预测器类 ----------
+class MockMixingLabelPredictor:
+    def predict(self, text, lang):
         if lang == "中文":
-            prompt = f"""
-我是一位专业的音频混音工程师。我想要实现以下效果："{user_input}"
-根据分析，这属于"{label}"类型的处理需求。
-
-请给出简短的混音建议，介绍如何调整音频参数实现这个效果。
-不要提及具体的插件名称，也不要给出具体的数值参数，只需提供调整方向和技术思路。
-建议应简洁明了，不超过3-4句话。用中文回答。
-"""
+            return "高频提升", "声音空间感", "HF001"
         else:
-            prompt = f"""
-I am a professional audio mixing engineer. I want to achieve the following effect: "{user_input}"
-Based on analysis, this belongs to the "{label}" type of processing requirement.
+            return "High Frequency Enhancement", "Spatial Depth", "HF001"
 
-Please provide brief mixing advice on how to adjust audio parameters to achieve this effect.
-Do not mention specific plugin names, and do not provide specific numerical parameters, just provide adjustment directions and technical approach.
-The advice should be concise, no more than 3-4 sentences. Answer in English.
-"""
-
-        # 显示进度信息
-        progress_placeholder = st.empty()
-        progress_placeholder.markdown(f"**{UI_TEXTS[lang]['generating']}**")
-        
-        try:
-            # 调用DashScope API - 尝试流式响应
-            response = Generation.call(
-                model="qwq-plus-2025-03-05",
-                messages=[{"role": "user", "content": prompt}],
-                stream=True,
-                incremental_output=True,
-                result_format="message",
-                temperature=0.2,
-                top_p=0.7,
-                max_tokens=150
-            )
-            
-            # 解析流式响应
-            full_response = []
-            progress_text = ""
-            
-            for chunk in response:
-                if chunk.status_code == 200:
-                    if hasattr(chunk.output, 'choices') and len(chunk.output.choices) > 0:
-                        message = chunk.output.choices[0].get('message')
-                        if message and 'content' in message:
-                            content = message['content']
-                            full_response.append(content)
-                            progress_text += content
-                            progress_placeholder.markdown(f"**{UI_TEXTS[lang]['generating']}**\n\n{progress_text}")
-                else:
-                    progress_placeholder.empty()
-                    return f"{UI_TEXTS[lang]['api_error']} 错误码 {chunk.status_code}"
-            
-            progress_placeholder.empty()
-            return ''.join(full_response).strip()
-            
-        except Exception as stream_error:
-            # 如果流式响应失败，回退到非流式响应
-            try:
-                # 非流式响应
-                response = Generation.call(
-                    model="qwq-plus-2025-03-05",
-                    messages=[{"role": "user", "content": prompt}],
-                    stream=False,
-                    result_format="message",
-                    temperature=0.2,
-                    top_p=0.7,
-                    max_tokens=150
-                )
-                
-                progress_placeholder.empty()
-                
-                # 解析非流式响应
-                if response.status_code == 200:
-                    if hasattr(response.output, 'choices') and len(response.output.choices) > 0:
-                        message = response.output.choices[0].get('message')
-                        if message and 'content' in message:
-                            return message['content'].strip()
-                
-                return f"{UI_TEXTS[lang]['api_error']} 错误码 {response.status_code}"
-            
-            except Exception as e:
-                progress_placeholder.empty()
-                return f"{UI_TEXTS[lang]['api_error']} {str(e)}"
-            
-    except Exception as e:
-        return f"{UI_TEXTS[lang]['api_error']}{str(e)}"
-
-def predict_wrapper(text, lang):
-    """预测函数包装器"""
-    try:
-        # 获取预测结果，始终同时获取中英文结果
-        zh_main, zh_secondary, code = predictor.predict(text, "中文")
-        en_main, en_secondary, _ = predictor.predict(text, "English")
-        
-        # 获取混音建议
-        # 使用当前语言对应的标签获取建议
-        advice = get_mixing_advice(
-            text, 
-            zh_main if lang == "中文" else en_main, 
-            lang
-        )
-        
-        # 根据语言选择展示方式
-        if lang == "中文":
-            full_label = zh_main
-            if zh_secondary:
-                full_label += "，" + zh_secondary
-            return full_label, code, advice
-        else:
-            full_label = en_main
-            if en_secondary:
-                full_label += ", " + en_secondary
-            return full_label, code, advice
-    except Exception as e:
-        error_msg = f"{UI_TEXTS[lang]['error_msg']}{str(e)}"
-        return error_msg, "ERROR", ""
-        
-# ---------- Streamlit UI 定义 ----------
-
-
-
-# 设置自定义CSS样式
+# ---------- 设置自定义CSS样式 ----------
 def set_custom_css():
     st.markdown("""
     <style>
@@ -445,98 +351,288 @@ def set_custom_css():
             font-size: 16px;
         }
     }
+    
+    /* 模型选择器样式 */
+    .model-selector {
+        background-color: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        padding: 15px;
+        margin: 20px 0;
+    }
+    
+    /* 指南样式 */
+    .guide-container {
+        background-color: var(--card-secondary-bg);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .guide-step {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    
+    /* 警告信息样式 */
+    .warning-box {
+        background-color: #fff9c4;
+        border: 1px solid #fbc02d;
+        border-radius: var(--radius-md);
+        padding: 10px 15px;
+        margin: 10px 0;
+        color: #7c4d00;
+    }
     </style>
     """, unsafe_allow_html=True)
 
-# 创建标题和副标题
+# ---------- 加载模型 ----------
+@st.cache_resource
+def load_predictor(model_dir=None, force_reload=False):
+    """加载预测器模型，默认模型或自定义模型路径"""
+    # 获取语言
+    lang = st.session_state.lang
+    
+    # 如果未指定模型路径，使用默认路径
+    if model_dir is None:
+        model_dir = r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6"
+    
+    # 判断是否存在模型目录
+    if not os.path.exists(model_dir):
+        st.warning(UI_TEXTS[lang]["model_select_info"])
+        st.session_state.show_model_selector = True
+        return None
+
+    try:
+        print(f"加载模型中...路径: {model_dir}")
+        predictor = MixingLabelPredictor(model_dir=model_dir)
+        st.success(UI_TEXTS[lang]["model_loaded_success"])
+        st.session_state.model_loaded = True
+        return predictor
+    except Exception as e:
+        st.error(f"{UI_TEXTS[lang]['model_loaded_error']}: {str(e)}")
+        st.session_state.show_model_selector = True
+        return None
+
+# ---------- 核心逻辑 ----------
+def get_mixing_advice(user_input, label, lang="中文"):
+    """调用DashScope API生成混音建议"""
+    try:
+        # 构建提示词
+        if lang == "中文":
+            prompt = f"""
+我是一位专业的音频混音工程师。我想要实现以下效果："{user_input}"
+根据分析，这属于"{label}"类型的处理需求。
+
+请给出简短的混音建议，介绍如何调整音频参数实现这个效果。
+不要提及具体的插件名称，也不要给出具体的数值参数，只需提供调整方向和技术思路。
+建议应简洁明了，不超过3-4句话。用中文回答。
+"""
+        else:
+            prompt = f"""
+I am a professional audio mixing engineer. I want to achieve the following effect: "{user_input}"
+Based on analysis, this belongs to the "{label}" type of processing requirement.
+
+Please provide brief mixing advice on how to adjust audio parameters to achieve this effect.
+Do not mention specific plugin names, and do not provide specific numerical parameters, just provide adjustment directions and technical approach.
+The advice should be concise, no more than 3-4 sentences. Answer in English.
+"""
+
+        # 显示进度信息
+        progress_placeholder = st.empty()
+        progress_placeholder.markdown(f"**{UI_TEXTS[lang]['generating']}**")
+        
+        try:
+            # 调用DashScope API - 尝试流式响应
+            response = Generation.call(
+                model="qwq-plus-2025-03-05",
+                messages=[{"role": "user", "content": prompt}],
+                stream=True,
+                incremental_output=True,
+                result_format="message",
+                temperature=0.2,
+                top_p=0.7,
+                max_tokens=150
+            )
+            
+            # 解析流式响应
+            full_response = []
+            progress_text = ""
+            
+            for chunk in response:
+                if chunk.status_code == 200:
+                    if hasattr(chunk.output, 'choices') and len(chunk.output.choices) > 0:
+                        message = chunk.output.choices[0].get('message')
+                        if message and 'content' in message:
+                            content = message['content']
+                            full_response.append(content)
+                            progress_text += content
+                            progress_placeholder.markdown(f"**{UI_TEXTS[lang]['generating']}**\n\n{progress_text}")
+                else:
+                    progress_placeholder.empty()
+                    return f"{UI_TEXTS[lang]['api_error']} 错误码 {chunk.status_code}"
+            
+            progress_placeholder.empty()
+            return ''.join(full_response).strip()
+            
+        except Exception as stream_error:
+            # 如果流式响应失败，回退到非流式响应
+            try:
+                # 非流式响应
+                response = Generation.call(
+                    model="qwq-plus-2025-03-05",
+                    messages=[{"role": "user", "content": prompt}],
+                    stream=False,
+                    result_format="message",
+                    temperature=0.2,
+                    top_p=0.7,
+                    max_tokens=150
+                )
+                
+                progress_placeholder.empty()
+                
+                # 解析非流式响应
+                if response.status_code == 200:
+                    if hasattr(response.output, 'choices') and len(response.output.choices) > 0:
+                        message = response.output.choices[0].get('message')
+                        if message and 'content' in message:
+                            return message['content'].strip()
+                
+                return f"{UI_TEXTS[lang]['api_error']} 错误码 {response.status_code}"
+            
+            except Exception as e:
+                progress_placeholder.empty()
+                return f"{UI_TEXTS[lang]['api_error']} {str(e)}"
+            
+    except Exception as e:
+        return f"{UI_TEXTS[lang]['api_error']}{str(e)}"
+
+def predict_wrapper(predictor, text, lang):
+    """预测函数包装器，接收predictor作为参数"""
+    try:
+        # 获取预测结果，始终同时获取中英文结果
+        zh_main, zh_secondary, code = predictor.predict(text, "中文")
+        en_main, en_secondary, _ = predictor.predict(text, "English")
+        
+        # 获取混音建议
+        advice = get_mixing_advice(
+            text, 
+            zh_main if lang == "中文" else en_main, 
+            lang
+        )
+        
+        # 根据语言选择展示方式
+        if lang == "中文":
+            full_label = zh_main
+            if zh_secondary:
+                full_label += "，" + zh_secondary
+            return full_label, code, advice
+        else:
+            full_label = en_main
+            if en_secondary:
+                full_label += ", " + en_secondary
+            return full_label, code, advice
+    except Exception as e:
+        error_msg = f"{UI_TEXTS[lang]['error_msg']}{str(e)}"
+        return error_msg, "ERROR", ""
+
+# ---------- 创建标题和副标题 ----------
 def render_header():
-    lang = st.session_state.get("lang", "中文")
+    lang = st.session_state.get("lang", "English")
     st.markdown(f'<h1 class="app-title">{UI_TEXTS[lang]["title"]}</h1>', unsafe_allow_html=True)
     st.markdown(f'<p class="app-subtitle">{UI_TEXTS[lang]["subtitle"]}</p>', unsafe_allow_html=True)
 
-# 创建示例部分
-def render_examples():
-    lang = st.session_state.get("lang", "中文")
+# ---------- 创建模型选择器 ----------
+# ---------- 创建模型选择器 ----------
+def render_model_selector(key=None):
+    lang = st.session_state.get("lang", "English")
     
-    st.markdown(f'<div class="section-title">{UI_TEXTS[lang]["examples_section"]}</div>', unsafe_allow_html=True)
-    st.markdown(f'<p>{UI_TEXTS[lang]["examples_title"]}</p>', unsafe_allow_html=True)
-    
-    # 使用列布局创建示例按钮
-    cols = st.columns(3)
-    for i, example in enumerate(UI_TEXTS[lang]["examples"]):
-        with cols[i % 3]:
-            if st.button(example, key=f"example_{i}"):
-                st.session_state.user_input = example
-                st.session_state.run_analysis = True
+    with st.expander(UI_TEXTS[lang]["model_settings"], expanded=st.session_state.show_model_selector):
+        st.markdown(f'<div class="model-selector">', unsafe_allow_html=True)
+        
+        # 默认模型路径
+        default_model_path = r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6"
+        st.text_input(
+            UI_TEXTS[lang]["default_model_path"], 
+            value=default_model_path, 
+            disabled=True,
+            key=f"default_model_path_{key}" if key else "default_model_path"
+        )
+        
+        # 自定义模型路径
+        custom_model_path = st.text_input(
+            UI_TEXTS[lang]["custom_model_path"], 
+            value=st.session_state.custom_model_path,
+            placeholder=UI_TEXTS[lang]["model_path_placeholder"],
+            key=f"custom_model_path_input_{key}" if key else "custom_model_path_input"
+        )
+        
+        # 更新会话状态
+        st.session_state.custom_model_path = custom_model_path
+        
+        # 模拟预测器选项
+        use_mock = st.checkbox(
+            UI_TEXTS[lang]["use_mock_predictor"], 
+            value=False, 
+            key=f"use_mock_predictor_{key}" if key else "use_mock_predictor"
+        )
+        if use_mock:
+            st.markdown(f'<div class="warning-box">{UI_TEXTS[lang]["mock_predictor_note"]}</div>', unsafe_allow_html=True)
+        
+        # 加载模型按钮
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button(
+                UI_TEXTS[lang]["load_model_btn"], 
+                key=f"load_model_button_{key}" if key else "load_model_button"
+            ):
+                if use_mock:
+                    # 使用模拟预测器
+                    st.session_state.predictor = MockMixingLabelPredictor()
+                    st.session_state.model_loaded = True
+                    st.session_state.using_mock_predictor = True
+                    st.success(UI_TEXTS[lang]["model_loaded_success"] + " (Mock)")
+                    st.session_state.show_model_selector = False
+                    st.rerun()
+                elif st.session_state.custom_model_path and os.path.exists(st.session_state.custom_model_path):
+                    # 加载自定义模型
+                    st.session_state.predictor = load_predictor(model_dir=st.session_state.custom_model_path, force_reload=True)
+                    if st.session_state.predictor:
+                        st.session_state.using_mock_predictor = False
+                        st.session_state.show_model_selector = False
+                        st.rerun()
+                else:
+                    st.error(f"{UI_TEXTS[lang]['error_msg']} {UI_TEXTS[lang]['model_path_placeholder']}")
+        
+        # 微调指南
+        if "show_finetune_guide" not in st.session_state:
+            st.session_state.show_finetune_guide = False
+        
+        guide_button_text = UI_TEXTS[lang]["hide_finetune_guide"] if st.session_state.show_finetune_guide else UI_TEXTS[lang]["show_finetune_guide"]
+        
+        with col2:
+            if st.button(
+                guide_button_text, 
+                key=f"finetune_guide_button_{key}" if key else "finetune_guide_button"
+            ):
+                st.session_state.show_finetune_guide = not st.session_state.show_finetune_guide
                 st.rerun()
+        
+        if st.session_state.show_finetune_guide:
+            st.markdown(f'<div class="guide-container">', unsafe_allow_html=True)
+            st.markdown(f"### {UI_TEXTS[lang]['finetune_guide']}")
+            
+            for step in UI_TEXTS[lang]["finetune_steps"]:
+                st.markdown(f'<div class="guide-step">{step}</div>', unsafe_allow_html=True)
+            
+            st.markdown('</div>', unsafe_allow_html=True)
+        
+        st.markdown('</div>', unsafe_allow_html=True)
 
-# 创建输入部分
-def render_input_section():
-    lang = st.session_state.get("lang", "中文")
-    
-    st.markdown(f'<div class="section-title">{UI_TEXTS[lang]["input_section"]}</div>', unsafe_allow_html=True)
-    
-    # 设置初始值
-    if "user_input" not in st.session_state:
-        st.session_state.user_input = ""
-    
-    # 创建输入框
-    user_input = st.text_area(
-        UI_TEXTS[lang]["input_label"],
-        value=st.session_state.user_input,
-        height=100,
-        placeholder=UI_TEXTS[lang]["examples"][0],
-        key="user_input_widget"
-    )
-    
-    # 同步输入框值到session_state
-    st.session_state.user_input = user_input
-    
-    # 功能按钮行
-    cols = st.columns([1, 1, 1])
-    
-    with cols[0]:
-        analyze_clicked = st.button(
-            UI_TEXTS[lang]["analyze_btn"],
-            type="primary",
-            use_container_width=True,
-            key="analyze_button"
-        )
-    
-    with cols[1]:
-        clear_clicked = st.button(
-            UI_TEXTS[lang]["clear_btn"],
-            type="secondary",
-            use_container_width=True,
-            key="clear_button"
-        )
-    
-    with cols[2]:
-        lang_clicked = st.button(
-            UI_TEXTS[lang]["switch_lang"],
-            type="secondary",
-            use_container_width=True,
-            key="lang_button"
-        )
-    
-    # 处理清空按钮事件
-    if clear_clicked:
-        st.session_state.user_input = ""
-        st.session_state.prediction_label = ""
-        st.session_state.prediction_code = ""
-        st.session_state.advice = ""
-        st.rerun()
-    
-    # 处理语言切换事件
-    if lang_clicked:
-        st.session_state.lang = "English" if lang == "中文" else "中文"
-        st.rerun()
-    
-    return user_input, analyze_clicked
-
-# 创建输出部分
+# ---------- 创建输出部分 ----------
 def render_output_section():
-    lang = st.session_state.get("lang", "中文")
+    lang = st.session_state.get("lang", "English")
     
     # 获取预测结果
     prediction_label = st.session_state.get("prediction_label", "")
@@ -586,9 +682,9 @@ def render_output_section():
                 # 显示复制成功消息
                 st.success(UI_TEXTS[lang]["copy_success"])
 
-# 创建工具箱部分
+# ---------- 创建工具箱部分 ----------
 def render_toolbox():
-    lang = st.session_state.get("lang", "中文")
+    lang = st.session_state.get("lang", "English")
     
     with st.expander(UI_TEXTS[lang]["toolbox_title"]):
         # 初始化剪贴板内容
@@ -611,12 +707,10 @@ def render_toolbox():
             st.rerun()
         
         st.caption(UI_TEXTS[lang]["edit_hint"])
-        
-        # 按钮完全移除
 
-# 创建页脚
+# ---------- 创建页脚 ----------
 def render_footer():
-    lang = st.session_state.get("lang", "中文")
+    lang = st.session_state.get("lang", "English")
     
     st.markdown(f"""
     <div class="footer">
@@ -628,17 +722,119 @@ def render_footer():
     """, unsafe_allow_html=True)
 
 # 主应用函数
-def main():
-    # 初始化 session_state
-    if "lang" not in st.session_state:
-        st.session_state.lang = "English"  # 默认语言改为英文
-    if "run_analysis" not in st.session_state:
-        st.session_state.run_analysis = False
+
+
+# ---------- 创建示例部分 ----------
+def render_examples():
+    lang = st.session_state.get("lang", "English")
     
+    st.markdown(f'<div class="section-title">{UI_TEXTS[lang]["examples_section"]}</div>', unsafe_allow_html=True)
+    st.markdown(f'<p>{UI_TEXTS[lang]["examples_title"]}</p>', unsafe_allow_html=True)
+    
+    # 使用列布局创建示例按钮
+    cols = st.columns(3)
+    for i, example in enumerate(UI_TEXTS[lang]["examples"]):
+        with cols[i % 3]:
+            if st.button(example, key=f"example_{i}"):
+                st.session_state.user_input = example
+                st.session_state.run_analysis = True
+                st.rerun()
+
+# ---------- 创建输入部分 ----------
+def render_input_section():
+    lang = st.session_state.get("lang", "English")
+    
+    st.markdown(f'<div class="section-title">{UI_TEXTS[lang]["input_section"]}</div>', unsafe_allow_html=True)
+    
+    # 设置初始值
+    if "user_input" not in st.session_state:
+        st.session_state.user_input = ""
+    
+    # 创建输入框
+    user_input = st.text_area(
+        UI_TEXTS[lang]["input_label"],
+        value=st.session_state.user_input,
+        height=100,
+        placeholder=UI_TEXTS[lang]["examples"][0],
+        key="user_input_widget"
+    )
+    
+    # 同步输入框值到session_state
+    st.session_state.user_input = user_input
+    
+    # 功能按钮行
+    cols = st.columns([1, 1, 1])
+    
+    with cols[0]:
+        analyze_clicked = st.button(
+            UI_TEXTS[lang]["analyze_btn"],
+            type="primary",
+            use_container_width=True,
+            key="analyze_button"
+        )
+    
+    with cols[1]:
+        clear_clicked = st.button(
+            UI_TEXTS[lang]["clear_btn"],
+            type="secondary",
+            use_container_width=True,
+            key="clear_button"
+        )
+    
+    with cols[2]:
+            lang_clicked = st.button(
+                UI_TEXTS[lang]["switch_lang"],
+                type="secondary",
+                use_container_width=True,
+                key="lang_button"
+            )
+    
+    # 处理清空按钮事件
+    if clear_clicked:
+        st.session_state.user_input = ""
+        st.session_state.prediction_label = ""
+        st.session_state.prediction_code = ""
+        st.session_state.advice = ""
+        st.rerun()
+    
+    # 处理语言切换事件
+    if lang_clicked:
+        st.session_state.lang = "English" if lang == "中文" else "中文"
+        st.rerun()
+    
+    return user_input, analyze_clicked
+def main():
+    # 初始化 predictor 到 session_state（如果还未初始化）
+    if 'predictor' not in st.session_state:
+        st.session_state.predictor = None
+    
+    # 设置自定义CSS
     set_custom_css()
     
     # 渲染页面组件
     render_header()
+    
+    # 检查模型是否已加载
+    if not st.session_state.model_loaded:
+        # 尝试加载默认模型
+        default_model_path = r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6"
+        st.session_state.predictor = load_predictor(model_dir=default_model_path)
+        
+        # 如果默认模型无法加载，则显示模型选择器
+        if not st.session_state.predictor:
+            st.session_state.predictor = MockMixingLabelPredictor()
+            st.session_state.using_mock_predictor = True
+    
+    # 只在需要时渲染模型选择器
+    if st.session_state.show_model_selector:
+        # 添加一个唯一的键来区分不同的调用
+        render_model_selector(key="main_model_selector")
+    
+    # 如果使用的是模拟预测器，显示警告
+    if st.session_state.get("using_mock_predictor", False):
+        st.markdown(f'<div class="warning-box">{UI_TEXTS[st.session_state.lang]["using_mock_predictor"]}</div>', unsafe_allow_html=True)
+    
+    # 渲染示例
     render_examples()
     
     # 输入区域
@@ -650,8 +846,12 @@ def main():
         st.session_state.run_analysis = False
         
         with st.spinner(UI_TEXTS[st.session_state.lang]["generating"]):
-            # 执行预测
-            label, code, advice = predict_wrapper(st.session_state.user_input, st.session_state.lang)
+            # 执行预测，使用 st.session_state.predictor
+            label, code, advice = predict_wrapper(
+                st.session_state.predictor, 
+                st.session_state.user_input, 
+                st.session_state.lang
+            )
             
             # 保存结果到session_state
             st.session_state.prediction_label = label
@@ -667,14 +867,9 @@ def main():
     # 页脚
     render_footer()
 
-# 替代预测器类
-class MockMixingLabelPredictor:
-    def predict(self, text, lang):
-        if lang == "中文":
-            return "高频提升", "声音空间感", "HF001"
-        else:
-            return "High Frequency Enhancement", "Spatial Depth", "HF001"
-
+# 应用程序入口
 # 应用程序入口
 if __name__ == "__main__":
+    # 初始化全局预测器变量
+    predictor = None
     main()

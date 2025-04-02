@@ -24,20 +24,29 @@ def generate_instructions():
     ]
 
 def convert_to_alpaca():
+    # 使用 os.path.dirname(__file__) 获取当前脚本的目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.normpath(os.path.join(script_dir, "../data/processed/modified_data.json"))
     
-    # Modification 1: output_dir should point to a directory path
-    output_dir = os.path.normpath(os.path.join(script_dir, "../data/llama_factory"))
-    # Modification 2: Output file path defined separately
+    # 构建绝对路径 - 注意根据你的实际项目结构调整
+    base_dir = os.path.dirname(os.path.dirname(script_dir))  # 返回项目根目录
+    input_path = os.path.join(base_dir, "data", "processed", "modified_data.json")
+    output_dir = os.path.join(base_dir, "data", "llama_factory")
+    
+    # 打印路径以便调试
+    print(f"Input path: {input_path}")
+    print(f"Output path: {output_dir}")
+    
+    # 确保路径存在
+    os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, "train.json")
     
-    os.makedirs(output_dir, exist_ok=True)  # Now correctly creates the directory
+    # 检查输入文件是否存在
+    if not os.path.exists(input_path):
+        raise FileNotFoundError(f"Input file not found: {input_path}")
     
+    # 后续代码保持不变
     with open(input_path, 'r', encoding='utf-8') as f:
         raw_data = json.load(f)
-    
-    alpaca_data = []
     
     alpaca_data = []
     for item in raw_data:
