@@ -1,4 +1,4 @@
-import gradio as gr
+import streamlit as st
 import numpy as np
 import librosa
 import matplotlib.pyplot as plt
@@ -6,6 +6,123 @@ from scipy import signal
 import io
 import base64
 from PIL import Image
+import tempfile
+import os
+import matplotlib as mpl
+from matplotlib.font_manager import FontProperties
+
+# 设置页面配置 - 必须是第一个Streamlit命令
+st.set_page_config(
+    page_title="音频频率分析器 (Pro-Q3风格)",
+    page_icon="🎵",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
+# 设置中文字体支持
+def set_chinese_font():
+    # 尝试设置中文字体，根据操作系统设置合适的字体
+    try:
+        # Windows系统
+        if os.name == 'nt':
+            font_paths = [
+                'C:/Windows/Fonts/simhei.ttf',  # 黑体
+                'C:/Windows/Fonts/simsun.ttc',  # 宋体
+                'C:/Windows/Fonts/msyh.ttc'     # 微软雅黑
+            ]
+            for font_path in font_paths:
+                if os.path.exists(font_path):
+                    font = FontProperties(fname=font_path)
+                    return font
+        
+        # macOS系统
+        elif os.name == 'posix' and os.uname().sysname == 'Darwin':
+            font_paths = [
+                '/System/Library/Fonts/PingFang.ttc',
+                '/Library/Fonts/Arial Unicode.ttf'
+            ]
+            for font_path in font_paths:
+                if os.path.exists(font_path):
+                    font = FontProperties(fname=font_path)
+                    return font
+        
+        # Linux系统
+        else:
+            font_paths = [
+                '/usr/share/fonts/truetype/arphic/uming.ttc',
+                '/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf'
+            ]
+            for font_path in font_paths:
+                if os.path.exists(font_path):
+                    font = FontProperties(fname=font_path)
+                    return font
+    except:
+        pass
+    
+    # 如果没有找到合适的中文字体，使用系统默认sans-serif字体
+    return FontProperties(family='sans-serif')
+
+# 获取中文字体
+chinese_font = set_chinese_font()
+
+# 配置matplotlib使用中文字体
+plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans', 'Arial Unicode MS', 'sans-serif']
+plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
+
+# 自定义CSS
+st.markdown("""
+<style>
+    .main .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        max-width: 1000px;
+    }
+    h1 {
+        color: #00AAFF;
+    }
+    .stButton > button {
+        background-color: #00AAFF;
+        color: white;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+    }
+    .stButton > button:hover {
+        background-color: #0088CC;
+        color: white;
+    }
+    .info-box {
+        background-color: #222222;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .stImage {
+        background-color: #1E1E1E;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    /* 自定义数据指标样式 */
+    .metric-container {
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px 0;
+    }
+    .metric-label {
+        font-size: 14px;
+        color: #888;
+        margin-bottom: 5px;
+    }
+    .metric-value {
+        font-size: 18px;
+        font-weight: bold;
+        color: #00AAFF;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 
 def analyze_audio(audio_file):
     """
@@ -97,18 +214,18 @@ def analyze_audio(audio_file):
     plt.ylim(-12, 12)
     plt.yticks([-12, -9, -6, -3, 0, 3, 6, 9, 12])
     
-    # 设置标签
-    plt.xlabel('频率 (Hz)', color='white', fontsize=12)
-    plt.ylabel('增益 (dB)', color='white', fontsize=12)
-    plt.title('频率响应曲线 (Pro-Q3 风格)', color='white', fontsize=14)
+    # 设置标签，使用中文字体
+    plt.xlabel('频率 (Hz)', fontproperties=chinese_font, fontsize=12, color='white')
+    plt.ylabel('增益 (dB)', fontproperties=chinese_font, fontsize=12, color='white')
+    plt.title('频率响应曲线 (Pro-Q3 风格)', fontproperties=chinese_font, fontsize=14, color='white')
     
     # 标记频段
     for band in bands:
         plt.axvspan(band["range"][0], band["range"][1], alpha=0.1, color=band["color"])
         x_pos = np.sqrt(band["range"][0] * band["range"][1])  # 取几何平均值作为标签位置
         plt.annotate(band["name"], xy=(x_pos, 11), color=band["color"], 
-                     ha='center', fontsize=10, bbox=dict(boxstyle="round,pad=0.3", 
-                                                    fc='#1E1E1E', ec=band["color"], alpha=0.7))
+                     ha='center', fontsize=10, fontproperties=chinese_font,
+                     bbox=dict(boxstyle="round,pad=0.3", fc='#1E1E1E', ec=band["color"], alpha=0.7))
     
     # 将图像转换为PIL图像
     curve_buffer = io.BytesIO()
@@ -126,8 +243,8 @@ def analyze_audio(audio_file):
     
     plt.plot(np.linspace(0, len(y)/sr, len(y)), y, color='#00AAFF', linewidth=0.8, alpha=0.7)
     plt.xlim(0, len(y)/sr)
-    plt.title('波形图', color='white')
-    plt.xlabel('时间 (秒)', color='white')
+    plt.title('波形图', fontproperties=chinese_font, color='white')
+    plt.xlabel('时间 (秒)', fontproperties=chinese_font, color='white')
     plt.grid(False)
     
     # 将波形图转换为PIL图像
@@ -146,85 +263,152 @@ def analyze_audio(audio_file):
         "sr": sr,
         "duration": round(len(y)/sr, 2),
         "dominant": dominant_band,
-        "filename": audio_file.split("/")[-1] if "/" in audio_file else audio_file.split("\\")[-1] if "\\" in audio_file else audio_file
+        "filename": os.path.basename(audio_file) if isinstance(audio_file, str) else "上传的音频"
     }
 
-def process_audio(audio):
-    if audio is None:
-        return None, None, 0, 0, 0, 0, 0, "无数据", ""
+def process_audio(audio_data):
+    """处理上传的音频数据"""
+    if audio_data is None:
+        return None
     
     try:
+        # 创建临时文件
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.wav') as tmp_file:
+            # 写入音频数据
+            tmp_file.write(audio_data)
+            tmp_path = tmp_file.name
+        
         # 执行分析
-        result = analyze_audio(audio)
+        result = analyze_audio(tmp_path)
         
-        return (
-            result["curve_image"], 
-            result["wave_image"],
-            result["low"],
-            result["mid"],
-            result["high"],
-            result["sr"],
-            result["duration"],
-            result["dominant"],
-            result["filename"]
-        )
+        # 删除临时文件
+        os.unlink(tmp_path)
+        
+        return result
     except Exception as e:
-        return None, None, 0, 0, 0, 0, 0, f"错误: {str(e)}", ""
+        st.error(f"处理音频时出错: {str(e)}")
+        return None
 
-# 创建Gradio界面
-with gr.Blocks() as demo:
-    gr.Markdown("# 音频频率分析器 (Pro-Q3风格)")
-    gr.Markdown("上传音频文件，分析其频率特性并生成可视化结果")
+# 创建一个缓存函数来避免重复分析
+@st.cache_data
+def cached_process_audio(audio_bytes):
+    """缓存音频处理结果以提高性能"""
+    # 使用字节内容作为缓存键
+    return process_audio(audio_bytes)
+
+# 主页面布局
+st.title("音频频率分析器 (Pro-Q3风格)")
+st.write("上传音频文件，分析其频率特性并生成可视化结果")
+
+# 创建两列布局
+col1, col2 = st.columns([1, 2])
+
+with col1:
+    # 音频上传
+    uploaded_file = st.file_uploader("上传音频文件", type=['wav', 'mp3', 'ogg', 'flac'])
     
-    with gr.Row():
-        with gr.Column(scale=1):
-            audio_input = gr.Audio(type="filepath", label="上传音频文件")
-            analyze_button = gr.Button("分析")
+    # 分析按钮
+    analyze_button = st.button("分析音频", use_container_width=True)
+    
+    # 创建音频预览
+    if uploaded_file is not None:
+        st.audio(uploaded_file, format=f"audio/{uploaded_file.name.split('.')[-1]}")
+    
+    # 信息显示区域
+    st.markdown("### 频段能量分布")
+    
+    # 预留结果显示区域
+    low_freq_container = st.empty()
+    mid_freq_container = st.empty()
+    high_freq_container = st.empty()
+    
+    st.markdown("### 音频信息")
+    sample_rate_container = st.empty()
+    duration_container = st.empty()
+    dominant_band_container = st.empty()
+    filename_container = st.empty()
+
+with col2:
+    # 预留曲线图显示区域
+    freq_curve_container = st.empty()
+    wave_container = st.empty()
+
+# 使用说明
+with st.expander("使用说明", expanded=False):
+    st.markdown("""
+    ## 使用说明
+    
+    1. 点击上传按钮或拖放音频文件到上传区域
+    2. 点击"分析"按钮处理音频
+    3. 查看生成的频率响应曲线和波形图
+    4. 频段能量分布显示低频(20-250Hz)、中频(250-4000Hz)和高频(4000-20000Hz)的能量比例
+    
+    频率响应曲线模拟了专业音频均衡器FabFilter Pro-Q3的显示风格，可以直观地看出音频的频率特性。
+    """)
+
+# 处理按钮点击事件
+if uploaded_file is not None and analyze_button:
+    with st.spinner('正在分析音频...'):
+        # 读取上传的文件
+        audio_bytes = uploaded_file.getvalue()
+        
+        # 处理音频
+        result = cached_process_audio(audio_bytes)
+        
+        if result:
+            # 显示频率曲线图 - 使用use_container_width替代已弃用的use_column_width
+            freq_curve_container.image(result["curve_image"], caption="频率响应曲线", use_container_width=True)
+            wave_container.image(result["wave_image"], caption="波形图", use_container_width=True)
             
-            # 使用普通分组代替Box
-            with gr.Column():
-                gr.Markdown("### 频段能量分布")
-                with gr.Row():
-                    low_freq = gr.Number(label="低频 (%)", precision=1)
-                    mid_freq = gr.Number(label="中频 (%)", precision=1)
-                    high_freq = gr.Number(label="高频 (%)", precision=1)
-                
-                with gr.Row():
-                    sample_rate = gr.Number(label="采样率 (Hz)")
-                    duration = gr.Number(label="持续时间 (秒)", precision=2)
-                
-                with gr.Row():
-                    dominant_band = gr.Textbox(label="主导频段")
-                    filename = gr.Textbox(label="文件名")
-        
-        with gr.Column(scale=2):
-            freq_image = gr.Image(label="频率响应曲线", type="pil")
-            wave_image = gr.Image(label="波形图", type="pil")
-    
-    # 绑定分析按钮
-    analyze_button.click(
-        process_audio,
-        inputs=audio_input,
-        outputs=[freq_image, wave_image, low_freq, mid_freq, high_freq, 
-                 sample_rate, duration, dominant_band, filename]
-    )
-    
-    # 使用说明
-    with gr.Accordion("使用说明", open=False):
-        gr.Markdown("""
-        ## 使用说明
-        
-        1. 点击上传按钮或拖放音频文件到上传区域
-        2. 点击"分析"按钮处理音频
-        3. 查看生成的频率响应曲线和波形图
-        4. 频段能量分布显示低频(20-250Hz)、中频(250-4000Hz)和高频(4000-20000Hz)的能量比例
-        
-        频率响应曲线模拟了专业音频均衡器FabFilter Pro-Q3的显示风格，可以直观地看出音频的频率特性。
-        """)
-
-if __name__ == "__main__":
-    demo.launch(
-        share=True,              # 创建可共享链接
-        server_name="0.0.0.0",   # 绑定到所有网络接口
-        server_port=7860         # 指定端口
-    )
+            # 使用自定义HTML显示频段分析
+            low_freq_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">低频 (%)</div>
+                <div class="metric-value">{result["low"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            mid_freq_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">中频 (%)</div>
+                <div class="metric-value">{result["mid"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            high_freq_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">高频 (%)</div>
+                <div class="metric-value">{result["high"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            # 显示音频信息
+            sample_rate_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">采样率 (Hz)</div>
+                <div class="metric-value">{result["sr"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            duration_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">持续时间 (秒)</div>
+                <div class="metric-value">{result["duration"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            dominant_band_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">主导频段</div>
+                <div class="metric-value">{result["dominant"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            filename_container.markdown(f"""
+            <div class="metric-container">
+                <div class="metric-label">文件名</div>
+                <div class="metric-value" style="font-size: 14px;">{result["filename"]}</div>
+            </div>
+            """, unsafe_allow_html=True)
+        else:
+            st.error("无法处理音频文件。请确保上传的是有效的音频文件。")
