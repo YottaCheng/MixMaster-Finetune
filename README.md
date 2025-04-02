@@ -93,3 +93,35 @@ If you need to use a custom model, modify the model path in the `predict.py` fil
    ```python
    def __init__(self, model_dir="/your/local/path/to/model"):
    ```
+
+### 5.1 LlamaFactory Fine-tuning
+
+#### Overview
+LlamaFactory provides a comprehensive framework for fine-tuning large language models with minimal configuration overhead. This guide will walk you through fine-tuning the DeepSeek-R1-Distill-Qwen-1.5B model using our custom dataset.
+
+#### Prerequisites
+* Python 3.8+
+* CUDA-compatible GPU
+* Git
+* Basic understanding of machine learning concepts
+
+#### Step-by-Step Fine-tuning Process
+
+1. **Clone LlamaFactory Repository**
+   ```bash
+   git clone https://github.com/hiyouga/LLaMA-Factory.git
+   cd LLaMA-Factory
+   ```
+
+2. **Set Up Virtual Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. **Prepare Training Dataset**
+   * Location: `/Volumes/Study/prj/data/llama_factory/train.json`
+   * Ensure the dataset is in the correct JSON format with `instruction`, `input`, and `output` fields
+
+By following these steps, you can reproduce the fine-tuning process and obtain a model similar to the one used in this project.
