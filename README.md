@@ -9,7 +9,7 @@ Mix Master is a tool designed specifically for mixing beginners, capable of tran
 ### 2. Installation Guide
 
 #### System Requirements
-- Python 3.11 or higher
+- Python 3.9 or higher
 - Stable internet connection (for model access)
 
 #### Core Dependencies
