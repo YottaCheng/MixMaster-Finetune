@@ -120,7 +120,7 @@ class MixingLabelPredictor:
             self.model = AutoModelForCausalLM.from_pretrained(
                 model_dir,
                 torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-                device_map="auto",
+                device_map={"": "cuda:0"},
                 trust_remote_code=True
             )
             
@@ -133,7 +133,7 @@ class MixingLabelPredictor:
                         self.model, 
                         lora_path,
                         torch_dtype=torch.float16 if self.device == "cuda" else torch.float32,
-                        device_map="auto"
+                        device_map={"": "cuda:0"}
                     )
                     print(f"✅ LoRA适配器加载成功")
                     

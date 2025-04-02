@@ -7,8 +7,12 @@ import argparse
 import json
 from colorama import init, Fore, Style
 
-# 导入预测器类
-from scripts.web.predict import MixingLabelPredictor
+# 添加当前目录到系统路径
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, current_dir)
+
+# 直接从当前目录导入
+from predict import MixingLabelPredictor
 
 def print_colored(text, color=Fore.WHITE, end='\n'):
     """打印彩色文本"""
@@ -21,13 +25,13 @@ def main():
     
     # 设置参数解析
     parser = argparse.ArgumentParser(description='音频处理需求标签预测 - 终端版本')
-    parser.add_argument('-m', '--model', default=r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6", 
-                        help='模型目录路径')
+    parser.add_argument('-m', '--model', default=r"D:\kings\prj\Finetune_local\Models\deepseek_R1_MixMaster\v6",
+                     help='模型目录路径')
     parser.add_argument('-i', '--input', help='直接输入处理需求文本')
     parser.add_argument('-l', '--lang', choices=['中文', 'English'], default='中文',
-                        help='输出语言 (默认: 中文)')
+                    help='输出语言 (默认: 中文)')
     parser.add_argument('-t', '--temperature', type=float, default=0.1,
-                        help='生成温度 (默认: 0.1)')
+                    help='生成温度 (默认: 0.1)')
     
     args = parser.parse_args()
     
@@ -51,7 +55,7 @@ def main():
             else:
                 print_colored("请输入音频处理需求 (输入'退出'或'exit'结束程序):", Fore.CYAN)
                 user_input = input("> ")
-            
+                
             # 检查退出指令
             if user_input.lower() in ['退出', 'exit', 'quit', 'q']:
                 print_colored("\n感谢使用，再见！", Fore.CYAN)
@@ -60,10 +64,10 @@ def main():
             # 跳过空输入
             if not user_input.strip():
                 continue
-            
+                
             # 执行预测
             print_colored("正在分析...", Fore.YELLOW)
-            main_label, secondary_label, code = predictor.predict(user_input, args.lang)
+            main_label, secondary_label, code = predictor.predict(user_input, args.lang, args.temperature)
             
             # 输出结果
             print_colored("\n----- 分析结果 -----", Fore.CYAN)
@@ -72,7 +76,7 @@ def main():
                 print_colored(f"副标签: {secondary_label}", Fore.GREEN)
             print_colored(f"标签代码: {code}", Fore.BLUE)
             print_colored("-------------------\n", Fore.CYAN)
-            
+        
     except Exception as e:
         print_colored(f"❌ 错误: {str(e)}", Fore.RED)
         return 1

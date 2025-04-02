@@ -1,3 +1,4 @@
+
 import sys
 import os
 import dashscope
@@ -5,21 +6,17 @@ from dashscope import Generation
 import streamlit as st
 import time
 
-# 设置页面配置
-def set_page_config():
-    lang = st.session_state.get("lang", "中文")
-    st.set_page_config(
-        page_title=UI_TEXTS[lang]["title"],
-        page_icon="🎚️",
-        layout="centered",
-        initial_sidebar_state="collapsed"
-    )
-
+lang = st.session_state.get("lang", "English") if "lang" in st.session_state else "English"
+st.set_page_config(
+    page_title="Mix Master",
+    page_icon="🎚️",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
 # ---------- 添加当前目录到导入路径 ----------
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)  # 确保优先搜索当前目录
 
-# ---------- 导入预测器 ----------
 # ---------- 导入预测器 ----------
 try:
     from predict import MixingLabelPredictor
@@ -34,8 +31,6 @@ try:
     try:
         # 使用默认路径
         predictor = load_predictor()
-        # 或者指定您的模型路径:
-        # predictor = load_predictor(model_dir=r"D:\kings\prj\Finetune_local\v5")
     except Exception as e:
         st.error(f"模型加载失败: {str(e)}")
         
@@ -62,17 +57,6 @@ except ImportError as e:
     
     predictor = MockMixingLabelPredictor()
     st.warning("使用模拟预测器替代。请确保 predict.py 文件存在于同一目录中。")
-    
-    # 创建一个模拟预测器类
-    class MockMixingLabelPredictor:
-        def predict(self, text, lang):
-            if lang == "中文":
-                return "高频提升", "声音空间感", "HF001"
-            else:
-                return "High Frequency Enhancement", "Spatial Depth", "HF001"
-    
-    predictor = MockMixingLabelPredictor()
-    st.warning("使用模拟预测器替代。请确保 predict.py 文件存在于同一目录中。")
 
 # ---------- API配置 ----------
 dashscope.api_key = "sk-3b986ed51abb4ed18aadde5d41e11397"
@@ -80,7 +64,7 @@ dashscope.api_key = "sk-3b986ed51abb4ed18aadde5d41e11397"
 # ---------- 界面文本配置 ----------
 UI_TEXTS = {
     "中文": {
-        "title": "🎚️ 混音效果智能分类系统",
+        "title": "🎚️ Mix Master",
         "subtitle": "专业音频处理助手",
         "input_label": "请输入音频处理需求（中英文均可）",
         "output_label": "预测标签",
@@ -105,7 +89,7 @@ UI_TEXTS = {
         "api_error": "⚠️ 生成建议失败：",
         "paste_toolbox": "复制/粘贴工具箱",
         "toolbox_title": "工具箱",
-        "footer": "© 2025 E.Stay 混音助手 | 专业音频解决方案",
+        "footer": "© 2025 E.Stay Mix Master | 专业音频解决方案",
         "powered_by": "基于人工智能技术",
         "input_section": "输入需求",
         "output_section": "分析结果",
@@ -114,7 +98,7 @@ UI_TEXTS = {
         "advice_placeholder": "点击'开始分析'生成混音建议..."
     },
     "English": {
-        "title": "🎚️ AI Mixing Label Classifier",
+        "title": "🎚️ Mix Master",
         "subtitle": "Professional Audio Processing Assistant",
         "input_label": "Enter audio processing request (Chinese/English)",
         "output_label": "Predicted Label",
@@ -139,7 +123,7 @@ UI_TEXTS = {
         "api_error": "⚠️ Failed to generate advice: ",
         "paste_toolbox": "Copy/Paste Toolbox",
         "toolbox_title": "Toolbox",
-        "footer": "© 2025 E.Stay Mixing Assistant | Professional Audio Solution",
+        "footer": "© 2025 E.Stay Mix Master | Professional Audio Solution",
         "powered_by": "Powered by AI Technology",
         "input_section": "Input Request",
         "output_section": "Analysis Results",
@@ -148,6 +132,12 @@ UI_TEXTS = {
         "advice_placeholder": "Click 'Analyze' to generate mixing advice..."
     }
 }
+
+# ---------- 设置页面配置 (MUST BE THE FIRST STREAMLIT COMMAND) ----------
+
+
+# 立即调用设置页面配置的函数
+
 
 # ---------- 核心逻辑 ----------
 def get_mixing_advice(user_input, label, lang="中文"):
@@ -271,7 +261,7 @@ def predict_wrapper(text, lang):
     except Exception as e:
         error_msg = f"{UI_TEXTS[lang]['error_msg']}{str(e)}"
         return error_msg, "ERROR", ""
-
+        
 # ---------- Streamlit UI 定义 ----------
 
 
@@ -641,12 +631,10 @@ def render_footer():
 def main():
     # 初始化 session_state
     if "lang" not in st.session_state:
-        st.session_state.lang = "中文"
+        st.session_state.lang = "English"  # 默认语言改为英文
     if "run_analysis" not in st.session_state:
         st.session_state.run_analysis = False
     
-    # 设置页面配置
-    set_page_config()
     set_custom_css()
     
     # 渲染页面组件
