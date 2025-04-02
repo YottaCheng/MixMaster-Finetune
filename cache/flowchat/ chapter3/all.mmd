@@ -1,0 +1,46 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#264653',
+    'primaryBorderColor': '#f9c784',
+    'lineColor': '#f9c784',
+    'clusterBkg': 'transparent',
+    'clusterBorder': 'transparent'
+  }
+}}%%
+flowchart LR
+    UserReq["User Requirements"] --> DataPhase
+    
+    subgraph DataPhase["Data Processing Phase"]
+        DataProc["Data Processing"]
+        EDA["Easy Data Augmentation"]
+        BackTrans["Back translation"]
+        DataFilter["Data Filtering"]
+        DataAnno["Data Annotation"]
+        
+        DataProc --> EDA
+        DataProc --> BackTrans
+        EDA --> DataFilter
+        BackTrans --> DataFilter
+        DataFilter --> DataAnno
+    end
+    
+    DataPhase --> ModelPhase
+    
+    subgraph ModelPhase["Fine-tuning & Web"]
+        FineTune["Model Fine tuning"]
+        WebApp["Web Application"]
+        
+        FineTune --> WebApp
+    end
+    
+    ModelPhase --> DeployPhase
+    
+    subgraph DeployPhase["Deployment Phase"]
+        Deployment["Deployment"]
+    end
+    
+    classDef default fill:#ffffff,stroke:#f9c784,stroke-width:1.5px
+    classDef dashed stroke:#f9c784,stroke-dasharray: 5 5,stroke-width:1.5px,fill:transparent
+    class DataPhase,ModelPhase,DeployPhase dashed

@@ -1,18 +1,43 @@
-flowchart LR
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#264653',
+    'primaryBorderColor': '#f9c784',
+    'lineColor': '#f9c784',
+    'clusterBkg': 'transparent',
+    'clusterBorder': 'transparent',
+    'fontFamily': 'Arial, Helvetica, sans-serif',
+    'flowchart': {
+      'nodeSpacing': 40,
+      'rankSpacing': 50,
+      'curve': 'basis'
+    }
+  }
+}}%%
+flowchart TB
     A[Raw Data] --> B[Data Augmentation Phase]
     B --> C[Pre-labeling Phase]
     C --> D[Cleaning & Conversion]
     D --> E{Expert Review?}
+    
     E -->|Yes| F[Expert Annotation Loop]
     E -->|No| G[Direct Conversion]
-    F & G --> H[Alpaca Format]
+    
+    F --> H[Alpaca Format]
+    G --> H
+    
     H --> I{Proceed to Expert Review?}
+    H -.-> J[[Model Fine-tuning]]
+    
     I -->|Yes| F
-    I -->|No| J[[Model Fine-tuning]]
-
-    classDef phase fill:#D6EAF8,stroke:#3498DB;
-    classDef decision fill:#F9E79F,stroke:#F1C40F;
-    classDef final fill:#A9DFBF,stroke:#27AE60;
-    class A,J final;
-    class B,C,D,H phase;
-    class E,I decision;
+    I -->|No| J
+    
+    %% Improved styling
+    classDef phase fill:#D6EAF8,stroke:#3498DB,stroke-width:2px,color:#2874A6,text-align:center,font-size:14px,font-weight:bold,border-radius:5px,padding:10px
+    classDef decision fill:#F9E79F,stroke:#F1C40F,stroke-width:2px,color:#7D6608,text-align:center,font-size:14px,font-weight:bold
+    classDef final fill:#A9DFBF,stroke:#27AE60,stroke-width:2px,color:#186A3B,text-align:center,font-size:14px,font-weight:bold,border-radius:5px,padding:10px
+    
+    class A,J final
+    class B,C,D,F,G,H phase
+    class E,I decision
