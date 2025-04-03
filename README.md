@@ -121,7 +121,8 @@ LlamaFactory provides a comprehensive framework for fine-tuning large language m
    ```
 
 3. **Prepare Training Dataset**
-   * Location: `/Volumes/Study/prj/data/llama_factory/train.json`
+   * Location: `/data/llama_factory/train.json`
+   * Config Location:`config/llamaboard_config.yaml`
    * Ensure the dataset is in the correct JSON format with `instruction`, `input`, and `output` fields
 
 By following these steps, you can reproduce the fine-tuning process and obtain a model similar to the one used in this project.
