@@ -46,16 +46,21 @@ source venv/bin/activate  # Linux/Mac
 # or
 venv\Scripts\activate  # Windows
 
+# Install dependencies
+pip install -r requirements.txt
+```
+
 #### Checking Dependencies
 After installation, you can verify all required dependencies are properly installed by running:
-
+```bash
 python scripts/test_requirement.py
-
+```
 This script will check if all necessary packages are installed and meet the minimum requirements. It will also verify system requirements such as Python version and internet connectivity.
+
 ### 3. Usage Guide
 
 #### Launching the Application
-
+```bash
 # Use absolute path to app_streamlit.py
 streamlit run /path/to/MixMaster-Finetune/scripts/web/app_streamlit.py
 ```
