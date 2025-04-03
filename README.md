@@ -126,3 +126,10 @@ LlamaFactory provides a comprehensive framework for fine-tuning large language m
    * Ensure the dataset is in the correct JSON format with `instruction`, `input`, and `output` fields
 
 By following these steps, you can reproduce the fine-tuning process and obtain a model similar to the one used in this project.
+
+### 5.2 Model Weights
+
+The pre-trained model weights for Mix Master can be downloaded from the following link:
+[Download Model Weights](https://emckclac-my.sharepoint.com/:f:/r/personal/k21120126_kcl_ac_uk/Documents/Models?csf=1&web=1&e=BZuAzM)
+
+After downloading, place the model files in your preferred directory and update the model path in the `predict.py` file as described in section 5.
